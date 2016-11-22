@@ -1,0 +1,288 @@
+@font-face {
+    font-family: "special";
+    src: url('fonts/SpecialElite.ttf');
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url('fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: "oxygene";
+    src: url('fonts/Oxygen-Bold.ttf');
+}
+
+
+/* -------------------- HEADER ---------------------  */
+header h3 {
+    font-size: 1em;
+    font-weight: lighter;
+    color: white;
+    font-family: special, sans-serif;
+}
+
+
+/* -------------------- PAGE CONNEXION ---------------------  */
+.cadre h2 {
+    font-family: special, sans-serif;
+    text-align:center;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: black;
+    font-weight: bold;
+}
+
+a , p {
+    font-family: roboto, sans-serif;
+    font-size: 1em;
+    color: black;
+    text-decoration: none;
+}
+
+header span {
+    text-transform: uppercase;
+    font-family: oxygene, sans-serif;
+}
+
+/* -------------------- MENU ---------------------  */
+ul li a {
+    font-family: special, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+
+
+/* -------------------- INDEX ---------------------  */
+
+/*Avancement defi*/
+.avancement h1, .commencer h1,
+.tete_classement h1{
+    text-transform: none;
+    color: #e38d13;
+    font-size: 1.5em;
+}
+
+#defi_avancer li p, #defi_avancer li h3  {
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    font-family: special, sans-serif;
+}
+
+#defi_avancer li h3 {
+    font-family: oxygene, sans-serif;
+    text-transform: uppercase;
+}
+
+/*Detaille defi*/
+.desc_index h2, .pizza h2,
+.programme h2 {
+    font-family: oxygene, sans-serif;
+    color: #0b4751;
+}
+
+/*S'inscrire*/
+.commencer h3 {
+    font-family: oxygene, sans-serif;
+    color: #5a8cab;
+    text-transform: uppercase;
+}
+
+.commencer p, .commencer a {
+    font-family: roboto, sans-serif;
+    color: white;
+}
+
+/*Pizza*/
+.pizza h2 {  color: #e38d13;  }
+.pizza p {
+    color: white;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.button_inscription a { color: white }
+.pizza .mdp {
+    font-family: special, sans-serif;
+    color: #e38d13;
+}
+
+/*Programme*/
+.programme h3 {
+    font-family: special, sans-serif;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.programme .hashtag, .programme .hashtag a {
+    font-family: special, sans-serif;
+    text-transform: uppercase;
+}
+.programme .hashtag a { color: #e38d13; }
+.programme .hashtag a:hover { color: #5a8cab; }
+
+
+/* -------------------- FORMULAIRE INSCRIPTION ---------------------  */
+
+.formulaire .photo {
+    font-family: oxygene,sans-serif;
+}
+
+.formulaire p {
+    font-family: oxygene,sans-serif;
+    font-size: 0.8em;
+}
+
+button, label {
+    font-family: oxygene,sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+
+/* -------------------- PAGE ERROR404 ---------------------  */
+.texte_erreur404 {
+    font-family: special,sans-serif;
+    text-align: center;
+    color:white;
+    font-weight: lighter;
+}
+
+.retour404 {
+    color:#e69f1f;
+    font-family: special,sans-serif;
+}
+
+/* -------------------- PAGE EQUIPE ---------------------  */
+
+h1, h2 {
+    font-family: special,sans-serif;
+    color: white;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+
+.titre_equipe span, .supperpose_titre {
+    font-family: special,sans-serif;
+    color: #e69f1f;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+
+/* -------------------- PAGE EQUIPE MODIF ---------------------  */
+
+.desc {
+    text-align: left;
+    font-weight: lighter;
+    font-size: 1em;
+    color: white;
+}
+
+
+/* -------------------- PAGE GALERIE ---------------------  */
+
+.supperpose_titre {  color:#5a8cab;  }
+
+/* time line */
+.centre {
+    text-align: center;
+    font-family: oxygene, sans-serif;
+    color: white;
+    margin-bottom: 0;
+}
+
+/* -------------------- PAGE ENCHERE ---------------------  */
+.description h2
+{
+    color: #e69f1f;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.description h3{
+    color: white;
+    font-weight: lighter;
+    font-size: 1em;
+    font-family: oxygene, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+#black {  background-color: #15232A;  }
+
+
+.supperpose_titre_depot
+{
+    font-family:special,sans-serif;
+    font-size:2em;
+    text-transform: uppercase;
+}
+
+/* -------------------- PAGE CLASSEMENT ---------------------  */
+.equipe_classement p, .equipe_classement h2 {
+    color: white;
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: 1.2em;
+    color: white;
+    font-family: special, sans-serif;
+    font-weight: lighter;
+}
+
+/* -------------------- PAGE DEFIS ---------------------  */
+#fin-defis {
+    color: #e69f1f;
+    font-family: special, sans-serif;
+    font-size: 1em;
+}
+
+.annonce-defi h3 {
+    color: #e69f1f;
+    font-family: special, sans-serif;
+    font-size: 1em;
+    text-align: left;
+}
+
+
+/* -------------------- PAGE LISTE PROJET ---------------------  */
+.projet h4
+{
+    font-family: oxygene, sans-serif;
+
+
+}
+.en_tete h2
+{
+    font-size:1em;
+}
+
+.en_tete a
+{
+    font-family: oxygene, sans-serif;
+    font-size:0.8em;
+    color:#86c1ff;
+}
+
+.desc_projet
+{
+    font-family:roboto,sans-serif;
+    font-weight: lighter;
+    color:white;
+
+}
+
+/* -------------------- AFFICHAGE PHOTO ---------------------  */
+h4 {
+    font-family: oxygene, sans-serif;
+    font-weight: bold;
+}

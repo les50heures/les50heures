@@ -1,0 +1,1305 @@
+body {
+    margin: 0;
+    background: #15232A;
+    z-index: 3;
+}
+
+.image-fond {
+    background: #15232A url("../images-contenu/acceuil.jpg") no-repeat;
+    background-size: 100%;
+}
+
+/* -------------------- HEADER ---------------------  */
+header {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#icone {
+    z-index: 5;
+    position: relative;
+}
+
+#logo {
+    z-index: 6;
+    position: relative;
+    width: 40%;
+}
+
+header h3 {
+    margin: 0;
+    position: relative;
+    top: -28px;
+    left: 82px;
+    text-align: left;
+    width: 150px;
+}
+
+.logo_accueil {
+    width: 50px;
+    padding-left: 15px;
+    padding-top: 40px;
+    position: relative;
+    left: 5%;
+}
+
+.icone_accueil {
+    display: inline-block;
+    position: absolute;
+    top: 35px;
+    right: 5%;
+}
+
+.icone_accueil .menu {
+    width: 30px;
+    margin-left: 315px;
+    position: relative;
+    top: 12px;
+
+}
+
+.unvisible {
+    display: none;
+}
+
+.croix-menu {
+    top: 11px;
+    right: 5px;
+    position: fixed;
+}
+
+.icone_accueil img {
+    width: 25px;
+    position: fixed;
+}
+
+.icone_accueil .tchat {
+    width: 35px;
+    margin-left: 265px;
+    position: absolute;
+    top: 12px;
+}
+
+header span {
+    position: relative;
+    color: white;
+    margin-left: 305px;
+    top: 14px;
+}
+
+.deconnexion {
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+/* -------------------- MENU DEROULANT ---------------------  */
+header #menu-deroulant {
+    position: fixed;
+    right: -9999px;
+    top: 0;
+    margin: 0 auto;
+    padding-left: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 4;
+    background-color: rgba(2, 63, 71, 0.9);
+    display: none;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    max-width: 1200px;
+    height: 100%;
+}
+
+header .show-menu {
+    display: block;
+    cursor: pointer;
+}
+
+header #menu-deroulant.active {
+    right: 0;
+    display: block;
+}
+
+header #show-menu {
+    position: absolute;
+    cursor: pointer;
+    left: -100%;
+    top: -100%;
+
+}
+
+#menu-deroulant .pseudo_li {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0;
+    position: relative;
+    top: -26px;
+    right: -4px;
+    bottom: 0;
+}
+
+#menu-deroulant .pseudo_li h1 {
+    position: relative;
+    left: -13px;
+}
+
+#menu-deroulant .pseudo_li img {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    margin-right: 8%;
+}
+
+#menu-deroulant > li:nth-child(2) {
+    margin-top: -47px;
+}
+
+/* -------------------- MENU  ---------------------  */
+ul li {
+    list-style-type: none;
+}
+
+ul li .submenu {
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+ul li .submenu.active {
+    display: block;
+}
+
+ul li a {
+    display: block;
+    border: solid 1px white;
+    padding: 10px 5%;
+    margin: 20px 4%;
+    width: 80%;
+}
+
+li ul li {
+    margin: 20px 6%;
+}
+
+li ul li a {
+    background-color: #5a8cab;
+    margin: 0 6.5%;
+    width: 75%;
+}
+
+#menu-deroulant > li:nth-child(1) {
+    margin-top: 120px;
+}
+
+/* -------------------- INDEX ---------------------  */
+
+/*Hexagone*/
+.hexagone {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+.hexagone h1 {
+    margin-top: 200px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.hexagone img {
+    position: absolute;
+    width: 80%;
+    top: -150px;
+    left: 10%;
+}
+
+/*Fleche*/
+.hexagone .fleche_index {
+    position: absolute;
+    width: 10%;
+    top: 270px;
+    left: 45%;
+}
+
+.fleche_index:hover {
+    animation: shake 1s ease;
+}
+
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+    30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+    40%, 60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
+
+/* Slider */
+#slider .slide {
+    float: left;
+}
+
+#slider .contenu {
+    width: 3500px;
+    left: -340px;
+    height: 180px;
+    position: relative;
+    z-index: 1;
+    transition: left 300ms;
+    overflow: hidden;
+}
+
+#slider {
+    margin-left: 10%;
+    width: 80%;
+    overflow: hidden;
+
+}
+
+#navigation-slider {
+    width: 0;
+    margin-top: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+    height: 0;
+    display: inline-flex;
+    z-index: 2;
+    position: absolute;
+}
+
+#navigation-slider button {
+    background: none;
+}
+
+#navigation-slider button img {
+    margin-top: 49px;
+    position: absolute;
+    left: 11px;
+    width: 40px;
+}
+#navigation-slider > li:nth-child(2) > button > img {
+    left: 323px;
+}
+
+/*Avancement defi*/
+.avancement {  padding-bottom: 20px;  }
+.avancement h1 {
+    margin-top: 310px;
+    padding-top: 20px;
+}
+
+#defi_avancer {
+    width: 80%;
+    margin-top: 40px;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#defi_avancer li {
+    background-color: #0b4751;
+    padding-top: 20px;
+    width: 120px;
+    margin: 0 10px 20px;
+}
+
+#defi_avancer .premier {
+    background-color: #e38d13;
+}
+
+#defi_avancer .deuxieme {
+    background-color: #5a8cab;
+}
+
+/*Detaille defi*/
+.desc_index {
+    background-color: white;
+    width: 80%;
+    padding: 30px 10%;
+}
+
+iframe {
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/*S'inscrire*/
+.commencer {
+    margin: 30px 10%;
+}
+
+.commencer h1 {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.choix {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.choix img {
+    width: 150px;
+    height: 160px;
+    margin-left: 25%;
+}
+
+/*Bouton*/
+.commencer a, .button_inscription {
+    padding: 20px 10px;
+    background-color: #0b4751;
+    width: 80%;
+    left: 7%;
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+}
+
+.button_inscription {
+    width: 60%;
+    margin-left: 10%;
+}
+
+.commencer a:hover,
+.button_inscription:hover {
+    animation: shake 1s ease;
+    background-color: #e38d13;
+}
+
+.ligne-separation {
+    display: none
+}
+
+.commencer .info {
+    color: #e38d13;
+}
+
+/*Classement*/
+.tete_classement {
+    background-color: white;
+    width: 80%;
+    padding: 20px 10% 40px;
+}
+
+.tete_classement .equipe_classement {
+    z-index: 1;
+    position: relative;
+}
+
+.tete_classement .equipe_classement h2 {
+    color: black;
+}
+
+.tete_classement .equipe_classement .haut_classement {
+    background-color: rgba(21, 35, 42, 0.6);
+    color: white;
+    border-color: #5a8cab;
+    position: relative;
+    z-index: 2;
+}
+
+.fond_logo {
+    width: 50%;
+    position: absolute;
+    right: 25px;
+    margin-top: -175px;
+}
+
+/*Pizza*/
+.pizza {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pizza p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*Programme*/
+.programme {
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.programme p, .programme h3 {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.programme h4 {
+    margin-left: 10%;
+    width: 80%;
+}
+
+.program img {
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* -------------------- PAGE CONNEXION ---------------------  */
+.formulaire {
+    text-align: center;
+    width: 80%;
+    padding: 5%;
+    margin: 5%;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.cadre {
+    border: 2px solid white;
+    width: 90%;
+    margin: 4% 4% 30px;
+}
+
+.dernier {
+    margin-bottom: 0;
+}
+
+.formulaire > form input, button {
+    margin-top: 20px;
+    width: 90%;
+    padding: 10px;
+    background-color: white;
+}
+
+select {
+    margin-top: 20px;
+    width: 98%;
+    padding: 10px;
+}
+
+textarea {
+    margin-top: 20px;
+    width: 80%;
+    padding: 10px;
+}
+
+.formulaire h2 {
+    margin-bottom: 10px;
+}
+
+.formulaire > p {
+    text-align: right;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+button {
+    background-color: #e69f1f;
+    color: black;
+    width: 97%;
+    margin-bottom: 10px;
+    border: 0;
+}
+
+/* file */
+.file {
+    width: 100px;
+    height: 25px;
+    display: inline-block;
+    border: none;
+    padding: 0.5em 0.75em;
+    background: #e69f1f;
+    border-radius: 0;
+    position: absolute;
+    right: 14.5%;
+    margin-top: 21px;
+    line-height: 2em;
+    z-index: 2;
+}
+
+#upload {
+    display: none;
+}
+
+/* lien */
+.lien_form a {
+    padding-left: 5px;
+}
+
+.lien_form {
+    padding-top: 10px;
+    width: 100%;
+}
+
+/* partenaire */
+.partenaires {
+    margin-top: 30px;
+    background-color: #5a8cab;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.iut_small_size {
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+.partenaires > a img {
+    width: 60px;
+    padding: 15%;
+}
+
+.partenaires .ufc {
+    width: 80px;
+}
+
+/* -------------------- FOOTER ---------------------  */
+
+footer {
+    background-color: #15232A;
+}
+
+.rsx {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.rsx img {
+    width: 35px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* -------------------- PAGE MDP OUBLIER & REINITIALISER ---------------------  */
+
+.formulaire p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.ligne {
+    width: 100%;
+    margin: 0;
+    height: 20px;
+}
+
+/* -------------------- PAGE ERROR404 ---------------------  */
+
+.erreur {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.content_erreur img {
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #e69f1f;
+}
+
+.content_erreur {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+/* -------------------- PAGE EQUIPE ---------------------  */
+
+/* premier image bandeau page équipe */
+.bandeau {
+    width: 100%;
+    margin-bottom: -10px;
+}
+
+.bandeau .modif {
+    position: relative;
+    top: 17px;
+    left: 66%;
+    margin-top: 0;
+}
+
+.modif {
+    width: 100px;
+    background-color: #e69f1f;
+    border: 0;
+    top: 0;
+    left: 100px;
+    position: relative;
+}
+
+.formulaire .button-equipe {
+    width: 88%;
+}
+
+/* les titres */
+.titre_equipe {
+    text-align: center;
+}
+
+.titre_equipe_2 {
+    position: relative;
+}
+
+.titre_equipe input {
+    width: 70%;
+    padding: 10px;
+}
+
+.titre_equipe h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.titre_equipe span {
+    position: relative;
+    top: 69px;
+    left: 25px;
+}
+
+/* la piece */
+.piece p {
+    margin: 5px 0 0 10px;
+    color: white;
+}
+
+.piece img {
+    width: 25px;
+    height: 25px;
+}
+
+.piece {
+    position: absolute;
+    right: 45px;
+    top: 665px;
+    display: flex;
+}
+
+/* membres */
+.membre-carre {
+    width: 150px;
+    height: 190px;
+}
+
+.membre {
+    position: relative;
+    margin-top: 20px;
+    z-index: 2;
+}
+
+.carre-fond {
+    position: relative;
+    left: 20px;
+    top: -90px;
+    z-index: 1;
+}
+
+.colone1 {
+    margin-left: 20px;
+}
+
+.membre-carre img {
+    width: 110px;
+}
+
+.membre-carre p {
+    text-align: center;
+    position: relative;
+    top: -96px;
+}
+
+.jaune, .bleu {
+    background-color: #e69f1f;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.bleu {
+    background-color: #5A8CAB;
+    margin-top: 30px;
+}
+
+/* -------------------- PAGE EQUIPE MODIF ---------------------  */
+
+.desc {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.page-modif .piece {
+    top: 640px;
+}
+
+.fond_none {
+    background: none;
+}
+
+/* -------------------- PAGE GALERIE ---------------------  */
+
+/*--------header---------*/
+#header-galerie {
+    background-image: url('../images-contenu/galerie.png');
+    background-size: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    height: 210px;
+}
+
+/*-------- Titre ---------*/
+.bandeau img {
+    width: 100%;
+}
+
+.bandeau-galerie {
+    position: relative;
+    top: -100px;
+    margin-top: 23px;
+}
+
+.supperpose_titre {
+    position: relative;
+    z-index: 1;
+    top: -10px;
+    left: 30%;
+}
+
+.titre {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 0;
+}
+
+/*-------- Bouton ---------*/
+.progress {
+    width: 100%;
+    margin-top: -100px;
+}
+
+.progress > .ligne {
+    width: 80%;
+    height: 4px;
+    margin-left: 10%;
+}
+
+.progress > .point {
+    position: relative;
+    right: 45%;
+    top: 12px;
+}
+
+.progress-button {
+    background-color: #e69f1f;
+    border: 0;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.modif2 {
+    width: 190px;
+    position: relative;
+    left: 150px;
+    margin-bottom: 30px;
+    background-color: #e69f1f;
+    border: 0;
+}
+
+/*-------- photo ---------*/
+.galerie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.photo {
+    width: 140px;
+    height: 140px;
+    position: relative;
+    top: -24px;
+}
+
+/* -------------------- PAGE ENCHERE ---------------------  */
+
+/* en tete */
+#header-bois {
+    background-image: url('../images-contenu/bois.png');
+    background-size: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    height: 210px;
+}
+
+.bandeau-bois {
+    position: absolute;
+    top: 75px;
+}
+
+/* titre */
+.encheres {
+    height: 100px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 2.5em;
+}
+
+.titre {
+    top: 10px;
+}
+
+.encheres .titre {
+    top: 28px;
+}
+
+.encheres span {
+    left: 80px;
+    top: 5px;
+}
+
+/*contenu*/
+.intro {
+    margin-top: 40px;
+}
+
+.photo-ancien {
+    width: 60%;
+    margin: 70px 20% 50px;
+    height: 220px;
+}
+
+.photo-ancien img {
+    width: 100%;
+}
+
+.photo-ancien .cadre_enchere {
+    position: relative;
+    top: -263px;
+    width: 130%;
+    left: -16%;
+}
+
+.description h2 {
+    margin-left: 10%;
+    position: relative;
+    top: 20px;
+}
+
+.description h3 {
+    position: relative;
+    left: 170px;
+    bottom: 20px;
+    width: 200px;
+}
+
+@media only screen and (max-width: 321px) {
+    .photo-ancien .cadre_enchere {
+        top: -229px;
+    }
+
+    .photo-ancien {
+        height: 180px;
+    }
+
+    .description h3 {
+        left: 125px;
+    }
+}
+
+/* -------------------- PAGE DEPOT ---------------------  */
+.categorie_depot {
+    width: 294px;
+    padding: 10px;
+}
+
+.depot_desc {
+    width: 91%;
+}
+
+#black {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.ligne_jaune_depot {
+    margin-top: 50px;
+}
+
+.fa-upload {
+    padding-right: 0.75em;
+}
+
+.titre_depot {
+    position: relative;
+    top: 20px;
+}
+
+.supperpose_titre_depot {
+    position: absolute;
+    left: 45%;
+    top: 55px;
+    color: #e69f1f;
+}
+
+/* file */
+.depot_file {
+    margin-top: 96px;
+    right: 11%;
+}
+
+/* -------------------- LISTE EQUIPES ---------------------  */
+/* titre */
+.encheres #equipe-span {
+    left: 30px;
+}
+
+.affiche_equipe img {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+}
+
+.affiche_equipe h1 {
+    text-align: left;
+    margin-left: 20%;
+    color: #e69f1f;
+}
+
+/* -------------------- DEFIS ---------------------  */
+
+/* titre */
+.titre_equipe .defi-span {
+    top: -44px;
+    z-index: 1;
+    position: relative;
+}
+
+.titre_equipe .defi-titre {
+    z-index: 2;
+    position: relative;
+}
+
+/* affichage */
+.les_defis > div {
+    margin-bottom: 30px;
+}
+
+.les_defis {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.point-texte {
+    display: flex;
+    justify-content: center;
+}
+
+.point-texte img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.annonce-defi h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.annonce-defi p {
+    margin-left: 20px;
+    margin-top: 10px;
+    color: white;
+    font-weight: lighter;
+}
+
+.inverse h3 {
+    text-align: right;
+}
+
+.inverse {
+    order: 1;
+    text-align: right;
+    margin-right: 20px;
+    margin-left: 0;
+}
+
+.les_defis div {
+    height: 110px;
+}
+
+svg {
+    position: relative;
+    top: -71px;
+}
+
+.svg2 {
+    top: -180px;
+}
+
+.les_defis .msg_fin {
+    height: 65px;
+}
+
+@media only screen and (max-width: 320px) {
+    .les_defis div {
+        height: 150px;
+    }
+
+    svg {
+        position: relative;
+        top: -78px;
+    }
+
+    .svg2 {
+        top: -165px;
+    }
+
+    .les_defis .msg_fin {
+        height: 55px;
+    }
+}
+
+.ligne-defis {
+    fill: none;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+}
+
+/* -------------------- PAGE LISTE PROJET ---------------------  */
+
+/* titre */
+.bandeau-projet {
+    position: relative;
+    top: -100px;
+}
+
+.bandeau-projet .titre {
+    top: -5px
+}
+
+.bandeau-projet .supperpose_titre {
+    top: -25px;
+}
+
+/* en t�te */
+.en_tete h2 {
+    color: #e69f1f;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.en_tete a {
+    position: relative;
+    margin-top: 20px;
+    right: 20px;
+}
+
+.en_tete {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+/* contenu */
+.projet {
+    color: white;
+}
+
+.desc_projet {
+    margin-left: 20px;
+}
+
+.projet h4 {
+    color: white;
+    margin-left: 20px;
+}
+
+/* -------------------- PAGE CLASSEMENT ---------------------  */
+.classement {
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.equipe_classement img {
+    width: 60px;
+}
+
+.equipe_classement {
+    height: 60px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.equipe_classement div {
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 60px;
+}
+
+.equipe_classement div h2 {
+    position: relative;
+    top: -63px;
+}
+
+.equipe_classement > h2 {
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 2px solid #86c1ff;
+    padding: 15px;
+    height: 20px;
+}
+
+.equipe_classement > .haut_classement {
+    border: 2px solid #e69f1f;
+}
+
+/* -------------------- AFFICHAGE DEFIS ---------------------  */
+.modal .machine {
+    position: relative;
+    bottom: 90px;
+    width: 100%;
+}
+
+.machine_ecrire {
+    height: 521px;
+}
+
+.modal .croix {
+    width: 30px;
+    top: 29px;
+    position: absolute;
+    right: 10%;
+}
+
+.feuille {
+    background-color: white;
+    margin-top: 60px;
+    width: 43%;
+    margin-left: 20%;
+    margin-right: 10%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media only screen and (max-width: 321px) {
+    .feuille {
+        width: 41%;
+    }
+}
+
+.feuille h2 {
+    color: #0b4751;
+    padding-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.feuille p {
+    padding-bottom: 20px;
+}
+
+/* -------------------- AFFICHAGE PHOTO ---------------------  */
+.modal .affichage_photo {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 70px;
+}
+
+.modal h1 {
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+.commentaire {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 35px;
+    padding-top: 5px;
+    background-color: #e6e6e6;
+}
+
+.com {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.com h4 {
+    width: 25%;
+}
+
+.com p {
+    width: 65%;
+    margin-left: 5%;
+    margin-top: 23px;
+}
+
+.commentaire form {
+    height: 90px;
+}
+
+.entrer_com {
+    width: 65%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-right: 20%;
+}
+
+.avion {
+    background: none;
+    border: none;
+}
+
+.avion img {
+    position: absolute;
+    bottom: 61px;
+    left: 73%;
+}
+
+/* -------------------- Modal ---------------------  */
+#myModal .modal-content {
+    background-color: #15232A;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+
+

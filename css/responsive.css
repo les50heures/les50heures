@@ -1,0 +1,214 @@
+/* -------------------------------------
+Responsive  - format intermediaire (tablette/mobile)
+---------------------------------------------------- */
+
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+
+    #logo h3 { left: 100px; }
+    header #menu-deroulant {  width: 55%;  }
+
+    #menu-deroulant .pseudo_li img {
+        width: 40px;
+        height: 40px;
+        margin-top: 15px;
+        margin-right: 11%;
+    }
+
+    .formulaire > form input, button {  width: 90%;  }
+    .formulaire button {  width: 94%;  }
+    select {  width: 94%;  }
+    .formulaire .lien_form {
+        display: flex;
+        justify-content: center;
+    }
+    .file { right: 16.5%;  }
+
+    .progress .point { right: 43%; }
+
+    .supperpose_titre { left: 40%;  }
+
+    .affiche_equipe img { margin-top: 50px; }
+
+    #categorie { width: 96%; }
+    .depot_desc {
+        width: 90.5%;
+        margin-left: 3px;
+    }
+    .depot_file { right: 12%; }
+}
+
+/* --------------------------
+Responsive  - format tablette
+----------------------------- */
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+    #logo h3 { left: 100px; }
+    header #menu-deroulant {  width: 45%;  }
+
+    #menu-deroulant .pseudo_li img {
+        width: 40px;
+        height: 40px;
+        margin-top: 15px;
+        margin-right: 15%;
+    }
+
+    .formulaire > form input, button {  width: 90%;  }
+    .formulaire button {  width: 94%;  }
+    select {  width: 94%;  }
+    .formulaire .lien_form {
+        display: flex;
+        justify-content: center;
+    }
+    .file { right: 17%;  }
+
+    .progress .point { right: 42%; }
+
+    .supperpose_titre { left: 45%;  }
+
+    .affiche_equipe img { margin-top: 60px; }
+
+    .supperpose_titre_depot { left: 50%; }
+    #categorie { width: 94%; }
+    .depot_desc {
+        width: 90.5%;
+        margin-left: 3px;
+    }
+    .depot_file { right: 12.5%; }
+}
+
+/* ----------------------------------------------------
+Responsive  - format intermediaire (tablette/ecran)
+---------------------------------------------------- */
+
+@media only screen and (min-width : 1023px) and (max-width : 1300px) {
+
+    #logo h3 { left: 110px; }
+    header #menu-deroulant {  width: 35%;  }
+
+    #menu-deroulant .pseudo_li img {
+        width: 40px;
+        height: 40px;
+        margin-top: 15px;
+        margin-right: 17%;
+    }
+
+    .formulaire > form input, button {  width: 90%;  }
+    button {
+        width: 50%;
+        margin-left: 43%;
+    }
+    select {  width: 93%;  }
+    .formulaire .lien_form {
+        display: flex;
+        justify-content: center;
+    }
+    .file {  right: 17.65%;  }
+
+    .display_none_lg {  display: none;  }
+    .partenaires .iut_small_size {
+        width: 130px;
+        display: block;
+        padding: 17px 15% 0;
+    }
+
+    .progress .point { right: 41.8%; }
+
+    .supperpose_titre { left: 47%;  }
+
+    .affiche_equipe img { margin-top: 70px; }
+
+    .supperpose_titre_depot { left: 50%; }
+    #categorie { width: 92%; }
+    .depot_desc {
+        width: 90%;
+        margin-left: 5px;
+    }
+    .depot_file { right: 13%; }
+}
+
+
+/* ----------------------------------------------------
+Responsive  - format ecran
+---------------------------------------------------- */
+@media only screen and (min-width : 1300px) and (max-width : 1500px) {
+
+    #logo h3 { left: 110px; }
+    header #menu-deroulant {  width: 30%;  }
+
+    #menu-deroulant .pseudo_li img {
+        width: 40px;
+        height: 40px;
+        margin-top: 15px;
+        margin-right: 19%;
+    }
+
+    .formulaire > form input, button {  width: 90%;  }
+    button {
+        width: 50%;
+        margin-left: 43%;
+    }
+    select {  width: 93%;  }
+    .formulaire .lien_form {
+        display: flex;
+        justify-content: center;
+    }
+    .file {  right: 17.65%;  }
+
+    .display_none_lg {  display: none;  }
+    .partenaires .iut_small_size {
+        width: 130px;
+        display: block;
+        padding: 17px 15% 0;
+    }
+
+    .progress .point { right: 41.5%; }
+
+    .supperpose_titre { left: 47%;  }
+
+    .affiche_equipe img { margin-top: 80px; }
+
+    .supperpose_titre_depot { left: 50%; }
+    #categorie { width: 92%; }
+    .depot_desc {
+        width: 90%;
+        margin-left: 5px;
+    }
+    .depot_file { right: 13.2%; }
+}
+
+/* ----------------------------------------------------
+Responsive  - format +ecran
+---------------------------------------------------- */
+@media only screen and (min-width : 1500px) and (max-width : 2000px) {
+
+    #logo h3 {  left: 110px;  }
+    header #menu-deroulant {  width: 30%;  }
+
+    #menu-deroulant .pseudo_li img {
+        width: 40px;
+        height: 40px;
+        margin-top: 15px;
+        margin-right: 18%;
+    }
+
+    .formulaire > form input, button {  width: 90%;  }
+    button {
+        width: 50%;
+        margin-left: 43%;
+    }
+    select {  width: 93%;  }
+    .formulaire .lien_form {
+        display: flex;
+        justify-content: center;
+    }
+    .file {  right: 17.65%;  }
+
+    .display_none_lg {  display: none;  }
+    .partenaires .iut_small_size {
+        width: 130px;
+        display: block;
+        padding: 17px 15% 0;
+    }
+
+}
