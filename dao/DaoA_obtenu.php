@@ -20,6 +20,7 @@ class DaoNote extends Dao
         $this->bean->setNote($donnees['NOTE']);
     }
 
+    /*Test modification*/
 
     public function findByName($note)
     {
