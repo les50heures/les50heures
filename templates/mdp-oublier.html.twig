@@ -1,0 +1,21 @@
+{% extends 'general.html.twig' %}
+{% block title %}Les 50 Heures | Accueil{% endblock %}
+{% block contenu %}
+
+    <div class="cadre">
+        <div class="formulaire">
+            <h2>Vous avez oublier votre mot de passe ?</h2>
+            <p>Envoyer nous votre adresse mail afin de  réinitialiser votre mot de passe.</p>
+
+            <form method="post"  action="">
+                <input type="text" name="pseudo" placeholder="Mail*" required><br>
+                <button type="submit" name="valider" data-style="shrink" data-horizontal>Valider</button>
+            </form>
+        </div>
+    </div>
+
+    <img class="ligne" src="css/images-interface/ligne_bleu.png" alt="element-graphique">
+
+{% endblock %}
+
+{% block script %} /* --- Rien --- */ {% endblock %}

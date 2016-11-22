@@ -1,0 +1,457 @@
+{% extends 'general.html.twig' %}
+{% block title %}Les 50 Heures | Accueil{% endblock %}
+{% block contenu %}
+
+<div class="hexagone">
+    <h1>Makes Me Incridibly</h1>
+    <img src="css/images-interface/hexagone.png" alt="hexagone">
+    <img class="fleche_index" src="css/images-interface/index_fleche.png" alt="fleche">
+</div>
+
+<div class="avancement">
+    <h1>Avancement des défis</h1>
+    <ul id="navigation-slider">
+        <li>
+            <button class="navigation-slider-precedent">
+                <img src="css/images-interface/fleche1.png" alt="fleche">
+            </button>
+        </li>
+        <li>
+            <button class="navigation-slider-suivant">
+                <img src="css/images-interface/fleche2.png" alt="fleche">
+            </button>
+        </li>
+    </ul>
+    <div id="slider" >
+        <ul id="defi_avancer" class="contenu">
+            <li id="slide1" class="slide premier">
+                <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
+                <h3>Terminer</h3>
+                <p class="nb">1</p>
+            </li>
+            <li id="slide2" class="slide deuxieme">
+                <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
+                <h3>En cours</h3>
+                <p class="nb">2</p>
+            </li>
+            <li id="slide3" class="slide">
+                <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
+                <h3>À venir</h3>
+                <p class="nb">3</p>
+            </li>
+            <li id="slide4" class="slide">
+                <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
+                <h3>À venir</h3>
+                <p class="nb">4</p>
+            </li>
+            <li id="slide5" class="slide">
+                <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
+                <h3>À venir</h3>
+                <p class="nb">5</p>
+            </li>
+            <li id="slide6" class="slide">
+                <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
+                <h3>À venir</h3>
+                <p class="nb">6</p>
+            </li>
+            <li id="slide7" class="slide">
+                <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
+                <h3>À venir</h3>
+                <p class="nb">7</p>
+            </li>
+            <li id="slide8" class="slide">
+                <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
+                <h3>À venir</h3>
+                <p class="nb">8</p>
+            </li>
+            <li id="slide9" class="slide">
+                <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
+                <h3>À venir</h3>
+                <p class="nb">9</p>
+            </li>
+            <li id="slide10" class="slide">
+                <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
+                <h3>À venir</h3>
+                <p class="nb">10</p>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+
+<div class="desc_index">
+    <h2>Les 50 heures c'est quoi ?</h2>
+
+    <iframe src="https://www.youtube.com/embed/X3JDaPEKFEQ" allowfullscreen></iframe>
+
+    <p>À partir du 13 janvier prochain, retrouvez nous au département pour les 50 heures. Le meilleur moment pour se
+        retrouver et échanger tout en s'amusant.
+        Les 50 heures, c'est le mix parfait entre la mythique soirée des anciens et le fameux défi ! Un moment de
+        partage
+        autour de multiples défis tant
+        physiques que techniques, orchestré autour d'une soirée pizza et ponctué par la soirée des Anciens.</p>
+</div>
+
+<div class="commencer">
+    <h1>Le défi a enfin commencer !</h1>
+    <div class="choix voyeurs">
+        <img src="css/images-interface/voyeurs.png" alt="voyeurs">
+        <h3>Voyeurs</h3>
+        <p>Vous voulez voir l’avancement des équipes dans le défis ? C’es ici !</p>
+        <a href="index.php?page=classement.html">Accèder au classement</a>
+    </div>
+    <img class="ligne-separation" src="css/images-interface/separation_index.png" alt="sépartation">
+    <div class="choix joueurs">
+        <img src="css/images-interface/joueurs.png" alt="joueurs">
+        <h3>Joueurs</h3>
+        <p>Vous n’êtes pas encoe inscris ? N’attendez plus et rejoignez une équipe!
+            <span class="info">La fin des inscription est prévus le vendredi 13 janvier à 23heure.</span>
+        </p>
+        <a href="index.php?page=connexion.html">Rejoindre le défi</a>
+    </div>
+</div>
+
+<div class="tete_classement">
+    <h1>En tête du classement</h1>
+    <div class="equipe_classement">
+        <div>
+            <img src="css/images-interface/classement.png" alt="hexagone">
+
+            <h2>1</h2>
+        </div>
+        <h2 class="haut_classement">Nom de l'équipe</h2>
+    </div>
+    <div class="equipe_classement">
+        <div>
+            <img src="css/images-interface/classement.png" alt="hexagone">
+
+            <h2>2</h2>
+        </div>
+        <h2 class="haut_classement">Nom de l'équipe</h2>
+    </div>
+    <div class="equipe_classement">
+        <div>
+            <img src="css/images-interface/classement.png" alt="hexagone">
+
+            <h2>3</h2>
+        </div>
+        <h2 class="haut_classement">Nom de l'équipe</h2>
+    </div>
+    <img class="fond_logo" src="css/images-interface/logo_jaune.png" alt="fond_logo">
+</div>
+
+<div class="pizza">
+    <div>
+        <h2>Soirée pizza</h2>
+
+        <p>Pour rendre une soirée inoubliable et réussir un défi quoi de mieux qu’une pizza entre amis.
+            Voilà pourquoi nous vous offrons une réduction de 20%, le vendredi et ce, si vous réservez rapidement
+            avant le 01 Décembre.
+        </p>
+
+        <div class="button_inscription">
+            <a href="https://www.weezevent.com/soiree-pizza">Je commande</a>
+        </div>
+
+        <p class="mdp"> Le mot de passe pour vous inscrire est une nouvelle fois "les50heures"</p>
+    </div>
+
+</div>
+
+<div class="programme">
+    <div class="planning">
+        <h2>Au programme des 50 heures</h2>
+
+        <p class="menu">Le 13 janvier, c'est le moment de partage au département MMi de Montbéliard.
+            Actuels étudiants de MMi ou de LPW, anciens étudiants du département et les membres de
+            l'équipe MMi se donnent un rendez-vous en trois temps.
+        </p>
+
+        <div class="program">
+            <div>
+                <h3>Vendredi 13 janvier - 21h - Département MMi</h3>
+                <p>Le moment sera venu de découvrir l'incroyable défi version 2017. Puis, 22 heures
+                    de défis à relever tous plus extraordinaire les uns que les autres nous mènerons
+                    à la soirée des anciens !</p>
+            </div>
+            <img src="css/images-interface/defi.png" alt="defi">
+        </div>
+
+        <div class="program">
+            <div>
+                <h3>Samedi 14 janvier - 21h - Fort Mont Bart</h3>
+                <p>Ce sera l'ouverture de la traditionnelle soirée des anciens. Nous vous invitons
+                    à partager un verre de l’amitié tous ensemble pour une soirée mémorable.</p>
+
+            </div>
+            <img src="css/images-interface/party.png" alt="soiree">
+        </div>
+
+        <div class="program">
+            <div>
+                <h3>Dimanche 15 janvier - 14h - Département MMi</h3>
+                <p>Pour terminer cet incroyable week-end nous finirons par la projection de vos
+                    productions puis nous assisterons à la remise des prix.</p>
+            </div>
+
+            <img src="css/images-interface/prix.png" alt="defi">
+        </div>
+    </div>
+
+    <h4>Département MMI de Montbéliard session 2016-2017</h4>
+
+    <p class="hashtag">Réagissez avec <a href="https://twitter.com/intent/tweet?text=#50HEURES" data-size="large">
+            #les50heures</a>
+    </p>
+
+</div>
+
+<div class="partenaires">
+    <a href="http://mmimontbeliard.com/">
+        <img src="css/images-interface/partenaire/mmi.png" alt="logo_mmi">
+    </a>
+    <a href="http://www.iut-bm.univ-fcomte.fr/">
+        <img class="iut_small_size" src="css/images-interface/partenaire/iut.png" alt="logo_iut">
+    </a>
+    <a href="http://www.iut-bm.univ-fcomte.fr/">
+        <img class="display_none_lg" src="css/images-interface/partenaire/iut-mobile.png" alt="logo_iut">
+    </a>
+    <a href="http://www.univ-fcomte.fr/">
+        <img class="ufc" src="css/images-interface/partenaire/ufc.png" alt="logo_ufc">
+    </a>
+</div>
+
+{% endblock %}
+
+{% block script %}
+    <script>
+
+        var PRNG = function (exports) {
+            function setSeed(seed) {
+                // Create a length 624 array to store the state of the generator
+                exports.MT = new Uint32Array(624);
+                exports.index = 0;
+                exports.MT[0] = seed;
+                for (var i = 1; i < 624; i++) {
+                    exports.MT[i] = ( 1812433253 * ( exports.MT[i - 1] ^ ( exports.MT[i - 1] >> 30  ) + i ) );
+                }
+            }
+
+            function extractNumber() {
+                if (exports.index == 0) {
+                    exports.generateNumbers()
+                }
+
+                var y = exports.MT[exports.index];
+                y = y ^ ( y >> 11 );
+                y = y ^ ( ( y << 7 ) & 2636928640 );
+                y = y ^ ( ( y << 15 ) & 4022730752 );
+                y = y ^ ( y >> 18 );
+
+                exports.index = ( exports.index + 1 ) % 624;
+                return y;
+            }
+
+            function generateNumbers() {
+                for (var i = 0; i < 624; i++) {
+                    var y = ( exports.MT[i] & 0x80000000 ) + ( exports.MT[( i + 1 ) % 624] & 0x7fffffff );
+                    exports.MT[i] = exports.MT[( i + 397 ) % 624] ^ ( y >> 1 );
+                    if (y % 2 != 0) {
+                        exports.MT[i] = exports.MT[i] ^ 2567483615;
+                    }
+                }
+            }
+
+            exports.generateNumbers = generateNumbers;
+            exports.extractNumber = extractNumber;
+            function random() {
+                return ( exports.extractNumber() / 0x7FFFFFFF );
+            }
+
+            exports.setSeed = setSeed;
+            exports.random = random;
+            setSeed(0);
+            return exports;
+        }({});
+
+        function squareDistance(v1, v2) {
+            var dx = (v2[0] - v1[0]);
+            var dy = (v2[1] - v1[1]);
+            return dx * dx + dy * dy;
+        }
+        function norm(t, a, b) {
+            return ( t - a ) / ( b - a );
+        }
+
+        //////////////////////////////////////////
+
+        var size = 1024;
+        var canvas = document.createElement('canvas');
+        canvas.style.position = "absolute";
+        canvas.style.top = "0";
+        canvas.style.left = "0";
+        canvas.width = canvas.height = size;
+        ctx = canvas.getContext('2d');
+        document.body.appendChild(canvas);
+
+        var vertices;
+        function update() {
+
+            PRNG.setSeed(3);
+
+            var r, a, v, o;
+            var count = 20;
+            var spawn = 40;
+            var offset = 100;
+            vertices = [];
+            for (var i = 0; i < count; i++) {
+
+                r = ( PRNG.random() - .5 ) * window.innerWidth / 2;
+                a = (i % 2 == 0 ? 1 : -1) * Date.now() * 0.0001 + PRNG.random() * Math.PI * 2;
+                v = [
+                    Math.cos(a) * r,
+                    Math.sin(a) * r
+                ];
+                vertices.unshift(v);
+
+                for (var j = 0; j < spawn * ( .5 + PRNG.random() ); j++) {
+
+                    r = PRNG.random() * offset;
+                    a = (j % 2 == 0 ? 1 : -1) * Date.now() * 0.0002 + PRNG.random() * Math.PI * 2;
+                    o = vertices[0];
+                    v = [
+                        o[0] + Math.cos(a % r) * r,
+                        o[1] + Math.sin(a % r * 2) * r
+                    ];
+                    vertices.push(v);
+                }
+            }
+
+            ctx.restore();
+            ctx.save();
+
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+
+            ctx.globalAlpha = 1;
+            ctx.fillStyle = "#15232A";
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            ctx.translate(canvas.width / 2, canvas.height / 2);
+
+            ctx.strokeStyle = "#e69f1f";
+            var m = size / 8;
+            for (i = 8; i <= m; i *= 2) {
+
+                ctx.globalAlpha = (1 - i / m) * .1;
+                yolo(vertices, i, size, size);
+
+            }
+            requestAnimationFrame(update);
+        }
+
+
+        function yolo(vertices, size, _w, _h) {
+
+            //measures of an equalateral triangle
+            var sides = 3;
+            var l = 2 * Math.sin(Math.PI / sides);            //side length
+            var a = l / ( 2 * Math.tan(Math.PI / sides) );    //apothem
+            var h = ( 1 + a );                                  //radius + apothem
+
+            size = size || 1;
+            l *= size;
+            h *= size;
+
+            var mx = 2 * Math.ceil(_w / l);
+            var my = Math.ceil(_h / h);
+
+            var fills = [];
+            ctx.beginPath();
+            vertices.forEach(function (v) {
+
+                var cell_x = Math.round(norm(v[0], 0, _w) * mx);
+                var cell_y = Math.round(norm(v[1], 0, _h) * my);
+
+                var md = Number.POSITIVE_INFINITY, d, x, y, ix, iy, ps = [];
+                for (var i = cell_x - 2; i < cell_x + 2; i++) {
+
+                    for (var j = cell_y - 2; j < cell_y + 2; j++) {
+
+                        if (( Math.abs(i) % 2 == 1 && Math.abs(j) % 2 == 0 )
+                                || ( Math.abs(i) % 2 == 0 && Math.abs(j) % 2 == 1 )) {
+
+                            ix = ( i ) * l / 2;
+                            iy = ( j ) * h;
+
+                            d = squareDistance([ix, iy], v);
+                            if (d < md) {
+                                md = d;
+                                x = ( i ) * l / 2;
+                                y = ( j ) * h;
+                                ps.unshift(x, y);
+                            }
+                        }
+                    }
+                }
+
+                if (PRNG.random() > .5) {
+                    ctx.moveTo(v[0], v[1]);
+                    ctx.lineTo(ps[0], ps[1]);
+                } else {
+                    ctx.moveTo(ps[0], ps[1]);
+                    ctx.lineTo(ps[2], ps[3]);
+                    if (PRNG.random() > .95) {
+                        fills.push(ps);
+                    }
+                }
+
+            });
+            ctx.stroke();
+
+            ctx.beginPath();
+            ctx.fillStyle = "#86c1ff";
+            fills.forEach(function (ps) {
+                ctx.moveTo(ps[0], ps[1]);
+                ctx.lineTo(ps[2], ps[3]);
+                ctx.lineTo(ps[4], ps[5]);
+                ctx.lineTo(ps[0], ps[1]);
+            });
+            ctx.fill();
+        }
+
+        update();
+
+    </script>
+    <script>
+        (function () {
+            "use strict";
+
+            var contenu = document.querySelector("#slider .contenu")
+            var contenu_left = 0;
+
+            function navigation_slider_precedent() {
+                if(contenu_left<0){
+                    console.log("click sur précédent");
+                    contenu_left += 300;
+                    contenu.style.left = contenu_left + "px";
+                }
+            }
+
+            document.querySelector("#navigation-slider .navigation-slider-precedent")
+                    .addEventListener("click", navigation_slider_precedent);
+
+            function navigation_slider_suivant() {
+                if(contenu_left>-1200){
+                    console.log("click sur suivant");
+                    contenu_left -= 300;
+                    contenu.style.left = contenu_left + "px";
+                }
+            }
+
+            document.querySelector("#navigation-slider .navigation-slider-suivant")
+                    .addEventListener("click", navigation_slider_suivant);
+
+        }());
+    </script>
+{% endblock %}

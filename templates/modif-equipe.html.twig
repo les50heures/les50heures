@@ -1,0 +1,94 @@
+{% extends 'general.html.twig' %}
+{% block title %}Les 50 Heures | Équipes{% endblock %}
+{% block contenu %}
+
+<div class="bandeau">
+    <button type="submit" name="modifier" class="modif" data-style="shrink" data-horizontal>Modifier</button>
+    <img class="bandeau" src="images-contenu/equipe.png" alt="equipe">
+    <img class="ligne" src="css/images-interface/ligne_bleu.png" alt="ligne">
+</div>
+
+<div class="titre_equipe">
+    <span>Nom de l'équipe</span>
+    <h1 class="titre_equipe_2">Nom de l'équipe</h1>
+
+    <h2>Description</h2>
+
+    <form action="">
+        <div class="formulaire fond_none">
+            <textarea name="description" placeholder="Ajouter une description..."></textarea>
+            <button class="button-equipe" type="submit" name="valider" data-style="shrink" data-horizontal>Valider</button>
+        </div>
+    </form>
+
+    <h2>Membres</h2>
+
+    <div class="piece">
+        <img src="css/images-interface/piece.png" alt="pièce">
+        <p>300</p>
+    </div>
+</div>
+
+<div class="jaune">
+    <div class="membre-carre colone1">
+        <img class="membre" src="images-contenu/membre.png" alt="membre">
+        <img class="carre-fond" src="css/images-interface/equipe/carre_bleu.png" alt="carre">
+
+        <p>Pseudo</p>
+    </div>
+
+    <div class="membre-carre">
+        <img class="membre" src="images-contenu/membre.png" alt="membre">
+        <img class="carre-fond" src="css/images-interface/equipe/carre_bleu.png" alt="carre">
+
+        <p>Pseudo</p>
+    </div>
+
+    <div class="membre-carre colone1">
+        <img class="membre" src="images-contenu/membre.png" alt="membre">
+        <img class="carre-fond" src="css/images-interface/equipe/carre_bleu.png" alt="carre">
+
+        <p>Pseudo</p>
+    </div>
+
+    <div class="membre-carre">
+        <img class="membre" src="images-contenu/membre.png" alt="membre">
+        <img class="carre-fond" src="css/images-interface/equipe/carre_bleu.png" alt="carre">
+
+        <p>Pseudo</p>
+    </div>
+</div>
+
+<div class="bleu">
+    <div class="membre-carre colone1">
+        <img class="membre" src="images-contenu/membre.png" alt="membre">
+        <img class="carre-fond" src="css/images-interface/equipe/carre_jaune.png" alt="carre">
+
+        <p>Pseudo</p>
+    </div>
+
+    <div class="membre-carre">
+        <img class="membre" src="images-contenu/membre.png" alt="membre">
+        <img class="carre-fond" src="css/images-interface/equipe/carre_jaune.png" alt="carre">
+
+        <p>Pseudo</p>
+    </div>
+
+    <div class="membre-carre colone1">
+        <img class="membre" src="images-contenu/membre.png" alt="membre">
+        <img class="carre-fond" src="css/images-interface/equipe/carre_jaune.png" alt="carre">
+
+        <p>Pseudo</p>
+    </div>
+
+    <div class="membre-carre">
+        <img class="membre" src="images-contenu/membre.png" alt="membre">
+        <img class="carre-fond" src="css/images-interface/equipe/carre_jaune.png" alt="carre">
+
+        <p>Pseudo</p>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block script %} /* --- Rien --- */ {% endblock %}

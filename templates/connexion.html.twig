@@ -1,0 +1,42 @@
+{% extends 'general.html.twig' %}
+{% block title %}Les 50 Heures | Connnexion{% endblock %}
+{% block contenu %}
+
+    <div class="cadre">
+        <div class="formulaire">
+            <h2>Connexion</h2>
+
+            <form method="post" action="">
+                <input type="text" name="pseudo" placeholder="Pseudo*" required><br>
+                <input type="password" name="mdp" placeholder="Mot de passe*" required><br>
+                <button type="submit" name="valider" data-style="shrink" data-horizontal>Valider</button>
+            </form>
+            <div class="lien_form">
+                <a href="index.php?page=mdp_oublier.html">Mot de passe oublié ?</a><br>
+                <a href="index.php?page=inscription.html">Pas encore inscrit ?</a>
+            </div>
+
+            <p>*champ obligatoire</p>
+        </div>
+    </div>
+
+
+    <div class="partenaires">
+        <a href="http://mmimontbeliard.com/">
+            <img src="css/images-interface/partenaire/mmi.png" alt="logo_mmi">
+        </a>
+        <a href="http://www.iut-bm.univ-fcomte.fr/">
+            <img class="iut_small_size" src="css/images-interface/partenaire/iut.png" alt="logo_iut">
+        </a>
+        <a href="http://www.iut-bm.univ-fcomte.fr/">
+            <img class="display_none_lg" src="css/images-interface/partenaire/iut-mobile.png" alt="logo_iut">
+        </a>
+        <a href="http://www.univ-fcomte.fr/">
+            <img class="ufc" src="css/images-interface/partenaire/ufc.png" alt="logo_ufc">
+        </a>
+    </div>
+
+
+{% endblock %}
+
+{% block script %} /* --- Rien --- */ {% endblock %}

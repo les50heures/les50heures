@@ -1,0 +1,73 @@
+{% extends 'general.html.twig' %}
+{% block title %}Les 50 Heures | Inscription{% endblock %}
+{% block contenu %}
+
+    <div class="cadre">
+        <div class="formulaire">
+            <h2>Inscription</h2>
+
+            <form method="post"  action="">
+                <input type="text" name="pseudo" placeholder="Pseudo*" required><br>
+                <input type="password" name="mdp" placeholder="Mot de passe*" required><br>
+                <input type="password" name="mdp" placeholder="Confirmation Mot de passe*" required><br>
+                <label class="file">
+                    Téléchargement
+                    <input type="file" id="upload" class="upload" data-value="uploaded2">
+                </label>
+                <label for="upload">
+                    <input id="uploaded2" name="photo" placeholder="Photo" disabled>
+                </label>
+                <select name="nom_equipe" title="nom_equipe" required>
+                    <optgroup label="Nom d'équipe*">
+                        <option value="">Nom d'équipe*</option>
+                    </optgroup>
+                </select>
+                <button type="submit" name="valider" data-style="shrink" data-horizontal>Valider</button>
+            </form>
+        </div>
+    </div>
+
+
+    <div class="partenaires">
+        <a href="http://mmimontbeliard.com/">
+            <img src="css/images-interface/partenaire/mmi.png" alt="logo_mmi">
+        </a>
+        <a href="http://www.iut-bm.univ-fcomte.fr/">
+            <img class="iut_small_size" src="css/images-interface/partenaire/iut.png" alt="logo_iut">
+        </a>
+        <a href="http://www.iut-bm.univ-fcomte.fr/">
+            <img class="display_none_lg" src="css/images-interface/partenaire/iut-mobile.png" alt="logo_iut">
+        </a>
+        <a href="http://www.univ-fcomte.fr/">
+            <img class="ufc" src="css/images-interface/partenaire/ufc.png" alt="logo_ufc">
+        </a>
+    </div>
+
+{% endblock %}
+
+{% block script %}
+
+    <script>
+        var forEach = function (array, callback, scope) {
+            for (var i = 0; i < array.length; i++) {
+                callback.call(scope, i, array[i]);
+            }
+        };
+
+        var file_inputs = document.querySelectorAll('[type=file]');
+        forEach(file_inputs, function (index, value) {
+            if (value.dataset.value){
+                value.addEventListener('change', function() {
+                    var files = new Array();
+                    for (var x = 0; x < this.files.length; x++) {
+                        files.push(this.files[x].name);
+                    }
+                    document.getElementById(this.dataset.value).value = files.join(', ');
+                    // this.value.replace(/^C:\\fakepath\\/, '');
+                });
+            }
+        });
+
+    </script>
+
+{% endblock %}

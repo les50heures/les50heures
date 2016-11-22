@@ -1,0 +1,117 @@
+{% extends 'general.html.twig' %}
+{% block title %}Les 50 Heures | Galerie{% endblock %}
+{% block contenu %}
+
+<div class="bandeau bandeau-galerie">
+    <h1 class="titre">Galerie</h1>
+    <span class="supperpose_titre">Galerie</span>
+    <img src="css/images-interface/ligne_bleu.png" alt="ligne">
+</div>
+
+<div class="progress">
+    <img class="ligne" src="css/images-interface/ligne_jaune.png" alt="ligne_jaune">
+    <img class="point" src="css/images-interface/point.png" alt="point_bleu">
+    <p class="centre">2017</p>
+</div>
+
+
+<button class="modif2" type="submit" name="ajout" data-style="shrink" data-horizontal>
+    Ajouter une photo/vidéo
+</button>
+
+<img class="ligne" src="css/images-interface/ligne_jaune.png" alt="ligne">
+
+<div class="galerie">
+    <img data-toggle="modal" data-target="#myModal" class="photo" src="css/images-interface/galerie/photo.png" alt="photo">
+    <img data-toggle="modal" data-target="#myModal" class="photo" src="css/images-interface/galerie/photo.png" alt="photo">
+</div>
+
+<img class="ligne" src="css/images-interface/ligne_jaune.png" alt="ligne">
+
+<div class="galerie">
+    <img data-toggle="modal" data-target="#myModal" class="photo" src="css/images-interface/galerie/photo.png" alt="photo">
+    <img data-toggle="modal" data-target="#myModal" class="photo" src="css/images-interface/galerie/video.png" alt="video">
+</div>
+
+<img class="ligne" src="css/images-interface/ligne_jaune.png" alt="ligne">
+
+<div class="galerie">
+    <img data-toggle="modal" data-target="#myModal" class="photo" src="css/images-interface/galerie/photo.png" alt="photo">
+    <img data-toggle="modal" data-target="#myModal" class="photo" src="css/images-interface/galerie/photo.png" alt="photo">
+</div>
+
+<img class="ligne" src="css/images-interface/ligne_jaune.png" alt="ligne">
+
+<div class="galerie">
+    <img data-toggle="modal" data-target="#myModal" class="photo" src="css/images-interface/galerie/photo.png" alt="photo">
+    <img data-toggle="modal" data-target="#myModal" class="photo" src="css/images-interface/galerie/video.png" alt="video">
+</div>
+
+<img class="ligne" src="css/images-interface/ligne_jaune.png" alt="ligne">
+
+<div class="galerie">
+    <img data-toggle="modal" data-target="#myModal" class="photo" src="css/images-interface/galerie/photo.png" alt="photo">
+    <img data-toggle="modal" data-target="#myModal" class="photo" src="css/images-interface/galerie/photo.png" alt="photo">
+</div>
+
+<img class="ligne" src="css/images-interface/ligne_jaune.png" alt="ligne">
+
+<div class="galerie">
+    <img data-toggle="modal" data-target="#myModal" class="photo" src="css/images-interface/galerie/photo.png" alt="photo">
+    <img data-toggle="modal" data-target="#myModal" class="photo" src="css/images-interface/galerie/video.png" alt="video">
+</div>
+
+<img class="ligne" src="css/images-interface/ligne_jaune.png" alt="ligne">
+
+<div class="galerie">
+    <img data-toggle="modal" data-target="#myModal" class="photo" src="css/images-interface/galerie/photo.png" alt="photo">
+    <img data-toggle="modal" data-target="#myModal" class="photo" src="css/images-interface/galerie/photo.png" alt="photo">
+</div>
+
+<img class="ligne" src="css/images-interface/ligne_jaune.png" alt="ligne">
+
+<div class="galerie">
+    <img data-toggle="modal" data-target="#myModal" class="photo" src="css/images-interface/galerie/photo.png" alt="photo">
+    <img data-toggle="modal" data-target="#myModal" class="photo" src="css/images-interface/galerie/video.png" alt="video">
+</div>
+
+{% endblock %}
+
+{% block script %}
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <a class="close" data-dismiss="modal">
+                    <img class="croix" src="css/images-interface/croix.png" alt="croix">
+                </a>
+                <img class="affichage_photo" src="css/images-interface/galerie/photo.png" alt="photo">
+                <h1>Titre photo</h1>
+                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam.</p>
+                <div class="commentaire">
+                    <div class="com">
+                        <h4>Pseudo</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua.</p>
+                    </div>
+                    <div class="com">
+                        <h4>Pseudo</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua.</p>
+                    </div>
+
+                    <form method="post"  action="">
+                        <textarea class="entrer_com" name="com" placeholder="Laisser un commentaire..."></textarea>
+                        <button class="avion" type="submit" name="valider" data-style="shrink" data-horizontal>
+                            <img src="css/images-interface/envois.png" alt="avion">
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+{% endblock %}

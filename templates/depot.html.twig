@@ -1,0 +1,62 @@
+{% extends 'general.html.twig' %}
+{% block title %}Les 50 Heures | Dépot{% endblock %}
+{% block contenu %}
+
+    <div class="bandeau bandeau-bois">
+        <div class="depot">
+            <h1 class="titre_depot">Dépot</h1>
+            <span class="supperpose_titre_depot">Dépot</span>
+        </div>
+        <img class="ligne_jaune_depot" src="css/images-interface/ligne_jaune.png" alt="ligne">
+    </div>
+
+
+    <div id="black" class="formulaire">
+
+        <form method="post" action="">
+            <input type="text" name="titre" placeholder="Titre*" required><br>
+            <select id="categorie" name="categorie" title="categorie" required>
+                <optgroup label="Catégorie*">
+                    <option value="">Categorie*</option>
+                </optgroup>
+            </select>
+            <textarea class="depot_desc" name="description" placeholder="Description"></textarea>
+            <label class="file depot_file">
+                Téléchargement
+                <input type="file" id="upload" class="upload" data-value="uploaded2">
+            </label>
+            <label for="upload">
+                <input id="uploaded2" name="fichier" placeholder="Projet/Photo/Vidéo" disabled>
+            </label>
+            <button type="submit" name="valider" data-style="shrink" data-horizontal>Valider</button>
+        </form>
+    </div>
+
+{% endblock %}
+
+{% block script %}
+
+    <script>
+        var forEach = function (array, callback, scope) {
+            for (var i = 0; i < array.length; i++) {
+                callback.call(scope, i, array[i]);
+            }
+        };
+
+        var file_inputs = document.querySelectorAll('[type=file]');
+        forEach(file_inputs, function (index, value) {
+            if (value.dataset.value) {
+                value.addEventListener('change', function () {
+                    var files = new Array();
+                    for (var x = 0; x < this.files.length; x++) {
+                        files.push(this.files[x].name);
+                    }
+                    document.getElementById(this.dataset.value).value = files.join(', ');
+                    // this.value.replace(/^C:\\fakepath\\/, '');
+                });
+            }
+        });
+
+    </script>
+
+{% endblock %}

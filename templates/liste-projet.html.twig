@@ -1,0 +1,62 @@
+{% extends 'general.html.twig' %}
+{% block title %}Les 50 Heures | Projets{% endblock %}
+{% block contenu %}
+
+    <div class="bandeau bandeau-projet">
+        <h1 class="titre">Les projets</h1>
+        <span class="supperpose_titre">Les projets</span>
+        <img src="css/images-interface/ligne_bleu.png" alt="ligne">
+    </div>
+
+    <div class="progress">
+        <img class="ligne" src="css/images-interface/ligne_jaune.png" alt="ligne_jaune">
+        <img class="point" src="css/images-interface/point.png" alt="point_bleu">
+        <p class="centre">2017</p>
+    </div>
+
+    <button class="progress-button" type="submit" name="ajout" data-style="shrink" data-horizontal>
+        Ajouter un projet
+    </button>
+
+    <div class="cadre">
+        <div class="projet">
+            <div class="en_tete">
+                <h2>Nom du projet</h2>
+                <a href="#">Lien vers le projet</a>
+            </div>
+            <h4>Projet réaliser par ...</h4>
+            <p class="desc_projet">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </div>
+    </div>
+
+    <div class="cadre">
+        <div class="projet">
+            <div class="en_tete">
+                <h2>Nom du projet</h2>
+                <a href="#">Lien vers le projet</a>
+            </div>
+            <h4>Projet réaliser par ...</h4>
+            <p class="desc_projet">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </div>
+    </div>
+
+    <div class="cadre dernier">
+        <div class="projet">
+            <div class="en_tete">
+                <h2>Nom du projet</h2>
+                <a href="#">Lien vers le projet</a>
+            </div>
+            <h4>Projet réaliser par ...</h4>
+            <p class="desc_projet">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block script %} /* --- Rien --- */ {% endblock %}
