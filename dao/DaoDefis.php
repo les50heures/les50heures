@@ -70,7 +70,7 @@ class DaoDefis extends Dao
 
     public function create()
     {
-        $sql = "INSERT INTO defis(ID_EQUIPE, ID_NOTE, TITRE_DEFI, DESCRIPTION_DEFI, DELAIS_DEFI,
+        $sql = "INSERT INTO defis(ID_EQUIPE, NOTE, TITRE_DEFI, DESCRIPTION_DEFI, DELAIS_DEFI,
                                 TYPE_DEFI)
                                 VALUES(?, ?, ?, ?, ?, ?)";
         $requete = $this->pdo->prepare($sql);
@@ -89,11 +89,6 @@ class DaoDefis extends Dao
 
     }
 
-
-    public function delete()
-    {
-        $this->deleteById("defis", "ID_DEFI", $this->bean->getId());
-    }
 
     public function setLesEquipes()
     {
@@ -121,14 +116,13 @@ class DaoDefis extends Dao
     {
         $sql = "SELECT * FROM a_obtenu , defis
                 WHERE
-                a_obtenu.ID_NOTE = defis.ID_NOTE
+                a_obtenu.NOTE = defis.NOTE
                 AND defis.ID_DEFI = " . $this->bean->getId();
         $requete = $this->pdo->prepare($sql);
         if ($requete->execute()) {
             $note = new Note();
             if ($donnees = $requete->fetch()) {
                 $note = new Note(
-                    $donnees['ID_NOTE'],
                     $donnees['NOTE']
                 );
             }

@@ -70,7 +70,7 @@ class DaoEquipe extends Dao
 
     public function create()
     {
-        $sql = "INSERT INTO equipe(ID_PERSONNE, ID_DEFI, ID_FICHIER, ID_NOTE, NOM_EQUIPE, NOM_EQUIPE, AVATAR_EQUIPE,
+        $sql = "INSERT INTO equipe(ID_PERSONNE, ID_DEFI, ID_FICHIER,NOTE, NOM_EQUIPE, NOM_EQUIPE, AVATAR_EQUIPE,
                                 POINTS_EQUIPE)
                                 VALUES(?, ?, ?, ?, ?, ?, ?, ?)";
         $requete = $this->pdo->prepare($sql);
@@ -90,12 +90,6 @@ class DaoEquipe extends Dao
 
     }
 
-
-    public function delete()
-    {
-        $this->deleteById("equipe", "ID_EQUIPE", $this->bean->getId());
-    }
-
     public function setLesPersonnes()
     {
         $sql = "SELECT * FROM personne, equipe
@@ -111,7 +105,7 @@ class DaoEquipe extends Dao
                     $donnees['NOM_PERSONNE'],
                     $donnees['PRENOM_PERSONNE'],
                     $donnees['PSEUDO_PERSONNE'],
-                    $donnees['mot_de_passe'],
+                    $donnees['MOT_DE_PASSE'],
                     $donnees['PHOTO_PERSONNE'],
                     $donnees['STATUT_PERSONNE'],
                     $donnees['TAG_PERSONNE']
