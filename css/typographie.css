@@ -108,14 +108,17 @@ ul li a {
 .pizza .mdp {
     font-family: special, sans-serif;
     color: #e38d13;
+    text-align: center;
 }
 
 /*Programme*/
+.programme h4, .programme > p { text-align: center; }
 .programme h3 {
     font-family: special, sans-serif;
     text-transform: uppercase;
     margin-top: 30px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .programme .hashtag, .programme .hashtag a {
