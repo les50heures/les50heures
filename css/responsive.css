@@ -37,7 +37,7 @@ Responsive  - format intermediaire (tablette/mobile)
         width: 90.5%;
         margin-left: 3px;
     }
-    .depot_file { right: 12%; }
+    .depot_file { right: 12.20%; }
 
     /* accueil*/
     .hexagone h1 {
@@ -436,6 +436,8 @@ Responsive  - format +ecran
         margin-top: 15px;
         margin-right: 18%;
     }
+
+    .progress .point { right: 41.3%; }
 
     .formulaire > form input, button {  width: 90%;  }
     button {
