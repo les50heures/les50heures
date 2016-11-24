@@ -73,6 +73,14 @@ header h3 {
     position: fixed;
 }
 
+.icone_accueil.active img {
+    top: 50px;
+    position: fixed;
+}
+
+.icone_accueil.active .menu { right: 8%; }
+.icone_accueil.active .tchat { right: 19%; }
+
 .icone_accueil .tchat {
     width: 35px;
     margin-left: 265px;
@@ -204,23 +212,25 @@ li ul li a {
 
 .hexagone h1 {
     margin-top: 200px;
-    width: 80%;
-    margin-left: 10%;
+    width: 50%;
+    margin-left: 25%;
 }
 
 .hexagone img {
     position: absolute;
-    width: 80%;
-    top: -150px;
+    width: 350px;
+    height: 400px;
+    top: -170px;
     left: 10%;
 }
 
 /*Fleche*/
 .hexagone .fleche_index {
     position: absolute;
-    width: 10%;
-    top: 270px;
-    left: 45%;
+    width: 70px;
+    height: 30px;
+    top: 320px;
+    left: 41%;
 }
 
 .fleche_index:hover {
@@ -258,8 +268,8 @@ li ul li a {
 }
 
 #slider {
-    margin-left: 10%;
-    width: 80%;
+    margin-left: 17.5%;
+    width: 294px;
     overflow: hidden;
 
 }
@@ -282,11 +292,11 @@ li ul li a {
 #navigation-slider button img {
     margin-top: 49px;
     position: absolute;
-    left: 11px;
+    left: 34px;
     width: 40px;
 }
 #navigation-slider > li:nth-child(2) > button > img {
-    left: 323px;
+    left: 372px;
 }
 
 /*Avancement defi*/
@@ -294,6 +304,9 @@ li ul li a {
 .avancement h1 {
     margin-top: 310px;
     padding-top: 20px;
+    position: relative;
+    z-index: 2;
+    text-align: center;
 }
 
 #defi_avancer {

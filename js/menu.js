@@ -8,6 +8,9 @@ jQuery(document).ready(function() {
         $(this).find('#span-menu').toggleClass('unvisible');
 		$(this).find('.menu.croix-menu').toggleClass('unvisible');
 
+        $(this).removeClass('active');
+        $('#icon').toggleClass('active');
+
         $(this).toggleClass('active');
         $('#menu-deroulant').toggleClass('active');
  
