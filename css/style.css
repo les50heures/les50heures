@@ -947,23 +947,14 @@ footer {
     padding: 10px;
 }
 
-.depot_desc {
-    width: 91%;
-}
-
+.depot_desc {  width: 91%;  }
 #black {
     padding-bottom: 0;
     padding-top: 0;
 }
 
-.ligne_jaune_depot {
-    margin-top: 50px;
-}
-
-.fa-upload {
-    padding-right: 0.75em;
-}
-
+.ligne_jaune_depot {  margin-top: 50px;  }
+.fa-upload { padding-right: 0.75em;  }
 .titre_depot {
     position: relative;
     top: 20px;
@@ -984,10 +975,7 @@ footer {
 
 /* -------------------- LISTE EQUIPES ---------------------  */
 /* titre */
-.encheres #equipe-span {
-    left: 30px;
-}
-
+.encheres #equipe-span {  left: 30px;  }
 .affiche_equipe img {
     width: 80%;
     margin-left: 10%;
@@ -1016,10 +1004,7 @@ footer {
 }
 
 /* affichage */
-.les_defis > div {
-    margin-bottom: 30px;
-}
-
+.les_defis > div {  margin-bottom: 30px;  }
 .les_defis {
     width: 80%;
     margin-left: 10%;
@@ -1051,10 +1036,7 @@ footer {
     font-weight: lighter;
 }
 
-.inverse h3 {
-    text-align: right;
-}
-
+.inverse h3 { text-align: right; }
 .inverse {
     order: 1;
     text-align: right;
@@ -1062,22 +1044,14 @@ footer {
     margin-left: 0;
 }
 
-.les_defis div {
-    height: 110px;
-}
-
+.les_defis div { height: 110px; }
 svg {
     position: relative;
     top: -71px;
 }
 
-.svg2 {
-    top: -180px;
-}
-
-.les_defis .msg_fin {
-    height: 65px;
-}
+.svg2{  top: -180px; }
+.les_defis .msg_fin {  height: 65px; }
 
 @media only screen and (max-width: 320px) {
     .les_defis div {
@@ -1088,14 +1062,8 @@ svg {
         position: relative;
         top: -78px;
     }
-
-    .svg2 {
-        top: -165px;
-    }
-
-    .les_defis .msg_fin {
-        height: 55px;
-    }
+    .svg2 {  top: -165px;  }
+    .les_defis .msg_fin {  height: 55px;  }
 }
 
 .ligne-defis {
@@ -1113,15 +1081,11 @@ svg {
     top: -100px;
 }
 
-.bandeau-projet .titre {
-    top: -5px
-}
+.bandeau-projet .titre {  top: -5px  }
 
-.bandeau-projet .supperpose_titre {
-    top: -25px;
-}
+.bandeau-projet .supperpose_titre {  top: -25px;  }
 
-/* en t�te */
+/* en tete */
 .en_tete h2 {
     color: #e69f1f;
     position: relative;
@@ -1142,14 +1106,8 @@ svg {
 }
 
 /* contenu */
-.projet {
-    color: white;
-}
-
-.desc_projet {
-    margin-left: 20px;
-}
-
+.projet {  color: white;  }
+.desc_projet { margin-left: 20px;  }
 .projet h4 {
     color: white;
     margin-left: 20px;
@@ -1161,9 +1119,7 @@ svg {
     margin-top: 20px;
 }
 
-.equipe_classement img {
-    width: 60px;
-}
+.equipe_classement img { width: 60px; }
 
 .equipe_classement {
     height: 60px;
@@ -1194,9 +1150,7 @@ svg {
     height: 20px;
 }
 
-.equipe_classement > .haut_classement {
-    border: 2px solid #e69f1f;
-}
+.equipe_classement > .haut_classement { border: 2px solid #e69f1f; }
 
 /* -------------------- AFFICHAGE DEFIS ---------------------  */
 .modal .machine {
@@ -1205,9 +1159,7 @@ svg {
     width: 100%;
 }
 
-.machine_ecrire {
-    height: 521px;
-}
+.machine_ecrire { height: 521px; }
 
 .modal .croix {
     width: 30px;
@@ -1227,9 +1179,7 @@ svg {
 }
 
 @media only screen and (max-width: 321px) {
-    .feuille {
-        width: 41%;
-    }
+    .feuille { width: 41%; }
 }
 
 .feuille h2 {
@@ -1239,9 +1189,7 @@ svg {
     margin-right: 10%;
 }
 
-.feuille p {
-    padding-bottom: 20px;
-}
+.feuille p { padding-bottom: 20px; }
 
 /* -------------------- AFFICHAGE PHOTO ---------------------  */
 .modal .affichage_photo {
@@ -1274,20 +1222,14 @@ svg {
     margin-right: 10%;
 }
 
-.com h4 {
-    width: 25%;
-}
-
+.com h4 { width: 25%;  }
 .com p {
     width: 65%;
     margin-left: 5%;
     margin-top: 23px;
 }
 
-.commentaire form {
-    height: 90px;
-}
-
+.commentaire form {  height: 90px;  }
 .entrer_com {
     width: 65%;
     margin-left: 5%;
