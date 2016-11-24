@@ -6,19 +6,17 @@ $daoClient = new DaoPersonne();
 if (isset($_POST["val_cnx"])) {
     $daoClient->cnx($_POST['login'], $_POST['mdp']);
     if ($daoClient->bean->getLogin() != null) {
-        $_SESSION ['logincnx'] = array();
-        $_SESSION ['logincnx']['prenom'] = $daoClient->bean->getPrenom();
-        $_SESSION ['logincnx']['admin'] = $daoClient->bean->getAdmin();
+        $_SESSION ['login'] = array();
+        $_SESSION ['login']['prenom'] = $daoClient->bean->getPrenom();
+        $_SESSION ['login']['admin'] = $daoClient->bean->getStatut();
 
     }
-    if (isset($_SESSION['logincnx'])) {
-        header("Location:index.php?page=mesVideos");
+    if (isset($_SESSION['login'])) {
+        header("Location:index.php?page=defis");
     } else {
-        $_SESSION['logincnx'] = "null";
+        $_SESSION['login'] = "null";
     }
 
-}
-if (isset($_POST["valCreer"])) {
 }
 
 if (isset($_POST["dcnx"])) {
