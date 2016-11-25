@@ -2,6 +2,7 @@ body {
     margin: 0;
     background: #15232A;
     z-index: 3;
+    width: 100%;
 }
 
 .image-fond {
@@ -218,10 +219,10 @@ li ul li a {
 
 .hexagone img {
     position: absolute;
-    width: 350px;
-    height: 400px;
-    top: -170px;
-    left: 10%;
+    width: 300px;
+    height: 350px;
+    top: -154px;
+    left: 19%;
 }
 
 /*Fleche*/
@@ -229,8 +230,8 @@ li ul li a {
     position: absolute;
     width: 70px;
     height: 30px;
-    top: 320px;
-    left: 41%;
+    top: 300px;
+    left: 46%;
 }
 
 .fleche_index:hover {
@@ -268,7 +269,7 @@ li ul li a {
 }
 
 #slider {
-    margin-left: 17.5%;
+    margin-left: 13%;
     width: 294px;
     overflow: hidden;
 
@@ -292,11 +293,11 @@ li ul li a {
 #navigation-slider button img {
     margin-top: 49px;
     position: absolute;
-    left: 34px;
+    left: 16px;
     width: 40px;
 }
 #navigation-slider > li:nth-child(2) > button > img {
-    left: 372px;
+    left: 369px;
 }
 
 /*Avancement defi*/
@@ -337,7 +338,7 @@ li ul li a {
 /*Detaille defi*/
 .desc_index {
     background-color: white;
-    width: 80%;
+
     padding: 30px 10%;
 }
 

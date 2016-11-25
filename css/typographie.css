@@ -112,7 +112,7 @@ ul li a {
 }
 
 /*Programme*/
-.programme h4, .programme > p { text-align: center; }
+.programme h4, .programme p { text-align: center; }
 .programme h3 {
     font-family: special, sans-serif;
     text-transform: uppercase;

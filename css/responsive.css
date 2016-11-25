@@ -1,9 +1,40 @@
 /* -------------------------------------
+Responsive  - format iphone5
+---------------------------------------------------- */
+@media only screen and (min-width : 320px) and (max-width : 420px) {
+    .hexagone img { left: 6%; }
+    .hexagone .fleche_index { left: 42%; }
+
+    #slider {
+        margin-left: 13%;
+        width: 155px;}
+    #navigation-slider > li:nth-child(2) > button > img {  left: 317px;  }
+
+    .tete_classement .haut_classement { width: 155px; }
+
+    #slider { margin-left: 27%; }
+    #navigation-slider > li:nth-child(2) > button > img { left: 277px;  }
+}
+
+
+@media only screen and (min-width : 320px) and (max-width : 350px) {
+    .icone_accueil {  right: -8%;  }
+
+    .hexagone h1 { margin-left: 30%; }
+    .hexagone .fleche_index { left: 45%; }
+
+
+
+}
+
+
+
+/* -------------------------------------
 Responsive  - format intermediaire (tablette/mobile)
 ---------------------------------------------------- */
 
 @media only screen and (min-width : 479px) and (max-width : 717px) {
-
+    body { width: 103%; }
     #logo h3 { left: 100px; }
     header #menu-deroulant {  width: 55%;  }
 
@@ -83,7 +114,7 @@ Responsive  - format tablette
 ----------------------------- */
 
 @media only screen and (min-width : 718px) and (max-width : 1024px) {
-
+    body { width: 102%; }
     #logo h3 { left: 100px; }
     header #menu-deroulant {  width: 45%;  }
 
@@ -190,7 +221,7 @@ Responsive  - format intermediaire (tablette/ecran)
 ---------------------------------------------------- */
 
 @media only screen and (min-width : 1024px) and (max-width : 1300px) {
-
+    body { width: 102%; }
     #logo h3 { left: 110px; }
     header #menu-deroulant {  width: 35%;  }
 
@@ -307,7 +338,7 @@ Responsive  - format ecran
 ---------------------------------------------------- */
 
 @media only screen and (min-width : 1300px) and (max-width : 1500px) {
-
+    body { width: 102%; }
     #logo h3 { left: 110px; }
     header #menu-deroulant {  width: 30%;  }
 
@@ -423,7 +454,7 @@ Responsive  - format +ecran
 ---------------------------------------------------- */
 
 @media only screen and (min-width : 1500px) and (max-width : 2000px) {
-
+    body { width: 102%; }
     #logo h3 {  left: 110px;  }
     header #menu-deroulant {  width: 30%;  }
 
@@ -547,7 +578,7 @@ Responsive  - format +ecran
     }
     .hexagone .fleche_index {  left: 43.5%;  }
 
-    #slider { margin-left: 25%; }
+    #slider { margin-left: 24%; }
     #navigation-slider > li:nth-child(2) > button > img {  left: 480px;  }
 }
 @media only screen and (min-width : 617px) and (max-width : 717px) {
@@ -559,7 +590,7 @@ Responsive  - format +ecran
     }
     .hexagone .fleche_index {  left: 45%;  }
 
-    #slider { margin-left: 30%; }
+    #slider { margin-left: 28%; }
     #navigation-slider > li:nth-child(2) > button > img {  left: 555px;  }
 }
 @media only screen and (min-width : 717px) and (max-width : 835px) {
@@ -569,10 +600,10 @@ Responsive  - format +ecran
         top: -205px;
         left: 24%;
     }
-    .hexagone .fleche_index {  left: 46.5%;  }
+    .hexagone .fleche_index {  left: 47%;  }
 
-    #slider { margin-left: 12%; }
-    #navigation-slider > li:nth-child(2) > button > img {  left: 690px;  }
+    #slider { margin-left: 10%; }
+    #navigation-slider > li:nth-child(2) > button > img {  left: 660px;  }
 }
 @media only screen and (min-width : 835px) and (max-width : 900px) {
     .hexagone img {
@@ -605,7 +636,7 @@ Responsive  - format +ecran
         top: -240px;
         left: 30%;
     }
-    .hexagone .fleche_index {  left: 47%;  }
+    .hexagone .fleche_index {  left: 48%;  }
 
     #slider { margin-left: 10%; }
     #navigation-slider > li:nth-child(2) > button > img {  left: 977px;  }
