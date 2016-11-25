@@ -72,6 +72,13 @@ class DaoType extends Dao
     {
 
     }
+
+
+    public function delete()
+    {
+        $this->deleteById("type", "ID_TYPE", $this->bean->getId());
+    }
+
     public function setLesFichiers()
     {
         $sql = "SELECT * FROM fichier, type
