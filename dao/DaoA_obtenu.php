@@ -15,8 +15,7 @@ class DaoNote extends Dao
 
     public function find($id)
     {
-        $donnees = $this->findById("a_obtenu", "ID_NOTE", $id);
-        $this->bean->setId($donnees['ID_NOTE']);
+        $donnees = $this->findById("a_obtenu", $id);
         $this->bean->setNote($donnees['NOTE']);
     }
 
@@ -31,7 +30,6 @@ class DaoNote extends Dao
         if ($requete->execute()) {
             while ($donnees = $requete->fetch()) {
                 $note = new Note(
-                    $donnees['ID_NOTE'],
                     $donnees['NOTE']
                 );
                 $this->bean = $note;
@@ -48,7 +46,6 @@ class DaoNote extends Dao
         if ($requete->execute()) {
             while ($donnees = $requete->fetch()) {
                 $note = new Note(
-                    $donnees['ID_NOTE'],
                     $donnees['NOTE']
                 );
                 $liste[] = $note;
@@ -60,8 +57,8 @@ class DaoNote extends Dao
 
     public function create()
     {
-        $sql = "INSERT INTO a_obtenu(ID_EQUIPE, ID_DEFI, NOTE)
-                                VALUES(?, ?, ?)";
+        $sql = "INSERT INTO a_obtenu(ID_EQUIPE, ID_DEFI,)
+                                VALUES(?, ?)";
         $requete = $this->pdo->prepare($sql);
 
         $requete->bindValue(1, $this->bean->getLesDefis()->getId());
@@ -78,7 +75,7 @@ class DaoNote extends Dao
 
     public function delete()
     {
-        $this->deleteById("a_obtenu", "ID_NOTE", $this->bean->getId());
+        $this->deleteById("a_obtenu", $this->bean->getId());
     }
 
     public function setLesEquipes()
@@ -86,7 +83,7 @@ class DaoNote extends Dao
         $sql = "SELECT * FROM equipe, a_obtenu
                 WHERE
                 equipe.ID_EQUIPE = a_obtenu.ID_EQUIPE
-                AND a_obtenu.ID_NOTE = " . $this->bean->getId();
+                AND a_obtenu.NOTE = " . $this->bean->getId();
         $requete = $this->pdo->prepare($sql);
         if ($requete->execute()) {
             $equipe = new Equipe();
@@ -107,7 +104,7 @@ class DaoNote extends Dao
         $sql = "SELECT * FROM defis, a_obtenu
                 WHERE
                 defis.ID_DEFI = a_obtenu.ID_DEFI
-                AND a_obtenu.ID_NOTE = " . $this->bean->getId();
+                AND a_obtenu.NOTE = " . $this->bean->getId();
         $requete = $this->pdo->prepare($sql);
         if ($requete->execute()) {
             $defi = new Defis();

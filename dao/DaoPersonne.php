@@ -20,7 +20,7 @@ class DaoPersonne extends Dao
         $this->bean->setNom($donnees['NOM_PERSONNE']);
         $this->bean->setPrenom($donnees['PRENOM_PERSONNE']);
         $this->bean->setPseudo($donnees['PSEUDO_PERSONNE']);
-        $this->bean->setMotDePasse($donnees['mot_de_passe']);
+        $this->bean->setMotDePasse($donnees['MOT_DE_PASSE']);
         $this->bean->setPhoto($donnees['PHOTO_PERSONNE']);
         $this->bean->setStatut($donnees['STATUT_PERSONNE']);
         $this->bean->setTag($donnees['TAG_PERSONNE']);
@@ -40,7 +40,7 @@ class DaoPersonne extends Dao
                     $donnees['NOM_PERSONNE'],
                     $donnees['PRENOM_PERSONNE'],
                     $donnees['PSEUDO_PERSONNE'],
-                    $donnees['mot_de_passe'],
+                    $donnees['MOT_DE_PASSE'],
                     $donnees['PHOTO_PERSONNE'],
                     $donnees['STATUT_PERSONNE'],
                     $donnees['TAG_PERSONNE']
@@ -63,7 +63,7 @@ class DaoPersonne extends Dao
                     $donnees['NOM_PERSONNE'],
                     $donnees['PRENOM_PERSONNE'],
                     $donnees['PSEUDO_PERSONNE'],
-                    $donnees['mot_de_passe'],
+                    $donnees['MOT_DE_PASSE'],
                     $donnees['PHOTO_PERSONNE'],
                     $donnees['STATUT_PERSONNE'],
                     $donnees['TAG_PERSONNE']
@@ -78,7 +78,7 @@ class DaoPersonne extends Dao
     public function create()
     {
         $sql = "INSERT INTO personne(ID_COMMENTAIRE, ID_EQUIPE, NOM_PERSONNE, PRENOM_PERSONNE, PSEUDO_PERSONNE,
-                                mot_de_passe, PHOTO_PERSONNE, STATUT_PERSONNE, TAG_PERSONNE)
+                                MOT_DE_PASSE, PHOTO_PERSONNE, STATUT_PERSONNE, TAG_PERSONNE)
                                 VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?)";
         $requete = $this->pdo->prepare($sql);
 

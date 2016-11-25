@@ -121,14 +121,13 @@ class DaoDefis extends Dao
     {
         $sql = "SELECT * FROM a_obtenu , defis
                 WHERE
-                a_obtenu.ID_NOTE = defis.ID_NOTE
+                a_obtenu.ID_NOTE = defis.NOTE
                 AND defis.ID_DEFI = " . $this->bean->getId();
         $requete = $this->pdo->prepare($sql);
         if ($requete->execute()) {
             $note = new Note();
             if ($donnees = $requete->fetch()) {
                 $note = new Note(
-                    $donnees['ID_NOTE'],
                     $donnees['NOTE']
                 );
             }

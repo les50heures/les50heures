@@ -111,7 +111,7 @@ class DaoEquipe extends Dao
                     $donnees['NOM_PERSONNE'],
                     $donnees['PRENOM_PERSONNE'],
                     $donnees['PSEUDO_PERSONNE'],
-                    $donnees['mot_de_passe'],
+                    $donnees['MOT_DE_PASSE'],
                     $donnees['PHOTO_PERSONNE'],
                     $donnees['STATUT_PERSONNE'],
                     $donnees['TAG_PERSONNE']
@@ -171,14 +171,13 @@ class DaoEquipe extends Dao
     {
         $sql = "SELECT * FROM a_obtenu , equipe
                 WHERE
-                a_otbenu.ID_NOTE = equipe.ID_NOTE
+                a_otbenu.NOTE = equipe.NOTE
                 AND equipe.ID_EQUIPE = " . $this->bean->getId();
         $requete = $this->pdo->prepare($sql);
         if ($requete->execute()) {
             $note = new Note();
             if ($donnees = $requete->fetch()) {
                 $note = new Note(
-                    $donnees['ID_NOTE'],
                     $donnees['NOTE']
                 );
             }
