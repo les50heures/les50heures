@@ -2,6 +2,7 @@
 
 require_once 'classes/class.Personne.php';
 require_once 'classes/class.Equipe.php';
+require_once 'classes/class.Commente.php';
 
 require_once 'Dao.php';
 
@@ -20,7 +21,7 @@ class DaoPersonne extends Dao
         $this->bean->setNom($donnees['NOM_PERSONNE']);
         $this->bean->setPrenom($donnees['PRENOM_PERSONNE']);
         $this->bean->setPseudo($donnees['PSEUDO_PERSONNE']);
-        $this->bean->setMotDePasse($donnees['mot_de_passe']);
+        $this->bean->setMDP($donnees['MDP']);
         $this->bean->setPhoto($donnees['PHOTO_PERSONNE']);
         $this->bean->setStatut($donnees['STATUT_PERSONNE']);
         $this->bean->setTag($donnees['TAG_PERSONNE']);
@@ -40,7 +41,7 @@ class DaoPersonne extends Dao
                     $donnees['NOM_PERSONNE'],
                     $donnees['PRENOM_PERSONNE'],
                     $donnees['PSEUDO_PERSONNE'],
-                    $donnees['mot_de_passe'],
+                    $donnees['MDP'],
                     $donnees['PHOTO_PERSONNE'],
                     $donnees['STATUT_PERSONNE'],
                     $donnees['TAG_PERSONNE']
@@ -56,14 +57,14 @@ class DaoPersonne extends Dao
         $sql = "SELECT * FROM personne ORDER BY NOM_PERSONNE";
         $requete = $this->pdo->prepare($sql);
         $liste = array();
-        if ($requete->excecute()) {
+        if ($requete->execute()) {
             while ($donnees = $requete->fetch()) {
                 $personne = new Personne(
                     $donnees['ID_PERSONNE'],
                     $donnees['NOM_PERSONNE'],
                     $donnees['PRENOM_PERSONNE'],
                     $donnees['PSEUDO_PERSONNE'],
-                    $donnees['mot_de_passe'],
+                    $donnees['MDP'],
                     $donnees['PHOTO_PERSONNE'],
                     $donnees['STATUT_PERSONNE'],
                     $donnees['TAG_PERSONNE']
@@ -78,7 +79,7 @@ class DaoPersonne extends Dao
     public function create()
     {
         $sql = "INSERT INTO personne(ID_COMMENTAIRE, ID_EQUIPE, NOM_PERSONNE, PRENOM_PERSONNE, PSEUDO_PERSONNE,
-                                mot_de_passe, PHOTO_PERSONNE, STATUT_PERSONNE, TAG_PERSONNE)
+                                MOT_DE_PASSE, PHOTO_PERSONNE, STATUT_PERSONNE, TAG_PERSONNE)
                                 VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?)";
         $requete = $this->pdo->prepare($sql);
 
@@ -87,7 +88,7 @@ class DaoPersonne extends Dao
         $requete->bindValue(3, $this->bean->getNom());
         $requete->bindValue(4, $this->bean->getPrenom());
         $requete->bindValue(5, $this->bean->getPseudo());
-        $requete->bindValue(6, $this->bean->getMotDePasse());
+        $requete->bindValue(6, $this->bean->getMDP());
         $requete->bindValue(7, $this->bean->getPhoto());
         $requete->bindValue(8, $this->bean->getStatut());
         $requete->bindValue(9, $this->bean->getTag());
@@ -122,6 +123,41 @@ class DaoPersonne extends Dao
                 );
             }
             $this->bean->setLesCommentaires($commente);
+        }
+    }
+
+    public function cnx($pseudo, $mdp)
+    {
+        $sql = "SELECT *
+                FROM personne
+                WHERE
+                personne.LOGIN = '" . $pseudo . "'
+                AND personne.MDP = '" . $mdp . "' ";
+        $requete = $this->pdo->prepare($sql);
+        if ($requete->execute()) {
+            while ($donnees = $requete->fetch()) {
+                $this->bean->setId($donnees['ID_PERSONNE']);
+                $this->bean->setNom($donnees['NOM_PERSONNE']);
+                $this->bean->setPrenom($donnees['PRENOM_PERSONNE']);
+                $this->bean->setPseudo($donnees['PSEUDO_PERSONNE']);
+                $this->bean->setMDP($donnees['MDP']);
+                $this->bean->setPhoto($donnees['PHOTO_PERSONNE']);
+                $this->bean->setStatut($donnees['STATUT_PERSONNE']);
+                $this->bean->setTag($donnees['TAG_PERSONNE']);
+            }
+        }
+    }
+
+    public function checkExisting()
+    {
+        $requete = $this->pdo->prepare("SELECT PSEUDO FROM personne WHERE PSEUDO = ?");
+        $requete->bindValue(1, $_POST["pseudo"]);
+        $requete->execute();
+
+        if ($requete->rowCount() > 0) {
+            return (1);
+        } else {
+            return (2);
         }
     }
 
