@@ -5,9 +5,9 @@ require_once 'classes/class.Defis.php';
 
 require_once 'Dao.php';
 
-class DaoNote extends Dao
+class DaoA_Obtenu extends Dao
 {
-    public function DaoNote()
+    public function DaoA_Obtenu()
     {
         parent::__construt();
         $this->bean = new Note();
@@ -15,8 +15,7 @@ class DaoNote extends Dao
 
     public function find($id)
     {
-        $donnees = $this->findById("a_obtenu", "ID_NOTE", $id);
-        $this->bean->setId($donnees['ID_NOTE']);
+        $donnees = $this->findById("a_obtenu", $id);
         $this->bean->setNote($donnees['NOTE']);
     }
 
@@ -31,7 +30,6 @@ class DaoNote extends Dao
         if ($requete->execute()) {
             while ($donnees = $requete->fetch()) {
                 $note = new Note(
-                    $donnees['ID_NOTE'],
                     $donnees['NOTE']
                 );
                 $this->bean = $note;

@@ -1,21 +1,27 @@
 <?php
-require_once("dao/DaoPersonne.php");
+require_once"dao/DaoPersonne.php";
 
-$daoClient = new DaoPersonne();
+$daoPersonne = new DaoPersonne();
 
 if (isset($_POST["val_cnx"])) {
-    $daoClient->cnx($_POST['login'], $_POST['mdp']);
-    if ($daoClient->bean->getLogin() != null) {
-        $_SESSION ['login'] = array();
-        $_SESSION ['login']['prenom'] = $daoClient->bean->getPrenom();
-        $_SESSION ['login']['admin'] = $daoClient->bean->getStatut();
+    $daoPersonne->cnx($_POST['pseudo'], $_POST['mdp']);
 
-    }
-    if (isset($_SESSION['login'])) {
-        header("Location:index.php?page=defis");
-    } else {
-        $_SESSION['login'] = "null";
-    }
+
+    $_SESSION['id'] = $daoPersonne->bean->getId();
+    $_SESSION['nom'] = $daoPersonne->bean->getNom();
+    $_SESSION['prenom'] = $daoPersonne->bean->getPrenom();
+    $_SESSION['pseudo'] = $daoPersonne->bean->getPseudo();
+    $_SESSION['mdp'] = $daoPersonne->bean->getMDP();
+    $_SESSION['photo'] = $daoPersonne->bean->getPhoto();
+    $_SESSION['statut'] = ($daoPersonne->bean->getStatut() === '1');
+    $_SESSION['tag'] = $daoPersonne->bean->getTag();
+
+}
+if (isset($_SESSION['pseudo'])) {
+    header("Location:index.php?page=defis");
+} else {
+    $_SESSION['pseudo'] = "null";
+
 
 }
 
