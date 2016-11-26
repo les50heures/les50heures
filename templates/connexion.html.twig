@@ -5,7 +5,8 @@
     <div class="cadre">
         <div class="formulaire">
             <h2>Connexion</h2>
-            <form method="post" action="index.php?page=connexion">
+            <form method="post" action="index.php?page=connexion"
+                    enctype="multipart/form-data">
                 <input type="text" name="pseudo" placeholder="Pseudo*" required><br>
                 <input type="password" name="mdp" placeholder="Mot de passe*" required><br>
                 <button type="submit" name="val_cnx" data-style="shrink" data-horizontal>Valider</button>

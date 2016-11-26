@@ -162,5 +162,15 @@ class DaoFichier extends Dao
             $this->bean->setLesTypes($type);
         }
     }
-}
 
+
+    public function addFichier($ficher)
+    {
+        $sql = "INSERT INTO peut(ID_FICHIER, ID_TYPE, ID_PERSONNE, ID_EQUIPE) VALUES(? , ?, ?,?)";
+        $requete = $this->pdo->prepare($sql);
+        $requete->bindValue(1, $ficher->getId());
+        $requete->bindValue(2, $this->bean->getId());
+        $requete->bindValue(3, 1);
+        $requete->execute();
+    }
+}

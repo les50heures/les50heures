@@ -5,6 +5,14 @@ $daoPersonne = new DaoPersonne();
 
 if (isset($_POST["val_cnx"])) {
     $daoPersonne->cnx($_POST['pseudo'], $_POST['mdp']);
+    if ($daoPersonne->bean->getPseudo() !=null){
+    $_SESSION ['pseudo'] = array();
+    $_SESSION ['pseudo']['prenom'] = $daoPersonne->bean->getPrenom();
+        $_SESSION ['pseudo']['statut'] = $daoPersonne->bean->getStatut();
+
+    }
+    /*
+}
 
 
     $_SESSION['id'] = $daoPersonne->bean->getId();
@@ -14,7 +22,7 @@ if (isset($_POST["val_cnx"])) {
     $_SESSION['mdp'] = $daoPersonne->bean->getMDP();
     $_SESSION['photo'] = $daoPersonne->bean->getPhoto();
     $_SESSION['statut'] = ($daoPersonne->bean->getStatut() === '1');
-    $_SESSION['tag'] = $daoPersonne->bean->getTag();
+    $_SESSION['tag'] = $daoPersonne->bean->getTag();*/
 
 }
 if (isset($_SESSION['pseudo'])) {

@@ -6,7 +6,8 @@
         <div class="formulaire">
             <h2>Inscription</h2>
 
-            <form method="post"  action="index.php?page=inscription">
+            <form method="post"  action="index.php?page=inscription"
+                    enctype="multipart/form-data">
                 <input type="text" name="pseudo" placeholder="Pseudo*" required><br>
                 <input type="password" name="mdp" placeholder="Mot de passe*" required><br>
                 <label class="file">
@@ -21,7 +22,7 @@
                         <option value="">Nom d'équipe*</option>
                     </optgroup>
                 </select>
-                <button type="submit" name="valider" data-style="shrink" data-horizontal>Valider</button>
+                <button type="submit" name="valider" data-style="shrink" class="progress-button" data-horizontal>Valider</button>
             </form>
         </div>
     </div>

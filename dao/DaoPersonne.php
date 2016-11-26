@@ -107,25 +107,6 @@ class DaoPersonne extends Dao
         $this->deleteById("personnes", "ID_PERSONNE", $this->bean->getId());
     }
 
-    public function setLesCommentaires()
-    {
-        $sql = "SELECT * FROM commente, personne
-                WHERE
-                commente.ID_COMMENTE = personne.ID_COMMENTE
-                AND personne.ID_PERSONNE = " . $this->bean->getId();
-        $requete = $this->pdo->prepare($sql);
-        if ($requete->execute()) {
-            $commente = new Commente();
-            if ($donnees = $requete->fetch()) {
-                $commente = new Commente(
-                    $donnees['ID_COMMENTAIRE'],
-                    $donnees['COMMENTAIRE']
-                );
-            }
-            $this->bean->setLesCommentaires($commente);
-        }
-    }
-
     public function cnx($pseudo, $mdp)
     {
         $sql = "SELECT *
@@ -158,6 +139,26 @@ class DaoPersonne extends Dao
             return (1);
         } else {
             return (2);
+        }
+    }
+
+
+    public function setLesCommentaires()
+    {
+        $sql = "SELECT * FROM commente, personne
+                WHERE
+                commente.ID_COMMENTE = personne.ID_COMMENTE
+                AND personne.ID_PERSONNE = " . $this->bean->getId();
+        $requete = $this->pdo->prepare($sql);
+        if ($requete->execute()) {
+            $commente = new Commente();
+            if ($donnees = $requete->fetch()) {
+                $commente = new Commente(
+                    $donnees['ID_COMMENTAIRE'],
+                    $donnees['COMMENTAIRE']
+                );
+            }
+            $this->bean->setLesCommentaires($commente);
         }
     }
 
