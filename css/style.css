@@ -783,7 +783,8 @@ footer {
 
 /*-------- Titre ---------*/
 .bandeau img {  width: 100%;  }
-.bandeau > img { margin-top: 85px; }
+.bandeau > .ligne_jaune_depot{ margin-top: 130px; }
+.bandeau > .ligne_jaune_list-equipe{ margin-top: 90px; }
 
 .bandeau-galerie {
     position: relative;
