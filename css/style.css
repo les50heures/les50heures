@@ -303,7 +303,7 @@ li ul li a {
 /*Avancement defi*/
 .avancement {  padding-bottom: 20px;  }
 .avancement h1 {
-    margin-top: 310px;
+    margin-top: 320px;
     padding-top: 20px;
     position: relative;
     z-index: 2;
@@ -704,7 +704,7 @@ footer {
 .piece {
     position: absolute;
     right: 45px;
-    top: 665px;
+    top: 653px;
     display: flex;
 }
 
@@ -763,7 +763,7 @@ footer {
 }
 
 .page-modif .piece {
-    top: 640px;
+    top: 660px;
 }
 
 .fond_none {
@@ -782,9 +782,8 @@ footer {
 }
 
 /*-------- Titre ---------*/
-.bandeau img {
-    width: 100%;
-}
+.bandeau img {  width: 100%;  }
+.bandeau > img { margin-top: 85px; }
 
 .bandeau-galerie {
     position: relative;
@@ -864,6 +863,8 @@ footer {
     padding-bottom: 0;
     margin-bottom: 0;
     height: 210px;
+    position: absolute;
+    top: 0;
 }
 
 .bandeau-bois {
@@ -880,17 +881,12 @@ footer {
     line-height: 2.5em;
 }
 
-.titre {
-    top: 10px;
-}
-
-.encheres .titre {
-    top: 28px;
-}
-
+.titre {  top: 10px;  }
+.encheres .titre {  top: 85px;  }
 .encheres span {
     left: 80px;
-    top: 5px;
+    top: 15px;
+
 }
 
 /*contenu*/
@@ -954,17 +950,19 @@ footer {
     padding-top: 0;
 }
 
-.ligne_jaune_depot {  margin-top: 50px;  }
+.ligne_jaune_depot {  margin-top: 130px;  }
 .fa-upload { padding-right: 0.75em;  }
 .titre_depot {
     position: relative;
     top: 20px;
+    z-index: 2;
 }
 
 .supperpose_titre_depot {
     position: absolute;
-    left: 45%;
-    top: 55px;
+    left: 33%;
+    top: 38px;
+    z-index: 2;
     color: #e69f1f;
 }
 
@@ -982,6 +980,10 @@ footer {
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 30px;
+}
+
+body > div:nth-child(3) {
+    margin-top: 130px;
 }
 
 .affiche_equipe h1 {
@@ -1117,14 +1119,21 @@ svg {
 /* -------------------- PAGE CLASSEMENT ---------------------  */
 .classement {
     margin-bottom: 50px;
-    margin-top: 20px;
+    margin-top: 120px;
 }
+
+.bandeau .depot {
+    position: relative;
+    z-index: 1;
+    top: 80px;
+}
+
 
 .equipe_classement img { width: 60px; }
 
 .equipe_classement {
     height: 60px;
-    margin-top: 5%;
+    margin-top: 0;
     margin-bottom: 5%;
     display: flex;
     flex-wrap: wrap;
