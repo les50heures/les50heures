@@ -648,7 +648,7 @@ footer {
 .bandeau .modif {
     position: relative;
     top: 17px;
-    left: 66%;
+    left: 62%;
     margin-top: 0;
 }
 
@@ -657,7 +657,7 @@ footer {
     background-color: #e69f1f;
     border: 0;
     top: 0;
-    left: 100px;
+    left: 90px;
     position: relative;
 }
 
@@ -666,24 +666,16 @@ footer {
 }
 
 /* les titres */
-.titre_equipe {
-    text-align: center;
-}
-
-.titre_equipe_2 {
-    position: relative;
-}
-
+.titre_equipe {  text-align: center;  }
+.titre_equipe_2 {  position: relative;  }
 .titre_equipe input {
     width: 70%;
     padding: 10px;
 }
-
 .titre_equipe h2 {
     margin-top: 30px;
     margin-bottom: 20px;
 }
-
 .titre_equipe span {
     position: relative;
     top: 69px;
@@ -695,12 +687,10 @@ footer {
     margin: 5px 0 0 10px;
     color: white;
 }
-
 .piece img {
     width: 25px;
     height: 25px;
 }
-
 .piece {
     position: absolute;
     right: 45px;
@@ -713,7 +703,6 @@ footer {
     width: 150px;
     height: 190px;
 }
-
 .membre {
     position: relative;
     margin-top: 20px;
@@ -726,15 +715,9 @@ footer {
     top: -90px;
     z-index: 1;
 }
+.colone1 {  margin-left: 20px;  }
 
-.colone1 {
-    margin-left: 20px;
-}
-
-.membre-carre img {
-    width: 110px;
-}
-
+.membre-carre img {  width: 110px;  }
 .membre-carre p {
     text-align: center;
     position: relative;
@@ -783,8 +766,12 @@ footer {
 
 /*-------- Titre ---------*/
 .bandeau img {  width: 100%;  }
-.bandeau > .ligne_jaune_depot{ margin-top: 130px; }
-.bandeau > .ligne_jaune_list-equipe{ margin-top: 90px; }
+.bandeau > .ligne_jaune_depot{
+    height: 15px;
+    margin-top: 130px; }
+.bandeau > .ligne_jaune_list-equipe{
+    height: 15px;
+    margin-top: 90px; }
 
 .bandeau-galerie {
     position: relative;
@@ -951,7 +938,10 @@ footer {
     padding-top: 0;
 }
 
-.ligne_jaune_depot {  margin-top: 130px;  }
+.ligne_jaune_depot {
+    margin-top: 130px;
+    height: 15px;
+}
 .fa-upload { padding-right: 0.75em;  }
 .titre_depot {
     position: relative;
@@ -981,10 +971,6 @@ footer {
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 30px;
-}
-
-body > div:nth-child(3) {
-    margin-top: 130px;
 }
 
 .affiche_equipe h1 {
