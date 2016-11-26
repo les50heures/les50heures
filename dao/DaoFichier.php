@@ -87,7 +87,21 @@ class DaoFichier extends Dao
 
     public function update()
     {
+        $sql = "UPDATE personne SET ID_TYPE = ?, ID_EQUIPE = ?, NOM_PERSONNE = ?,
+                NOM_FICHIER = ?, DESCRIPTION_FICHIER = ?, FICHIER = ?, VALIDATION_FICHIER = ?
+                WHERE ID_FICHIER = ?";
+        $requete = $this->pdo->prepare($sql);
 
+        $requete->bindValue(1, $this->bean->getLesTypes()->getId());
+        $requete->bindValue(2, $this->bean->getLesEquipes()->getId());
+        $requete->bindValue(3, $this->bean->getLesPersonnes());
+        $requete->bindValue(4, $this->bean->getNom());
+        $requete->bindValue(5, $this->bean->getDescription());
+        $requete->bindValue(6, $this->bean->getFichier());
+        $requete->bindValue(7, $this->bean->getValidation());
+        $requete->bindValue(8, $this->bean->getId());
+
+        $requete->execute();
     }
 
 

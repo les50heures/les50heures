@@ -70,8 +70,21 @@ class DaoType extends Dao
 
     public function update()
     {
+        $sql = "UPDATE personne SET ID_FICHIER = ?,
+                NOM_TYPE = ? WHERE ID_TYPE = ?";
+        $requete = $this->pdo->prepare($sql);
 
+        $requete->bindValue(1, $this->bean->getLesFichiers()->getId());
+        $requete->bindValue(2, $this->bean->getNomType()->getId());
+        $requete->bindValue(3, $this->bean->getId());
+
+        $requete->execute();
+
+        var_dump($requete);
+        die();
     }
+
+
 
 
     public function delete()

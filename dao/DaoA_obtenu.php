@@ -2,6 +2,7 @@
 
 require_once 'classes/class.A_obtenu.php';
 require_once 'classes/class.Defis.php';
+require_once'classes/class.Equipe.php';
 
 require_once 'Dao.php';
 
@@ -69,7 +70,15 @@ class DaoA_Obtenu extends Dao
 
     public function update()
     {
+        $sql = "UPDATE a_obtenu SET ID_DEFI = ?, ID_EQUIPE = ?, NOTE = ? WHERE NOTE = ?";
+        $requete = $this->pdo->prepare($sql);
 
+        $requete->bindValue(1, $this->bean->getLesEquipes()->getId());
+        $requete->bindValue(2, $this->bean->getLesDefis()->getId());
+        $requete->bindValue(3, $this->bean->getNote());
+        $requete->bindValue(4, $this->bean->getId());
+
+        $requete->execute();
     }
 
 
