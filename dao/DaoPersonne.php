@@ -79,7 +79,7 @@ class DaoPersonne extends Dao
     public function create()
     {
         $sql = "INSERT INTO personne(ID_COMMENTAIRE, ID_EQUIPE, NOM_PERSONNE, PRENOM_PERSONNE, PSEUDO_PERSONNE,
-                                mot_de_passe, PHOTO_PERSONNE, STATUT_PERSONNE, TAG_PERSONNE)
+                                MOT_DE_PASSE, PHOTO_PERSONNE, STATUT_PERSONNE, TAG_PERSONNE)
                                 VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?)";
         $requete = $this->pdo->prepare($sql);
 
