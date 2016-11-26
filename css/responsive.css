@@ -1,30 +1,52 @@
 /* -------------------------------------
 Responsive  - format iphone5
 ---------------------------------------------------- */
-@media only screen and (min-width : 320px) and (max-width : 420px) {
-    .hexagone img { left: 6%; }
-    .hexagone .fleche_index { left: 42%; }
+@media only screen and (min-width : 310px) and (max-width : 345px) {
+    body { width: 111%; }
+    .hexagone h1 {
+        margin-top: 150px;
+        width: 70%;
+        margin-left: 12.5%;
+        top: -140px;
+    }
+    .hexagone img {
+        width: 280px;
+        height: 325px;
+        top: -135px;
+        left: 10%;
 
-    #slider {
-        margin-left: 13%;
-        width: 155px;}
-    #navigation-slider > li:nth-child(2) > button > img {  left: 317px;  }
+    }
+    .hexagone .fleche_index {
+        top: 247px;
+        left: 40%;
+    }
 
     .tete_classement .haut_classement { width: 155px; }
 
-    #slider { margin-left: 27%; }
-    #navigation-slider > li:nth-child(2) > button > img { left: 277px;  }
+    #slider {
+        margin-left: 27%;
+        width: 155px;}
+    #navigation-slider > li:nth-child(2) > button > img {  left: 300px;  }
+
 }
 
 
-@media only screen and (min-width : 320px) and (max-width : 350px) {
-    .icone_accueil {  right: -8%;  }
 
-    .hexagone h1 { margin-left: 30%; }
-    .hexagone .fleche_index { left: 45%; }
+@media only screen and (min-width : 345px) and (max-width : 420px) {
+    body { width: 106%; }
+    .hexagone img {
+        width: 280px;
+        height: 325px;
+        top: -135px;
+        left: 16%;
+    }
+    .hexagone .fleche_index {
+        top: 247px;
+        left: 42%;
+    }
 
-
-
+    #slider {  margin-left: 12%;  }
+    #navigation-slider > li:nth-child(2) > button > img {  left: 340px;  }
 }
 
 
