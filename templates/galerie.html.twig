@@ -4,7 +4,7 @@
 
 <div id="header-galerie" class="bandeau bandeau-galerie">
     <h1 class="titre">Galerie</h1>
-    <span class="supperpose_titre">Galerie</span>
+    <span class="supperpose_titre span-galerie">Galerie</span>
     <img class="bandeau-ligne-bleu" src="css/images-interface/ligne_bleu.png" alt="ligne">
 </div>
 
@@ -14,10 +14,12 @@
     <p class="centre">2017</p>
 </div>
 
+<div class="button-modif2">
+    <button class="modif2" type="submit" name="ajout" data-style="shrink" data-horizontal>
+        Ajouter une photo/vidéo
+    </button>
+</div>
 
-<button class="modif2" type="submit" name="ajout" data-style="shrink" data-horizontal>
-    Ajouter une photo/vidéo
-</button>
 
 <div class="galerie">
     <img data-toggle="modal" data-target="#myModal" class="photo" src="css/images-interface/galerie/photo.png" alt="photo">
@@ -35,7 +37,6 @@
     <img data-toggle="modal" data-target="#myModal" class="photo" src="css/images-interface/galerie/photo.png" alt="photo">
     <img data-toggle="modal" data-target="#myModal" class="photo" src="css/images-interface/galerie/photo.png" alt="photo">
     <img data-toggle="modal" data-target="#myModal" class="photo" src="css/images-interface/galerie/photo.png" alt="photo">
-    <img data-toggle="modal" data-target="#myModal" class="photo" src="css/images-interface/galerie/video.png" alt="video">
 </div>
 
 {% endblock %}

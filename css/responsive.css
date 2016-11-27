@@ -170,6 +170,13 @@ Responsive  - format intermediaire (tablette/mobile)
     }
 
     /* galerie */
+    .bandeau-ligne-bleu { height: 15px; }
+    .supperpose_titre_galerie { left: 50%; }
+    .span-galerie { left: 47%; }
+    .photo {
+        width: 175px;
+        height: 175px;
+    }
 
 }
 
@@ -311,6 +318,16 @@ Responsive  - format tablette
         padding-right: 0;
         margin: 0 0 0 12%;
     }
+
+    /* galerie */
+    #header-galerie {  background-size: 50%;  }
+    .bandeau-ligne-bleu { height: 15px; }
+    .span-galerie { left: 48%; }
+    .photo {
+        width: 200px;
+        height: 200px;
+    }
+
 }
 
 /* ----------------------------------------------------
@@ -460,6 +477,17 @@ Responsive  - format intermediaire (tablette/ecran)
         padding-right: 0;
         margin: 0 0 0 12%;
     }
+
+    /* galerie */
+    #header-galerie {  background-size: 35%;  }
+    .bandeau-ligne-bleu { height: 15px; }
+    .span-galerie { left: 48%; }
+    .modif2 { margin-left: 0; }
+    .photo {
+        width: 225px;
+        height: 225px;
+    }
+
 }
 
 /* ----------------------------------------------------
@@ -627,6 +655,16 @@ Responsive  - format ecran
         left: 47%;
         top: 600px;
     }
+
+    /* galerie */
+    #header-galerie {  background-size: 25%;  }
+    .bandeau-ligne-bleu { height: 15px; }
+    .span-galerie { left: 49%; }
+    .modif2 { margin-left: 0; }
+    .photo {
+        width: 250px;
+        height: 250px;
+    }
 }
 
 /* ----------------------------------------------------
@@ -782,8 +820,18 @@ Responsive  - format +ecran
         left: 47%;
         top: 640px;
     }
-
     .affiche_equipe:nth-child(3) { margin-top: 170px; }
+
+    /* galerie */
+    #header-galerie {  background-size: 25%;  }
+    .bandeau-ligne-bleu { height: 15px; }
+    .span-galerie { left: 50%; }
+    .modif2 { margin-left: 0; }
+    .photo {
+        width: 250px;
+        height: 250px;
+    }
+
 }
 
 
