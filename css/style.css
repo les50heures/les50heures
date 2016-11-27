@@ -239,9 +239,11 @@ li ul li a {
 .flechenoir:hover, .file:hover{
     animation: shake 1s ease;
 }
-.avion:hover {
+.avion:hover , .navigation-slider-precedent:hover,
+.navigation-slider-suivant:hover {
     animation: none;
     background: none;
+    cursor: pointer;
 }
 
 button:hover, button:hover a,
