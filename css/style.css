@@ -791,8 +791,8 @@ piece h1 {
 .supperpose_titre {
     position: relative;
     z-index: 1;
-    top: -10px;
-    left: 30%;
+    top: 105px;
+    left: 40%;
 }
 
 .titre {
@@ -804,7 +804,7 @@ piece h1 {
 /*-------- Bouton ---------*/
 .progress {
     width: 100%;
-    margin-top: -100px;
+    margin-top: -70px;
 }
 
 .progress > .ligne {
@@ -831,7 +831,7 @@ piece h1 {
 .modif2 {
     width: 190px;
     position: relative;
-    left: 150px;
+    left: 36%;
     margin-bottom: 30px;
     background-color: #e69f1f;
     border: 0;
@@ -841,14 +841,18 @@ piece h1 {
 .galerie {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.galerie img {
+    margin: 10px;
 }
 
 .photo {
     width: 140px;
     height: 140px;
     position: relative;
-    top: -24px;
+    top: 20px;
 }
 
 /* -------------------- PAGE ENCHERE ---------------------  */
@@ -878,12 +882,15 @@ piece h1 {
     line-height: 2.5em;
 }
 
-.titre {  top: 10px;  }
+.titre {  top: 125px;  }
 .encheres .titre {  top: 85px;  }
 .encheres span {
-    left: 80px;
-    top: 15px;
-
+    top: 105px;
+    left: 40%;
+}
+.bandeau-ligne-bleu {
+    top: 135px;
+    position: relative;
 }
 
 /*contenu*/
