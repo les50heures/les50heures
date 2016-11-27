@@ -138,6 +138,36 @@ Responsive  - format intermediaire (tablette/mobile)
         margin-bottom: 10px;
     }
 
+    /*equipe*/
+    .bandeau .modif { left: 75%; }
+    .modif {  left: 32%;  }
+    .piece {  left: 80%;  }
+
+    .membre-carre {
+        width: 80px;
+        height: 200px;
+        margin-left: 70px;
+    }
+    .membre-carre img {  width: 110px;  }
+    .carre-fond {
+        left: 25px;
+        top: -80px;
+    }
+    .membre-carre p {  top: -90px; left: 25%; }
+    .jaune, .bleu {
+        position: relative;
+        margin-left: -19%;
+        width: 65%;
+        padding-left: 27%;
+        padding-right: 27%;
+    }
+
+    .formulaire .button-equipe {  width: 85%;  }
+    .titre_equipe .formulaire {
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0 0 0 12%;
+    }
 }
 
 /* --------------------------
@@ -251,7 +281,33 @@ Responsive  - format tablette
         margin-bottom: 15px;
     }
 
+    /*equipe*/
+    .bandeau .modif { left: 82%; }
+    .modif {  left: 37%;  }
+    .piece {  left: 82%; width: 15%; }
 
+    .membre-carre {
+        width: 100px;
+        height: 220px;
+        margin-left: 70px;
+    }
+    .membre-carre img {  width: 120px;  }
+    .carre-fond {
+        left: 25px;
+        top: -100px;
+    }
+    .membre-carre p {  top: -100px; left: 25%; }
+    .jaune, .bleu {
+        position: relative;
+        margin-left: -12.5%;
+    }
+
+    .formulaire .button-equipe {  width: 50%; margin-left: 33%; }
+    .titre_equipe .formulaire {
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0 0 0 12%;
+    }
 }
 
 /* ----------------------------------------------------
@@ -373,8 +429,35 @@ Responsive  - format intermediaire (tablette/ecran)
         margin-bottom: 20px;
         margin-left: 3%;
     }
-}
 
+    /*equipe*/
+    .bandeau .modif { left: 40%; }
+    .modif {  left: 16%;  }
+    .piece {  left: 85%; width: 15%; }
+
+    .membre-carre {
+        width: 180px;
+        height: 240px;
+        margin-left: 70px;
+    }
+    .membre-carre img {  width: 140px;  }
+    .carre-fond {
+        left: 35px;
+        top: -115px;
+    }
+    .membre-carre p {  top: -110px;  }
+    .jaune, .bleu {
+        position: relative;
+        margin-left: -6%;
+    }
+
+    .formulaire .button-equipe {  width: 40%; left: -10%; }
+    .titre_equipe .formulaire {
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0 0 0 12%;
+    }
+}
 
 /* ----------------------------------------------------
 Responsive  - format ecran
@@ -496,6 +579,51 @@ Responsive  - format ecran
         margin-bottom: 25px;
         margin-left: 3%;
     }
+
+    /*equipe*/
+    .bandeau .modif { left: 43%; }
+    .modif {  left: 16%;  }
+    .piece {  left: 85%; width: 15%; }
+
+    .membre-carre {
+        width: 225px;
+        height: 270px;
+        margin-left: 70px;
+    }
+    .membre-carre img {  width: 160px;  }
+    .carre-fond {
+        left: 45px;
+        top: -125px;
+    }
+    .membre-carre p {  top: -120px;  }
+    .jaune, .bleu {
+        position: relative;
+        margin-left: -3%;
+    }
+
+    .formulaire .button-equipe {  width: 39%; }
+    .titre_equipe .formulaire {
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0 0 0 12%;
+    }
+
+    .titre-pc {
+        position: absolute;
+        color: #15232A;
+        font-size: 4em;
+        padding: 15px;
+        padding-top: 30px;
+        top: 89px;
+        left: 2%;
+        background-color: white;
+        display: block;
+    }
+    .bandeau .flechenoir {
+        display: block;
+        left: 47%;
+        top: 600px;
+    }
 }
 
 /* ----------------------------------------------------
@@ -505,31 +633,30 @@ Responsive  - format +ecran
 @media only screen and (min-width : 1500px) and (max-width : 2000px) {
     #logo h3 {  left: 110px;  }
     header #menu-deroulant {  width: 30%;  }
-
-    .icone_accueil.active .menu { right: 5.5%; }
-    .icone_accueil.active .tchat { right: 8%; }
-
+    .icone_accueil.active .menu {  right: 5.5%;  }
+    .icone_accueil.active .tchat {  right: 8%;  }
     #menu-deroulant .pseudo_li img {
         width: 40px;
         height: 40px;
         margin-top: 15px;
         margin-right: 18%;
     }
-    .progress .point { right: 41.3%; }
 
+    .progress .point {  right: 41.3%;  }
     .formulaire > form input, button {  width: 90%;  }
     button {
         width: 50%;
         margin-left: 43%;
     }
     select {  width: 93%;  }
+
     .formulaire .lien_form {
         display: flex;
         justify-content: center;
     }
     .file {  right: 17.65%;  }
-
     .display_none_lg {  display: none;  }
+
     .partenaires .iut_small_size {
         width: 130px;
         display: block;
@@ -541,18 +668,18 @@ Responsive  - format +ecran
         left: 40%;
         top: 221px;
     }
-    .avancement h1 { margin-top: 390px; }
+    .avancement h1 {  margin-top: 390px;  }
+    #slider {  width: 1275px;  }
 
-    #slider { width: 1275px;  }
     iframe {
         width: 100%;
         height: 650px;
     }
 
-    .choix img { margin-left: 40%; }
-    .commencer .joueurs img { margin-left: 36%; }
-    .commencer .voyeurs img { margin-left: 36%; }
-    .commencer { display: flex; }
+    .choix img {  margin-left: 40%;  }
+    .commencer .joueurs img {  margin-left: 36%;  }
+    .commencer .voyeurs img {  margin-left: 36%;  }
+    .commencer {  display: flex;  }
     .commencer a {
         width: 60%;
         left: 17%;
@@ -566,7 +693,7 @@ Responsive  - format +ecran
         text-align: center;
         margin-left: 0;
     }
-    .commencer .voyeurs{
+    .commencer .voyeurs {
         width: 50%;
         margin-top: 80px;
         margin-right: 5%;
@@ -582,14 +709,13 @@ Responsive  - format +ecran
         margin-top: 80px;
         margin-left: 5%;
     }
-    .equipe_classement { width: 90%; }
+    .equipe_classement {  width: 90%;  }
 
     .fond_logo {
         width: 25%;
         margin-top: -300px;
         right: 200px;
     }
-
     .programme {
         padding-left: 20%;
         padding-right: 20%;
@@ -602,14 +728,58 @@ Responsive  - format +ecran
     }
 
     /*classement*/
-    .depot .supperpose_titre_depot { left: 47%; }
+    .depot .supperpose_titre_depot {  left: 47%;  }
     .equipe_classement {
         margin-bottom: 30px;
         margin-left: 3%;
     }
+
+    /*equipe*/
+    .bandeau .modif {  left: 43%;  }
+    .modif {
+        left: 16%;
+    }
+    .piece {
+        left: 85%;
+        width: 15%;
+    }
+
+    .membre-carre {
+        width: 300px;
+        height: 270px;
+    }
+    .membre-carre img {  width: 160px;  }
+    .carre-fond {
+        left: 45px;
+        top: -125px;
+    }
+    .membre-carre p {  top: -120px;  }
+    .jaune, .bleu {  padding-left: 5%;  }
+
+    .formulaire .button-equipe {  width: 39%; }
+    .titre_equipe .formulaire {
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0 0 0 12%;
+    }
+
+    .titre-pc {
+        position: absolute;
+        color: #15232A;
+        font-size: 4em;
+        padding: 15px;
+        padding-top: 30px;
+        top: 89px;
+        left: 2%;
+        background-color: white;
+        display: block;
+    }
+    .bandeau .flechenoir {
+        display: block;
+        left: 47%;
+        top: 640px;
+    }
 }
-
-
 
 
 /* intermédiaire - hexagone déplacement */

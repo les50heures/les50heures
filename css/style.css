@@ -226,16 +226,22 @@ li ul li a {
 }
 
 /*Fleche*/
-.hexagone .fleche_index {
+.hexagone .fleche_index, .bandeau .flechenoir {
     position: absolute;
     width: 70px;
     height: 30px;
     top: 300px;
     left: 46%;
 }
+.flechenoir{ display: none; }
 
-.fleche_index:hover {
+.fleche_index:hover, button:hover,
+.flechenoir:hover {
     animation: shake 1s ease;
+}
+button:hover, button:hover a {
+    background-color: #0b4751;
+    color: white;
 }
 
 @keyframes shake {
@@ -392,6 +398,7 @@ iframe {
 .button_inscription:hover {
     animation: shake 1s ease;
     background-color: #e38d13;
+    color: black;
 }
 
 .ligne-separation {
@@ -647,7 +654,7 @@ footer {
 
 .bandeau .modif {
     position: relative;
-    top: 17px;
+    top: 28px;
     left: 62%;
     margin-top: 0;
 }
@@ -666,6 +673,7 @@ footer {
 }
 
 /* les titres */
+.titre-pc { display: none;  }
 .titre_equipe {  text-align: center;  }
 .titre_equipe_2 {  position: relative;  }
 .titre_equipe input {
@@ -683,6 +691,9 @@ footer {
 }
 
 /* la piece */
+piece h1 {
+     margin-top: 20px;
+     margin-bottom: 20px; }
 .piece p {
     margin: 5px 0 0 10px;
     color: white;
@@ -692,9 +703,10 @@ footer {
     height: 25px;
 }
 .piece {
-    position: absolute;
-    right: 45px;
-    top: 653px;
+    position: relative;
+    left: 67%;
+    top: -45px;
+    width: 20%;
     display: flex;
 }
 
@@ -728,8 +740,9 @@ footer {
     background-color: #e69f1f;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .bleu {
@@ -743,10 +756,6 @@ footer {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-}
-
-.page-modif .piece {
-    top: 660px;
 }
 
 .fond_none {
