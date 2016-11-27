@@ -779,6 +779,8 @@ Responsive  - format +ecran
         left: 47%;
         top: 640px;
     }
+
+    .affiche_equipe:nth-child(3) { margin-top: 170px; }
 }
 
 
@@ -909,4 +911,10 @@ Responsive  - format +ecran
 
     #slider { margin-left: 8%; }
     #navigation-slider > li:nth-child(2) > button > img {  left: 1435px;  }
+}
+
+/* titre liste ééquipe */
+@media only screen and (min-width : 395px) and (max-width : 2000px) {
+    .encheres .titre {  top: 105px;  }
+    .encheres #equipe-span {  top: 77px;  }
 }
