@@ -56,7 +56,6 @@ Responsive  - format iphone5
 }
 
 
-
 /* -------------------------------------
 Responsive  - format intermediaire (tablette/mobile)
 ---------------------------------------------------- */
@@ -177,6 +176,8 @@ Responsive  - format intermediaire (tablette/mobile)
         width: 175px;
         height: 175px;
     }
+
+
 
 }
 
@@ -327,6 +328,8 @@ Responsive  - format tablette
         width: 200px;
         height: 200px;
     }
+
+
 
 }
 
@@ -488,6 +491,32 @@ Responsive  - format intermediaire (tablette/ecran)
         height: 225px;
     }
 
+    /* modal */
+    .modal .affichage_photo {
+        width: 36%;
+        margin-left: 6%;
+    }
+    .modal .modal-com {
+        margin-left: 40%;
+        position: absolute;
+        top: 80px;
+    }
+    .modal .affichage_photo {
+        width: 36%;
+        margin-left: 6%;
+        margin-bottom: 170px;
+    }
+    .avion img {
+        position: absolute;
+        bottom: 29px;
+        left: 77%;
+    }
+    .avion:hover {
+        background: none;
+        margin: 0;
+        margin-top: -20px;
+        margin-left: 30px;
+    }
 }
 
 /* ----------------------------------------------------
@@ -665,6 +694,33 @@ Responsive  - format ecran
         width: 250px;
         height: 250px;
     }
+
+    /* modal */
+    .modal .affichage_photo {
+        width: 36%;
+        margin-left: 6%;
+    }
+    .modal .modal-com {
+        margin-left: 40%;
+        position: absolute;
+        top: 90px;
+    }
+    .modal .affichage_photo {
+        width: 36%;
+        margin-left: 6%;
+        margin-bottom: 55px;
+    }
+    .avion img {
+        position: absolute;
+        bottom: 29px;
+        left: 77%;
+    }
+    .avion:hover {
+        background: none;
+        margin: 0;
+        margin-top: -20px;
+        margin-left: 30px;
+    }
 }
 
 /* ----------------------------------------------------
@@ -830,6 +886,28 @@ Responsive  - format +ecran
     .photo {
         width: 250px;
         height: 250px;
+    }
+
+    /* modal */
+    .modal .affichage_photo {
+        width: 36%;
+        margin-left: 6%;
+    }
+    .modal .modal-com {
+        margin-left: 40%;
+        position: absolute;
+        top: 110px;
+    }
+    .avion img {
+        position: absolute;
+        bottom: 29px;
+        left: 77%;
+    }
+    .avion:hover {
+        background: none;
+        margin: 0;
+        margin-top: -20px;
+        margin-left: 30px;
     }
 
 }

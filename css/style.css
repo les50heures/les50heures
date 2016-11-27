@@ -239,6 +239,10 @@ li ul li a {
 .flechenoir:hover {
     animation: shake 1s ease;
 }
+.avion:hover {
+    animation: none;
+    background: none;
+}
 button:hover, button:hover a {
     background-color: #0b4751;
     color: white;
@@ -1171,7 +1175,6 @@ svg {
 .equipe_classement > .haut_classement { border: 2px solid #e69f1f; }
 
 /* -------------------- AFFICHAGE DEFIS ---------------------  */
-.modal-dialog { width: 100%; }
 .modal .machine {
     position: relative;
     bottom: 90px;
@@ -1264,7 +1267,7 @@ svg {
 .avion img {
     position: absolute;
     bottom: 61px;
-    left: 73%;
+    left: 77%;
 }
 
 /* -------------------- Modal ---------------------  */
