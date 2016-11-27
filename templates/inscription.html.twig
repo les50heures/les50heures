@@ -2,27 +2,29 @@
 {% block title %}Les 50 Heures | Inscription{% endblock %}
 {% block contenu %}
 
-    <div class="cadre">
-        <div class="formulaire">
-            <h2>Inscription</h2>
+    <div class="image-fond">
+        <div class="cadre">
+            <div class="formulaire">
+                <h2>Inscription</h2>
 
-            <form method="post"  action="index.php?page=inscription">
-                <input type="text" name="PSEUDO_PERSONNE" placeholder="Pseudo*" required><br>
-                <input type="password" name="MDP" placeholder="Mot de passe*" required><br>
-                <label class="file">
-                    Téléchargement
-                    <input type="file" id="upload" class="upload" data-value="uploaded2">
-                </label>
-                <label for="upload">
-                    <input id="uploaded2" name="PHOTO_PERSONNE" placeholder="Photo" disabled>
-                </label>
-                <select name="NOM_EQUIPE" title="nom_equipe" required>
-                    <optgroup label="Nom d'équipe*">
-                        <option value="">Nom d'équipe*</option>
-                    </optgroup>
-                </select>
-                <button type="submit" name="valider" data-style="shrink" data-horizontal>Valider</button>
-            </form>
+                <form method="post" action="index.php?page=inscription">
+                    <input type="text" name="PSEUDO_PERSONNE" placeholder="Pseudo*" required><br>
+                    <input type="password" name="MDP" placeholder="Mot de passe*" required><br>
+                    <label class="file">
+                        Téléchargement
+                        <input type="file" id="upload" class="upload" data-value="uploaded2">
+                    </label>
+                    <label for="upload">
+                        <input id="uploaded2" name="PHOTO_PERSONNE" placeholder="Photo" disabled>
+                    </label>
+                    <select name="NOM_EQUIPE" title="nom_equipe" required>
+                        <optgroup label="Nom d'équipe*">
+                            <option value="">Nom d'équipe*</option>
+                        </optgroup>
+                    </select>
+                    <button type="submit" name="valider" data-style="shrink" data-horizontal>Valider</button>
+                </form>
+            </div>
         </div>
     </div>
 
@@ -55,8 +57,8 @@
 
         var file_inputs = document.querySelectorAll('[type=file]');
         forEach(file_inputs, function (index, value) {
-            if (value.dataset.value){
-                value.addEventListener('change', function() {
+            if (value.dataset.value) {
+                value.addEventListener('change', function () {
                     var files = new Array();
                     for (var x = 0; x < this.files.length; x++) {
                         files.push(this.files[x].name);

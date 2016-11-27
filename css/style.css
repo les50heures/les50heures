@@ -236,14 +236,16 @@ li ul li a {
 .flechenoir{ display: none; }
 
 .fleche_index:hover, button:hover,
-.flechenoir:hover {
+.flechenoir:hover, .file:hover{
     animation: shake 1s ease;
 }
 .avion:hover {
     animation: none;
     background: none;
 }
-button:hover, button:hover a {
+
+button:hover, button:hover a,
+.file:hover{
     background-color: #0b4751;
     color: white;
 }
@@ -963,6 +965,7 @@ piece h1 {
 #black {
     padding-bottom: 0;
     padding-top: 0;
+    margin-top: 140px;
 }
 
 .ligne_jaune_depot {
