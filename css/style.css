@@ -495,7 +495,7 @@ iframe {
 }
 
 .dernier {
-    margin-bottom: 0;
+    margin-bottom: 20px;
 }
 
 .formulaire > form input, button {
@@ -781,7 +781,7 @@ piece h1 {
 .bandeau img {  width: 100%;  }
 .bandeau > .ligne_jaune_depot{
     height: 15px;
-    margin-top: 130px; }
+    margin-top: 125px; }
 .bandeau > .ligne_jaune_list-equipe{
     height: 15px;
     margin-top: 90px; }
@@ -810,6 +810,10 @@ piece h1 {
     width: 100%;
     margin-top: -70px;
 }
+.progress2 {
+    width: 100%;
+    margin-top: 155px;
+}
 
 .progress > .ligne {
     width: 80%;
@@ -824,12 +828,11 @@ piece h1 {
 }
 
 .progress-button {
+    width: 190px;
+    position: relative;
+    margin-bottom: 30px;
     background-color: #e69f1f;
     border: 0;
-    width: 80%;
-    margin-left: 10%;
-    margin-bottom: 30px;
-    margin-top: 20px;
 }
 
 .button-modif2 {
@@ -893,7 +896,7 @@ piece h1 {
 .titre {  top: 125px;  }
 .encheres .titre {  top: 85px;  }
 .encheres span {
-    top: 105px;
+    top: 16px;
     left: 40%;
 }
 .bandeau-ligne-bleu {
@@ -1096,9 +1099,11 @@ svg {
     top: -100px;
 }
 
-.bandeau-projet .titre {  top: -5px  }
-
-.bandeau-projet .supperpose_titre {  top: -25px;  }
+.bandeau-projet .titre { top: 110px; }
+.bandeau-projet .supperpose_titre {
+    top: 90px;
+    left: 35%;
+}
 
 /* en tete */
 .en_tete h2 {
