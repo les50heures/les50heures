@@ -3,6 +3,8 @@ require_once('dao/DaoPersonne.php');
 require_once('dao/DaoCommente.php');
 require_once('dao/DaoEquipe.php');
 
+require_once('dao/Dao.php');
+
 
 $daoPersonne = new DaoPersonne();
 $daoCommente = new DaoCommente();
@@ -24,6 +26,8 @@ if (isset($_POST["valider"])) {
 
         $daoPersonne->create();
 
+        var_dump($daoPersonne);
+        die();
 
         $daoEquipe->find($_POST["NOM_EQUIPE"]);
         $daoPersonne->bean->setLesEquipes($daoEquipe->bean);

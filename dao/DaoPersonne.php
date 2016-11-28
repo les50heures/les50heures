@@ -166,8 +166,8 @@ class DaoPersonne extends Dao
 
     public function checkExisting()
     {
-        $requete = $this->pdo->prepare("SELECT PSEUDO FROM personne WHERE PSEUDO = ?");
-        $requete->bindValue(1, $_POST["pseudo"]);
+        $requete = $this->pdo->prepare("SELECT PSEUDO_PERSONNE FROM personne WHERE PSEUDO_PERSONNE = ?");
+        $requete->bindValue(1, $_POST["PSEUDO_PERSONNE"]);
         $requete->execute();
 
         if ($requete->rowCount() > 0) {
