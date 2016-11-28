@@ -125,7 +125,7 @@ class DaoFichier extends Dao
                     $donnees['NOM_PERSONNE'],
                     $donnees['PRENOM_PERSONNE'],
                     $donnees['PSEUDO_PERSONNE'],
-                    $donnees['MOT_DE_PASSE'],
+                    $donnees['MDP'],
                     $donnees['PHOTO_PERSONNE'],
                     $donnees['STATUT_PERSONNE'],
                     $donnees['TAG_PERSONNE']
