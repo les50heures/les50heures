@@ -74,25 +74,10 @@ Responsive  - format intermediaire (tablette/mobile)
         margin-right: 11%;
     }
 
-    .formulaire > form input, button {  width: 90%;  }
-    .formulaire button {  width: 94%;  }
-    select {  width: 94%;  }
-    .formulaire .lien_form {
-        display: flex;
-        justify-content: center;
-    }
-    .file { right: 16.5%;  }
-
     .progress .point { right: 43%; }
     .bandeau .supperpose_titre { left: 40%;  }
     .affiche_equipe img { margin-top: 50px; }
 
-    #categorie { width: 96%; }
-    .depot_desc {
-        width: 90.5%;
-        margin-left: 3px;
-    }
-    .depot_file { right: 12.20%; }
 
     /* accueil */
     .hexagone h1 {
@@ -178,6 +163,23 @@ Responsive  - format intermediaire (tablette/mobile)
     }
 
     /* projet */
+    .formulaire > form input, button {  width: 90%;  }
+    .formulaire button {  width: 95%;  }
+    select {  width: 94%;  }
+    .formulaire .lien_form {
+        display: flex;
+        justify-content: center;
+    }
+    .file { right: 11.5%;  }
+    #uploaded2 { width: 90%; }
+
+    #categorie { width: 94.5%; }
+    .depot_desc {
+        width: 90.5%;
+        margin-left: 3px;
+    }
+    .depot_file { right: 12.20%; }
+
 
 
 
@@ -202,26 +204,9 @@ Responsive  - format tablette
         margin-right: 15%;
     }
 
-    .formulaire > form input, button {  width: 90%;  }
-    .formulaire button {  width: 94%;  }
-    select {  width: 94%;  }
-    .formulaire .lien_form {
-        display: flex;
-        justify-content: center;
-    }
-    .file { right: 17%;  }
-
     .progress .point { right: 42%; }
     .bandeau .supperpose_titre { left: 45%;  }
     .affiche_equipe img { margin-top: 60px; }
-
-    .supperpose_titre_depot { left: 50%; }
-    #categorie { width: 94%; }
-    .depot_desc {
-        width: 90.5%;
-        margin-left: 3px;
-    }
-    .depot_file { right: 12.5%; }
 
     /* accueil*/
     .hexagone h1 {
@@ -288,9 +273,7 @@ Responsive  - format tablette
 
     /*classement*/
     .depot .supperpose_titre_depot { left: 45%; }
-    .equipe_classement {
-        margin-bottom: 15px;
-    }
+    .equipe_classement {  margin-bottom: 15px;  }
 
     /*equipe*/
     .bandeau .modif { left: 82%; }
@@ -329,6 +312,23 @@ Responsive  - format tablette
         height: 200px;
     }
 
+    /*projet*/
+    .supperpose_titre_depot { left: 50%; }
+    #categorie { width: 93%; }
+    .depot_desc {
+        width: 90.5%;
+        margin-left: 3px;
+    }
+    .depot_file { right: 12.5%; }
+
+    .formulaire > form input, button {  width: 90%;  }
+    .formulaire button {  width: 93%;  }
+    select {  width: 94%;  }
+    .formulaire .lien_form {
+        display: flex;
+        justify-content: center;
+    }
+    .file { right: 12.85%;  }
 }
 
 /* ----------------------------------------------------
@@ -349,18 +349,6 @@ Responsive  - format intermediaire (tablette/ecran)
         margin-right: 17%;
     }
 
-    .formulaire > form input, button {  width: 90%;  }
-    button {
-        width: 50%;
-        margin-left: 43%;
-    }
-    select {  width: 93%;  }
-    .formulaire .lien_form {
-        display: flex;
-        justify-content: center;
-    }
-    .file {  right: 17.65%;  }
-
     .display_none_lg {  display: none;  }
     .partenaires .iut_small_size {
         width: 130px;
@@ -371,14 +359,6 @@ Responsive  - format intermediaire (tablette/ecran)
     .progress .point { right: 41.8%; }
     .bandeau .supperpose_titre { left: 47%;  }
     .affiche_equipe img { margin-top: 70px; }
-
-    .supperpose_titre_depot { left: 50%; }
-    #categorie { width: 92%; }
-    .depot_desc {
-        width: 90%;
-        margin-left: 5px;
-    }
-    .depot_file { right: 13%; }
 
     /* accueil*/
     .hexagone h1 {
@@ -515,6 +495,28 @@ Responsive  - format intermediaire (tablette/ecran)
         margin-top: -20px;
         margin-left: 30px;
     }
+
+    /*projet*/
+    .supperpose_titre_depot { left: 50%; }
+    #categorie { width: 92%; }
+    .depot_desc {
+        width: 90%;
+        margin-left: 5px;
+    }
+    .depot_file { right: 12.85%; }
+
+    .formulaire > form input, button {  width: 90%;  }
+    button {
+        width: 45%;
+        margin-left: 48%;
+    }
+    select {  width: 93%;  }
+    .formulaire .lien_form {
+        display: flex;
+        justify-content: center;
+    }
+
+
 }
 
 /* ----------------------------------------------------
@@ -535,18 +537,6 @@ Responsive  - format ecran
         margin-right: 19%;
     }
 
-    .formulaire > form input, button {  width: 90%;  }
-    button {
-        width: 50%;
-        margin-left: 43%;
-    }
-    select {  width: 93%;  }
-    .formulaire .lien_form {
-        display: flex;
-        justify-content: center;
-    }
-    .file {  right: 17.65%;  }
-
     .display_none_lg {  display: none;  }
     .partenaires .iut_small_size {
         width: 130px;
@@ -557,14 +547,6 @@ Responsive  - format ecran
     .progress .point { right: 41.5%; }
     .bandeau .supperpose_titre { left: 47%;  }
     .affiche_equipe img { margin-top: 80px; }
-
-    .supperpose_titre_depot { left: 50%; }
-    #categorie { width: 92%; }
-    .depot_desc {
-        width: 90%;
-        margin-left: 5px;
-    }
-    .depot_file { right: 13.2%; }
 
     /* accueil*/
     .hexagone h1 {
@@ -632,7 +614,7 @@ Responsive  - format ecran
     }
 
     /*classement*/
-    .depot .supperpose_titre_depot { left: 46%; }
+    .depot .supperpose_titre_depot { left: 48%; }
     .equipe_classement {
         margin-bottom: 25px;
         margin-left: 3%;
@@ -719,6 +701,26 @@ Responsive  - format ecran
         margin-top: -20px;
         margin-left: 30px;
     }
+
+    /*projet*/
+    #categorie { width: 92%; }
+    .depot_desc {
+        width: 90%;
+        margin-left: 5px;
+    }
+    .depot_file { right: 13.2%; }
+
+    .formulaire > form input, button {  width: 90%;  }
+    button {
+        width: 40%;
+        margin-left: 53%;
+    }
+    select {  width: 93%;  }
+    .formulaire .lien_form {
+        display: flex;
+        justify-content: center;
+    }
+
 }
 
 /* ----------------------------------------------------
@@ -737,22 +739,8 @@ Responsive  - format +ecran
         margin-right: 18%;
     }
 
-    .progress .point {  right: 41.3%;  }
-    .formulaire > form input, button {  width: 90%;  }
-    button {
-        width: 50%;
-        margin-left: 43%;
-    }
-    select {  width: 93%;  }
 
-    .bandeau .supperpose_titre { left: 47%;  }
-    .formulaire .lien_form {
-        display: flex;
-        justify-content: center;
-    }
-    .file {  right: 17.65%;  }
     .display_none_lg {  display: none;  }
-
     .partenaires .iut_small_size {
         width: 130px;
         display: block;
@@ -824,7 +812,7 @@ Responsive  - format +ecran
     }
 
     /*classement*/
-    .depot .supperpose_titre_depot {  left: 47%;  }
+    .depot .supperpose_titre_depot {  left: 49%;  }
     .equipe_classement {
         margin-bottom: 30px;
         margin-left: 3%;
@@ -908,6 +896,27 @@ Responsive  - format +ecran
         margin-top: -20px;
         margin-left: 30px;
     }
+
+    /*projet*/
+    #categorie { width: 92%; }
+    .depot_desc {
+        width: 90.5%;
+        margin-left: 5px;
+    }
+    .depot_file { right: 13%; }
+
+    .progress .point {  right: 41.3%;  }
+    .formulaire > form input, button {  width: 90%;  }
+    button {
+        width: 35%;
+        margin-left: 57.5%;
+    }
+    select {  width: 93%;  }
+    .formulaire .lien_form {
+        display: flex;
+        justify-content: center;
+    }
+
 
 }
 
