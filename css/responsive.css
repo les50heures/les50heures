@@ -917,7 +917,8 @@ Responsive  - format +ecran
         justify-content: center;
     }
 
-
+    .bandeau-projet .supperpose_titre { left: 50%; }
+    .cadre { margin-top: 30px; }
 }
 
 
