@@ -364,10 +364,7 @@ iframe {
 }
 
 /*S'inscrire*/
-.commencer {
-    margin: 30px 10%;
-}
-
+.commencer { margin: 30px 10%;  }
 .commencer h1 {
     width: 80%;
     margin-left: 10%;
@@ -409,13 +406,8 @@ iframe {
     color: black;
 }
 
-.ligne-separation {
-    display: none
-}
-
-.commencer .info {
-    color: #e38d13;
-}
+.ligne-separation { display: none  }
+.commencer .info { color: #e38d13; }
 
 /*Classement*/
 .tete_classement {
@@ -887,6 +879,10 @@ piece h1 {
     position: absolute;
     top: 75px;
 }
+.ligne_bleu_enchere {
+    position: relative;
+    top: 80px;
+}
 
 /* titre */
 .encheres {
@@ -901,7 +897,7 @@ piece h1 {
 .encheres .titre {  top: 85px;  }
 .encheres span {
     top: 16px;
-    left: 40%;
+    left: 30%;
 }
 .bandeau-ligne-bleu {
     top: 145px;
@@ -910,7 +906,7 @@ piece h1 {
 
 /*contenu*/
 .intro {
-    margin-top: 40px;
+    margin-top: 150px;
 }
 
 .photo-ancien {
@@ -925,7 +921,7 @@ piece h1 {
 
 .photo-ancien .cadre_enchere {
     position: relative;
-    top: -263px;
+    top: -250px;
     width: 130%;
     left: -16%;
 }
@@ -940,7 +936,7 @@ piece h1 {
     position: relative;
     left: 170px;
     bottom: 20px;
-    width: 200px;
+    width: 180px;
 }
 
 @media only screen and (max-width: 321px) {
