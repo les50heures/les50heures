@@ -882,6 +882,7 @@ piece h1 {
 .ligne_bleu_enchere {
     position: relative;
     top: 80px;
+    height: 15px;
 }
 
 /* titre */
@@ -921,7 +922,7 @@ piece h1 {
 
 .photo-ancien .cadre_enchere {
     position: relative;
-    top: -260px;
+    top: -270px;
     width: 130%;
     left: -16%;
 }

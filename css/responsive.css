@@ -56,7 +56,7 @@ Responsive  - format iphone5
 }
 
 /* page enchere - placement element */
-@media only screen and (max-width: 321px) {
+@media only screen and (min-width : 310px) and (max-width: 321px) {
     .photo-ancien .cadre_enchere {  top: -229px;  }
     .photo-ancien {  height: 180px;  }
 
@@ -1063,6 +1063,5 @@ Responsive  - format +ecran
 
 /* titre liste equipe */
 @media only screen and (min-width : 395px) and (max-width : 2000px) {
-    .encheres .titre {  top: 105px;  }
     .encheres #equipe-span {  top: 77px;  }
 }
