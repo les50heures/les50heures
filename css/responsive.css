@@ -1,6 +1,6 @@
-/* -------------------------------------
+/* ---------------------------
 Responsive  - format iphone5
----------------------------------------------------- */
+------------------------------ */
 @media only screen and (min-width : 310px) and (max-width : 345px) {
     .hexagone h1 {
         margin-top: 150px;
@@ -55,10 +55,20 @@ Responsive  - format iphone5
 
 }
 
+/* page enchere - placement element */
+@media only screen and (max-width: 321px) {
+    .photo-ancien .cadre_enchere {  top: -229px;  }
+    .photo-ancien {  height: 180px;  }
 
-/* -------------------------------------
+    .description h3 {
+        left: 125px;
+        width: 170px;
+    }
+}
+
+/* ---------------------------
 Responsive  - format intermediaire (tablette/mobile)
----------------------------------------------------- */
+------------------------------ */
 
 @media only screen and (min-width : 479px) and (max-width : 717px) {
     #logo h3 { left: 100px; }
@@ -331,9 +341,9 @@ Responsive  - format tablette
     .file { right: 12.85%;  }
 }
 
-/* ----------------------------------------------------
+/* --------------------------
 Responsive  - format intermediaire (tablette/ecran)
----------------------------------------------------- */
+----------------------------- */
 
 @media only screen and (min-width : 1024px) and (max-width : 1300px) {
     #logo h3 { left: 110px; }
@@ -519,9 +529,9 @@ Responsive  - format intermediaire (tablette/ecran)
 
 }
 
-/* ----------------------------------------------------
+/* --------------------------
 Responsive  - format ecran
----------------------------------------------------- */
+----------------------------- */
 
 @media only screen and (min-width : 1300px) and (max-width : 1500px) {
     #logo h3 { left: 110px; }
@@ -723,9 +733,9 @@ Responsive  - format ecran
 
 }
 
-/* ----------------------------------------------------
+/* --------------------------
 Responsive  - format +ecran
----------------------------------------------------- */
+----------------------------- */
 
 @media only screen and (min-width : 1500px) and (max-width : 2000px) {
     #logo h3 {  left: 110px;  }
@@ -922,7 +932,7 @@ Responsive  - format +ecran
 }
 
 
-/* intermédiaire - hexagone déplacement */
+/* intermédiaire - hexagone déplacement - accueil */
 @media only screen and (min-width : 480px) and (max-width : 530px) {
     .hexagone img {
         width: 377px;
@@ -1051,7 +1061,7 @@ Responsive  - format +ecran
     #navigation-slider > li:nth-child(2) > button > img {  left: 1435px;  }
 }
 
-/* titre liste ééquipe */
+/* titre liste equipe */
 @media only screen and (min-width : 395px) and (max-width : 2000px) {
     .encheres .titre {  top: 105px;  }
     .encheres #equipe-span {  top: 77px;  }

@@ -921,7 +921,7 @@ piece h1 {
 
 .photo-ancien .cadre_enchere {
     position: relative;
-    top: -250px;
+    top: -260px;
     width: 130%;
     left: -16%;
 }
@@ -936,21 +936,8 @@ piece h1 {
     position: relative;
     left: 170px;
     bottom: 20px;
-    width: 180px;
-}
-
-@media only screen and (max-width: 321px) {
-    .photo-ancien .cadre_enchere {
-        top: -229px;
-    }
-
-    .photo-ancien {
-        height: 180px;
-    }
-
-    .description h3 {
-        left: 125px;
-    }
+    width: 160px;
+    text-align: right;
 }
 
 /* -------------------- PAGE DEPOT ---------------------  */
