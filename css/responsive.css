@@ -306,6 +306,7 @@ Responsive  - format tablette
         margin-left: -12.5%;
     }
 
+    textarea { margin-top: 7px; }
     .formulaire .button-equipe {  width: 50%; margin-left: 33%; }
     .titre_equipe .formulaire {
         padding-left: 0;
@@ -462,7 +463,8 @@ Responsive  - format intermediaire (tablette/ecran)
         margin-left: -6%;
     }
 
-    .formulaire .button-equipe {  width: 40%; left: -10%; }
+    textarea {  margin-top: 5px; }
+    .formulaire .button-equipe {  width: 35%; left: -10%; }
     .titre_equipe .formulaire {
         padding-left: 0;
         padding-right: 0;
@@ -555,7 +557,6 @@ Responsive  - format ecran
     }
 
     .progress .point { right: 41.5%; }
-    .bandeau .supperpose_titre { left: 47%;  }
     .affiche_equipe img { margin-top: 80px; }
 
     /* accueil*/
@@ -631,8 +632,8 @@ Responsive  - format ecran
     }
 
     /*equipe*/
-    .bandeau .modif { left: 43%; }
-    .modif {  left: 16%;  }
+    .bandeau .modif { left: 31%; }
+    .modif {  left: 11%;  }
     .piece {  left: 85%; width: 15%; }
 
     .membre-carre {
@@ -651,7 +652,8 @@ Responsive  - format ecran
         margin-left: -3%;
     }
 
-    .formulaire .button-equipe {  width: 39%; }
+    textarea { margin-top: 0; }
+    .formulaire .button-equipe {  width: 29%; }
     .titre_equipe .formulaire {
         padding-left: 0;
         padding-right: 0;
@@ -720,6 +722,8 @@ Responsive  - format ecran
     }
     .depot_file { right: 13.2%; }
 
+    .bandeau-projet .supperpose_titre { left: 47%; }
+
     .formulaire > form input, button {  width: 90%;  }
     button {
         width: 40%;
@@ -730,6 +734,39 @@ Responsive  - format ecran
         display: flex;
         justify-content: center;
     }
+
+    /*enchere*/
+    .encheres span {
+        top: 55px;
+        left: 40%;
+    }
+
+    .profil {  display: flex;  }
+    .photo-ancien {
+        width: 15%;
+        height: 220px;
+        margin: 70px 0 50px 10%;
+    }
+    .photo-ancien img { width: 250px; }
+    .photo-ancien .cadre_enchere {
+        top: -292px;
+        width: 320px;
+        left: -35px;
+    }
+
+    .profil .description { padding-top: 65px; }
+    .description h3 { left: 66%; }
+    .description .desc { width: 74%; }
+
+    .profil-paire .photo-ancien{
+        order: 2;
+        margin-left: -180px;
+    }
+    .profil-paire .description { margin-left: 2%; }
+    .profil-paire  .description h3 { left: 63%; }
+    .profil-paire .description .desc { width: 72%; }
+
+    .profil-fin { margin-bottom: 10px; }
 
 }
 
@@ -829,10 +866,8 @@ Responsive  - format +ecran
     }
 
     /*equipe*/
-    .bandeau .modif {  left: 43%;  }
-    .modif {
-        left: 16%;
-    }
+    .bandeau .modif {  left: 27%;  }
+    .modif {  left: 9%;  }
     .piece {
         left: 85%;
         width: 15%;
@@ -850,7 +885,8 @@ Responsive  - format +ecran
     .membre-carre p {  top: -120px;  }
     .jaune, .bleu {  padding-left: 5%;  }
 
-    .formulaire .button-equipe {  width: 39%; }
+    textarea { margin-top: 0;  }
+    .formulaire .button-equipe {  width: 25%; }
     .titre_equipe .formulaire {
         padding-left: 0;
         padding-right: 0;
@@ -927,8 +963,40 @@ Responsive  - format +ecran
         justify-content: center;
     }
 
-    .bandeau-projet .supperpose_titre { left: 50%; }
+    .bandeau-projet .supperpose_titre { left: 47%; }
     .cadre { margin-top: 30px; }
+
+    /*enchere*/
+    .encheres span {
+        top: 55px;
+        left: 40%;
+    }
+
+    .profil {
+        display: flex;
+    }
+    .photo-ancien {
+        width: 15%;
+        height: 220px;
+        margin: 70px 0 50px 11%;
+    }
+    .photo-ancien img { width: 250px; }
+    .photo-ancien .cadre_enchere {
+        top: -292px;
+        width: 320px;
+        left: -35px;
+    }
+
+    .profil .description { padding-top: 65px; }
+    .description h3 { left: 72%; }
+
+    .profil-paire .photo-ancien{
+        order: 2;
+        margin-left: -55px;
+    }
+    .profil-paire .description { margin-left: 4%; }
+
+    .profil-fin { margin-bottom: 10px; }
 }
 
 
@@ -1063,5 +1131,10 @@ Responsive  - format +ecran
 
 /* titre liste equipe */
 @media only screen and (min-width : 395px) and (max-width : 2000px) {
-    .encheres #equipe-span {  top: 77px;  }
+    .encheres #equipe-span {  top: 55px;  }
+}
+
+/* titre: description page equipe - modif equipe */
+@media only screen and (min-width : 475px) and (max-width : 2000px) {
+    #titre_desc {  margin-top: -25px;  }
 }

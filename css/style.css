@@ -675,19 +675,23 @@ footer {
 /* les titres */
 .titre-pc { display: none;  }
 .titre_equipe {  text-align: center;  }
-.titre_equipe_2 {  position: relative;  }
+.titre_equipe_2 {
+    position: relative;
+    z-index: 2;
+}
 .titre_equipe input {
     width: 70%;
     padding: 10px;
 }
 .titre_equipe h2 {
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 60px;
+    margin-bottom: -20px;
 }
 .titre_equipe span {
     position: relative;
     top: 69px;
     left: 25px;
+    z-index: 1;
 }
 
 /* la piece */
@@ -771,6 +775,7 @@ piece h1 {
     padding-bottom: 0;
     margin-bottom: 0;
     height: 210px;
+    margin-top: -23px;
 }
 
 /*-------- Titre ---------*/
@@ -922,7 +927,8 @@ piece h1 {
 
 .photo-ancien .cadre_enchere {
     position: relative;
-    top: -270px;
+    display: block;
+    top: -263px;
     width: 130%;
     left: -16%;
 }
@@ -968,8 +974,8 @@ piece h1 {
 .supperpose_titre_depot {
     position: absolute;
     left: 33%;
-    top: 38px;
-    z-index: 2;
+    top: 30px;
+    z-index: 1;
     color: #e69f1f;
 }
 
