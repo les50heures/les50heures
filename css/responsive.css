@@ -30,6 +30,19 @@ Responsive  - format iphone5
         left: -20px;
     }
     #navigation-slider > li:nth-child(2) > button > img {  left: 260px;  }
+
+    .photo-ancien {
+        width: 195px;
+        margin: 70px 20% 50px;
+        height: 220px;
+    }
+    .photo-ancien .cadre_enchere {
+        position: relative;
+        display: block;
+        top: -263px;
+        width: 130%;
+        left: -16%;
+    }
 }
 
 @media only screen and (min-width : 345px) and (max-width : 420px) {
@@ -52,7 +65,18 @@ Responsive  - format iphone5
     #navigation-slider li button img {left: 10px; }
     #navigation-slider > li:nth-child(2) > button > img { left: 326px;  }
 
-
+    .photo-ancien {
+        width: 195px;
+        margin: 70px 20% 50px;
+        height: 220px;
+    }
+    .photo-ancien .cadre_enchere {
+        position: relative;
+        display: block;
+        top: -227px;
+        width: 130%;
+        left: -16%;
+    }
 }
 
 /* page enchere - placement element */
@@ -190,7 +214,32 @@ Responsive  - format intermediaire (tablette/mobile)
     }
     .depot_file { right: 12.20%; }
 
+    /*enchere*/
+    .bandeau .encheres span {
+        top: 55px;
+        left: 25%;
+    }
 
+    .profil {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .photo-ancien {
+        width: 15%;
+        height: 220px;
+        margin: 70px 0 50px 27%;
+    }
+    .photo-ancien img { width: 250px; }
+    .photo-ancien .cadre_enchere {
+        top: -292px;
+        width: 320px;
+        left: -35px;
+    }
+
+
+    .description h3 { left: 58%; }
+    .profil-fin { margin-bottom: 10px; }
 
 
 }
@@ -340,6 +389,42 @@ Responsive  - format tablette
         justify-content: center;
     }
     .file { right: 12.85%;  }
+
+    /*enchere*/
+    .bandeau .encheres span {
+        top: 55px;
+        left: 35%;
+    }
+
+    .profil {  display: flex;  }
+    .photo-ancien {
+        width: 15%;
+        height: 220px;
+        margin: 70px 0 50px 11%;
+    }
+    .photo-ancien img { width: 250px; }
+    .photo-ancien .cadre_enchere {
+        top: -292px;
+        width: 320px;
+        left: -35px;
+    }
+
+    .profil .description {
+        padding-top: 65px;
+        margin-left: 165px;
+    }
+    .description h3 { left: 38%; }
+    .description .desc { width: 71%; }
+
+    .profil-paire .photo-ancien{
+        order: 2;
+        margin-right: 30%;
+    }
+    .profil-paire h3 { left: 47%; }
+    .profil-paire .description { margin-left: 6%; }
+    .profil-paire .description .desc { width: 100%; }
+
+    .profil-fin { margin-bottom: 20px; }
 }
 
 /* --------------------------
@@ -528,6 +613,41 @@ Responsive  - format intermediaire (tablette/ecran)
         justify-content: center;
     }
 
+    /*enchere*/
+    .bandeau .encheres span {
+        top: 55px;
+        left: 40%;
+    }
+
+    .profil {  display: flex;  }
+    .photo-ancien {
+        width: 15%;
+        height: 220px;
+        margin: 70px 0 50px 11%;
+    }
+    .photo-ancien img { width: 250px; }
+    .photo-ancien .cadre_enchere {
+        top: -292px;
+        width: 320px;
+        left: -35px;
+    }
+
+    .profil .description {
+        padding-top: 65px;
+        margin-left: 85px;
+    }
+    .description h3 { left: 58%; }
+    .description .desc { width: 71%; }
+
+    .profil-paire .photo-ancien{
+        order: 2;
+        margin-right: 22%;
+    }
+    .profil-paire h3 { left: 76%; }
+    .profil-paire .description { margin-left: 6%; }
+    .profil-paire .description .desc { width: 100%; }
+
+    .profil-fin { margin-bottom: 20px; }
 
 }
 
@@ -667,7 +787,7 @@ Responsive  - format ecran
         padding: 15px;
         padding-top: 30px;
         top: 89px;
-        left: 2%;
+        left: 5%;
         background-color: white;
         display: block;
     }
@@ -736,7 +856,7 @@ Responsive  - format ecran
     }
 
     /*enchere*/
-    .encheres span {
+    .bandeau .encheres span {
         top: 55px;
         left: 40%;
     }
@@ -745,7 +865,7 @@ Responsive  - format ecran
     .photo-ancien {
         width: 15%;
         height: 220px;
-        margin: 70px 0 50px 10%;
+        margin: 70px 0 50px 11%;
     }
     .photo-ancien img { width: 250px; }
     .photo-ancien .cadre_enchere {
@@ -754,17 +874,20 @@ Responsive  - format ecran
         left: -35px;
     }
 
-    .profil .description { padding-top: 65px; }
-    .description h3 { left: 66%; }
+    .profil .description {
+        padding-top: 65px;
+        margin-left: 25px;
+    }
+    .description h3 { left: 65%; }
     .description .desc { width: 74%; }
 
     .profil-paire .photo-ancien{
         order: 2;
-        margin-left: -180px;
+        margin-right: 17%;
     }
-    .profil-paire .description { margin-left: 2%; }
-    .profil-paire  .description h3 { left: 63%; }
-    .profil-paire .description .desc { width: 72%; }
+    .profil-paire h3 { left: 86%; }
+    .profil-paire .description { margin-left: 6%; }
+    .profil-paire .description .desc { width: 100%; }
 
     .profil-fin { margin-bottom: 10px; }
 
@@ -900,7 +1023,7 @@ Responsive  - format +ecran
         padding: 15px;
         padding-top: 30px;
         top: 89px;
-        left: 2%;
+        left: 5%;
         background-color: white;
         display: block;
     }
@@ -967,7 +1090,7 @@ Responsive  - format +ecran
     .cadre { margin-top: 30px; }
 
     /*enchere*/
-    .encheres span {
+    .bandeau .encheres span {
         top: 55px;
         left: 40%;
     }
@@ -992,9 +1115,11 @@ Responsive  - format +ecran
 
     .profil-paire .photo-ancien{
         order: 2;
-        margin-left: -55px;
+        margin-right: 15%;
     }
-    .profil-paire .description { margin-left: 4%; }
+    .profil-paire h3 { left: 87%; }
+    .profil-paire .description { margin-left: 6%; }
+    .profil-paire .description .desc { width: 100%; }
 
     .profil-fin { margin-bottom: 10px; }
 }
@@ -1138,3 +1263,4 @@ Responsive  - format +ecran
 @media only screen and (min-width : 475px) and (max-width : 2000px) {
     #titre_desc {  margin-top: -25px;  }
 }
+

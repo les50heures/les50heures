@@ -916,7 +916,7 @@ piece h1 {
 }
 
 .photo-ancien {
-    width: 60%;
+    width: 200px;
     margin: 70px 20% 50px;
     height: 220px;
 }
@@ -928,7 +928,7 @@ piece h1 {
 .photo-ancien .cadre_enchere {
     position: relative;
     display: block;
-    top: -263px;
+    top: -227px;
     width: 130%;
     left: -16%;
 }
