@@ -1005,6 +1005,7 @@ piece h1 {
 /* -------------------- DEFIS ---------------------  */
 
 /* titre */
+.defi-90degre { display: none; }
 .titre_equipe .defi-span {
     top: -44px;
     z-index: 1;

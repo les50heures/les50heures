@@ -1122,6 +1122,26 @@ Responsive  - format +ecran
     .profil-paire .description .desc { width: 100%; }
 
     .profil-fin { margin-bottom: 10px; }
+
+    /*defi*/
+    .defi { display: none; }
+    .defi-90degre {
+        display: block;
+        margin-left: 5%;
+        position: absolute;
+    }
+    svg {
+        width: 660px;
+        margin-left: 23%;
+        display: block;
+    }
+    .svg2 {
+        top: -315px;
+    }
+
+    .les_defis div { margin-top: 20px; }
+    .les_defis .div2 { margin-top: 135px; }
+    .msg_fin { margin-left: 95px; }
 }
 
 
