@@ -237,9 +237,40 @@ Responsive  - format intermediaire (tablette/mobile)
         left: -35px;
     }
 
-
     .description h3 { left: 58%; }
     .profil-fin { margin-bottom: 10px; }
+
+    /*defi*/
+    svg {
+        width: 557px;
+        margin-left: 0;
+        display: block;
+    }
+    .svg2 {
+        width: 549px;
+        top: -268px;
+        left: 0.5%;
+    }
+
+    .les_defis > div {
+        height: 260px;
+        overflow: hidden;
+        position: relative;
+        margin-bottom: 0;
+    }
+    .les_defis div {
+        position: relative;
+        z-index: 1;
+        margin-top: 20px;
+    }
+    .les_defis .div2 {
+        z-index: 2;
+        margin-top: -40px;
+    }
+    .les_defis .msg_fin {
+        margin-left: 10%;
+        height: 80px;
+    }
 
 
 }
@@ -425,6 +456,38 @@ Responsive  - format tablette
     .profil-paire .description .desc { width: 100%; }
 
     .profil-fin { margin-bottom: 20px; }
+
+    /*defi*/
+    svg {
+        width: 575px;
+        margin-left: 0;
+        display: block;
+    }
+    .svg2 {
+        width: 559px;
+        top: -277px;
+        left: 2%;
+    }
+
+    .les_defis > div {
+        height: 260px;
+        overflow: hidden;
+        position: relative;
+        margin-bottom: 0;
+    }
+    .les_defis div {
+        position: relative;
+        z-index: 1;
+        margin-top: 20px;
+    }
+    .les_defis .div2 {
+        z-index: 2;
+        margin-top: -40px;
+    }
+    .les_defis .msg_fin {
+        margin-left: 10%;
+        height: 80px;
+    }
 }
 
 /* --------------------------
@@ -649,6 +712,36 @@ Responsive  - format intermediaire (tablette/ecran)
 
     .profil-fin { margin-bottom: 20px; }
 
+    /*defi*/
+    svg {
+        width: 645px;
+        margin-left: 11%;
+        display: block;
+    }
+    .svg2 {
+        top: -315px;
+        left: 2%;
+    }
+
+    .les_defis > div {
+        height: 260px;
+        overflow: hidden;
+        position: relative;
+        margin-bottom: 0;
+    }
+    .les_defis div {
+        position: relative;
+        z-index: 1;
+        margin-top: 20px;
+    }
+    .les_defis .div2 {
+        z-index: 2;
+        margin-top: -40px;
+    }
+    .les_defis .msg_fin {
+        margin-left: 10%;
+        height: 80px;
+    }
 }
 
 /* --------------------------
@@ -891,6 +984,43 @@ Responsive  - format ecran
 
     .profil-fin { margin-bottom: 10px; }
 
+    /*defi*/
+    .les_defis { margin-left: 15%; }
+    .defi { display: none; }
+    .defi-90degre {
+        display: block;
+        margin-left: 5%;
+        position: absolute;
+    }
+    svg {
+        width: 645px;
+        margin-left: 19%;
+        display: block;
+    }
+    .svg2 {
+        top: -315px;
+        left: 2%;
+    }
+
+    .les_defis > div {
+        height: 260px;
+        overflow: hidden;
+        position: relative;
+        margin-bottom: 0;
+    }
+    .les_defis div {
+        position: relative;
+        z-index: 1;
+        margin-top: 20px;
+    }
+    .les_defis .div2 {
+        z-index: 2;
+        margin-top: -40px;
+    }
+    .les_defis .msg_fin {
+        margin-left: 10%;
+        height: 80px;
+    }
 }
 
 /* --------------------------
@@ -1137,7 +1267,7 @@ Responsive  - format +ecran
     }
     .svg2 {
         top: -315px;
-        left: 15px;
+        left: 2%;
     }
 
     .les_defis > div {
@@ -1156,7 +1286,7 @@ Responsive  - format +ecran
         margin-top: -40px;
     }
     .les_defis .msg_fin {
-        margin-left: 95px;
+        margin-left: 10%;
         height: 80px;
     }
 }
