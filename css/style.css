@@ -1057,13 +1057,16 @@ piece h1 {
     margin-left: 0;
 }
 
-.les_defis div { height: 110px; }
+.les_defis div {
+    height: 110px;
+    margin-top: -10px;
+}
 svg {
     position: relative;
     top: -71px;
 }
 
-.svg2{  top: -180px; }
+.svg2{  top: -170px; }
 .les_defis .msg_fin {  height: 65px; }
 
 @media only screen and (max-width: 320px) {
