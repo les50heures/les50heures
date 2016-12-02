@@ -1288,6 +1288,7 @@ Responsive  - format +ecran
     .les_defis .msg_fin {
         margin-left: 10%;
         height: 80px;
+        margin-bottom: 20px;
     }
 }
 
@@ -1431,3 +1432,575 @@ Responsive  - format +ecran
     #titre_desc {  margin-top: -25px;  }
 }
 
+/* page defi */
+@media only screen and (min-width : 380px) and (max-width : 400px) {
+    /*defi*/
+    .svg2 {  top: -180px; }
+}
+@media only screen and (min-width : 400px) and (max-width : 420px) {
+    /*defi*/
+    .svg2 {  top: -190px; }
+}
+@media only screen and (min-width : 420px) and (max-width : 440px) {
+    /*defi*/
+    .les_defis .div2 { margin-top: 45px; }
+    .svg2 {  top: -185px; }
+}
+@media only screen and (min-width : 440px) and (max-width : 460px) {
+    /*defi*/
+    .les_defis .div2 { margin-top: 50px; }
+    .svg2 {  top: -200px; }
+}
+@media only screen and (min-width : 460px) and (max-width : 480px) {
+    /*defi*/
+    .les_defis .div2 { margin-top: 55px; }
+    .svg2 {  top: -200px; }
+}
+
+@media only screen and (min-width : 479px) and (max-width : 500px) {
+    /*defi*/
+    svg {
+        width: 370px;
+        margin-left: 1%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 370px;
+        top: -215px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -110px; }
+}
+@media only screen and (min-width : 500px) and (max-width : 510px) {
+    /*defi*/
+    svg {
+        width: 380px;
+        margin-left: 1%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 380px;
+        top: -215px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -110px; }
+}
+@media only screen and (min-width : 510px) and (max-width : 520px) {
+    /*defi*/
+    svg {
+        width: 390px;
+        margin-left: 1%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 390px;
+        top: -220px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -110px; }
+}
+@media only screen and (min-width : 520px) and (max-width : 530px) {
+    /*defi*/
+    svg {
+        width: 400px;
+        margin-left: 1%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 400px;
+        top: -220px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -100px; }
+}
+@media only screen and (min-width : 530px) and (max-width : 540px) {
+    /*defi*/
+    svg {
+        width: 410px;
+        margin-left: 0;
+        top: -80px;
+    }
+    .svg2 {
+        width: 410px;
+        top: -225px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -100px; }
+}
+@media only screen and (min-width : 540px) and (max-width : 550px) {
+    /*defi*/
+    svg {
+        width: 420px;
+        margin-left: 0;
+        top: -80px;
+    }
+    .svg2 {
+        width: 420px;
+        top: -230px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -90px; }
+}
+@media only screen and (min-width : 550px) and (max-width : 560px) {
+    /*defi*/
+    svg {
+        width: 430px;
+        margin-left: 0;
+        top: -80px;
+    }
+    .svg2 {
+        width: 430px;
+        top: -235px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -90px; }
+}
+@media only screen and (min-width : 560px) and (max-width : 570px) {
+    /*defi*/
+    svg {
+        width: 430px;
+        margin-left: 1%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 430px;
+        top: -240px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -90px; }
+}
+@media only screen and (min-width : 570px) and (max-width : 580px) {
+    /*defi*/
+    svg {
+        width: 440px;
+        margin-left: 1%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 440px;
+        top: -240px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -90px; }
+}
+@media only screen and (min-width : 580px) and (max-width : 590px) {
+    /*defi*/
+    svg {
+        width: 450px;
+        margin-left: 1%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 450px;
+        top: -245px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -80px; }
+}
+@media only screen and (min-width : 590px) and (max-width : 600px) {
+    /*defi*/
+    svg {
+        width: 460px;
+        margin-left: 1%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 460px;
+        top: -245px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -80px; }
+}
+@media only screen and (min-width : 600px) and (max-width : 610px) {
+    /*defi*/
+    svg {
+        width: 460px;
+        margin-left: 2%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 460px;
+        top: -250px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -80px; }
+}
+@media only screen and (min-width : 610px) and (max-width : 630px) {
+    /*defi*/
+    svg {
+        width: 470px;
+        margin-left: 2%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 470px;
+        top: -255px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -80px; }
+}
+@media only screen and (min-width : 630px) and (max-width : 640px) {
+    /*defi*/
+    svg {
+        width: 480px;
+        margin-left: 2%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 480px;
+        top: -260px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -70px; }
+}
+@media only screen and (min-width : 640px) and (max-width : 650px) {
+    /*defi*/
+    svg {
+        width: 490px;
+        margin-left: 2%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 490px;
+        top: -260px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -70px; }
+}
+@media only screen and (min-width : 650px) and (max-width : 660px) {
+    /*defi*/
+    svg {
+        width: 490px;
+        margin-left: 2.5%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 490px;
+        top: -265px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -70px; }
+}
+@media only screen and (min-width : 660px) and (max-width : 670px) {
+    /*defi*/
+    svg {
+        width: 500px;
+        margin-left: 2.5%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 500px;
+        top: -270px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -70px; }
+}
+@media only screen and (min-width : 670px) and (max-width : 680px) {
+    /*defi*/
+    svg {
+        width: 510px;
+        margin-left: 2.5%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 510px;
+        top: -275px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -70px; }
+}
+@media only screen and (min-width : 680px) and (max-width : 690px) {
+    /*defi*/
+    svg {
+        width: 520px;
+        margin-left: 2.5%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 520px;
+        top: -275px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -70px; }
+}
+@media only screen and (min-width : 690px) and (max-width : 705px) {
+    /*defi*/
+    svg {
+        width: 530px;
+        margin-left: 2.5%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 530px;
+        top: -275px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -70px; }
+}
+
+@media only screen and (min-width : 740px) and (max-width : 745px) {
+    /*defi*/
+    svg {
+        width: 570px;
+        margin-left: 2.5%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 570px;
+        top: -290px;
+        left: -1%;
+    }
+}
+@media only screen and (min-width : 745px) and (max-width : 755px) {
+    /*defi*/
+    svg {
+        width: 570px;
+        margin-left: 3%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 570px;
+        top: -290px;
+        left: -1%;
+    }
+}
+@media only screen and (min-width : 755px) and (max-width : 765px) {
+    /*defi*/
+    svg {
+        width: 580px;
+        margin-left: 2.5%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 580px;
+        top: -290px;
+        left: -1%;
+    }
+}
+@media only screen and (min-width : 765px) and (max-width : 775px) {
+    /*defi*/
+    svg {
+        width: 600px;
+        margin-left: 2%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 600px;
+        top: -290px;
+        left: -0.5%;
+    }
+}
+@media only screen and (min-width : 775px) and (max-width : 785px) {
+    /*defi*/
+    svg {
+        width: 605px;
+        margin-left: 1%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 605px;
+        top: -290px;
+        left: -0.5%;
+    }
+}
+@media only screen and (min-width : 785px) and (max-width : 800px) {
+    /*defi*/
+    svg {
+        width: 610px;
+        margin-left: 2%;
+        top: -85px;
+    }
+    .svg2 {
+        width: 610px;
+        top: -300px;
+        left: -1%;
+    }
+}
+@media only screen and (min-width : 800px) and (max-width : 810px) {
+    /*defi*/
+    svg {
+        width: 620px;
+        margin-left: 2%;
+        top: -85px;
+    }
+    .svg2 {
+        width: 620px;
+        top: -310px;
+        left: -1%;
+    }
+}
+@media only screen and (min-width : 810px) and (max-width : 820px) {
+    /*defi*/
+    svg {
+        width: 630px;
+        margin-left: 1.5%;
+        top: -85px;
+    }
+    .svg2 {
+        width: 630px;
+        top: -310px;
+        left: -1%;
+    }
+}
+@media only screen and (min-width : 820px) and (max-width : 830px) {
+    /*defi*/
+    svg {
+        width: 630px;
+        margin-left: 1.5%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 630px;
+        top: -310px;
+        left: 0;
+    }
+}
+@media only screen and (min-width : 830px) and (max-width : 840px) {
+    /*defi*/
+    svg {
+        width: 630px;
+        margin-left: 1.5%;
+    }
+    .svg2 {
+        width: 630px;
+        top: -315px;
+        left: 1.5%;
+    }
+}
+@media only screen and (min-width : 840px) and (max-width : 855px) {
+    /*defi*/
+    svg {
+        width: 640px;
+        margin-left: 1.5%
+    }
+    .svg2 {
+        width: 640px;
+        top: -315px;
+        left: 1.5%;
+    }
+}
+@media only screen and (min-width : 855px) and (max-width : 870px) {
+    /*defi*/
+    svg {
+        width: 640px;
+        margin-left: 3%
+    }
+    .svg2 {
+        width: 640px;
+        top: -320px;
+        left: 1.5%;
+    }
+}
+@media only screen and (min-width : 870px) and (max-width : 910px) {
+    /*defi*/
+    svg {
+        width: 650px;
+        margin-left: 3%
+    }
+    .svg2 {
+        width: 650px;
+        top: -320px;
+        left: 1.5%;
+    }
+}
+@media only screen and (min-width : 910px) and (max-width : 940px) {
+    /*defi*/
+    svg {
+        width: 650px;
+        margin-left: 5.5%
+    }
+    .svg2 {
+        width: 650px;
+        top: -325px;
+        left: 1%;
+    }
+}
+@media only screen and (min-width : 940px) and (max-width : 970px) {
+    /*defi*/
+    svg {
+        width: 640px;
+        margin-left: 7%
+    }
+    .svg2 {
+        width: 650px;
+        top: -325px;
+        left: 1%;
+    }
+}
+@media only screen and (min-width : 970px) and (max-width : 1000px) {
+    /*defi*/
+    svg {
+        width: 640px;
+        margin-left: 8.5%
+    }
+    .svg2 {
+        width: 650px;
+        top: -325px;
+        left: 1%;
+    }
+}
+@media only screen and (min-width : 1000px) and (max-width : 1030px) {
+    /*defi*/
+    svg {
+        width: 640px;
+        margin-left: 10%
+    }
+    .svg2 {
+        width: 650px;
+        top: -325px;
+        left: 1%;
+    }
+}
+
+@media only screen and (min-width : 1090px) and (max-width : 1120px) {
+    /*defi*/
+    svg {  margin-left: 13%;  }
+    .svg2 {  left: 1%;  }
+}
+@media only screen and (min-width : 1120px) and (max-width : 1150px) {
+    /*defi*/
+    svg {  margin-left: 14%;  }
+    .svg2 {  left: 0.5%;  }
+}
+@media only screen and (min-width : 1150px) and (max-width : 1180px) {
+    /*defi*/
+    svg {  margin-left: 15%;  }
+    .svg2 {  left: 0.5%;  }
+}
+@media only screen and (min-width : 1180px) and (max-width : 1210px) {
+    /*defi*/
+    svg {  margin-left: 16%;  }
+    .svg2 {  left: 0.5%;  }
+}
+@media only screen and (min-width : 1210px) and (max-width : 1240px) {
+    /*defi*/
+    svg {  margin-left: 17%;  }
+    .svg2 {  left: 0.5%;  }
+}
+@media only screen and (min-width : 1240px) and (max-width : 1270px) {
+    /*defi*/
+    svg {  margin-left: 18%;  }
+    .svg2 {  left: 0;  }
+}
+@media only screen and (min-width : 1270px) and (max-width : 1300px) {
+    /*defi*/
+    svg {  margin-left: 19%;  }
+    .svg2 {  left: 0;  }
+}
+
+@media only screen and (min-width : 1360px) and (max-width : 1390px) {
+    /*defi*/
+    svg {  margin-left: 21%;  }
+    .svg2 {  left: 0;  }
+}
+@media only screen and (min-width : 1390px) and (max-width : 1450px) {
+    /*defi*/
+    svg { margin-left: 21.5%;  }
+    .svg2 {  left: 0.5%; }
+
+}
+@media only screen and (min-width : 1450px) and (max-width : 1500px) {
+    /*defi*/
+    svg {  margin-left: 22%;  }
+    .svg2 {  left: 1%;  }
+}
