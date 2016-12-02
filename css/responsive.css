@@ -90,6 +90,7 @@ Responsive  - format iphone5
     }
 }
 
+
 /* ---------------------------
 Responsive  - format intermediaire (tablette/mobile)
 ------------------------------ */
@@ -272,6 +273,28 @@ Responsive  - format intermediaire (tablette/mobile)
         height: 80px;
     }
 
+    /*modal defi*/
+    .machine_ecrire {
+        display: block;
+        overflow: hidden;
+        height: 593px;
+    }
+    .feuille {
+        width: 27.5%;
+        margin-left: 31.75%;
+    }
+    .feuille h2 { margin-top: -30px; }
+    .feuille p {
+        padding-bottom: 35px;
+        margin-bottom: -5px;
+    }
+    .modal .machine {
+        position: relative;
+        bottom: 85px;
+        width: 62%;
+        left: 19.5%;
+    }
+    .modal-content { padding-bottom: 130px; }
 
 }
 
@@ -488,6 +511,29 @@ Responsive  - format tablette
         margin-left: 10%;
         height: 80px;
     }
+
+    /*modal defi*/
+    .machine_ecrire {
+        display: block;
+        overflow: hidden;
+        height: 593px;
+    }
+    .feuille {
+        width: 27.5%;
+        margin-left: 31.75%;
+    }
+    .feuille h2 { margin-top: -30px; }
+    .feuille p {
+        padding-bottom: 35px;
+        margin-bottom: -5px;
+    }
+    .modal .machine {
+        position: relative;
+        bottom: 100px;
+        width: 60%;
+        left: 20%
+    }
+    .modal-content { padding-bottom: 130px; }
 }
 
 /* --------------------------
@@ -742,6 +788,29 @@ Responsive  - format intermediaire (tablette/ecran)
         margin-left: 10%;
         height: 80px;
     }
+
+    /*modal defi*/
+    .machine_ecrire {
+        display: block;
+        overflow: hidden;
+        height: 593px;
+    }
+    .feuille {
+        width: 22.5%;
+        margin-left: 35%
+    }
+    .feuille h2 { margin-top: -30px; }
+    .feuille p {
+        padding-bottom: 30px;
+        margin-bottom: 5px;
+    }
+    .modal .machine {
+        position: relative;
+        bottom: 115px;
+        width: 50%;
+        left: 25%;
+    }
+    .modal-content { padding-bottom: 130px; }
 }
 
 /* --------------------------
@@ -1021,6 +1090,29 @@ Responsive  - format ecran
         margin-left: 10%;
         height: 80px;
     }
+
+    /*modal defi*/
+    .machine_ecrire {
+        display: block;
+        overflow: hidden;
+        height: 593px;
+    }
+    .feuille {
+        width: 18.5%;
+        margin-left: 37.95%;
+    }
+    .feuille h2 { margin-top: -30px; }
+    .feuille p {
+        padding-bottom: 30px;
+        margin-bottom: 5px;
+    }
+    .modal .machine {
+        position: relative;
+        bottom: 115px;
+        width: 40.5%;
+        left: 30%;
+    }
+    .modal-content { padding-bottom: 130px; }
 }
 
 /* --------------------------
@@ -1290,6 +1382,25 @@ Responsive  - format +ecran
         height: 80px;
         margin-bottom: 20px;
     }
+
+    /*modal defi*/
+    .machine_ecrire {
+        display: block;
+        overflow: hidden;
+        height: 593px;
+    }
+    .feuille {
+        width: 18.5%;
+        margin-left: 37.95%;
+    }
+    .feuille h2 { margin-top: -30px; }
+    .modal .machine {
+        position: relative;
+        bottom: 127px;
+        width: 40%;
+        left: 30%;
+    }
+    .modal-content { padding-bottom: 130px; }
 }
 
 
@@ -1422,15 +1533,18 @@ Responsive  - format +ecran
     #navigation-slider > li:nth-child(2) > button > img {  left: 1435px;  }
 }
 
+
 /* titre liste equipe */
 @media only screen and (min-width : 395px) and (max-width : 2000px) {
     .encheres #equipe-span {  top: 55px;  }
 }
 
+
 /* titre: description page equipe - modif equipe */
 @media only screen and (min-width : 475px) and (max-width : 2000px) {
     #titre_desc {  margin-top: -25px;  }
 }
+
 
 /* page defi */
 @media only screen and (min-width : 380px) and (max-width : 400px) {
