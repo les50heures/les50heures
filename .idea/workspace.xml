@@ -82,8 +82,8 @@
           <file leaf-file-name="responsive.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/responsive.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="686">
-                  <caret line="437" column="51" selection-start-line="437" selection-start-column="51" selection-end-line="437" selection-end-column="51" />
+                <state relative-caret-position="465">
+                  <caret line="392" column="61" selection-start-line="392" selection-start-column="61" selection-end-line="392" selection-end-column="61" />
                   <folding>
                     <element signature="e#812#895#0" expanded="false" />
                     <element signature="e#929#1050#0" expanded="false" />
@@ -157,7 +157,6 @@
                     <element signature="e#12471#12551#0" expanded="false" />
                     <element signature="e#12565#12623#0" expanded="false" />
                     <element signature="e#12765#12861#0" expanded="false" />
-                    <element signature="e#13027#20188#0" expanded="false" />
                     <element signature="e#13306#13409#0" expanded="false" />
                     <element signature="e#13486#13568#0" expanded="false" />
                     <element signature="e#13737#13783#0" expanded="false" />
@@ -650,12 +649,12 @@
       <workItem from="1480489657810" duration="59000" />
       <workItem from="1480602913316" duration="22747000" />
       <workItem from="1480694784128" duration="10261000" />
-      <workItem from="1480938888333" duration="14860000" />
+      <workItem from="1480938888333" duration="15278000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55747000" />
+    <option name="totallyTimeSpent" value="56165000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -799,7 +798,6 @@
             <element signature="e#12471#12551#0" expanded="false" />
             <element signature="e#12565#12623#0" expanded="false" />
             <element signature="e#12765#12861#0" expanded="false" />
-            <element signature="e#13027#20188#0" expanded="false" />
             <element signature="e#13306#13409#0" expanded="false" />
             <element signature="e#13486#13568#0" expanded="false" />
             <element signature="e#13737#13783#0" expanded="false" />
@@ -1207,7 +1205,6 @@
             <element signature="e#12471#12551#0" expanded="false" />
             <element signature="e#12565#12623#0" expanded="false" />
             <element signature="e#12765#12861#0" expanded="false" />
-            <element signature="e#13027#20188#0" expanded="false" />
             <element signature="e#13306#13409#0" expanded="false" />
             <element signature="e#13486#13568#0" expanded="false" />
             <element signature="e#13737#13783#0" expanded="false" />
@@ -1621,7 +1618,6 @@
             <element signature="e#12471#12551#0" expanded="false" />
             <element signature="e#12565#12623#0" expanded="false" />
             <element signature="e#12765#12861#0" expanded="false" />
-            <element signature="e#13027#20188#0" expanded="false" />
             <element signature="e#13306#13409#0" expanded="false" />
             <element signature="e#13486#13568#0" expanded="false" />
             <element signature="e#13737#13783#0" expanded="false" />
@@ -2035,7 +2031,6 @@
             <element signature="e#12471#12551#0" expanded="false" />
             <element signature="e#12565#12623#0" expanded="false" />
             <element signature="e#12765#12861#0" expanded="false" />
-            <element signature="e#13027#20188#0" expanded="false" />
             <element signature="e#13306#13409#0" expanded="false" />
             <element signature="e#13486#13568#0" expanded="false" />
             <element signature="e#13737#13783#0" expanded="false" />
@@ -2420,8 +2415,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="437" column="51" selection-start-line="437" selection-start-column="51" selection-end-line="437" selection-end-column="51" />
+        <state relative-caret-position="465">
+          <caret line="392" column="61" selection-start-line="392" selection-start-column="61" selection-end-line="392" selection-end-column="61" />
           <folding>
             <element signature="e#812#895#0" expanded="false" />
             <element signature="e#929#1050#0" expanded="false" />
@@ -2495,7 +2490,6 @@
             <element signature="e#12471#12551#0" expanded="false" />
             <element signature="e#12565#12623#0" expanded="false" />
             <element signature="e#12765#12861#0" expanded="false" />
-            <element signature="e#13027#20188#0" expanded="false" />
             <element signature="e#13306#13409#0" expanded="false" />
             <element signature="e#13486#13568#0" expanded="false" />
             <element signature="e#13737#13783#0" expanded="false" />

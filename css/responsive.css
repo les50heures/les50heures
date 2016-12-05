@@ -388,7 +388,7 @@ Responsive  - format tablette
     .depot .supperpose_titre_depot { left: 45%; }
     .equipe_classement {  margin-bottom: 15px;  }
 
-    #haut-tableau { height: 700px; }
+    #haut-tableau { height: 540px; }
     #equipe-haut, #equipe-haut2, #equipe-haut3 { display: block; }
     #equipe-haut, #equipe-haut2, #equipe-haut3 {  height: 120px;  }
     #equipe-haut2 {
@@ -692,7 +692,7 @@ Responsive  - format intermediaire (tablette/ecran)
         margin-left: 3%;
     }
 
-    #haut-tableau { height: 700px; }
+    #haut-tableau { height: 600px; }
     #equipe-haut, #equipe-haut2, #equipe-haut3 { display: block; }
     #equipe-haut, #equipe-haut2, #equipe-haut3 {  height: 140px;  }
     #equipe-haut2 {
@@ -703,7 +703,7 @@ Responsive  - format intermediaire (tablette/ecran)
     }
     #equipe-haut3 {
         left: 56%;
-        top: -252px;
+        top: -228px;
         position: relative;
         z-index: 1;
     }
@@ -715,7 +715,7 @@ Responsive  - format intermediaire (tablette/ecran)
         padding-top: 30px;
         padding-bottom: 30px;
         position: relative;
-        left: 28px;
+        left: 31px;
         z-index: 3;
     }
     #haut-tableau #deuxieme .haut_classement {
@@ -723,7 +723,7 @@ Responsive  - format intermediaire (tablette/ecran)
         top: 40px;
     }
     #haut-tableau #troisieme .haut_classement {
-        top: -252px;
+        top: -228px;
         left: 28.7%;
     }
 
@@ -742,7 +742,7 @@ Responsive  - format intermediaire (tablette/ecran)
     #troisieme.equipe_classement .premier-hexagone {
         position: absolute;
         left: 63.5%;
-        margin-top: -342px;
+        margin-top: -322px;
         z-index: 4;
     }
 
