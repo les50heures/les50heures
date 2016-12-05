@@ -1144,7 +1144,19 @@ svg {
     top: 80px;
 }
 
-
+.deuxieme-hexagone { display: none; }
+#equipe-haut, #equipe-haut2, #equipe-haut3 {
+    position: relative;
+    width: 35%;
+    left:  32.75%;
+    margin-top: 50px;
+    border: 10px solid #e38d13;
+    height: 200px;
+    display: none;
+}
+#equipe-haut.photo-equipe {
+    margin-top: 170px;
+}
 .equipe_classement img { width: 60px; }
 
 .equipe_classement {
