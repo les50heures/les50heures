@@ -475,6 +475,16 @@ iframe {
     margin-top: 20px;
 }
 
+#partenaire_index {  margin-top: 0;  }
+
+.partage {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    height: 400px;
+}
+
 /* -------------------- PAGE CONNEXION ---------------------  */
 .formulaire {
     text-align: center;
@@ -1359,7 +1369,74 @@ svg {
 .cls2-30 {  fill: #ddc343;  }
 .cls2-31 {  fill: #f0d643;  }
 
+
+/* guillaume */
+.cls3-1 {  fill: #c1272d;  }
+.cls3-2 {  fill: #f7c89c;  }
+.cls3-3 {  fill: #e0aa69;  }
+.cls3-4 {  fill: #edbf9d;  }
+.cls3-5 {  fill: #42210b;  }
+.cls3-6 {  fill: #fff;  }
+.cls3-7 {  fill: #ed96b9;  }
+.cls3-8 {  fill: #e070a3;  }
+.cls3-9 {  fill: #1a1a1a;  }
+.cls3-10 {  fill: #704010;  }
+.cls3-11 {  fill: #8c5111;  }
+.cls3-12 {  fill: #6db2c7;  }
+.cls3-13 {  fill: #f2f2f2;  }
+.cls3-14 {  fill: none;  stroke: #000;  stroke-miterlimit: 10;  stroke-width: 0.5px;  }
+
+/* davidm */
+.cls4-1 {  fill: #8f0054;  }
+.cls4-2 {  fill: #f7c89c;  }
+.cls4-3 {  fill: #1a1a1a;  }
+.cls4-4 {  fill: #2e3c6c;  }
+.cls4-5 {  fill: #e0aa69;  }
+.cls4-6 {  fill: #edbf9d;  }
+.cls4-7 {  fill: #42210b;  }
+.cls4-8 {  fill: #fff;  }
+.cls4-9 {  fill: #ed96b9;  }
+.cls4-10 {  fill: #e070a3;  }
+.cls4-12 {  fill: #ff9dac;  }
+.cls4-13 {  fill: none;  stroke: #000;  stroke-miterlimit: 10;  stroke-width: 0.5px;  }
+.cls4-14 {  fill: #9e4c08;  }
+.cls4-15 {  fill: #843d08;  }
+.cls4-16 {  fill: #ed5f9d;  }
+
+
+/* xaviers */
+.cls5-1 {  fill: #f7c89c;  }
+.cls5-2 {  fill: #e0aa69;  }
+.cls5-3 {  fill: #edbf9d;  }
+.cls5-4 {  fill: #42210b;  }
+.cls5-5 {  fill: #fff;  }
+.cls5-6 {  fill: #ed96b9;  }
+.cls5-7 {  fill: #e070a3;  }
+.cls5-8 {  fill: #1a1a1a;  }
+.cls5-9 {  fill: #6d8bd6;  }
+.cls5-10 {  fill: none;  stroke: #000;  stroke-miterlimit: 10;  stroke-width: 0.5px;  }
+.cls5-11 {  fill: #e6e6e6;  }
+.cls5-12 {  fill: #333;  }
+.cls5-13 {  fill: #4d4d4d;  }
+.cls5-14 {  fill: #f2f2f2;  }
+.cls5-15 {  fill: #5a5147;  }
+.cls5-16 {  fill: #bee7e9;  }
+.cls5-17 {  fill: #86b2aa;  }
+.cls5-18 {  fill: #503e27;  }
+.cls5-19 {  fill: #b5dfe0;  }
+.cls5-20 {  fill: #b5dfe1;  }
+.cls5-21 {  fill: #433329;  }
+.cls5-22 {  fill: #c6bdc1;  }
+.cls5-23 {  fill: #d2cccc;  }
+.cls5-24 {  fill: #423623;  }
+.cls5-25 {  fill: #b8e0e3;  }
+
 #david { display: none; }
 #marie { display: none; }
+#guillaume { display: none; }
+#davidm { display: none; }
+#xaviers { display: none; }
+
+
 
 
