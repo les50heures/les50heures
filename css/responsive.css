@@ -388,61 +388,6 @@ Responsive  - format tablette
     .depot .supperpose_titre_depot { left: 45%; }
     .equipe_classement {  margin-bottom: 15px;  }
 
-    #haut-tableau { height: 540px; }
-    #equipe-haut, #equipe-haut2, #equipe-haut3 { display: block; }
-    #equipe-haut, #equipe-haut2, #equipe-haut3 {  height: 120px;  }
-    #equipe-haut2 {
-        left: 10%;
-        top: 40px;
-        position: relative;
-        z-index: 2;
-    }
-    #equipe-haut3 {
-        left: 56%;
-        top: -210px;
-        position: relative;
-        z-index: 1;
-    }
-    #haut-tableau .equipe_classement div { margin-left: -65px; }
-    #haut-tableau .haut_classement {
-        background-color: #e69f1f;
-        width: 33.4%;
-        margin-top: 0;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        position: relative;
-        left: 7px;
-        z-index: 3;
-    }
-    #haut-tableau #deuxieme .haut_classement {
-        left: -21.9%;
-        top: 40px;
-    }
-    #haut-tableau #troisieme .haut_classement {
-        top: -210px;
-        left: 24%;
-    }
-
-    #premier.equipe_classement .premier-hexagone {
-        position: absolute;
-        left: 43%;
-        margin-top: -90px;
-        z-index: 4;
-    }
-    #deuxieme.equipe_classement .premier-hexagone {
-        position: absolute;
-        left: 20.5%;
-        margin-top: -50px;
-        z-index: 4;
-    }
-    #troisieme.equipe_classement .premier-hexagone {
-        position: absolute;
-        left: 66.5%;
-        margin-top: -300px;
-        z-index: 4;
-    }
-
-
     /*equipe*/
     .bandeau .modif { left: 82%; }
     .modif {  left: 37%;  }
@@ -697,7 +642,7 @@ Responsive  - format intermediaire (tablette/ecran)
     #equipe-haut, #equipe-haut2, #equipe-haut3 { display: block; }
     #equipe-haut, #equipe-haut2, #equipe-haut3 {  height: 140px;  }
     #equipe-haut2 {
-        left: 10%;
+        left: 7%;
         top: 40px;
         position: relative;
         z-index: 2;
@@ -720,7 +665,7 @@ Responsive  - format intermediaire (tablette/ecran)
         z-index: 3;
     }
     #haut-tableau #deuxieme .haut_classement {
-        left: -22.4%;
+        left: -25.7%;
         top: 40px;
     }
     #haut-tableau #troisieme .haut_classement {
@@ -736,7 +681,7 @@ Responsive  - format intermediaire (tablette/ecran)
     }
     #deuxieme.equipe_classement .premier-hexagone {
         position: absolute;
-        left: 17.5%;
+        left: 14.5%;
         margin-top: -50px;
         z-index: 4;
     }
@@ -972,6 +917,19 @@ Responsive  - format intermediaire (tablette/ecran)
         margin: 130px 0 0;
         display:  block;
     }
+
+    .svg-classement {
+        display: flex;
+        justify-content: center;
+    }
+    #pascalc {
+        position: absolute;
+        top: 530px;
+        width: 330px;
+        margin: 0;
+        display: block;
+        z-index: 4;
+    }
 }
 
 /* --------------------------
@@ -1077,7 +1035,7 @@ Responsive  - format ecran
     #haut-tableau { height: 700px; }
     #equipe-haut, #equipe-haut2, #equipe-haut3 { display: block; }
     #equipe-haut2 {
-        left: 10%;
+        left: 7%;
         top: 40px;
         position: relative;
         z-index: 2;
@@ -1100,7 +1058,7 @@ Responsive  - format ecran
         z-index: 3;
     }
     #haut-tableau #deuxieme .haut_classement {
-        left: -22.4%;
+        left: -25.7%;
         top: 40px;
     }
     #haut-tableau #troisieme .haut_classement {
@@ -1116,7 +1074,7 @@ Responsive  - format ecran
     }
     #deuxieme.equipe_classement .premier-hexagone {
         position: absolute;
-        left: 16%;
+        left: 13%;
         margin-top: -50px;
         z-index: 4;
     }
@@ -1376,6 +1334,20 @@ Responsive  - format ecran
         margin: 130px 0 -10px;
         display:  block;
     }
+
+    .svg-classement {
+        display: flex;
+        justify-content: center;
+    }
+    #pascalc {
+        position: absolute;
+        top: 640px;
+        width: 330px;
+        margin: 0;
+        display: block;
+        z-index: 4;
+    }
+
 }
 
 /* --------------------------
@@ -1476,7 +1448,7 @@ Responsive  - format +ecran
     #haut-tableau { height: 700px; }
     #equipe-haut, #equipe-haut2, #equipe-haut3 { display: block; }
     #equipe-haut2 {
-        left: 10%;
+        left: 7%;
         top: 40px;
         position: relative;
         z-index: 2;
@@ -1499,7 +1471,7 @@ Responsive  - format +ecran
         z-index: 3;
     }
     #haut-tableau #deuxieme .haut_classement {
-        left: -25.78%;
+        left: -29.1%;
         top: 40px;
     }
     #haut-tableau #troisieme .haut_classement {
@@ -1515,7 +1487,7 @@ Responsive  - format +ecran
     }
     #deuxieme.equipe_classement .premier-hexagone {
         position: absolute;
-        left: 16%;
+        left: 13%;
         margin-top: -50px;
         z-index: 4;
     }
@@ -1766,6 +1738,19 @@ Responsive  - format +ecran
         position: relative;
         margin: 130px 0 -20px;
         display:  block;
+    }
+
+    .svg-classement {
+        display: flex;
+        justify-content: center;
+    }
+    #pascalc {
+        position: absolute;
+        top: 605px;
+        width: 355px;
+        margin: 0;
+        display: block;
+        z-index: 4;
     }
 
 }

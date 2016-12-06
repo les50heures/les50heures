@@ -483,6 +483,7 @@ iframe {
     background-color: white;
     width: 100%;
     height: 400px;
+    margin-top: 30px;
 }
 
 /* -------------------- PAGE CONNEXION ---------------------  */
@@ -695,7 +696,6 @@ footer {
 }
 .titre_equipe h2 {
     margin-top: 60px;
-    margin-bottom: -20px;
 }
 .titre_equipe span {
     position: relative;
@@ -1146,6 +1146,7 @@ svg {
 .classement {
     margin-bottom: 50px;
     margin-top: 120px;
+    z-index: 1;
 }
 
 .bandeau .depot {
@@ -1431,11 +1432,34 @@ svg {
 .cls5-24 {  fill: #423623;  }
 .cls5-25 {  fill: #b8e0e3;  }
 
+
+/* pascalc */
+.cls6-1 {  fill: #333;  }
+.cls6-2 {  fill: #f7c89c;  }
+.cls6-3 {  fill: #ccc;  }
+.cls6-4 {  fill: #e0aa69;  }
+.cls6-5 {  fill: #edbf9d;  }
+.cls6-6 {  fill: #42210b;  }
+.cls6-19, .cls6-7 {  fill: #fff;  }
+.cls6-8 {  fill: #ed96b9;  }
+.cls6-9 {  fill: #e070a3;  }
+.cls6-10 {  fill: #1a1a1a;  }
+.cls6-11 {  fill: none;  stroke: #000;  stroke-miterlimit: 10;  stroke-width: 0.5px;  }
+.cls6-12 {  fill: #f2f2f2;  }
+.cls6-13 {  fill: #e6e6e6;  }
+.cls6-14 {  fill: #663410;  }
+.cls6-15 {  fill: #704010;  }
+.cls6-16 {  fill: #8e4c1b;  }
+.cls6-17 {  fill: #e69f1f;  }
+.cls6-18 {  fill: #1c535a;  }
+.cls6-19 {  font-size: 60px;  font-family: special, sans-serif  }
+
 #david { display: none; }
 #marie { display: none; }
 #guillaume { display: none; }
 #davidm { display: none; }
 #xaviers { display: none; }
+#pascalc { display: none; }
 
 
 
