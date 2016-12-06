@@ -1294,6 +1294,72 @@ svg {
 }
 
 
+/* --------------------- SVG ----------------------  */
 
+/* couleur david */
+.cls-1{fill:#5f9caa;}
+.cls-2{fill:#ccc;}
+.cls-3{fill:#f7c89c;}
+.cls-4{fill:#e0aa69;}
+.cls-5{fill:#edbf9d;}
+.cls-6{fill:#42210b;}
+.cls-7{fill:#fff;}
+.cls-8{fill:#ed96b9;}
+.cls-9{fill:#e070a3;}
+.cls-10{fill:#1a1a1a;}
+.cls-11{fill:#333;}
+.cls-12,.cls-24,.cls-25{fill:none;stroke-miterlimit:10;}
+.cls-12{stroke:#000;stroke-width:0.5px;}
+.cls-13{fill:#f2f2f2;}
+.cls-14{fill:#e6e6e6;}
+.cls-15{fill:#663410;}
+.cls-16{fill:#704010;}
+.cls-17{fill:#201f25;}
+.cls-18{fill:#8c5111;}
+.cls-19{fill:#8c6239;}
+.cls-20{fill:#4d4d4d;}
+.cls-21{fill:#b3b3b3;}
+.cls-22{fill:gray;}
+.cls-23{fill:#999;}
+.cls-24{stroke:#b3b3b3;}
+.cls-24,.cls-25{stroke-width:0.25px;}
+.cls-25{stroke:#333;}
+
+/* couleur marie */
+.cls2-1 {  fill: #b3b3b3;  }
+.cls2-2 {  fill: #8b6c42;  }
+.cls2-3 {  fill: #f7c89c;  }
+.cls2-4 {  fill: #edbf9d;  }
+.cls2-5 {  fill: #ead854;  }
+.cls2-6 {  fill: #a67c52;  opacity: 0.49;  }
+.cls2-7 {  fill: #e0aa69;  }
+.cls2-8 {  fill: #fff;  }
+.cls2-9 {  fill: #1a1a1a;  }
+.cls2-10 {  opacity: 0.25;  }
+.cls2-11 {  fill: #333;  }
+.cls2-12 {  fill: #4453bc;  }
+.cls2-13, .cls2-25 {  fill: none;  stroke-miterlimit: 10;  }
+.cls2-13 {  stroke: #000;  stroke-width: 0.5px;  }
+.cls2-14 {  fill: #f99393;  }
+.cls2-15 {  fill: #f26666;  }
+.cls2-16 {  fill: #cc9f81;  }
+.cls2-17 {  fill: #cc955e;  }
+.cls2-18 {  fill: #7f7f7f;  }
+.cls2-19 {  fill: #231670;  }
+.cls2-20 {  fill: #e6e6e6;  }
+.cls2-21 {  fill: #a57e50;  }
+.cls2-22 {  fill: #c9a469;  }
+.cls2-23 {  fill: #020100;  }
+.cls2-24 {  fill: #e2bc74;  }
+.cls2-25 {  stroke: #d6aa8b;  stroke-width: 0.25px;  }
+.cls2-26 {  fill: #bf915e;  }
+.cls2-27 {  fill: #42210b;  }
+.cls2-28 {  fill: #ed96b9;  }
+.cls2-29 {  fill: #e070a3;  }
+.cls2-30 {  fill: #ddc343;  }
+.cls2-31 {  fill: #f0d643;  }
+
+#david { display: none; }
+#marie { display: none; }
 
 

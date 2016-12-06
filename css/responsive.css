@@ -590,6 +590,7 @@ Responsive  - format tablette
         left: 20%
     }
     .modal-content { padding-bottom: 130px; }
+    
 }
 
 /* --------------------------
@@ -923,6 +924,30 @@ Responsive  - format intermediaire (tablette/ecran)
         left: 25%;
     }
     .modal-content { padding-bottom: 130px; }
+
+    /* svg */
+    #david {
+        position: absolute;
+        top: 2084px;
+        left: 41%;
+        width: 170px;
+        margin: 0;
+        display: block;
+    }
+
+    .pizza { display: flex; }
+    .pizza > div {
+        width: 50%;
+        margin-left: 22%;
+    }
+    #marie {
+        position: relative;
+        left: 24%;
+        top: 0;
+        width: 220px;
+        margin: 0;
+        display: block;
+    }
 }
 
 /* --------------------------
@@ -1279,6 +1304,30 @@ Responsive  - format ecran
         left: 30%;
     }
     .modal-content { padding-bottom: 130px; }
+
+    /* svg */
+    #david {
+        position: absolute;
+        top: 2061px;
+        left: 43%;
+        width: 190px;
+        margin: 0;
+        display: block;
+    }
+
+    .pizza { display: flex; }
+    .pizza > div {
+        width: 50%;
+        margin-left: 22%;
+    }
+    #marie {
+        position: relative;
+        left: 24%;
+        top: 0;
+        width: 220px;
+        margin: 0;
+        display: block;
+    }
 }
 
 /* --------------------------
@@ -1622,6 +1671,31 @@ Responsive  - format +ecran
         left: 30%;
     }
     .modal-content { padding-bottom: 130px; }
+
+    /* svg */
+    #david {
+        position: absolute;
+        top: 2160px;
+        left: 42%;
+        width: 220px;
+        margin: 0;
+        display: block;
+    }
+
+    .pizza { display: flex; }
+    .pizza > div {
+        width: 50%;
+        margin-left: 22%;
+    }
+    #marie {
+        position: relative;
+        left: 24%;
+        top: 0;
+        width: 220px;
+        margin: 0;
+        display: block;
+    }
+
 }
 
 

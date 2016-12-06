@@ -38,6 +38,7 @@ a , p {
     font-size: 1em;
     color: black;
     text-decoration: none;
+    z-index: 1;
 }
 h2 a {
     font-family: special, sans-serif;
