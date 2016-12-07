@@ -1434,25 +1434,25 @@ svg {
 
 
 /* pascalc */
-.cls6-1 {  fill: #333;  }
+.cls6-1 {  fill: #ccc;  }
 .cls6-2 {  fill: #f7c89c;  }
-.cls6-3 {  fill: #ccc;  }
-.cls6-4 {  fill: #e0aa69;  }
-.cls6-5 {  fill: #edbf9d;  }
-.cls6-6 {  fill: #42210b;  }
-.cls6-19, .cls6-7 {  fill: #fff;  }
-.cls6-8 {  fill: #ed96b9;  }
-.cls6-9 {  fill: #e070a3;  }
-.cls6-10 {  fill: #1a1a1a;  }
-.cls6-11 {  fill: none;  stroke: #000;  stroke-miterlimit: 10;  stroke-width: 0.5px;  }
-.cls6-12 {  fill: #f2f2f2;  }
-.cls6-13 {  fill: #e6e6e6;  }
-.cls6-14 {  fill: #663410;  }
-.cls6-15 {  fill: #704010;  }
-.cls6-16 {  fill: #8e4c1b;  }
-.cls6-17 {  fill: #e69f1f;  }
-.cls6-18 {  fill: #1c535a;  }
-.cls6-19 {  font-size: 60px;  font-family: special, sans-serif  }
+.cls6-3 {  fill: #e0aa69;  }
+.cls6-4 {  fill: #edbf9d;  }
+.cls6-5 {  fill: #42210b;  }
+.cls6-18, .cls6-6 {  fill: #fff;  }
+.cls6-7 {  fill: #ed96b9;  }
+.cls6-8 {  fill: #e070a3;  }
+.cls6-9 {  fill: #1a1a1a;  }
+.cls6-10 {  fill: none;  stroke: #000;  stroke-miterlimit: 10;  stroke-width: 0.5px;  }
+.cls6-11 {  fill: #333;  }
+.cls6-12 {  fill: #e6e6e6;  }
+.cls6-13 {  fill: #663410;  }
+.cls6-14 {  fill: #704010;  }
+.cls6-15 {  fill: #8e4c1b;  }
+.cls6-16 {  fill: #f2f2f2;  }
+.cls6-17 {  fill: #1c535a;  }
+.cls6-18 {  isolation: isolate;  font-size: 60px;  font-family: SpecialElite-Regular, Special Elite;  }
+.cls6-19 {  fill: #e69f1f;  }
 
 #david { display: none; }
 #marie { display: none; }

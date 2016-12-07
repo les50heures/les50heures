@@ -924,7 +924,7 @@ Responsive  - format intermediaire (tablette/ecran)
     }
     #pascalc {
         position: absolute;
-        top: 530px;
+        top: 580px;
         width: 330px;
         margin: 0;
         display: block;
@@ -1341,7 +1341,7 @@ Responsive  - format ecran
     }
     #pascalc {
         position: absolute;
-        top: 640px;
+        top: 685px;
         width: 330px;
         margin: 0;
         display: block;
@@ -1746,7 +1746,7 @@ Responsive  - format +ecran
     }
     #pascalc {
         position: absolute;
-        top: 605px;
+        top: 675px;
         width: 355px;
         margin: 0;
         display: block;
