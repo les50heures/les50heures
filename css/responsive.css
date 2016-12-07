@@ -43,6 +43,17 @@ Responsive  - format iphone5
         width: 130%;
         left: -16%;
     }
+
+    .partage { height: 390px; }
+    #apercu-galerie img {
+        width: 120px;
+        height: 120px;
+    }
+    .partage-fb {  margin-left: 12%;  }
+    #apercu-galerie {
+        width: 80%;
+        margin-left: 5%;
+    }
 }
 
 @media only screen and (min-width : 345px) and (max-width : 420px) {
@@ -145,10 +156,10 @@ Responsive  - format intermediaire (tablette/mobile)
         padding-right: 5%;
     }
     .program img {
-        width: 200px;
-        height: 230px;
+        width: 160px;
+        height: 180px;
         margin-top: 10px;
-        margin-left: 33%;
+        margin-left: 37%;
     }
 
     /*classement */
@@ -296,6 +307,13 @@ Responsive  - format intermediaire (tablette/mobile)
     }
     .modal-content { padding-bottom: 130px; }
 
+    /* partage accueil*/
+    .partage {  display: flex;  }
+    .partage-fb {  margin-left: 32%;  }
+    #apercu-galerie {
+        width: 65%;
+        margin-left: 15%;
+    }
 }
 
 /* --------------------------
@@ -378,10 +396,10 @@ Responsive  - format tablette
         padding-right: 10%;
     }
     .program img {
-        width: 210px;
-        height: 240px;
+        width: 160px;
+        height: 180px;
         margin-top: 10px;
-        margin-left: 38%;
+        margin-left: 40%;
     }
 
     /*classement*/
@@ -536,6 +554,13 @@ Responsive  - format tablette
     }
     .modal-content { padding-bottom: 130px; }
 
+    /* partage accueil*/
+    .partage {
+        display: flex;
+        height: 270px;
+    }
+    .partage-fb {  margin-left: 34%;  }
+
 }
 
 /* --------------------------
@@ -625,10 +650,10 @@ Responsive  - format intermediaire (tablette/ecran)
         padding-right: 15%;
     }
     .program img {
-        width: 220px;
-        height: 250px;
+        width: 160px;
+        height: 180px;
         margin-top: 10px;
-        margin-left: 38%;
+        margin-left: 42%;
     }
 
     /*classement*/
@@ -906,7 +931,7 @@ Responsive  - format intermediaire (tablette/ecran)
     #davidm {
         position: absolute;
         right: 50px;
-        top: 4230px;
+        top: 4050px;
         width: 230px;
         margin: 0;
         display:  block;
@@ -930,6 +955,18 @@ Responsive  - format intermediaire (tablette/ecran)
         display: block;
         z-index: 4;
     }
+
+    /* partage accueil*/
+    .partage {
+        display: flex;
+        height: 510px;
+    }
+    .partage-fb {  margin-left: 15%;  }
+    #apercu-galerie {
+        margin-top: 70px;
+        width: 60%;
+    }
+
 }
 
 /* --------------------------
@@ -1019,10 +1056,10 @@ Responsive  - format ecran
         padding-right: 20%;
     }
     .program img {
-        width: 220px;
-        height: 250px;
+        width: 160px;
+        height: 180px;
         margin-top: 10px;
-        margin-left: 35%;
+        margin-left: 42%;
     }
 
     /*classement*/
@@ -1323,7 +1360,7 @@ Responsive  - format ecran
     #davidm {
         position: absolute;
         right: 70px;
-        top: 4180px;
+        top: 4000px;
         width: 240px;
         margin: 0;
         display:  block;
@@ -1346,6 +1383,15 @@ Responsive  - format ecran
         margin: 0;
         display: block;
         z-index: 4;
+    }
+
+    /* partage accueil*/
+    .partage { display: flex;  }
+
+    .partage-fb {  margin-left: 4%;  }
+    #apercu-galerie {
+        margin-top: 100px;
+        margin-left: -190px;
     }
 
 }
@@ -1432,10 +1478,10 @@ Responsive  - format +ecran
         padding-right: 20%;
     }
     .program img {
-        width: 220px;
-        height: 250px;
+        width: 160px;
+        height: 180px;
         margin-top: 10px;
-        margin-left: 38%;
+        margin-left: 42%;
     }
 
     /*classement*/
@@ -1728,7 +1774,7 @@ Responsive  - format +ecran
     #davidm {
         position: absolute;
         right: 90px;
-        top: 4340px;
+        top: 4135px;
         width: 250px;
         margin: 0;
         display:  block;
@@ -1753,7 +1799,22 @@ Responsive  - format +ecran
         z-index: 4;
     }
 
+    /* partage accueil*/
+    .partage { display: flex;  }
+    .partage { padding-top: 0; }
+    .partage-fb {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    #fb-root, #fb-root2 {  margin-left: 10px;  }
+
+    .partage-fb {  margin-left: 4%;  }
+    #apercu-galerie {
+        margin-top: 100px;
+        margin-left: -190px;
+    }
 }
+
 
 
 
@@ -2471,3 +2532,4 @@ Responsive  - format +ecran
     svg {  margin-left: 22%;  }
     .svg2 {  left: 1%;  }
 }
+

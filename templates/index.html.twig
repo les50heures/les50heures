@@ -1093,7 +1093,29 @@
                 <polygon class="cls5-23" points="113.91 81.59 110.73 83.18 111.79 86.36 116.03 84.24 113.91 81.59"/>
             </g>
         </svg>
+
+        <div>
+            <div id="apercu-galerie">
+                <img data-toggle="modal" data-target="#myModal" class="photo" src="css/images-interface/galerie/photo.png"
+                 alt="photo">
+                <img data-toggle="modal" data-target="#myModal" class="photo" src="css/images-interface/galerie/photo.png"
+                 alt="photo">
+                <img data-toggle="modal" data-target="#myModal" class="photo" src="css/images-interface/galerie/photo.png"
+                 alt="photo">
+                <img data-toggle="modal" data-target="#myModal" class="photo" src="css/images-interface/galerie/photo.png"
+                 alt="photo">
+                <p>Vener partager vos photos avec vos amis.</p>
+            </div>
+
+            <div class="partage-fb">
+                <div class="fb-like" data-href="http://les50heures.com/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="false"></div>
+                <div class="fb-share-button" data-href="https://www.facebook.com/events/198969347204475/" data-layout="button_count" data-mobile-iframe="true">
+                    <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fevents%2F198969347204475%2F&amp;src=sdkpreparse">Partager</a>
+                </div>
+            </div>
+        </div>
     </div>
+
 
     <div id="partenaire_index" class="partenaires">
         <a href="http://mmimontbeliard.com/">
@@ -1311,7 +1333,6 @@
         update();
 
     </script>
-
     <script>
         (function () {
             "use strict";
@@ -1343,4 +1364,14 @@
 
         }());
     </script>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.8";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+
 {% endblock %}
