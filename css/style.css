@@ -229,8 +229,8 @@ li ul li a {
 /*Fleche*/
 .hexagone .fleche_index, .bandeau .flechenoir {
     position: absolute;
-    width: 70px;
-    height: 30px;
+    width: 50px;
+    height: 20px;
     top: 300px;
     left: 46%;
 }
@@ -353,7 +353,7 @@ button:hover, button:hover a,
 /*Detaille defi*/
 .desc_index {
     background-color: white;
-    width: 81%;
+    width: 80%;
     padding: 30px 10%;
 }
 
@@ -413,7 +413,7 @@ iframe {
 /*Classement*/
 .tete_classement {
     background-color: white;
-    width: 81%;
+    width: 80%;
     padding: 20px 10% 40px;
 }
 
