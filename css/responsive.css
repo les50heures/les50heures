@@ -54,6 +54,13 @@ Responsive  - format iphone5
         width: 80%;
         margin-left: 5%;
     }
+
+    .programme {  width: 101%;  }
+    .planning > h2 {
+        width: 80%;
+        margin-left: 10%;
+    }
+
 }
 
 @media only screen and (min-width : 345px) and (max-width : 420px) {
@@ -61,7 +68,7 @@ Responsive  - format iphone5
         width: 280px;
         height: 325px;
         top: -135px;
-        left: 13%;
+        left: 11%;
     }
     .hexagone .fleche_index {
         top: 247px;
@@ -88,6 +95,9 @@ Responsive  - format iphone5
         width: 130%;
         left: -16%;
     }
+
+    .programme {  width: 101%;  }
+
 }
 
 /* page enchere - placement element */
@@ -152,14 +162,13 @@ Responsive  - format intermediaire (tablette/mobile)
     }
 
     .programme {
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 20%;
+        padding-right: 20%;
     }
     .program img {
         width: 160px;
         height: 180px;
         margin-top: 10px;
-        margin-left: 37%;
     }
 
     /*classement */
@@ -309,12 +318,28 @@ Responsive  - format intermediaire (tablette/mobile)
 
     /* partage accueil*/
     .partage {  display: flex;  }
-    .partage-fb {  margin-left: 32%;  }
     #apercu-galerie {
-        width: 65%;
-        margin-left: 15%;
+        width: 80%;
+        margin-left: 6%;
     }
 }
+
+
+/* page accueil - photo partager */
+@media only screen and (min-width : 600px) and (max-width : 718px) {
+    #apercu-galerie {
+        width: 60%;
+        margin-left: 16%;
+    }
+}
+/* page accueil - programme */
+@media only screen and (min-width : 600px) and (max-width : 718px) {
+    #apercu-galerie {
+        width: 60%;
+        margin-left: 16%;
+    }
+}
+
 
 /* --------------------------
 Responsive  - format tablette
@@ -392,14 +417,13 @@ Responsive  - format tablette
     }
 
     .programme {
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 20%;
+        padding-right: 20%;
     }
     .program img {
         width: 160px;
         height: 180px;
         margin-top: 10px;
-        margin-left: 40%;
     }
 
     /*classement*/
@@ -559,7 +583,9 @@ Responsive  - format tablette
         display: flex;
         height: 270px;
     }
-    .partage-fb {  margin-left: 34%;  }
+    #apercu-galerie { margin-left: 3%; }
+
+
 
 }
 
@@ -646,8 +672,8 @@ Responsive  - format intermediaire (tablette/ecran)
     }
 
     .programme {
-        padding-left: 15%;
-        padding-right: 15%;
+        padding-left: 20%;
+        padding-right: 20%;
     }
     .program img {
         width: 160px;
@@ -746,6 +772,13 @@ Responsive  - format intermediaire (tablette/ecran)
         padding-right: 0;
         margin: 0 0 0 12%;
     }
+
+    .affiche_equipe p, .affiche_equipe img {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .affiche_equipe h1 {  margin-left: 20%;  }
 
     /* galerie */
     #header-galerie {  background-size: 35%;  }
@@ -904,21 +937,19 @@ Responsive  - format intermediaire (tablette/ecran)
         margin: 0;
         display: block;
     }
-
     .pizza { display: flex; }
     .pizza > div {
         width: 50%;
-        margin-left: 22%;
+        margin-left: 16%;
     }
     #marie {
         position: relative;
-        left: 24%;
+        left: 16%;
         top: 0;
         width: 220px;
         margin: 0;
         display: block;
     }
-
     #guillaume {
         position: absolute;
         left: 0;
@@ -927,7 +958,6 @@ Responsive  - format intermediaire (tablette/ecran)
         margin: 0;
         display: block;
     }
-
     #davidm {
         position: absolute;
         right: 50px;
@@ -936,13 +966,11 @@ Responsive  - format intermediaire (tablette/ecran)
         margin: 0;
         display:  block;
     }
-
     #xaviers {
         position: relative;
         margin: 130px 0 0;
         display:  block;
     }
-
     .svg-classement {
         display: flex;
         justify-content: center;
@@ -961,7 +989,15 @@ Responsive  - format intermediaire (tablette/ecran)
         display: flex;
         height: 510px;
     }
-    .partage-fb {  margin-left: 15%;  }
+    .partage-fb {
+        margin-left: 15%;
+        display: block;
+    }
+    #apercu-galerie {
+        margin-top: 37px;
+        margin-left: -20px;
+        width: 60%;
+    }
 
 
 }
@@ -1052,11 +1088,25 @@ Responsive  - format ecran
         padding-left: 20%;
         padding-right: 20%;
     }
+    .program { display: flex; }
+    .program > div {
+        width: 70%;
+        margin-left: 5%;
+        margin-top: 30px;
+    }
     .program img {
         width: 160px;
         height: 180px;
         margin-top: 10px;
-        margin-left: 42%;
+        margin-left: 0;
+    }
+    #hexagone-gauche img {
+        order: 1;
+        margin-left: 15%;
+    }
+    #hexagone-gauche div {
+        order: 2;
+        margin-left: 0;
     }
 
     /*classement*/
@@ -1164,6 +1214,13 @@ Responsive  - format ecran
         left: 47%;
         top: 600px;
     }
+    .affiche_equipe p, .affiche_equipe img {
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .affiche_equipe h1 {  margin-left: 25%;  }
+
 
     /* galerie */
     #header-galerie {  background-size: 25%;  }
@@ -1333,12 +1390,12 @@ Responsive  - format ecran
 
     .pizza { display: flex; }
     .pizza > div {
-        width: 50%;
-        margin-left: 22%;
+        width: 55%;
+        margin-left: 17%;
     }
     #marie {
         position: relative;
-        left: 24%;
+        left: 17%;
         top: 0;
         width: 220px;
         margin: 0;
@@ -1356,9 +1413,9 @@ Responsive  - format ecran
 
     #davidm {
         position: absolute;
-        right: 70px;
-        top: 4000px;
-        width: 240px;
+        right: 80px;
+        top: 3835px;
+        width: 250px;
         margin: 0;
         display:  block;
     }
@@ -1385,11 +1442,13 @@ Responsive  - format ecran
     /* partage accueil*/
     .partage { display: flex;  }
 
-    .partage-fb {  margin-left: 4%;  }
+    .partage-fb {  margin-left: -50%;  }
     #apercu-galerie {
         margin-top: 100px;
         margin-left: -190px;
+        width: 100%;
     }
+
 
 }
 
@@ -1474,11 +1533,25 @@ Responsive  - format +ecran
         padding-left: 20%;
         padding-right: 20%;
     }
+    .program { display: flex; }
+    .program > div {
+        width: 70%;
+        margin-left: 5%;
+        margin-top: 30px;
+    }
     .program img {
         width: 160px;
         height: 180px;
         margin-top: 10px;
-        margin-left: 42%;
+        margin-left: 0;
+    }
+    #hexagone-gauche img {
+        order: 1;
+        margin-left: 15%;
+    }
+    #hexagone-gauche div {
+        order: 2;
+        margin-left: 0;
     }
 
     /*classement*/
@@ -1586,7 +1659,14 @@ Responsive  - format +ecran
         left: 47%;
         top: 640px;
     }
+    .affiche_equipe p, .affiche_equipe img {
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .affiche_equipe h1 {  margin-left: 25%;  }
     .affiche_equipe:nth-child(3) { margin-top: 170px; }
+
 
     /* galerie */
     #header-galerie {  background-size: 25%;  }
@@ -1748,11 +1828,11 @@ Responsive  - format +ecran
     .pizza { display: flex; }
     .pizza > div {
         width: 50%;
-        margin-left: 22%;
+        margin-left: 18%;
     }
     #marie {
         position: relative;
-        left: 24%;
+        left: 18%;
         top: 0;
         width: 220px;
         margin: 0;
@@ -1770,8 +1850,8 @@ Responsive  - format +ecran
 
     #davidm {
         position: absolute;
-        right: 90px;
-        top: 4135px;
+        right: 105px;
+        top: 3985px;
         width: 250px;
         margin: 0;
         display:  block;
@@ -1805,10 +1885,11 @@ Responsive  - format +ecran
     }
     #fb-root, #fb-root2 {  margin-left: 10px;  }
 
-    .partage-fb {  margin-left: 4%;  }
+    .partage-fb {  margin-left: -50%;  }
     #apercu-galerie {
         margin-top: 100px;
         margin-left: -190px;
+        width: 100%;
     }
 }
 

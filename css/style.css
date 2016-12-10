@@ -87,6 +87,7 @@ header h3 {
     margin-left: 265px;
     position: absolute;
     top: 12px;
+    transition: none;
 }
 
 header span {
@@ -352,7 +353,7 @@ button:hover, button:hover a,
 /*Detaille defi*/
 .desc_index {
     background-color: white;
-
+    width: 81%;
     padding: 30px 10%;
 }
 
@@ -412,7 +413,7 @@ iframe {
 /*Classement*/
 .tete_classement {
     background-color: white;
-    width: 80%;
+    width: 81%;
     padding: 20px 10% 40px;
 }
 
@@ -482,7 +483,7 @@ iframe {
     justify-content: center;
     background-color: white;
     padding-left: 5%;
-    width: 95%;
+    width: 96%;
     height: 430px;
     margin-top: 30px;
 }
@@ -493,7 +494,10 @@ iframe {
     flex-wrap: wrap;
     width: 90%;
 }
-#apercu-galerie {  padding-top: 10px;  }
+#apercu-galerie {
+    padding-top: 10px;
+
+}
 #apercu-galerie img {
     width: 150px;
     height: 150px;
@@ -502,7 +506,8 @@ iframe {
 
 .partage-fb {
     margin-top: -10px;
-    margin-left: 20%;
+    display: flex;
+    justify-content: center;
 }
 .fb-like { margin-right: 10px; }
 
@@ -600,6 +605,7 @@ button {
     background-color: #5a8cab;
     padding-top: 20px;
     padding-bottom: 20px;
+    width: 101%;
     display: flex;
     justify-content: center;
 }
@@ -1024,6 +1030,12 @@ piece h1 {
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 30px;
+}
+img, svg {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .affiche_equipe:nth-child(3) { margin-top: 140px; }

@@ -241,11 +241,11 @@ h2 { font-size: 1.5em; }
 }
 
 h2 {
-    font-size: 1.2em;
-    color: white;
-    font-family: special, sans-serif;
-    font-weight: lighter;
-}
+     font-size: 1.1em;
+     color: white;
+     font-family: special, sans-serif;
+     font-weight: lighter;
+ }
 
 /* -------------------- PAGE DEFIS ---------------------  */
 #fin-defis {
