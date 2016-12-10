@@ -72,7 +72,15 @@ class DaoCommente extends Dao
 
     public function update()
     {
+        $sql = "UPDATE commente SET ID_PERSONNE = ?, ID_FICHIER = ?, COMMENTAIRE = ?, WHERE ID_COMMENTE = ?";
+        $requete = $this->pdo->prepare($sql);
 
+        $requete->bindValue(1, $this->bean->getLesPersonnes()->getId());
+        $requete->bindValue(2, $this->bean->getLesFichier()->getId());
+        $requete->bindValue(3, $this->bean->getCommentaire());
+        $requete->bindValue(4, $this->bean->getId());
+
+        $requete->execute();
     }
 
 
@@ -96,7 +104,7 @@ class DaoCommente extends Dao
                     $donnees['NOM_PERSONNE'],
                     $donnees['PRENOM_PERSONNE'],
                     $donnees['PSEUDO_PERSONNE'],
-                    $donnees['MOT_DE_PASSE'],
+                    $donnees['MDP'],
                     $donnees['PHOTO_PERSONNE'],
                     $donnees['STATUT_PERSONNE'],
                     $donnees['TAG_PERSONNE']

@@ -1,11 +1,117 @@
-/* -------------------------------------
+/* ---------------------------
+Responsive  - format iphone5
+------------------------------ */
+@media only screen and (min-width : 310px) and (max-width : 345px) {
+    .hexagone h1 {
+        margin-top: 150px;
+        width: 70%;
+        margin-left: 12.5%;
+        top: -140px;
+    }
+    .hexagone img {
+        width: 280px;
+        height: 325px;
+        top: -135px;
+        left: 7%;
+    }
+    .hexagone .fleche_index {
+        top: 247px;
+        left: 40%;
+    }
+
+    .tete_classement .haut_classement { width: 155px; }
+
+    #slider {
+        margin-left: 25%;
+        width: 155px;}
+    .choix img { margin-left: 20%; }
+    .tete_classement .equipe_classement {
+        width: 300px;
+        left: -20px;
+    }
+    #navigation-slider > li:nth-child(2) > button > img {  left: 260px;  }
+
+    .photo-ancien {
+        width: 195px;
+        margin: 70px 20% 50px;
+        height: 220px;
+    }
+    .photo-ancien .cadre_enchere {
+        position: relative;
+        display: block;
+        top: -263px;
+        width: 130%;
+        left: -16%;
+    }
+
+    .partage { height: 390px; }
+    #apercu-galerie img {
+        width: 120px;
+        height: 120px;
+    }
+    .partage-fb {  margin-left: 12%;  }
+    #apercu-galerie {
+        width: 80%;
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (min-width : 345px) and (max-width : 420px) {
+    .hexagone img {
+        width: 280px;
+        height: 325px;
+        top: -135px;
+        left: 13%;
+    }
+    .hexagone .fleche_index {
+        top: 247px;
+        left: 41%;
+    }
+
+    #slider {  margin-left: 10%;  }
+    .tete_classement .equipe_classement {
+        width: 370px;
+        left: -40px;
+    }
+    #navigation-slider li button img {left: 10px; }
+    #navigation-slider > li:nth-child(2) > button > img { left: 326px;  }
+
+    .photo-ancien {
+        width: 195px;
+        margin: 70px 20% 50px;
+        height: 220px;
+    }
+    .photo-ancien .cadre_enchere {
+        position: relative;
+        display: block;
+        top: -227px;
+        width: 130%;
+        left: -16%;
+    }
+}
+
+/* page enchere - placement element */
+@media only screen and (min-width : 310px) and (max-width: 321px) {
+    .photo-ancien .cadre_enchere {  top: -229px;  }
+    .photo-ancien {  height: 180px;  }
+
+    .description h3 {
+        left: 125px;
+        width: 170px;
+    }
+}
+
+
+/* ---------------------------
 Responsive  - format intermediaire (tablette/mobile)
----------------------------------------------------- */
+------------------------------ */
 
-@media only screen and (min-width : 480px) and (max-width : 767px) {
-
+@media only screen and (min-width : 479px) and (max-width : 717px) {
     #logo h3 { left: 100px; }
     header #menu-deroulant {  width: 55%;  }
+
+    .icone_accueil.active .menu { right: 6%; }
+    .icone_accueil.active .tchat { right: 14%; }
 
     #menu-deroulant .pseudo_li img {
         width: 40px;
@@ -14,37 +120,213 @@ Responsive  - format intermediaire (tablette/mobile)
         margin-right: 11%;
     }
 
+    .progress .point { right: 43%; }
+    .bandeau .supperpose_titre { left: 40%;  }
+    .affiche_equipe img { margin-top: 50px; }
+
+
+    /* accueil */
+    .hexagone h1 {
+        left: 40%;
+        top: 221px;
+    }
+    iframe {
+        width: 100%;
+        height: 325px;
+    }
+
+    .choix img { margin-left: 32.5%; }
+    .commencer a {
+        width: 60%;
+        left: 17%;
+    }
+    .button_inscription {
+        width: 50%;
+        left: 14%;
+    }
+
+    .fond_logo {
+        width: 40%;
+        margin-top: -220px;
+        right: 75px;
+    }
+
+    .programme {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .program img {
+        width: 160px;
+        height: 180px;
+        margin-top: 10px;
+        margin-left: 37%;
+    }
+
+    /*classement */
+    .depot .supperpose_titre_depot { left: 42%; }
+    .equipe_classement {
+        margin-bottom: 10px;
+    }
+
+    /* equipe */
+    .bandeau .modif { left: 75%; }
+    .modif {  left: 32%;  }
+    .piece {  left: 80%;  }
+
+    .membre-carre {
+        width: 80px;
+        height: 200px;
+        margin-left: 70px;
+    }
+    .membre-carre img {  width: 110px;  }
+    .carre-fond {
+        left: 25px;
+        top: -80px;
+    }
+    .membre-carre p {  top: -90px; left: 25%; }
+    .jaune, .bleu {
+        position: relative;
+        margin-left: -19%;
+        width: 65%;
+        padding-left: 27%;
+        padding-right: 27%;
+    }
+
+    .formulaire .button-equipe {  width: 85%;  }
+    .titre_equipe .formulaire {
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0 0 0 12%;
+    }
+
+    /* galerie */
+    .bandeau-ligne-bleu { height: 15px; }
+    .supperpose_titre_galerie { left: 50%; }
+    .span-galerie { left: 47%; }
+    .photo {
+        width: 175px;
+        height: 175px;
+    }
+
+    /* projet */
     .formulaire > form input, button {  width: 90%;  }
-    .formulaire button {  width: 94%;  }
+    .formulaire button {  width: 95%;  }
     select {  width: 94%;  }
     .formulaire .lien_form {
         display: flex;
         justify-content: center;
     }
-    .file { right: 16.5%;  }
+    .file { right: 11.5%;  }
+    #uploaded2 { width: 90%; }
 
-    .progress .point { right: 43%; }
-
-    .supperpose_titre { left: 40%;  }
-
-    .affiche_equipe img { margin-top: 50px; }
-
-    #categorie { width: 96%; }
+    #categorie { width: 94.5%; }
     .depot_desc {
         width: 90.5%;
         margin-left: 3px;
     }
-    .depot_file { right: 12%; }
+    .depot_file { right: 12.20%; }
+
+    /*enchere*/
+    .bandeau .encheres span {
+        top: 55px;
+        left: 25%;
+    }
+
+    .profil {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .photo-ancien {
+        width: 15%;
+        height: 220px;
+        margin: 70px 0 50px 27%;
+    }
+    .photo-ancien img { width: 250px; }
+    .photo-ancien .cadre_enchere {
+        top: -292px;
+        width: 320px;
+        left: -35px;
+    }
+
+    .description h3 { left: 58%; }
+    .profil-fin { margin-bottom: 10px; }
+
+    /*defi*/
+    svg {
+        width: 557px;
+        margin-left: 0;
+        display: block;
+    }
+    .svg2 {
+        width: 549px;
+        top: -268px;
+        left: 0.5%;
+    }
+
+    .les_defis > div {
+        height: 260px;
+        overflow: hidden;
+        position: relative;
+        margin-bottom: 0;
+    }
+    .les_defis div {
+        position: relative;
+        z-index: 1;
+        margin-top: 20px;
+    }
+    .les_defis .div2 {
+        z-index: 2;
+        margin-top: -40px;
+    }
+    .les_defis .msg_fin {
+        margin-left: 10%;
+        height: 80px;
+    }
+
+    /*modal defi*/
+    .machine_ecrire {
+        display: block;
+        overflow: hidden;
+        height: 593px;
+    }
+    .feuille {
+        width: 27.5%;
+        margin-left: 31.75%;
+    }
+    .feuille h2 { margin-top: -30px; }
+    .feuille p {
+        padding-bottom: 35px;
+        margin-bottom: -5px;
+    }
+    .modal .machine {
+        position: relative;
+        bottom: 85px;
+        width: 62%;
+        left: 19.5%;
+    }
+    .modal-content { padding-bottom: 130px; }
+
+    /* partage accueil*/
+    .partage {  display: flex;  }
+    .partage-fb {  margin-left: 32%;  }
+    #apercu-galerie {
+        width: 65%;
+        margin-left: 15%;
+    }
 }
 
 /* --------------------------
 Responsive  - format tablette
 ----------------------------- */
 
-@media only screen and (min-width : 768px) and (max-width : 1024px) {
-
+@media only screen and (min-width : 718px) and (max-width : 1024px) {
     #logo h3 { left: 100px; }
     header #menu-deroulant {  width: 45%;  }
+    #header-bois { width: 102%; }
+
+    .icone_accueil.active .menu { right: 6%; }
+    .icone_accueil.active .tchat { right: 12%; }
 
     #menu-deroulant .pseudo_li img {
         width: 40px;
@@ -53,38 +335,244 @@ Responsive  - format tablette
         margin-right: 15%;
     }
 
+    .progress .point { right: 42%; }
+    .bandeau .supperpose_titre { left: 45%;  }
+    .affiche_equipe img { margin-top: 60px; }
+
+    /* accueil*/
+    .hexagone h1 {
+        left: 40%;
+        top: 221px;
+    }
+    .avancement h1 { margin-top: 350px; }
+
+    #slider { width: 580px;  }
+    iframe {
+        width: 100%;
+        height: 450px;
+    }
+
+    .choix img { margin-left: 24%; }
+    .commencer .joueurs img { margin-left: 22%; }
+    .commencer { display: flex; }
+    .commencer a {
+        width: 60%;
+        left: 17%;
+    }
+    .button_inscription {
+        width: 45%;
+        left: 18%;
+    }
+    .commencer h1 {
+        position: absolute;
+        text-align: center;
+        margin-left: 0;
+    }
+    .commencer .voyeurs{
+        width: 50%;
+        margin-top: 80px;
+        margin-right: 5%;
+    }
+    .commencer .ligne-separation {
+        display: block;
+        width: 1%;
+        height: 430px;
+        margin-top: 71px;
+    }
+    .commencer .joueurs {
+        width: 50%;
+        margin-top: 80px;
+        margin-left: 5%;
+    }
+
+    .fond_logo {
+        width: 35%;
+        margin-top: -280px;
+        right: 100px;
+    }
+
+    .programme {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .program img {
+        width: 160px;
+        height: 180px;
+        margin-top: 10px;
+        margin-left: 40%;
+    }
+
+    /*classement*/
+    .depot .supperpose_titre_depot { left: 45%; }
+    .equipe_classement {  margin-bottom: 15px;  }
+
+    /*equipe*/
+    .bandeau .modif { left: 82%; }
+    .modif {  left: 37%;  }
+    .piece {  left: 82%; width: 15%; }
+
+    .membre-carre {
+        width: 100px;
+        height: 220px;
+        margin-left: 70px;
+    }
+    .membre-carre img {  width: 120px;  }
+    .carre-fond {
+        left: 25px;
+        top: -100px;
+    }
+    .membre-carre p {  top: -100px; left: 25%; }
+    .jaune, .bleu {
+        position: relative;
+        margin-left: -12.5%;
+    }
+
+    textarea { margin-top: 7px; }
+    .formulaire .button-equipe {  width: 50%; margin-left: 33%; }
+    .titre_equipe .formulaire {
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0 0 0 12%;
+    }
+
+    /* galerie */
+    #header-galerie {  background-size: 50%;  }
+    .bandeau-ligne-bleu { height: 15px; }
+    .span-galerie { left: 48%; }
+    .photo {
+        width: 200px;
+        height: 200px;
+    }
+
+    /*projet*/
+    .supperpose_titre_depot { left: 50%; }
+    #categorie { width: 93%; }
+    .depot_desc {
+        width: 90.5%;
+        margin-left: 3px;
+        margin-top: 20px;
+    }
+    .depot_file { right: 12.5%; }
+
     .formulaire > form input, button {  width: 90%;  }
-    .formulaire button {  width: 94%;  }
+    .formulaire button {  width: 93%;  }
     select {  width: 94%;  }
     .formulaire .lien_form {
         display: flex;
         justify-content: center;
     }
-    .file { right: 17%;  }
+    .file { right: 12.5%; }
 
-    .progress .point { right: 42%; }
-
-    .supperpose_titre { left: 45%;  }
-
-    .affiche_equipe img { margin-top: 60px; }
-
-    .supperpose_titre_depot { left: 50%; }
-    #categorie { width: 94%; }
-    .depot_desc {
-        width: 90.5%;
-        margin-left: 3px;
+    /*enchere*/
+    .bandeau .encheres span {
+        top: 55px;
+        left: 35%;
     }
-    .depot_file { right: 12.5%; }
+
+    .profil {  display: flex;  }
+    .photo-ancien {
+        width: 15%;
+        height: 220px;
+        margin: 70px 0 50px 11%;
+    }
+    .photo-ancien img { width: 250px; }
+    .photo-ancien .cadre_enchere {
+        top: -292px;
+        width: 320px;
+        left: -35px;
+    }
+
+    .profil .description {
+        padding-top: 65px;
+        margin-left: 165px;
+    }
+    .description h3 { left: 38%; }
+    .description .desc { width: 71%; }
+
+    .profil-paire .photo-ancien{
+        order: 2;
+        margin-right: 30%;
+    }
+    .profil-paire h3 { left: 47%; }
+    .profil-paire .description { margin-left: 6%; }
+    .profil-paire .description .desc { width: 100%; }
+
+    .profil-fin { margin-bottom: 20px; }
+
+    /*defi*/
+    svg {
+        width: 575px;
+        margin-left: 0;
+        display: block;
+    }
+    .svg2 {
+        width: 559px;
+        top: -277px;
+        left: 2%;
+    }
+
+    .les_defis > div {
+        height: 260px;
+        overflow: hidden;
+        position: relative;
+        margin-bottom: 0;
+    }
+    .les_defis div {
+        position: relative;
+        z-index: 1;
+        margin-top: 20px;
+    }
+    .les_defis .div2 {
+        z-index: 2;
+        margin-top: -40px;
+    }
+    .les_defis .msg_fin {
+        margin-left: 10%;
+        height: 80px;
+    }
+
+    /*modal defi*/
+    .machine_ecrire {
+        display: block;
+        overflow: hidden;
+        height: 593px;
+    }
+    .feuille {
+        width: 27.5%;
+        margin-left: 31.75%;
+    }
+    .feuille h2 { margin-top: -30px; }
+    .feuille p {
+        padding-bottom: 35px;
+        margin-bottom: -5px;
+    }
+    .modal .machine {
+        position: relative;
+        bottom: 100px;
+        width: 60%;
+        left: 20%
+    }
+    .modal-content { padding-bottom: 130px; }
+
+    /* partage accueil*/
+    .partage {
+        display: flex;
+        height: 270px;
+    }
+    .partage-fb {  margin-left: 34%;  }
+
 }
 
-/* ----------------------------------------------------
+/* --------------------------
 Responsive  - format intermediaire (tablette/ecran)
----------------------------------------------------- */
+----------------------------- */
 
-@media only screen and (min-width : 1023px) and (max-width : 1300px) {
-
+@media only screen and (min-width : 1024px) and (max-width : 1300px) {
     #logo h3 { left: 110px; }
     header #menu-deroulant {  width: 35%;  }
+
+    .icone_accueil.active .menu { right: 6%; }
+    .icone_accueil.active .tchat { right: 10%; }
 
     #menu-deroulant .pseudo_li img {
         width: 40px;
@@ -92,18 +580,6 @@ Responsive  - format intermediaire (tablette/ecran)
         margin-top: 15px;
         margin-right: 17%;
     }
-
-    .formulaire > form input, button {  width: 90%;  }
-    button {
-        width: 50%;
-        margin-left: 43%;
-    }
-    select {  width: 93%;  }
-    .formulaire .lien_form {
-        display: flex;
-        justify-content: center;
-    }
-    .file {  right: 17.65%;  }
 
     .display_none_lg {  display: none;  }
     .partenaires .iut_small_size {
@@ -113,28 +589,393 @@ Responsive  - format intermediaire (tablette/ecran)
     }
 
     .progress .point { right: 41.8%; }
-
-    .supperpose_titre { left: 47%;  }
-
+    .bandeau .supperpose_titre { left: 47%;  }
     .affiche_equipe img { margin-top: 70px; }
 
+    /* accueil*/
+    .hexagone h1 {
+        left: 40%;
+        top: 221px;
+    }
+    .avancement h1 { margin-top: 350px; }
+
+    #slider { width: 850px;  }
+    iframe {
+        width: 100%;
+        height: 525px;
+    }
+
+    .choix img { margin-left: 40%; }
+    .commencer .joueurs img { margin-left: 30%; }
+    .commencer { display: flex; }
+    .commencer a {
+        width: 60%;
+        left: 17%;
+    }
+    .button_inscription {
+        width: 40%;
+        left: 19.5%;
+    }
+    .commencer h1 {
+        position: absolute;
+        text-align: center;
+        margin-left: 0;
+    }
+    .commencer .voyeurs{
+        width: 50%;
+        margin-top: 80px;
+        margin-right: 5%;
+    }
+    .commencer .ligne-separation {
+        display: block;
+        width: 1%;
+        height: 430px;
+        margin-top: 71px;
+    }
+    .commencer .joueurs {
+        width: 50%;
+        margin-top: 80px;
+        margin-left: 5%;
+    }
+    .equipe_classement { width: 90%; }
+
+    .fond_logo {
+        width: 30%;
+        margin-top: -280px;
+        right: 180px;
+    }
+
+    .programme {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .program img {
+        width: 160px;
+        height: 180px;
+        margin-top: 10px;
+        margin-left: 42%;
+    }
+
+    /*classement*/
+    .depot .supperpose_titre_depot { left: 47%; }
+    .equipe_classement {
+        margin-bottom: 20px;
+        margin-left: 3%;
+    }
+
+    #haut-tableau { height: 600px; }
+    #equipe-haut, #equipe-haut2, #equipe-haut3 { display: block; }
+    #equipe-haut, #equipe-haut2, #equipe-haut3 {  height: 140px;  }
+    #equipe-haut2 {
+        left: 7%;
+        top: 40px;
+        position: relative;
+        z-index: 2;
+    }
+    #equipe-haut3 {
+        left: 56%;
+        top: -228px;
+        position: relative;
+        z-index: 1;
+    }
+    #haut-tableau .equipe_classement div { margin-left: -65px; }
+    #haut-tableau .haut_classement {
+        background-color: #e69f1f;
+        width: 37.7%;
+        margin-top: 0;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        position: relative;
+        left: 31px;
+        z-index: 3;
+    }
+    #haut-tableau #deuxieme .haut_classement {
+        left: -25.7%;
+        top: 40px;
+    }
+    #haut-tableau #troisieme .haut_classement {
+        top: -228px;
+        left: 28.7%;
+    }
+
+    #premier.equipe_classement .premier-hexagone {
+        position: absolute;
+        left: 40%;
+        margin-top: -90px;
+        z-index: 4;
+    }
+    #deuxieme.equipe_classement .premier-hexagone {
+        position: absolute;
+        left: 14.5%;
+        margin-top: -50px;
+        z-index: 4;
+    }
+    #troisieme.equipe_classement .premier-hexagone {
+        position: absolute;
+        left: 63.5%;
+        margin-top: -322px;
+        z-index: 4;
+    }
+
+
+    /*equipe*/
+    .bandeau .modif { left: 40%; }
+    .modif {  left: 16%;  }
+    .piece {  left: 85%; width: 15%; }
+
+    .membre-carre {
+        width: 180px;
+        height: 240px;
+        margin-left: 70px;
+    }
+    .membre-carre img {  width: 140px;  }
+    .carre-fond {
+        left: 35px;
+        top: -115px;
+    }
+    .membre-carre p {  top: -110px;  }
+    .jaune, .bleu {
+        position: relative;
+        margin-left: -6%;
+    }
+
+    textarea {  margin-top: 5px; }
+    .formulaire .button-equipe {  width: 35%; left: -10%; }
+    .titre_equipe .formulaire {
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0 0 0 12%;
+    }
+
+    /* galerie */
+    #header-galerie {  background-size: 35%;  }
+    .bandeau-ligne-bleu { height: 15px; }
+    .span-galerie { left: 48%; }
+    .modif2 { margin-left: 0; }
+    .photo {
+        width: 225px;
+        height: 225px;
+    }
+
+    /* modal */
+    .modal .affichage_photo {
+        width: 36%;
+        margin-left: 6%;
+    }
+    .modal .modal-com {
+        margin-left: 40%;
+        position: absolute;
+        top: 80px;
+    }
+    .modal .affichage_photo {
+        width: 36%;
+        margin-left: 6%;
+        margin-bottom: 170px;
+    }
+    .avion img {
+        position: absolute;
+        bottom: 29px;
+        left: 77%;
+    }
+    .avion:hover {
+        background: none;
+        margin: 0;
+        margin-top: -20px;
+        margin-left: 30px;
+    }
+
+    /*projet*/
     .supperpose_titre_depot { left: 50%; }
     #categorie { width: 92%; }
     .depot_desc {
         width: 90%;
         margin-left: 5px;
+        margin-top: 20px;
     }
-    .depot_file { right: 13%; }
+    .depot_file { right: 12.85%; }
+
+    .formulaire > form input, button {  width: 90%;  }
+    button {
+        width: 45%;
+        margin-left: 48%;
+    }
+    select {  width: 93%;  }
+    .formulaire .lien_form {
+        display: flex;
+        justify-content: center;
+    }
+
+    /*enchere*/
+    .bandeau .encheres span {
+        top: 55px;
+        left: 40%;
+    }
+
+    .profil {  display: flex;  }
+    .photo-ancien {
+        width: 15%;
+        height: 220px;
+        margin: 70px 0 50px 11%;
+    }
+    .photo-ancien img { width: 250px; }
+    .photo-ancien .cadre_enchere {
+        top: -292px;
+        width: 320px;
+        left: -35px;
+    }
+
+    .profil .description {
+        padding-top: 65px;
+        margin-left: 85px;
+    }
+    .description h3 { left: 58%; }
+    .description .desc { width: 71%; }
+
+    .profil-paire .photo-ancien{
+        order: 2;
+        margin-right: 22%;
+    }
+    .profil-paire h3 { left: 76%; }
+    .profil-paire .description { margin-left: 6%; }
+    .profil-paire .description .desc { width: 100%; }
+
+    .profil-fin { margin-bottom: 20px; }
+
+    /*defi*/
+    svg {
+        width: 645px;
+        margin-left: 11%;
+        display: block;
+    }
+    .svg2 {
+        top: -315px;
+        left: 2%;
+    }
+
+    .les_defis > div {
+        height: 260px;
+        overflow: hidden;
+        position: relative;
+        margin-bottom: 0;
+    }
+    .les_defis div {
+        position: relative;
+        z-index: 1;
+        margin-top: 20px;
+    }
+    .les_defis .div2 {
+        z-index: 2;
+        margin-top: -40px;
+    }
+    .les_defis .msg_fin {
+        margin-left: 10%;
+        height: 80px;
+    }
+
+    /*modal defi*/
+    .machine_ecrire {
+        display: block;
+        overflow: hidden;
+        height: 593px;
+    }
+    .feuille {
+        width: 22.5%;
+        margin-left: 35%
+    }
+    .feuille h2 { margin-top: -30px; }
+    .feuille p {
+        padding-bottom: 30px;
+        margin-bottom: 5px;
+    }
+    .modal .machine {
+        position: relative;
+        bottom: 115px;
+        width: 50%;
+        left: 25%;
+    }
+    .modal-content { padding-bottom: 130px; }
+
+    /* svg */
+    #david {
+        position: absolute;
+        top: 2084px;
+        left: 41%;
+        width: 170px;
+        margin: 0;
+        display: block;
+    }
+
+    .pizza { display: flex; }
+    .pizza > div {
+        width: 50%;
+        margin-left: 22%;
+    }
+    #marie {
+        position: relative;
+        left: 24%;
+        top: 0;
+        width: 220px;
+        margin: 0;
+        display: block;
+    }
+
+    #guillaume {
+        position: absolute;
+        left: 0;
+        top: 3400px;
+        width: 220px;
+        margin: 0;
+        display: block;
+    }
+
+    #davidm {
+        position: absolute;
+        right: 50px;
+        top: 4050px;
+        width: 230px;
+        margin: 0;
+        display:  block;
+    }
+
+    #xaviers {
+        position: relative;
+        margin: 130px 0 0;
+        display:  block;
+    }
+
+    .svg-classement {
+        display: flex;
+        justify-content: center;
+    }
+    #pascalc {
+        position: absolute;
+        top: 580px;
+        width: 330px;
+        margin: 0;
+        display: block;
+        z-index: 4;
+    }
+
+    /* partage accueil*/
+    .partage {
+        display: flex;
+        height: 510px;
+    }
+    .partage-fb {  margin-left: 15%;  }
+
+
 }
 
-
-/* ----------------------------------------------------
+/* --------------------------
 Responsive  - format ecran
----------------------------------------------------- */
-@media only screen and (min-width : 1300px) and (max-width : 1500px) {
+----------------------------- */
 
+@media only screen and (min-width : 1300px) and (max-width : 1500px) {
     #logo h3 { left: 110px; }
     header #menu-deroulant {  width: 30%;  }
+
+    .icone_accueil.active .menu { right: 5.5%; }
+    .icone_accueil.active .tchat { right: 9%; }
 
     #menu-deroulant .pseudo_li img {
         width: 40px;
@@ -142,18 +983,6 @@ Responsive  - format ecran
         margin-top: 15px;
         margin-right: 19%;
     }
-
-    .formulaire > form input, button {  width: 90%;  }
-    button {
-        width: 50%;
-        margin-left: 43%;
-    }
-    select {  width: 93%;  }
-    .formulaire .lien_form {
-        display: flex;
-        justify-content: center;
-    }
-    .file {  right: 17.65%;  }
 
     .display_none_lg {  display: none;  }
     .partenaires .iut_small_size {
@@ -163,28 +992,416 @@ Responsive  - format ecran
     }
 
     .progress .point { right: 41.5%; }
-
-    .supperpose_titre { left: 47%;  }
-
     .affiche_equipe img { margin-top: 80px; }
 
-    .supperpose_titre_depot { left: 50%; }
+    /* accueil*/
+    .hexagone h1 {
+        left: 40%;
+        top: 221px;
+    }
+    .avancement h1 { margin-top: 350px; }
+
+    #slider { width: 1135px;  }
+    iframe {
+        width: 100%;
+        height: 550px;
+    }
+
+    .choix img { margin-left: 40%; }
+    .commencer .joueurs img { margin-left: 34%; }
+    .commencer .voyeurs img { margin-left: 34%; }
+    .commencer { display: flex; }
+    .commencer a {
+        width: 60%;
+        left: 17%;
+    }
+    .button_inscription {
+        width: 35%;
+        left: 22%;
+    }
+    .commencer h1 {
+        position: absolute;
+        text-align: center;
+        margin-left: 0;
+    }
+    .commencer .voyeurs{
+        width: 50%;
+        margin-top: 80px;
+        margin-right: 5%;
+    }
+    .commencer .ligne-separation {
+        display: block;
+        width: 1%;
+        height: 430px;
+        margin-top: 71px;
+    }
+    .commencer .joueurs {
+        width: 50%;
+        margin-top: 80px;
+        margin-left: 5%;
+    }
+    .equipe_classement { width: 90%; }
+
+    .fond_logo {
+        width: 25%;
+        margin-top: -300px;
+        right: 200px;
+    }
+
+    .programme {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .program img {
+        width: 160px;
+        height: 180px;
+        margin-top: 10px;
+        margin-left: 42%;
+    }
+
+    /*classement*/
+    .depot .supperpose_titre_depot { left: 48%; }
+    .equipe_classement {
+        margin-bottom: 25px;
+        margin-left: 3%;
+    }
+
+    #haut-tableau { height: 700px; }
+    #equipe-haut, #equipe-haut2, #equipe-haut3 { display: block; }
+    #equipe-haut2 {
+        left: 7%;
+        top: 40px;
+        position: relative;
+        z-index: 2;
+    }
+    #equipe-haut3 {
+        left: 56%;
+        top: -290px;
+        position: relative;
+        z-index: 1;
+    }
+    #haut-tableau .equipe_classement div { margin-left: -65px; }
+    #haut-tableau .haut_classement {
+        background-color: #e69f1f;
+        width: 37.9%;
+        margin-top: 0;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        position: relative;
+        left: 36px;
+        z-index: 3;
+    }
+    #haut-tableau #deuxieme .haut_classement {
+        left: -25.7%;
+        top: 40px;
+    }
+    #haut-tableau #troisieme .haut_classement {
+        top: -290px;
+        left: 28.7%;
+    }
+
+    #premier.equipe_classement .premier-hexagone {
+        position: absolute;
+        left: 39%;
+        margin-top: -90px;
+        z-index: 4;
+    }
+    #deuxieme.equipe_classement .premier-hexagone {
+        position: absolute;
+        left: 13%;
+        margin-top: -50px;
+        z-index: 4;
+    }
+    #troisieme.equipe_classement .premier-hexagone {
+        position: absolute;
+        left: 62%;
+        margin-top: -375px;
+        z-index: 4;
+    }
+
+    /*equipe*/
+    .bandeau .modif { left: 31%; }
+    .modif {  left: 11%;  }
+    .piece {  left: 85%; width: 15%; }
+
+    .membre-carre {
+        width: 225px;
+        height: 270px;
+        margin-left: 70px;
+    }
+    .membre-carre img {  width: 160px;  }
+    .carre-fond {
+        left: 45px;
+        top: -125px;
+    }
+    .membre-carre p {  top: -120px;  }
+    .jaune, .bleu {
+        position: relative;
+        margin-left: -3%;
+    }
+
+    textarea { margin-top: 0; }
+    .formulaire .button-equipe {  width: 29%; }
+    .titre_equipe .formulaire {
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0 0 0 12%;
+    }
+
+    .titre-pc {
+        position: absolute;
+        color: #15232A;
+        font-size: 4em;
+        padding: 15px;
+        padding-top: 30px;
+        top: 89px;
+        left: 5%;
+        background-color: white;
+        display: block;
+    }
+    .bandeau .flechenoir {
+        display: block;
+        left: 47%;
+        top: 600px;
+    }
+
+    /* galerie */
+    #header-galerie {  background-size: 25%;  }
+    .bandeau-ligne-bleu { height: 15px; }
+    .span-galerie { left: 49%; }
+    .modif2 { margin-left: 0; }
+    .photo {
+        width: 250px;
+        height: 250px;
+    }
+
+    /* modal */
+    .modal .affichage_photo {
+        width: 36%;
+        margin-left: 6%;
+    }
+    .modal .modal-com {
+        margin-left: 40%;
+        position: absolute;
+        top: 90px;
+    }
+    .modal .affichage_photo {
+        width: 36%;
+        margin-left: 6%;
+        margin-bottom: 55px;
+    }
+    .avion img {
+        position: absolute;
+        bottom: 29px;
+        left: 77%;
+    }
+    .avion:hover {
+        background: none;
+        margin: 0;
+        margin-top: -20px;
+        margin-left: 30px;
+    }
+
+    /*projet*/
     #categorie { width: 92%; }
     .depot_desc {
         width: 90%;
         margin-left: 5px;
+        margin-top: 20px;
     }
     .depot_file { right: 13.2%; }
+
+    .bandeau-projet .supperpose_titre { left: 47%; }
+
+    .formulaire > form input, button {  width: 90%;  }
+    button {
+        width: 40%;
+        margin-left: 53%;
+    }
+    select {  width: 93%;  }
+    .formulaire .lien_form {
+        display: flex;
+        justify-content: center;
+    }
+
+    /*enchere*/
+    .bandeau .encheres span {
+        top: 55px;
+        left: 40%;
+    }
+
+    .profil {  display: flex;  }
+    .photo-ancien {
+        width: 15%;
+        height: 220px;
+        margin: 70px 0 50px 11%;
+    }
+    .photo-ancien img { width: 250px; }
+    .photo-ancien .cadre_enchere {
+        top: -292px;
+        width: 320px;
+        left: -35px;
+    }
+
+    .profil .description {
+        padding-top: 65px;
+        margin-left: 25px;
+    }
+    .description h3 { left: 65%; }
+    .description .desc { width: 74%; }
+
+    .profil-paire .photo-ancien{
+        order: 2;
+        margin-right: 17%;
+    }
+    .profil-paire h3 { left: 86%; }
+    .profil-paire .description { margin-left: 6%; }
+    .profil-paire .description .desc { width: 100%; }
+
+    .profil-fin { margin-bottom: 10px; }
+
+    /*defi*/
+    .les_defis { margin-left: 15%; }
+    .defi { display: none; }
+    .defi-90degre {
+        display: block;
+        margin-left: 5%;
+        position: absolute;
+    }
+    svg {
+        width: 645px;
+        margin-left: 19%;
+        display: block;
+    }
+    .svg2 {
+        top: -315px;
+        left: 2%;
+    }
+
+    .les_defis > div {
+        height: 260px;
+        overflow: hidden;
+        position: relative;
+        margin-bottom: 0;
+    }
+    .les_defis div {
+        position: relative;
+        z-index: 1;
+        margin-top: 20px;
+    }
+    .les_defis .div2 {
+        z-index: 2;
+        margin-top: -40px;
+    }
+    .les_defis .msg_fin {
+        margin-left: 10%;
+        height: 80px;
+    }
+
+    /*modal defi*/
+    .machine_ecrire {
+        display: block;
+        overflow: hidden;
+        height: 593px;
+    }
+    .feuille {
+        width: 18.5%;
+        margin-left: 37.95%;
+    }
+    .feuille h2 { margin-top: -30px; }
+    .feuille p {
+        padding-bottom: 30px;
+        margin-bottom: 5px;
+    }
+    .modal .machine {
+        position: relative;
+        bottom: 115px;
+        width: 40.5%;
+        left: 30%;
+    }
+    .modal-content { padding-bottom: 130px; }
+
+    /* svg */
+    #david {
+        position: absolute;
+        top: 2061px;
+        left: 43%;
+        width: 190px;
+        margin: 0;
+        display: block;
+    }
+
+    .pizza { display: flex; }
+    .pizza > div {
+        width: 50%;
+        margin-left: 22%;
+    }
+    #marie {
+        position: relative;
+        left: 24%;
+        top: 0;
+        width: 220px;
+        margin: 0;
+        display: block;
+    }
+
+    #guillaume {
+        position: absolute;
+        left: 0;
+        top: 3400px;
+        width: 220px;
+        margin: 0;
+        display: block;
+    }
+
+    #davidm {
+        position: absolute;
+        right: 70px;
+        top: 4000px;
+        width: 240px;
+        margin: 0;
+        display:  block;
+    }
+
+    #xaviers {
+        position: relative;
+        margin: 130px 0 -10px;
+        display:  block;
+    }
+
+    .svg-classement {
+        display: flex;
+        justify-content: center;
+    }
+    #pascalc {
+        position: absolute;
+        top: 685px;
+        width: 330px;
+        margin: 0;
+        display: block;
+        z-index: 4;
+    }
+
+    /* partage accueil*/
+    .partage { display: flex;  }
+
+    .partage-fb {  margin-left: 4%;  }
+    #apercu-galerie {
+        margin-top: 100px;
+        margin-left: -190px;
+    }
+
 }
 
-/* ----------------------------------------------------
+/* --------------------------
 Responsive  - format +ecran
----------------------------------------------------- */
-@media only screen and (min-width : 1500px) and (max-width : 2000px) {
+----------------------------- */
 
+@media only screen and (min-width : 1500px) and (max-width : 2000px) {
     #logo h3 {  left: 110px;  }
     header #menu-deroulant {  width: 30%;  }
-
+    .icone_accueil.active .menu {  right: 5.5%;  }
+    .icone_accueil.active .tchat {  right: 8%;  }
     #menu-deroulant .pseudo_li img {
         width: 40px;
         height: 40px;
@@ -192,17 +1409,6 @@ Responsive  - format +ecran
         margin-right: 18%;
     }
 
-    .formulaire > form input, button {  width: 90%;  }
-    button {
-        width: 50%;
-        margin-left: 43%;
-    }
-    select {  width: 93%;  }
-    .formulaire .lien_form {
-        display: flex;
-        justify-content: center;
-    }
-    .file {  right: 17.65%;  }
 
     .display_none_lg {  display: none;  }
     .partenaires .iut_small_size {
@@ -211,4 +1417,1116 @@ Responsive  - format +ecran
         padding: 17px 15% 0;
     }
 
+    /* accueil*/
+    .hexagone h1 {
+        left: 40%;
+        top: 221px;
+    }
+    .avancement h1 {  margin-top: 390px;  }
+    #slider {  width: 1275px;  }
+
+    iframe {
+        width: 100%;
+        height: 650px;
+    }
+
+    .choix img {  margin-left: 40%;  }
+    .commencer .joueurs img {  margin-left: 36%;  }
+    .commencer .voyeurs img {  margin-left: 36%;  }
+    .commencer {  display: flex;  }
+    .commencer a {
+        width: 60%;
+        left: 17%;
+    }
+    .button_inscription {
+        width: 30%;
+        left: 24%;
+    }
+    .commencer h1 {
+        position: absolute;
+        text-align: center;
+        margin-left: 0;
+    }
+    .commencer .voyeurs {
+        width: 50%;
+        margin-top: 80px;
+        margin-right: 5%;
+    }
+    .commencer .ligne-separation {
+        display: block;
+        width: 1%;
+        height: 430px;
+        margin-top: 71px;
+    }
+    .commencer .joueurs {
+        width: 50%;
+        margin-top: 80px;
+        margin-left: 5%;
+    }
+    .equipe_classement {  width: 90%;  }
+
+    .fond_logo {
+        width: 25%;
+        margin-top: -300px;
+        right: 200px;
+    }
+    .programme {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .program img {
+        width: 160px;
+        height: 180px;
+        margin-top: 10px;
+        margin-left: 42%;
+    }
+
+    /*classement*/
+    .depot .supperpose_titre_depot {  left: 49%;  }
+    .equipe_classement {
+        margin-bottom: 30px;
+        margin-left: 6%;
+    }
+
+    #haut-tableau { height: 700px; }
+    #equipe-haut, #equipe-haut2, #equipe-haut3 { display: block; }
+    #equipe-haut2 {
+        left: 7%;
+        top: 40px;
+        position: relative;
+        z-index: 2;
+    }
+    #equipe-haut3 {
+        left: 56%;
+        top: -290px;
+        position: relative;
+        z-index: 1;
+    }
+    #haut-tableau .equipe_classement div { margin-left: -65px; }
+    #haut-tableau .haut_classement {
+        background-color: #e69f1f;
+        width: 37.9%;
+        margin-top: 0;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        position: relative;
+        left: -7px;
+        z-index: 3;
+    }
+    #haut-tableau #deuxieme .haut_classement {
+        left: -29.1%;
+        top: 40px;
+    }
+    #haut-tableau #troisieme .haut_classement {
+        top: -290px;
+        left: 25.4%;
+    }
+
+    #premier.equipe_classement .premier-hexagone {
+         position: absolute;
+         left: 39%;
+         margin-top: -90px;
+         z-index: 4;
+    }
+    #deuxieme.equipe_classement .premier-hexagone {
+        position: absolute;
+        left: 13%;
+        margin-top: -50px;
+        z-index: 4;
+    }
+    #troisieme.equipe_classement .premier-hexagone {
+        position: absolute;
+        left: 62%;
+        margin-top: -375px;
+        z-index: 4;
+    }
+
+
+    /*equipe*/
+    .bandeau .modif {  left: 27%;  }
+    .modif {  left: 9%;  }
+    .piece {
+        left: 85%;
+        width: 15%;
+    }
+
+    .membre-carre {
+        width: 300px;
+        height: 270px;
+    }
+    .membre-carre img {  width: 160px;  }
+    .carre-fond {
+        left: 45px;
+        top: -125px;
+    }
+    .membre-carre p {  top: -120px;  }
+    .jaune, .bleu {  padding-left: 5%;  }
+
+    textarea { margin-top: 0;  }
+    .formulaire .button-equipe {  width: 25%; }
+    .titre_equipe .formulaire {
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0 0 0 12%;
+    }
+
+    .titre-pc {
+        position: absolute;
+        color: #15232A;
+        font-size: 4em;
+        padding: 15px;
+        padding-top: 30px;
+        top: 89px;
+        left: 5%;
+        background-color: white;
+        display: block;
+    }
+    .bandeau .flechenoir {
+        display: block;
+        left: 47%;
+        top: 640px;
+    }
+    .affiche_equipe:nth-child(3) { margin-top: 170px; }
+
+    /* galerie */
+    #header-galerie {  background-size: 25%;  }
+    .bandeau-ligne-bleu { height: 15px; }
+    .span-galerie { left: 50%; }
+    .modif2 { margin-left: 0; }
+    .photo {
+        width: 250px;
+        height: 250px;
+    }
+
+    /* modal */
+    .modal .affichage_photo {
+        width: 36%;
+        margin-left: 6%;
+    }
+    .modal .modal-com {
+        margin-left: 40%;
+        position: absolute;
+        top: 110px;
+    }
+    .avion img {
+        position: absolute;
+        bottom: 29px;
+        left: 77%;
+    }
+    .avion:hover {
+        background: none;
+        margin: 0;
+        margin-top: -20px;
+        margin-left: 30px;
+    }
+
+    /*projet*/
+    #categorie { width: 92%; }
+    .depot_desc {
+        width: 90.5%;
+        margin-left: 5px;
+        margin-top: 20px;
+    }
+    .depot_file { right: 13%; }
+
+    .progress .point {  right: 41.3%;  }
+    .formulaire > form input, button {  width: 90%;  }
+    button {
+        width: 35%;
+        margin-left: 57.5%;
+    }
+    select {  width: 93%;  }
+    .formulaire .lien_form {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bandeau-projet .supperpose_titre { left: 47%; }
+    .cadre { margin-top: 30px; }
+
+    /*enchere*/
+    .bandeau .encheres span {
+        top: 55px;
+        left: 40%;
+    }
+
+    .profil {
+        display: flex;
+    }
+    .photo-ancien {
+        width: 15%;
+        height: 220px;
+        margin: 70px 0 50px 11%;
+    }
+    .photo-ancien img { width: 250px; }
+    .photo-ancien .cadre_enchere {
+        top: -292px;
+        width: 320px;
+        left: -35px;
+    }
+
+    .profil .description { padding-top: 65px; }
+    .description h3 { left: 72%; }
+
+    .profil-paire .photo-ancien{
+        order: 2;
+        margin-right: 15%;
+    }
+    .profil-paire h3 { left: 87%; }
+    .profil-paire .description { margin-left: 6%; }
+    .profil-paire .description .desc { width: 100%; }
+
+    .profil-fin { margin-bottom: 10px; }
+
+    /*defi*/
+    .defi { display: none; }
+    .defi-90degre {
+        display: block;
+        margin-left: 5%;
+        position: absolute;
+    }
+    svg {
+        width: 645px;
+        margin-left: 23%;
+        display: block;
+    }
+    .svg2 {
+        top: -315px;
+        left: 2%;
+    }
+
+    .les_defis > div {
+        height: 260px;
+        overflow: hidden;
+        position: relative;
+        margin-bottom: 0;
+    }
+    .les_defis div {
+        position: relative;
+        z-index: 1;
+        margin-top: 20px;
+    }
+    .les_defis .div2 {
+        z-index: 2;
+        margin-top: -40px;
+    }
+    .les_defis .msg_fin {
+        margin-left: 10%;
+        height: 80px;
+        margin-bottom: 20px;
+    }
+
+    /*modal defi*/
+    .machine_ecrire {
+        display: block;
+        overflow: hidden;
+        height: 593px;
+    }
+    .feuille {
+        width: 18.5%;
+        margin-left: 37.95%;
+    }
+    .feuille h2 { margin-top: -30px; }
+    .modal .machine {
+        position: relative;
+        bottom: 127px;
+        width: 40%;
+        left: 30%;
+    }
+    .modal-content { padding-bottom: 130px; }
+
+    /* svg */
+    #david {
+        position: absolute;
+        top: 2160px;
+        left: 42%;
+        width: 220px;
+        margin: 0;
+        display: block;
+    }
+
+    .pizza { display: flex; }
+    .pizza > div {
+        width: 50%;
+        margin-left: 22%;
+    }
+    #marie {
+        position: relative;
+        left: 24%;
+        top: 0;
+        width: 220px;
+        margin: 0;
+        display: block;
+    }
+
+    #guillaume {
+          position: absolute;
+          left: 0;
+          top: 3525px;
+          width: 220px;
+          margin: 0;
+          display: block;
+    }
+
+    #davidm {
+        position: absolute;
+        right: 90px;
+        top: 4135px;
+        width: 250px;
+        margin: 0;
+        display:  block;
+    }
+
+    #xaviers {
+        position: relative;
+        margin: 130px 0 -20px;
+        display:  block;
+    }
+
+    .svg-classement {
+        display: flex;
+        justify-content: center;
+    }
+    #pascalc {
+        position: absolute;
+        top: 675px;
+        width: 355px;
+        margin: 0;
+        display: block;
+        z-index: 4;
+    }
+
+    /* partage accueil*/
+    .partage { display: flex;  }
+    .partage { padding-top: 0; }
+    .partage-fb {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    #fb-root, #fb-root2 {  margin-left: 10px;  }
+
+    .partage-fb {  margin-left: 4%;  }
+    #apercu-galerie {
+        margin-top: 100px;
+        margin-left: -190px;
+    }
 }
+
+
+
+
+/* intermédiaire - hexagone déplacement - accueil */
+@media only screen and (min-width : 480px) and (max-width : 530px) {
+    .hexagone img {
+        width: 377px;
+        height: 425px;
+        top: -185px;
+        left: 10.5%;
+    }
+    .hexagone .fleche_index {  left: 41.5%;  }
+
+    #slider { margin-left: 20%; }
+    #navigation-slider > li:nth-child(2) > button > img {  left: 404px;  }
+}
+@media only screen and (min-width : 530px) and (max-width : 616px) {
+    .hexagone img {
+        width: 377px;
+        height: 425px;
+        top: -185px;
+        left: 15.5%;
+    }
+    .hexagone .fleche_index {  left: 43.5%;  }
+
+    #slider { margin-left: 24%; }
+    #navigation-slider > li:nth-child(2) > button > img {  left: 480px;  }
+}
+@media only screen and (min-width : 617px) and (max-width : 717px) {
+    .hexagone img {
+        width: 395px;
+        height: 439px;
+        top: -197px;
+        left: 18%;
+    }
+    .hexagone .fleche_index {  left: 45%;  }
+
+    #slider { margin-left: 28%; }
+    #navigation-slider > li:nth-child(2) > button > img {  left: 555px;  }
+}
+@media only screen and (min-width : 717px) and (max-width : 835px) {
+    .hexagone img {
+        width: 405px;
+        height: 449px;
+        top: -205px;
+        left: 24%;
+    }
+    .hexagone .fleche_index {  left: 47%;  }
+
+    #slider { margin-left: 12%; }
+    #navigation-slider li button img { left: 35px;  }
+    #navigation-slider > li:nth-child(2) > button > img {  left: 700px;  }
+}
+@media only screen and (min-width : 835px) and (max-width : 900px) {
+    .hexagone img {
+        width: 405px;
+        height: 449px;
+        top: -210px;
+        left: 25%;
+    }
+    .hexagone .fleche_index {  left: 45.5%;  }
+
+    #slider { margin-left: 16%; }
+    #navigation-slider li button img { left: 35px;  }
+    #navigation-slider > li:nth-child(2) > button > img {  left: 750px;  }
+}
+@media only screen and (min-width : 901px) and (max-width : 1024px) {
+    .hexagone img {
+        width: 450px;
+        height: 500px;
+        top: -240px;
+        left: 26%;
+    }
+    .hexagone .fleche_index {  left: 45.5%;  }
+
+    #slider { margin-left: 20%; }
+    #navigation-slider li button img { left: 35px;  }
+    #navigation-slider > li:nth-child(2) > button > img {  left: 860px;  }
+}
+@media only screen and (min-width : 1024px) and (max-width : 1150px) {
+    .hexagone img {
+        width: 450px;
+        height: 500px;
+        top: -240px;
+        left: 30%;
+    }
+    .hexagone .fleche_index {  left: 48%;  }
+
+    #slider { margin-left: 10%; }
+    #navigation-slider li button img { left: 35px;  }
+    #navigation-slider > li:nth-child(2) > button > img {  left: 977px;  }
+}
+@media only screen and (min-width : 1150px) and (max-width : 1300px) {
+    .hexagone img {
+        width: 450px;
+        height: 500px;
+        top: -240px;
+        left: 32%;
+    }
+    .hexagone .fleche_index {  left: 48%;  }
+
+    #slider { margin-left: 15%; }
+    #navigation-slider li button img { left: 35px;  }
+    #navigation-slider > li:nth-child(2) > button > img {  left: 1100px;  }
+}
+@media only screen and (min-width : 1300px) and (max-width : 1500px) {
+    .hexagone img {
+        width: 450px;
+        height: 500px;
+        top: -240px;
+        left: 35%;
+    }
+    .hexagone .fleche_index {  left: 48%;  }
+
+    #slider { margin-left: 8%; }
+    #navigation-slider li button img { left: 35px;  }
+    #navigation-slider > li:nth-child(2) > button > img {  left: 1270px;  }
+}
+@media only screen and (min-width : 1500px) and (max-width : 2000px) {
+    .hexagone img {
+        width: 450px;
+        height: 500px;
+        top: -240px;
+        left: 35%;
+    }
+    #navigation-slider li button img { left: 35px;  }
+    .hexagone .fleche_index {  left: 47.5%;  }
+
+    #slider { margin-left: 8%; }
+    #navigation-slider > li:nth-child(2) > button > img {  left: 1435px;  }
+}
+
+
+/* titre liste equipe */
+@media only screen and (min-width : 395px) and (max-width : 2000px) {
+    .encheres #equipe-span {  top: 55px;  }
+}
+
+
+/* titre: description page equipe - modif equipe */
+@media only screen and (min-width : 475px) and (max-width : 2000px) {
+    #titre_desc {  margin-top: -25px;  }
+}
+
+
+/* page defi */
+@media only screen and (min-width : 380px) and (max-width : 400px) {
+    /*defi*/
+    .svg2 {  top: -180px; }
+}
+@media only screen and (min-width : 400px) and (max-width : 420px) {
+    /*defi*/
+    .svg2 {  top: -190px; }
+}
+@media only screen and (min-width : 420px) and (max-width : 440px) {
+    /*defi*/
+    .les_defis .div2 { margin-top: 45px; }
+    .svg2 {  top: -185px; }
+}
+@media only screen and (min-width : 440px) and (max-width : 460px) {
+    /*defi*/
+    .les_defis .div2 { margin-top: 50px; }
+    .svg2 {  top: -200px; }
+}
+@media only screen and (min-width : 460px) and (max-width : 480px) {
+    /*defi*/
+    .les_defis .div2 { margin-top: 55px; }
+    .svg2 {  top: -200px; }
+}
+
+@media only screen and (min-width : 479px) and (max-width : 500px) {
+    /*defi*/
+    svg {
+        width: 370px;
+        margin-left: 1%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 370px;
+        top: -215px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -110px; }
+}
+@media only screen and (min-width : 500px) and (max-width : 510px) {
+    /*defi*/
+    svg {
+        width: 380px;
+        margin-left: 1%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 380px;
+        top: -215px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -110px; }
+}
+@media only screen and (min-width : 510px) and (max-width : 520px) {
+    /*defi*/
+    svg {
+        width: 390px;
+        margin-left: 1%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 390px;
+        top: -220px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -110px; }
+}
+@media only screen and (min-width : 520px) and (max-width : 530px) {
+    /*defi*/
+    svg {
+        width: 400px;
+        margin-left: 1%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 400px;
+        top: -220px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -100px; }
+}
+@media only screen and (min-width : 530px) and (max-width : 540px) {
+    /*defi*/
+    svg {
+        width: 410px;
+        margin-left: 0;
+        top: -80px;
+    }
+    .svg2 {
+        width: 410px;
+        top: -225px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -100px; }
+}
+@media only screen and (min-width : 540px) and (max-width : 550px) {
+    /*defi*/
+    svg {
+        width: 420px;
+        margin-left: 0;
+        top: -80px;
+    }
+    .svg2 {
+        width: 420px;
+        top: -230px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -90px; }
+}
+@media only screen and (min-width : 550px) and (max-width : 560px) {
+    /*defi*/
+    svg {
+        width: 430px;
+        margin-left: 0;
+        top: -80px;
+    }
+    .svg2 {
+        width: 430px;
+        top: -235px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -90px; }
+}
+@media only screen and (min-width : 560px) and (max-width : 570px) {
+    /*defi*/
+    svg {
+        width: 430px;
+        margin-left: 1%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 430px;
+        top: -240px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -90px; }
+}
+@media only screen and (min-width : 570px) and (max-width : 580px) {
+    /*defi*/
+    svg {
+        width: 440px;
+        margin-left: 1%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 440px;
+        top: -240px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -90px; }
+}
+@media only screen and (min-width : 580px) and (max-width : 590px) {
+    /*defi*/
+    svg {
+        width: 450px;
+        margin-left: 1%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 450px;
+        top: -245px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -80px; }
+}
+@media only screen and (min-width : 590px) and (max-width : 600px) {
+    /*defi*/
+    svg {
+        width: 460px;
+        margin-left: 1%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 460px;
+        top: -245px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -80px; }
+}
+@media only screen and (min-width : 600px) and (max-width : 610px) {
+    /*defi*/
+    svg {
+        width: 460px;
+        margin-left: 2%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 460px;
+        top: -250px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -80px; }
+}
+@media only screen and (min-width : 610px) and (max-width : 630px) {
+    /*defi*/
+    svg {
+        width: 470px;
+        margin-left: 2%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 470px;
+        top: -255px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -80px; }
+}
+@media only screen and (min-width : 630px) and (max-width : 640px) {
+    /*defi*/
+    svg {
+        width: 480px;
+        margin-left: 2%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 480px;
+        top: -260px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -70px; }
+}
+@media only screen and (min-width : 640px) and (max-width : 650px) {
+    /*defi*/
+    svg {
+        width: 490px;
+        margin-left: 2%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 490px;
+        top: -260px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -70px; }
+}
+@media only screen and (min-width : 650px) and (max-width : 660px) {
+    /*defi*/
+    svg {
+        width: 490px;
+        margin-left: 2.5%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 490px;
+        top: -265px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -70px; }
+}
+@media only screen and (min-width : 660px) and (max-width : 670px) {
+    /*defi*/
+    svg {
+        width: 500px;
+        margin-left: 2.5%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 500px;
+        top: -270px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -70px; }
+}
+@media only screen and (min-width : 670px) and (max-width : 680px) {
+    /*defi*/
+    svg {
+        width: 510px;
+        margin-left: 2.5%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 510px;
+        top: -275px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -70px; }
+}
+@media only screen and (min-width : 680px) and (max-width : 690px) {
+    /*defi*/
+    svg {
+        width: 520px;
+        margin-left: 2.5%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 520px;
+        top: -275px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -70px; }
+}
+@media only screen and (min-width : 690px) and (max-width : 705px) {
+    /*defi*/
+    svg {
+        width: 530px;
+        margin-left: 2.5%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 530px;
+        top: -275px;
+        left: -1%;
+    }
+    .les_defis .div2 { margin-top: -70px; }
+}
+
+@media only screen and (min-width : 740px) and (max-width : 745px) {
+    /*defi*/
+    svg {
+        width: 570px;
+        margin-left: 2.5%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 570px;
+        top: -290px;
+        left: -1%;
+    }
+}
+@media only screen and (min-width : 745px) and (max-width : 755px) {
+    /*defi*/
+    svg {
+        width: 570px;
+        margin-left: 3%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 570px;
+        top: -290px;
+        left: -1%;
+    }
+}
+@media only screen and (min-width : 755px) and (max-width : 765px) {
+    /*defi*/
+    svg {
+        width: 580px;
+        margin-left: 2.5%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 580px;
+        top: -290px;
+        left: -1%;
+    }
+}
+@media only screen and (min-width : 765px) and (max-width : 775px) {
+    /*defi*/
+    svg {
+        width: 600px;
+        margin-left: 2%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 600px;
+        top: -290px;
+        left: -0.5%;
+    }
+}
+@media only screen and (min-width : 775px) and (max-width : 785px) {
+    /*defi*/
+    svg {
+        width: 605px;
+        margin-left: 1%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 605px;
+        top: -290px;
+        left: -0.5%;
+    }
+}
+@media only screen and (min-width : 785px) and (max-width : 800px) {
+    /*defi*/
+    svg {
+        width: 610px;
+        margin-left: 2%;
+        top: -85px;
+    }
+    .svg2 {
+        width: 610px;
+        top: -300px;
+        left: -1%;
+    }
+}
+@media only screen and (min-width : 800px) and (max-width : 810px) {
+    /*defi*/
+    svg {
+        width: 620px;
+        margin-left: 2%;
+        top: -85px;
+    }
+    .svg2 {
+        width: 620px;
+        top: -310px;
+        left: -1%;
+    }
+}
+@media only screen and (min-width : 810px) and (max-width : 820px) {
+    /*defi*/
+    svg {
+        width: 630px;
+        margin-left: 1.5%;
+        top: -85px;
+    }
+    .svg2 {
+        width: 630px;
+        top: -310px;
+        left: -1%;
+    }
+}
+@media only screen and (min-width : 820px) and (max-width : 830px) {
+    /*defi*/
+    svg {
+        width: 630px;
+        margin-left: 1.5%;
+        top: -80px;
+    }
+    .svg2 {
+        width: 630px;
+        top: -310px;
+        left: 0;
+    }
+}
+@media only screen and (min-width : 830px) and (max-width : 840px) {
+    /*defi*/
+    svg {
+        width: 630px;
+        margin-left: 1.5%;
+    }
+    .svg2 {
+        width: 630px;
+        top: -315px;
+        left: 1.5%;
+    }
+}
+@media only screen and (min-width : 840px) and (max-width : 855px) {
+    /*defi*/
+    svg {
+        width: 640px;
+        margin-left: 1.5%
+    }
+    .svg2 {
+        width: 640px;
+        top: -315px;
+        left: 1.5%;
+    }
+}
+@media only screen and (min-width : 855px) and (max-width : 870px) {
+    /*defi*/
+    svg {
+        width: 640px;
+        margin-left: 3%
+    }
+    .svg2 {
+        width: 640px;
+        top: -320px;
+        left: 1.5%;
+    }
+}
+@media only screen and (min-width : 870px) and (max-width : 910px) {
+    /*defi*/
+    svg {
+        width: 650px;
+        margin-left: 3%
+    }
+    .svg2 {
+        width: 650px;
+        top: -320px;
+        left: 1.5%;
+    }
+}
+@media only screen and (min-width : 910px) and (max-width : 940px) {
+    /*defi*/
+    svg {
+        width: 650px;
+        margin-left: 5.5%
+    }
+    .svg2 {
+        width: 650px;
+        top: -325px;
+        left: 1%;
+    }
+}
+@media only screen and (min-width : 940px) and (max-width : 970px) {
+    /*defi*/
+    svg {
+        width: 640px;
+        margin-left: 7%
+    }
+    .svg2 {
+        width: 650px;
+        top: -325px;
+        left: 1%;
+    }
+}
+@media only screen and (min-width : 970px) and (max-width : 1000px) {
+    /*defi*/
+    svg {
+        width: 640px;
+        margin-left: 8.5%
+    }
+    .svg2 {
+        width: 650px;
+        top: -325px;
+        left: 1%;
+    }
+}
+@media only screen and (min-width : 1000px) and (max-width : 1030px) {
+    /*defi*/
+    svg {
+        width: 640px;
+        margin-left: 10%
+    }
+    .svg2 {
+        width: 650px;
+        top: -325px;
+        left: 1%;
+    }
+}
+
+@media only screen and (min-width : 1090px) and (max-width : 1120px) {
+    /*defi*/
+    svg {  margin-left: 13%;  }
+    .svg2 {  left: 1%;  }
+}
+@media only screen and (min-width : 1120px) and (max-width : 1150px) {
+    /*defi*/
+    svg {  margin-left: 14%;  }
+    .svg2 {  left: 0.5%;  }
+}
+@media only screen and (min-width : 1150px) and (max-width : 1180px) {
+    /*defi*/
+    svg {  margin-left: 15%;  }
+    .svg2 {  left: 0.5%;  }
+}
+@media only screen and (min-width : 1180px) and (max-width : 1210px) {
+    /*defi*/
+    svg {  margin-left: 16%;  }
+    .svg2 {  left: 0.5%;  }
+}
+@media only screen and (min-width : 1210px) and (max-width : 1240px) {
+    /*defi*/
+    svg {  margin-left: 17%;  }
+    .svg2 {  left: 0.5%;  }
+}
+@media only screen and (min-width : 1240px) and (max-width : 1270px) {
+    /*defi*/
+    svg {  margin-left: 18%;  }
+    .svg2 {  left: 0;  }
+}
+@media only screen and (min-width : 1270px) and (max-width : 1300px) {
+    /*defi*/
+    svg {  margin-left: 19%;  }
+    .svg2 {  left: 0;  }
+}
+
+@media only screen and (min-width : 1360px) and (max-width : 1390px) {
+    /*defi*/
+    svg {  margin-left: 21%;  }
+    .svg2 {  left: 0;  }
+}
+@media only screen and (min-width : 1390px) and (max-width : 1450px) {
+    /*defi*/
+    svg { margin-left: 21.5%;  }
+    .svg2 {  left: 0.5%; }
+
+}
+@media only screen and (min-width : 1450px) and (max-width : 1500px) {
+    /*defi*/
+    svg {  margin-left: 22%;  }
+    .svg2 {  left: 1%;  }
+}
+

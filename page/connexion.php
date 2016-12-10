@@ -1,6 +1,8 @@
 <?php
 require_once"dao/DaoPersonne.php";
 
+require_once('dao/Dao.php');
+
 $daoPersonne = new DaoPersonne();
 
 if (isset($_POST["val_cnx"])) {

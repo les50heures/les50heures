@@ -79,7 +79,7 @@ class DaoPersonne extends Dao
     public function create()
     {
         $sql = "INSERT INTO personne(ID_COMMENTAIRE, ID_EQUIPE, NOM_PERSONNE, PRENOM_PERSONNE, PSEUDO_PERSONNE,
-                                MOT_DE_PASSE, PHOTO_PERSONNE, STATUT_PERSONNE, TAG_PERSONNE)
+                                MDP, PHOTO_PERSONNE, STATUT_PERSONNE, TAG_PERSONNE)
                                 VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?)";
         $requete = $this->pdo->prepare($sql);
 
@@ -98,6 +98,22 @@ class DaoPersonne extends Dao
 
     public function update()
     {
+        $sql = "UPDATE personne SET ID_EQUIPE = ?, ID_COMMENTE = ?, NOM_PERSONNE = ?, PRENOM_PERSONNE = ?, PSEUDO_PERSONNE = ?,
+                mdp = ?, PHOTO_PERSONNE = ?, STATUT_PERSONNE = ?, TAG_PERSONNE = ? WHERE ID_PERSONNE = ?";
+        $requete = $this->pdo->prepare($sql);
+
+        $requete->bindValue(1, $this->bean->getLesEquipes()->getId());
+        $requete->bindValue(2, $this->bean->getLesCommentaires()->getId());
+        $requete->bindValue(3, $this->bean->getNom());
+        $requete->bindValue(4, $this->bean->getPrenom());
+        $requete->bindValue(5, $this->bean->getPseudo());
+        $requete->bindValue(6, $this->bean->getMDP());
+        $requete->bindValue(7, $this->bean->getPhoto());
+        $requete->bindValue(8, $this->bean->getStatut());
+        $requete->bindValue(9, $this->bean->getTag());
+        $requete->bindValue(10, $this->bean->getId());
+
+        $requete->execute();
 
     }
 
@@ -131,8 +147,8 @@ class DaoPersonne extends Dao
 
     public function checkExisting()
     {
-        $requete = $this->pdo->prepare("SELECT PSEUDO FROM personne WHERE PSEUDO = ?");
-        $requete->bindValue(1, $_POST["pseudo"]);
+        $requete = $this->pdo->prepare("SELECT PSEUDO_PERSONNE FROM personne WHERE PSEUDO_PERSONNE = ?");
+        $requete->bindValue(1, $_POST["PSEUDO_PERSONNE"]);
         $requete->execute();
 
         if ($requete->rowCount() > 0) {

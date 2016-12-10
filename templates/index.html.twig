@@ -2,225 +2,1135 @@
 {% block title %}Les 50 Heures | Accueil{% endblock %}
 {% block contenu %}
 
-<div class="hexagone">
-    <h1>Makes Me Incridibly</h1>
-    <img src="css/images-interface/hexagone.png" alt="hexagone">
-    <img class="fleche_index" src="css/images-interface/index_fleche.png" alt="fleche">
-</div>
+    <div class="hexagone">
+        <h1>Makes Me Incridibly</h1>
+        <img src="css/images-interface/hexagone.png" alt="hexagone">
+        <a href="#debut_index"><img class="fleche_index" src="css/images-interface/index_fleche.png" alt="fleche">
+        </a>
+    </div>
 
-<div class="avancement">
-    <h1>Avancement des défis</h1>
-    <ul id="navigation-slider">
-        <li>
-            <button class="navigation-slider-precedent">
-                <img src="css/images-interface/fleche1.png" alt="fleche">
-            </button>
-        </li>
-        <li>
-            <button class="navigation-slider-suivant">
-                <img src="css/images-interface/fleche2.png" alt="fleche">
-            </button>
-        </li>
-    </ul>
-    <div id="slider" >
-        <ul id="defi_avancer" class="contenu">
-            <li id="slide1" class="slide premier">
-                <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
-                <h3>Terminer</h3>
-                <p class="nb">1</p>
+    <div id="debut_index" class="avancement">
+        <h1>Avancement des défis</h1>
+        <ul id="navigation-slider">
+            <li>
+                <button class="navigation-slider-precedent">
+                    <img src="css/images-interface/fleche1.png" alt="fleche">
+                </button>
             </li>
-            <li id="slide2" class="slide deuxieme">
-                <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
-                <h3>En cours</h3>
-                <p class="nb">2</p>
-            </li>
-            <li id="slide3" class="slide">
-                <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
-                <h3>À venir</h3>
-                <p class="nb">3</p>
-            </li>
-            <li id="slide4" class="slide">
-                <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
-                <h3>À venir</h3>
-                <p class="nb">4</p>
-            </li>
-            <li id="slide5" class="slide">
-                <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
-                <h3>À venir</h3>
-                <p class="nb">5</p>
-            </li>
-            <li id="slide6" class="slide">
-                <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
-                <h3>À venir</h3>
-                <p class="nb">6</p>
-            </li>
-            <li id="slide7" class="slide">
-                <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
-                <h3>À venir</h3>
-                <p class="nb">7</p>
-            </li>
-            <li id="slide8" class="slide">
-                <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
-                <h3>À venir</h3>
-                <p class="nb">8</p>
-            </li>
-            <li id="slide9" class="slide">
-                <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
-                <h3>À venir</h3>
-                <p class="nb">9</p>
-            </li>
-            <li id="slide10" class="slide">
-                <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
-                <h3>À venir</h3>
-                <p class="nb">10</p>
+            <li>
+                <button class="navigation-slider-suivant">
+                    <img src="css/images-interface/fleche2.png" alt="fleche">
+                </button>
             </li>
         </ul>
-    </div>
-
-</div>
-
-
-<div class="desc_index">
-    <h2>Les 50 heures c'est quoi ?</h2>
-
-    <iframe src="https://www.youtube.com/embed/X3JDaPEKFEQ" allowfullscreen></iframe>
-
-    <p>À partir du 13 janvier prochain, retrouvez nous au département pour les 50 heures. Le meilleur moment pour se
-        retrouver et échanger tout en s'amusant.
-        Les 50 heures, c'est le mix parfait entre la mythique soirée des anciens et le fameux défi ! Un moment de
-        partage
-        autour de multiples défis tant
-        physiques que techniques, orchestré autour d'une soirée pizza et ponctué par la soirée des Anciens.</p>
-</div>
-
-<div class="commencer">
-    <h1>Le défi a enfin commencer !</h1>
-    <div class="choix voyeurs">
-        <img src="css/images-interface/voyeurs.png" alt="voyeurs">
-        <h3>Voyeurs</h3>
-        <p>Vous voulez voir l’avancement des équipes dans le défis ? C’es ici !</p>
-        <a href="index.php?page=classement">Accèder au classement</a>
-    </div>
-    <img class="ligne-separation" src="css/images-interface/separation_index.png" alt="sépartation">
-    <div class="choix joueurs">
-        <img src="css/images-interface/joueurs.png" alt="joueurs">
-        <h3>Joueurs</h3>
-        <p>Vous n’êtes pas encoe inscris ? N’attendez plus et rejoignez une équipe!
-            <span class="info">La fin des inscription est prévus le vendredi 13 janvier à 23heure.</span>
-        </p>
-        <a href="index.php?page=connexion">Rejoindre le défi</a>
-    </div>
-</div>
-
-<div class="tete_classement">
-    <h1>En tête du classement</h1>
-    <div class="equipe_classement">
-        <div>
-            <img src="css/images-interface/classement.png" alt="hexagone">
-
-            <h2>1</h2>
+        <div id="slider">
+            <ul id="defi_avancer" class="contenu">
+                <li id="slide1" class="slide premier">
+                    <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
+                    <h3>Terminer</h3>
+                    <p class="nb">1</p>
+                </li>
+                <li id="slide2" class="slide deuxieme">
+                    <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
+                    <h3>En cours</h3>
+                    <p class="nb">2</p>
+                </li>
+                <li id="slide3" class="slide">
+                    <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
+                    <h3>À venir</h3>
+                    <p class="nb">3</p>
+                </li>
+                <li id="slide4" class="slide">
+                    <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
+                    <h3>À venir</h3>
+                    <p class="nb">4</p>
+                </li>
+                <li id="slide5" class="slide">
+                    <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
+                    <h3>À venir</h3>
+                    <p class="nb">5</p>
+                </li>
+                <li id="slide6" class="slide">
+                    <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
+                    <h3>À venir</h3>
+                    <p class="nb">6</p>
+                </li>
+                <li id="slide7" class="slide">
+                    <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
+                    <h3>À venir</h3>
+                    <p class="nb">7</p>
+                </li>
+                <li id="slide8" class="slide">
+                    <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
+                    <h3>À venir</h3>
+                    <p class="nb">8</p>
+                </li>
+                <li id="slide9" class="slide">
+                    <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
+                    <h3>À venir</h3>
+                    <p class="nb">9</p>
+                </li>
+                <li id="slide10" class="slide">
+                    <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
+                    <h3>À venir</h3>
+                    <p class="nb">10</p>
+                </li>
+                <li id="slide11" class="slide">
+                    <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
+                    <h3>Terminer</h3>
+                    <p class="nb">11</p>
+                </li>
+                <li id="slide12" class="slide">
+                    <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
+                    <h3>En cours</h3>
+                    <p class="nb">12</p>
+                </li>
+                <li id="slide13" class="slide">
+                    <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
+                    <h3>À venir</h3>
+                    <p class="nb">13</p>
+                </li>
+                <li id="slide14" class="slide">
+                    <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
+                    <h3>À venir</h3>
+                    <p class="nb">14</p>
+                </li>
+                <li id="slide15" class="slide">
+                    <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
+                    <h3>À venir</h3>
+                    <p class="nb">15</p>
+                </li>
+                <li id="slide16" class="slide">
+                    <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
+                    <h3>À venir</h3>
+                    <p class="nb">16</p>
+                </li>
+                <li id="slide17" class="slide">
+                    <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
+                    <h3>À venir</h3>
+                    <p class="nb">17</p>
+                </li>
+                <li id="slide18" class="slide">
+                    <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
+                    <h3>À venir</h3>
+                    <p class="nb">18</p>
+                </li>
+                <li id="slide19" class="slide">
+                    <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
+                    <h3>À venir</h3>
+                    <p class="nb">19</p>
+                </li>
+                <li id="slide20" class="slide">
+                    <img src="css/images-interface/defi_avenir/point.png" alt="point d'intérogation">
+                    <h3>À venir</h3>
+                    <p class="nb">20</p>
+                </li>
+            </ul>
         </div>
-        <h2 class="haut_classement">Nom de l'équipe</h2>
-    </div>
-    <div class="equipe_classement">
-        <div>
-            <img src="css/images-interface/classement.png" alt="hexagone">
 
-            <h2>2</h2>
+    </div>
+
+    <div class="desc_index">
+        <h2>Les 50 heures c'est quoi ?</h2>
+
+        <iframe src="https://www.youtube.com/embed/X3JDaPEKFEQ" allowfullscreen></iframe>
+
+        <p>À partir du 13 janvier prochain, retrouvez nous au département pour les 50 heures. Le meilleur moment pour se
+            retrouver et échanger tout en s'amusant.
+            Les 50 heures, c'est le mix parfait entre la mythique soirée des anciens et le fameux défi ! Un moment de
+            partage
+            autour de multiples défis tant
+            physiques que techniques, orchestré autour d'une soirée pizza et ponctué par la soirée des Anciens.</p>
+    </div>
+
+
+    <div class="commencer">
+        <h1>Le défi 50 heures a enfin commencer !</h1>
+        <div class="choix voyeurs">
+            <img src="css/images-interface/voyeurs.png" alt="voyeurs">
+            <h3>Voyeurs</h3>
+            <p>Vous voulez voir l’avancement des équipes dans le défis ? C’est ici !</p>
+            <a href="index.php?page=classement">Accèder au classement</a>
         </div>
-        <h2 class="haut_classement">Nom de l'équipe</h2>
-    </div>
-    <div class="equipe_classement">
-        <div>
-            <img src="css/images-interface/classement.png" alt="hexagone">
-
-            <h2>3</h2>
+        <img class="ligne-separation" src="css/images-interface/separation_index.png" alt="sépartation">
+        <svg id="david" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 309.29 407.91">
+            <g>
+                <path class="cls-1"
+                      d="M202.82,374.73s-8.78,1.75-21.11,3.82c-27,4.53-70.9,10.63-77.35,3.45-17.05-19,75.43-14.35,77.35-1v22S28.23,426,66.9,364c0,0,13.29-25,78.55-29l48.09.21Z"/>
+                <path class="cls-1"
+                      d="M158.82,373.73s9.29,1.75,22.34,3.82c28.53,4.53,75,10.63,81.86,3.45,18-19-79.83-14.35-81.86-1v22s162.44,23,121.51-39c0,0-14.07-25-83.14-29l-50.9.21Z"/>
+                <polygon class="cls-2" points="146.66 184.64 211.86 184.05 201.88 197.81 153.5 199 146.66 184.64"/>
+                <g id="Coup">
+                    <path class="cls-3"
+                          d="M207.6,164h-55c3.4,8.83,4.46,26.67-4,32.34,4.69,10.29,18.17,22.06,31.25,24.66,13.05-2.62,27.16-14.38,31.83-24.66C203.25,190.66,204.2,172.82,207.6,164Z"/>
+                </g>
+                <path id="Ombre" class="cls-4"
+                      d="M153,175.19s27.92,25.3,54.31,16.87c0,0-3.53-11.76-2.16-15.29C205.11,176.77,178.66,192.09,153,175.19Z"/>
+                <path class="cls-3"
+                      d="M252.82,80.39c0,48-31.25,104.61-73.5,104.61s-71.5-57.59-71.5-105.64S137.07,11,179.32,11,252.82,32.34,252.82,80.39Z"/>
+                <path class="cls-5" d="M179.32,11c42.25,0,73.5,21.34,73.5,69.39S221.57,185,179.32,185"/>
+                <path class="cls-3" d="M118.32,72.43c-14.48,0-24.5,6.72-24.5,22.62s10,35,24.5,35"/>
+                <path class="cls-4"
+                      d="M107.82,89.5a16.32,16.32,0,0,0-2.65,8.06,21.25,21.25,0,0,0,1.28,8.28,32.78,32.78,0,0,0,1.58,4c.63,1.28,1.34,2.54,2,3.81s1.5,2.48,2.31,3.7,1.67,2.41,2.45,3.68c-1.11-1-2.16-2-3.22-3.08s-1.92-2.28-2.85-3.45c-.46-.59-.83-1.25-1.24-1.88s-.82-1.26-1.17-1.93a30.85,30.85,0,0,1-1.79-4.18,24,24,0,0,1-1-4.47l-.11-2.31c.05-.77.11-1.54.21-2.3A13,13,0,0,1,107.82,89.5Z"/>
+                <path class="cls-5" d="M242.82,130c14.48,0,24.5-19.05,24.5-35s-10-22.62-24.5-22.62"/>
+                <path class="cls-4"
+                      d="M253.32,89.5a13,13,0,0,1,4.2,7.89c.1.76.16,1.53.21,2.3l-.11,2.31a24,24,0,0,1-1,4.47,30.85,30.85,0,0,1-1.79,4.18c-.35.67-.78,1.29-1.17,1.93s-.78,1.29-1.24,1.88c-.93,1.17-1.84,2.36-2.85,3.45s-2.11,2.1-3.22,3.08c.78-1.28,1.62-2.48,2.45-3.68s1.52-2.49,2.31-3.7,1.39-2.53,2-3.81a32.78,32.78,0,0,0,1.58-4A21.25,21.25,0,0,0,256,97.56,16.32,16.32,0,0,0,253.32,89.5Z"/>
+                <path class="cls-4"
+                      d="M171.22,127.05a29.64,29.64,0,0,0,4.31,3.17,10.16,10.16,0,0,0,4.63,1.5,8.19,8.19,0,0,0,4.56-1.33,27.83,27.83,0,0,0,4.16-3.33,11.73,11.73,0,0,1-3.24,4.59,8.08,8.08,0,0,1-5.55,2.07,9.24,9.24,0,0,1-5.45-2.22A12.08,12.08,0,0,1,171.22,127.05Z"/>
+                <path class="cls-6" d="M159,143h42.83s-5.95,19-21.41,19S159,143,159,143Z"/>
+                <rect class="cls-7" x="163.82" y="143" width="34" height="3"/>
+                <path class="cls-8" d="M165.64,154.69s8.18-4.69,14.18-4.69l-.5,12S170.46,162.38,165.64,154.69Z"/>
+                <path class="cls-9" d="M179.17,162s10.65,1,15.65-7.31c0,0-8.76-4.69-15.18-4.69"/>
+                <path class="cls-7"
+                      d="M217.38,81.18c-12.77,0-27.8,8.6-27.8,20.23s15.3,19.68,28.07,19.68,18.17-8.05,18.17-19.68S230.15,81.18,217.38,81.18Z"/>
+                <ellipse class="cls-10" cx="205.01" cy="102.98" rx="3.91" ry="5.86"/>
+                <ellipse class="cls-7" cx="208.02" cy="103.73" rx="1.8" ry="2.1"/>
+                <path class="cls-7"
+                      d="M145.76,81.18c12.77,0,27.8,8.6,27.8,20.23s-15.3,19.68-28.07,19.68-18.17-8.05-18.17-19.68S133,81.18,145.76,81.18Z"/>
+                <ellipse class="cls-10" cx="156" cy="102.98" rx="3.91" ry="5.86"/>
+                <ellipse class="cls-7" cx="159.01" cy="103.43" rx="1.8" ry="2.1"/>
+                <path class="cls-11"
+                      d="M179.82,220l32.32-23.87s23.15-1.94,37.36,9.07,40,37.5,42.32,44.8c7,21.61,17,69-13,86l-12-17s5.59-44.82,5-54-34.75-42.13-38.3-37.55-17.76,103.67-17.76,103.67l-38.47.61Z"/>
+                <path class="cls-12" d="M234.82,78s-21-12-37,3"/>
+                <path class="cls-12" d="M131.82,78s21-12,37,3"/>
+                <path class="cls-11" d="M233.82,227c-3.5,4.74-2.19,109-2.19,109l-52.81.21,1.58-115.78,32.46-24.23"/>
+                <path class="cls-11" d="M127.82,227c3.54,4.72,2,109,2,109H183l-2.42-115.76-32.64-24"/>
+                <polygon class="cls-13" points="179.82 219.27 146.66 184.64 139.36 204.77 179.82 219.27"/>
+                <polygon class="cls-13" points="179.86 219.37 211.86 184.05 218.09 205.21 179.86 219.37"/>
+                <polygon class="cls-14" points="159.82 212 178.82 242 198.82 212 179.94 219.32 159.82 212"/>
+                <ellipse class="cls-11" cx="179.88" cy="221.55" rx="1.8" ry="1.75"/>
+                <ellipse class="cls-7" cx="180.34" cy="221.03" rx="0.27" ry="0.26"/>
+                <ellipse class="cls-7" cx="179.41" cy="221.03" rx="0.27" ry="0.26"
+                         transform="translate(-13.37 11.56) rotate(-3.56)"/>
+                <ellipse class="cls-7" cx="180.34" cy="221.89" rx="0.27" ry="0.26"/>
+                <ellipse class="cls-7" cx="179.41" cy="221.89" rx="0.27" ry="0.26"
+                         transform="translate(-13.42 11.56) rotate(-3.56)"/>
+                <ellipse class="cls-11" cx="180.08" cy="226.57" rx="1.8" ry="1.75"/>
+                <ellipse class="cls-7" cx="180.54" cy="226.05" rx="0.27" ry="0.26"/>
+                <ellipse class="cls-7" cx="179.61" cy="226.05" rx="0.27" ry="0.26"
+                         transform="translate(-13.68 11.58) rotate(-3.56)"/>
+                <ellipse class="cls-7" cx="180.54" cy="226.91" rx="0.27" ry="0.26"/>
+                <ellipse class="cls-7" cx="179.61" cy="226.91" rx="0.27" ry="0.26"
+                         transform="translate(-13.73 11.58) rotate(-3.56)"/>
+                <path class="cls-15"
+                      d="M179.32,40.5c61,0,67,42,68,49s-5,12-5,12c1,2,1.5,24,1.5,24,12.5-28,16.91-80-15.13-100.41C212.82,15,208.82,13,179.82,11Z"/>
+                <path class="cls-16"
+                      d="M180.32,40.5c-61.51,0-67.56,42-68.57,49s5,12,5,12c-1,2-1.51,24-1.51,24-12.6-28-17-80,15.26-100.41C146.54,15,150.58,13,179.82,11Z"/>
+                <path class="cls-5" d="M286.82,319"/>
+                <path id="Lunette" class="cls-17"
+                      d="M149.33,79c2.09,0,14.42.57,20.69,5.27,1.08.39,2.24,4.9,3.37,4.68h17.39c1.29.16,2.59-4.43,3.81-4.92,10.18-6.32,21.14-4.45,31.91-3.26,7,.78,12.94,6.06,19.91,7.16,3.29.53,6.73-1.4,7.07,2.15a6,6,0,0,1-4.36,6.6,7.73,7.73,0,0,0-5,7.85c-.17,3.69-.25,7.4-.7,11.05-1.18,9.64-6,14.3-15,16.6-5.21,1.38-10.59.7-15.93.15-12.79-1.56-19.12-7-21.56-22.24-.44-2.73-.65-4.41-1.16-7.1-.83-4.58-4.94-7.57-9.19-6.68a8.15,8.15,0,0,0-6.16,6.5c-.72,3.3-1,4.5-1.6,7.82-3.81,19.59-14,23.34-31.09,21.46-15.43-1.72-23.72-6.7-23.57-23.35,0-5.8-3.68-9.52-9.81-11.84-1.72-1.24-1.69-4.46-1.6-6.68.58-2.27,8.27-1.9,10.31-2.74,5.71-1.39,9.1-5.36,14.85-6.31S147.22,79,149.33,79Zm-.63,6.64a60.17,60.17,0,0,0-10.66,1c-9.51,2.05-13.74,7.44-14,17.53,0,2.05.44,1.77.46,3.76,0,16.2,18.95,21.77,32.17,14.49,9.67-5.33,14.15-15.26,11.37-26.5-1-4.7-3.5-8.28-7.92-9a75.21,75.21,0,0,0-11.38-1.25Zm66,.25h0c-2.32,0-4.66-.14-7,0-8.13.59-13.32,4.9-13.76,12.55-.92,9.56,1.24,16.84,7.62,23.55,4.67,4.86,13.26,5.94,19.67,4.76,15.22-2.24,20.21-10.86,17.05-29.73-.83-5.08-4.41-8-9.08-9.15a75.32,75.32,0,0,0-14.54-2Z"/>
+                <path class="cls-15"
+                      d="M231.82,50s6,16,0,22c0,0-3-19-10-22,0,0,9,1,0,14,0,0-1-16-3-17S231.82,50,231.82,50Z"/>
+                <path class="cls-16"
+                      d="M136.3,46s-6,16,0,22c0,0,3-19,10-22,0,0-9,1,0,14,0,0,1-16,3-17S136.3,46,136.3,46Z"/>
+                <path class="cls-18"
+                      d="M168.82,12c10.48-1.41,44-3,62.91,16.66,11.69,12.15-36.85,19.57-36.85,19.57S138.64,55,125.34,28.52c0,0-3.55-11.82,8-22.52C133.32,6,129.82,29,168.82,12Z"/>
+                <path class="cls-19"
+                      d="M202.82,47S166.06,13,166.06,4.34c0,0-9,6.07-5.65,10.41,0,0-19.51-12.14-16.12-14.74,0,0-6.7,12.14-1.06,17.34,0,0-8.41-6.34-9.41-11.34-4,4.63-8.94,7.86-9,19C124.31,31.41,145.82,56,202.82,47Z"/>
+                <path class="cls-10"
+                      d="M180.82,406.52l-.08-41.7s-19-6.83-18.93,18.87C161.86,406.56,166.61,410.58,180.82,406.52Z"/>
+                <path class="cls-10"
+                      d="M185.82,406.52l.08-41.7s19-6.83,18.93,18.87C204.79,406.56,200,410.58,185.82,406.52Z"/>
+                <path class="cls-1" d="M120.73,386"/>
+                <path class="cls-11"
+                      d="M155.06,241.11C163.2,229.61-23.18,219.69,80.54,94c0,0,10.28,20.43,25.63,12.92,9.73-7.08-70.4,85.43,35.29,91.76"/>
+                <path class="cls-3"
+                      d="M108.21,105.85c-4.69,4.47-23.82,7-28.67-11.85,1.88,2.79,4.21-11.5,20.31-7.88C120.07,90.67,109.15,105.08,108.21,105.85Z"/>
+                <path class="cls-20"
+                      d="M206.71,335.61,162.45,364l-8.59,6.7s2.15,5.92,20.66-4.54,20.12-16.9,20.12-16.9S212.35,338.83,206.71,335.61Z"/>
+                <polygon class="cls-21" points="149.82 328.42 156.57 368 206.72 336.47 149.82 328.42"/>
+                <polygon class="cls-22" points="156 360.46 160.27 357.21 155.49 355.26 151.78 358.75 156 360.46"/>
+                <polygon class="cls-22"
+                         points="156.15 347.1 160.47 343.81 155.63 341.84 151.88 345.37 156.15 347.1"/>
+                <polygon class="cls-22"
+                         points="156.57 354.27 160.89 350.98 156.05 349.01 152.3 352.53 156.57 354.27"/>
+                <polygon class="cls-23" points="160 356.7 180.82 344 157.82 341.84 160 356.7"/>
+                <path class="cls-2"
+                      d="M4.4,255.66,144,267.73a4,4,0,0,1,3.64,3.37l15.2,92a4,4,0,0,1-1.43,3.79l-5.57,4.56a4,4,0,0,1-3.33.84L32,348.94a4,4,0,0,1-3.07-2.68L.22,261A4,4,0,0,1,4.4,255.66Z"/>
+                <polygon class="cls-24"
+                         points="164.88 353.73 161.32 353.73 160.82 351 173.52 343.31 180.82 344 164.88 353.73"/>
+                <polygon class="cls-24" points="180.82 344 174.88 347.69 160.13 346.51 159.36 341.84 180.82 344"/>
+                <line class="cls-24" x1="169.32" y1="350.88" x2="174.32" y2="347.69"/>
+                <polyline class="cls-24" points="165.76 342.63 160.18 346.63 161.73 356.12 180.2 345.06"/>
+                <path class="cls-2" d="M273.66,337.29s20,18-22.72,27.57S249.26,306.7,273.66,337.29Z"/>
+                <path class="cls-25"
+                      d="M234.86,363s13.26-20.84,15.23-20,10.94,8.53,13.08,18.66c0,0-7.13-20.34-21.5-24"/>
+                <path class="cls-11" d="M243.37,345.76s-7.9,10.12-4.69,10.22S247.69,350.77,243.37,345.76Z"/>
+                <path class="cls-5" d="M255.82,337s23,21,26-5S242.82,323,255.82,337Z"/>
+            </g>
+        </svg>
+        <div class="choix joueurs">
+            <img src="css/images-interface/joueurs.png" alt="joueurs">
+            <h3>Joueurs</h3>
+            <p>Vous n’êtes pas encoe inscris ? N’attendez plus et rejoignez une équipe!
+                <span class="info">La fin des inscription est prévus le vendredi 13 janvier à 23heure.</span>
+            </p>
+            <a href="index.php?page=connexion">Rejoindre le défi</a>
         </div>
-        <h2 class="haut_classement">Nom de l'équipe</h2>
-    </div>
-    <img class="fond_logo" src="css/images-interface/logo_jaune.png" alt="fond_logo">
-</div>
-
-<div class="pizza">
-    <div>
-        <h2>Soirée pizza</h2>
-
-        <p>Pour rendre une soirée inoubliable et réussir un défi quoi de mieux qu’une pizza entre amis.
-            Voilà pourquoi nous vous offrons une réduction de 20%, le vendredi et ce, si vous réservez rapidement
-            avant le 01 Décembre.
-        </p>
-
-        <div class="button_inscription">
-            <a href="https://www.weezevent.com/soiree-pizza">Je commande</a>
-        </div>
-
-        <p class="mdp"> Le mot de passe pour vous inscrire est une nouvelle fois "les50heures"</p>
     </div>
 
-</div>
-
-<div class="programme">
-    <div class="planning">
-        <h2>Au programme des 50 heures</h2>
-
-        <p class="menu">Le 13 janvier, c'est le moment de partage au département MMi de Montbéliard.
-            Actuels étudiants de MMi ou de LPW, anciens étudiants du département et les membres de
-            l'équipe MMi se donnent un rendez-vous en trois temps.
-        </p>
-
-        <div class="program">
+    <div class="tete_classement">
+        <h1>En tête du classement</h1>
+        <div class="equipe_classement">
             <div>
-                <h3>Vendredi 13 janvier - 21h - Département MMi</h3>
-                <p>Le moment sera venu de découvrir l'incroyable défi version 2017. Puis, 22 heures
-                    de défis à relever tous plus extraordinaire les uns que les autres nous mènerons
-                    à la soirée des anciens !</p>
+                <img src="css/images-interface/classement.png" alt="hexagone">
+
+                <h2>1</h2>
             </div>
-            <img src="css/images-interface/defi.png" alt="defi">
+            <h2 class="haut_classement">Nom de l'équipe</h2>
         </div>
-
-        <div class="program">
+        <div class="equipe_classement">
             <div>
-                <h3>Samedi 14 janvier - 21h - Fort Mont Bart</h3>
-                <p>Ce sera l'ouverture de la traditionnelle soirée des anciens. Nous vous invitons
-                    à partager un verre de l’amitié tous ensemble pour une soirée mémorable.</p>
+                <img src="css/images-interface/classement.png" alt="hexagone">
 
+                <h2>2</h2>
             </div>
-            <img src="css/images-interface/party.png" alt="soiree">
+            <h2 class="haut_classement">Nom de l'équipe</h2>
         </div>
-
-        <div class="program">
+        <div class="equipe_classement">
             <div>
-                <h3>Dimanche 15 janvier - 14h - Département MMi</h3>
-                <p>Pour terminer cet incroyable week-end nous finirons par la projection de vos
-                    productions puis nous assisterons à la remise des prix.</p>
+                <img src="css/images-interface/classement.png" alt="hexagone">
+
+                <h2>3</h2>
+            </div>
+            <h2 class="haut_classement">Nom de l'équipe</h2>
+        </div>
+        <img class="fond_logo" src="css/images-interface/logo_jaune.png" alt="fond_logo">
+    </div>
+
+    <div class="pizza">
+        <svg id="marie" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 255.12 485">
+            <g>
+                <path class="cls2-1"
+                      d="M135.92,230.34c-2.72-13,134.94,25.23,94.66-120.45,0,0-13.37,12.2-22.39,1.4-5.08-9.09,25.59,104.48-52.48,86.47,0,0-13.63-12.39-28.15-8.17L105,225Z"/>
+                <path id="bout-cheveux-ma" class="cls2-2"
+                      d="M156.41,113.86s4.7-2.08-4.82,46.32c0,0,13.81-15.2,27.26-47L172.8,96.81s-4.51,8.09-9.43,8.11C161,108.17,156.41,113.86,156.41,113.86Z"/>
+                <path class="cls2-3"
+                      d="M54.43,323.4,75.25,474.52l15.38-4.76S92,373.22,93.17,368.27s20.88-5.5,20.88-5.5l.56-39.08Z"/>
+                <path class="cls2-4"
+                      d="M150.54,321.09,133.66,470.35l-17.43-.64s-1.11-96.48-2.22-101.44-20.36-5.5-20.36-5.5l-.55-39.08Z"/>
+                <path id="Cheveux" class="cls2-5" d="M112.4,6.85"/>
+                <path id="Cheveux-2" data-name="Cheveux" class="cls2-6" d="M112.4,6.85"/>
+                <g id="Coup">
+                    <path class="cls2-3"
+                          d="M125.36,162.89H81.08c2.73,8.42,3.59,25.41-3.2,30.82,3.77,9.81,15.45,36.27,26,38.75,10.5-2.5,21-29,24.78-38.75C121.86,188.3,122.62,171.3,125.36,162.89Z"/>
+                </g>
+                <path id="Ombre" class="cls2-7"
+                      d="M81.4,173.56s22.46,24.11,43.69,16.08c.71,1.86-1.81-8.54-1.74-14.57C123.35,175.07,102.07,189.66,81.4,173.56Z"/>
+                <path class="cls2-3"
+                      d="M172.46,83.22c0,45.79-29.78,99.69-70,99.69S32.38,128,34.27,82.23C36.18,36.15,61,18,102.41,17.09,142.66,16.16,172.46,37.43,172.46,83.22Z"/>
+                <path class="cls2-4" d="M102.41,17.09c40.26,0,70,20.34,70,66.13s-29.78,99.69-70,99.69"/>
+                <path class="cls2-3" d="M44.28,75.63c-13.8,0-23.35,6.4-23.35,21.55s9.55,33.31,23.35,33.31"/>
+                <path class="cls2-7"
+                      d="M34.27,91.9a15.66,15.66,0,0,0-2.49,7.69A20.33,20.33,0,0,0,33,107.46a31.28,31.28,0,0,0,1.5,3.77c.6,1.22,1.27,2.42,1.92,3.63s1.42,2.37,2.19,3.53,1.58,2.3,2.31,3.53C39.88,121,38.87,120,37.86,119s-1.83-2.17-2.73-3.29c-.44-.56-.8-1.19-1.19-1.79s-.78-1.2-1.12-1.84a29.39,29.39,0,0,1-1.71-4,22.88,22.88,0,0,1-1-4.27l-.1-2.2c.05-.74.11-1.47.2-2.2A12.32,12.32,0,0,1,34.27,91.9Z"/>
+                <path class="cls2-4" d="M162.93,130.49c13.8,0,23.35-18.16,23.35-33.31s-9.55-21.55-23.35-21.55"/>
+                <path class="cls2-7"
+                      d="M172.93,91.9a12.32,12.32,0,0,1,4,7.52c.09.73.15,1.46.2,2.2l-.1,2.2a22.88,22.88,0,0,1-1,4.27,29.37,29.37,0,0,1-1.71,4c-.34.64-.75,1.23-1.12,1.84s-.74,1.23-1.19,1.79c-.89,1.12-1.76,2.25-2.73,3.29s-2,2-3.09,2.92c.73-1.22,1.53-2.38,2.31-3.53s1.44-2.38,2.19-3.53,1.32-2.41,1.92-3.63a31.28,31.28,0,0,0,1.5-3.77,20.33,20.33,0,0,0,1.23-7.87A15.66,15.66,0,0,0,172.93,91.9Z"/>
+                <path class="cls2-7"
+                      d="M94.69,127.68a29.28,29.28,0,0,0,4.12,3,9.72,9.72,0,0,0,4.39,1.41,7.82,7.82,0,0,0,4.32-1.25,27.4,27.4,0,0,0,4-3.14,11,11,0,0,1-3.06,4.4,7.71,7.71,0,0,1-5.32,2,8.79,8.79,0,0,1-5.21-2.13A11.36,11.36,0,0,1,94.69,127.68Z"/>
+                <path class="cls2-8"
+                      d="M138.68,84c-12.17,0-26.49,8.2-26.49,19.28S126.78,122,138.94,122s17.31-7.67,17.31-18.75S150.85,84,138.68,84Z"/>
+                <ellipse class="cls2-9" cx="126.89" cy="104.74" rx="3.72" ry="5.59"/>
+                <ellipse class="cls2-8" cx="129.76" cy="105.46" rx="1.72" ry="2.01"/>
+                <path class="cls2-8"
+                      d="M70.43,84c12.17,0,26.49,8.2,26.49,19.28S82.34,122,70.17,122s-17.31-7.67-17.31-18.75S58.26,84,70.43,84Z"/>
+                <ellipse class="cls2-9" cx="80.19" cy="104.74" rx="3.72" ry="5.59"/>
+                <ellipse class="cls2-8" cx="83.05" cy="105.17" rx="1.72" ry="2.01"/>
+                <path class="cls2-1"
+                      d="M103.84,232.46,78.11,193.39s-27.64-1.72-41.18,8.77S4.73,232.46.08,257.46c-1.88,10.09,30.65,73.46,30.65,73.46l23.69-8.75s-26.7-56-26.14-64.71,20.5-38.47,23.88-34.1,16.73,99.38,16.73,99.38h36.86Z"/>
+                <g class="cls2-10">
+                    <path class="cls2-11"
+                          d="M54.43,322.45,75.25,473.56l15.38-4.76S92,372.27,93.17,367.31s20.88-5.5,20.88-5.5l.56-39.08Z"/>
+                    <path class="cls2-11"
+                          d="M147.68,320.13l-14,149.26-17.43-.64s-1.11-96.48-2.22-101.44-20.36-5.5-20.36-5.5l-.55-39.08Z"/>
+                </g>
+                <path class="cls2-9"
+                      d="M116.23,459.27l1,21.92s18.11-1.91,28.59,3.81c13.34,0,19.06,0,21.92-3.81-4.76-18.11-24.78-13.34-28.59-13.34S147.68,450.69,116.23,459.27Z"/>
+                <path class="cls2-3" d="M30.73,330.92s25,32,23.69-8.47C54.43,322.45,30.46,319.18,30.73,330.92Z"/>
+                <polyline class="cls2-1" points="125.27 206.57 101.94 233.41 100.48 319.88 151.24 319.88"/>
+                <polyline class="cls2-1" points="78.11 193.39 103.84 232.46 105.75 322.74 54.98 322.74"/>
+                <path class="cls2-12" d="M52.16,223.36"/>
+                <path class="cls2-13" d="M155.3,80.94S135.29,69.5,120,83.8"/>
+                <path class="cls2-13" d="M57.15,80.94s20-11.44,35.26,2.86"/>
+                <path class="cls2-13"
+                      d="M112.62,100s4.73-18.12,29.9-15.73c0,0,9.71,1.08,12.2,9.83s6.3-1.73,6.3-1.73"/>
+                <path class="cls2-13" d="M153.93,92s3.75,7.5,5.66-3"/>
+                <path class="cls2-13"
+                      d="M96.22,100s-4.73-18.12-29.9-15.73c0,0-9.71,1.08-12.2,9.83s-6.3-1.73-6.3-1.73"/>
+                <path class="cls2-13" d="M54.9,92s-3.75,7.5-5.66-3"/>
+                <circle class="cls2-1" cx="74.78" cy="242.47" r="25.25"/>
+                <circle class="cls2-12" cx="130.05" cy="242.47" r="25.25"/>
+                <polygon class="cls2-1"
+                         points="141.01 415.43 65.72 415.43 53.33 320.13 150.54 316.32 141.01 415.43"/>
+                <rect class="cls2-9" x="117.18" y="478.33" width="14.29" height="6.67"/>
+                <path class="cls2-9"
+                      d="M91.45,459.27l-1,21.92S72.39,479.28,61.91,485c-13.34,0-19.06,0-21.92-3.81,4.76-18.11,24.78-13.34,28.59-13.34S60,450.69,91.45,459.27Z"/>
+                <rect class="cls2-9" x="76.21" y="478.33" width="14.29" height="6.67"
+                      transform="translate(166.71 963.33) rotate(-180)"/>
+                <line id="inf-fille" class="cls2-14" x1="118.52" y1="149.3" x2="87.37" y2="149.53"/>
+                <path id="inf-fille-2" data-name="inf-fille" class="cls2-14" d="M119.63,149.66"/>
+                <path id="inf-fille-3" data-name="inf-fille" class="cls2-14" d="M84.51,149.92"/>
+                <path id="_Tracé_" data-name="&lt;Tracé&gt;" class="cls2-15" d="M84.93,150"/>
+                <g id="_Groupe_" data-name="&lt;Groupe&gt;">
+                    <g id="visage1">
+                        <g id="ombres-visage1">
+                            <path id="ombre1" class="cls2-16"
+                                  d="M86.42,181.59s31,22.61,39.52,15.45c0,0-5.78-5.15-3.79-15.45-19.61,16.08-35.73,0-35.73,0"/>
+                        </g>
+                    </g>
+                    <g id="vetements-ma">
+                        <g id="haut-ma">
+                            <path id="col-ma" class="cls2-17"
+                                  d="M59.62,201.73s44.09,39,89.15,0c0,0-.51-.62-6.61-1.95,0,0-35.8,27.37-74.47-.29C67.69,199.5,62.06,200.93,59.62,201.73Z"/>
+                        </g>
+                        <g id="echarpe">
+                            <g id="bout1">
+                                <path id="echarpe-ma" class="cls2-8"
+                                      d="M66.6,161.14s-59,20.79-26.19,54.92,89.74,22.41,89.74,22.41S52.8,189.22,66.6,161.14Z"/>
+                                <path id="ombre-echarpe-ma" class="cls2-18"
+                                      d="M71.44,235.06s10.57-7.91,10.07-19l6.09,22.86S73.43,237,71.44,235.06Z"/>
+                                <g id="pointille-ma">
+                                    <g id="_Groupe_2" data-name="&lt;Groupe&gt;">
+                                        <polygon class="cls2-19"
+                                                 points="57.66 165.65 56.8 166.84 56.36 166.52 57.37 165.38 57.66 165.65"/>
+                                        <polygon class="cls2-19"
+                                                 points="55.31 169.34 54.06 171.95 53.1 171.49 54.61 168.92 55.31 169.34"/>
+                                        <polygon class="cls2-19"
+                                                 points="53.06 174.65 52.33 177.42 50.85 177.04 51.84 174.21 53.06 174.65"/>
+                                        <polygon class="cls2-19"
+                                                 points="51.87 180.24 51.71 183.07 49.71 182.98 50.13 179.97 51.87 180.24"/>
+                                        <polygon class="cls2-19"
+                                                 points="51.82 185.9 52.21 188.69 49.87 189.06 49.63 186.02 51.82 185.9"/>
+                                        <polygon class="cls2-19"
+                                                 points="52.88 191.43 53.8 194.08 51.23 195.02 50.41 192.07 52.88 191.43"/>
+                                        <polygon class="cls2-19"
+                                                 points="54.96 196.65 56.33 199.12 53.61 200.64 52.31 197.88 54.96 196.65"/>
+                                        <polygon class="cls2-19"
+                                                 points="57.88 201.48 59.59 203.73 56.77 205.84 55.11 203.29 57.88 201.48"/>
+                                        <polygon class="cls2-19"
+                                                 points="61.45 205.87 63.42 207.91 60.5 210.64 58.57 208.29 61.45 205.87"/>
+                                        <path class="cls2-19"
+                                              d="M65.46,209.89c.71.63,1.39,1.3,2.08,1.95l-2.77,3.08c-.73-.69-1.49-1.36-2.2-2.07Z"/>
+                                        <polygon class="cls2-19"
+                                                 points="69.66 213.76 71.81 215.67 69.52 218.61 67.1 216.83 69.66 213.76"/>
+                                        <path class="cls2-19"
+                                              d="M74,217.54c.74.62,1.5,1.21,2.23,1.85l-1.67,2.43c-.86-.5-1.7-1-2.56-1.55Z"/>
+                                        <path class="cls2-19"
+                                              d="M78.5,221.23c.76.61,1.52,1.21,2.28,1.84l-.91,1.48c-.9-.42-1.78-.87-2.68-1.3Z"/>
+                                        <path class="cls2-19"
+                                              d="M83.12,225c.39.32.78.65,1.16,1l-.2.35c-.48-.18-1-.35-1.43-.53Z"/>
+                                    </g>
+                                    <g id="_Groupe_3" data-name="&lt;Groupe&gt;">
+                                        <polygon class="cls2-19"
+                                                 points="44.26 173.51 43.55 174.79 43.08 174.53 43.94 173.28 44.26 173.51"/>
+                                        <polygon class="cls2-19"
+                                                 points="42.33 177.54 41.37 180.39 40.37 180.06 41.58 177.22 42.33 177.54"/>
+                                        <polygon class="cls2-19"
+                                                 points="40.67 183.29 40.24 186.24 38.73 186.03 39.41 183 40.67 183.29"/>
+                                        <polygon class="cls2-19"
+                                                 points="40.08 189.21 40.19 192.16 38.19 192.24 38.32 189.12 40.08 189.21"/>
+                                        <polygon class="cls2-19"
+                                                 points="40.54 195.09 41.15 197.97 38.84 198.48 38.37 195.38 40.54 195.09"/>
+                                        <polygon class="cls2-19"
+                                                 points="42 200.78 43.08 203.51 40.54 204.53 39.56 201.54 42 200.78"/>
+                                        <polygon class="cls2-19"
+                                                 points="44.37 206.15 45.84 208.69 43.16 210.25 41.75 207.44 44.37 206.15"/>
+                                        <polygon class="cls2-19"
+                                                 points="47.49 211.12 49.29 213.45 46.49 215.58 44.75 212.97 47.49 211.12"/>
+                                        <polygon class="cls2-19"
+                                                 points="51.23 215.67 53.28 217.79 50.36 220.52 48.36 218.1 51.23 215.67"/>
+                                        <path class="cls2-19"
+                                              d="M55.4,219.85c.74.66,1.44,1.35,2.16,2L54.77,225c-.76-.71-1.54-1.41-2.28-2.14Z"/>
+                                        <polygon class="cls2-19"
+                                                 points="59.74 223.88 61.96 225.86 59.67 228.79 57.17 226.94 59.74 223.88"/>
+                                        <path class="cls2-19"
+                                              d="M64.24,227.8c.77.64,1.55,1.26,2.32,1.92l-1.67,2.42c-.89-.52-1.76-1.08-2.64-1.62Z"/>
+                                        <path class="cls2-19"
+                                              d="M68.9,231.62c.79.63,1.58,1.25,2.36,1.9L70.35,235c-.93-.44-1.84-.91-2.77-1.36Z"/>
+                                        <polygon class="cls2-19"
+                                                 points="73.7 235.48 74.87 236.45 74.67 236.79 73.24 236.25 73.7 235.48"/>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="bout2">
+                                <path id="echarpe-ma-2" data-name="echarpe-ma" class="cls2-8"
+                                      d="M141.63,165.65s28.26.17,17.31,14.18c0,0-17.61,11.42-43.71,10.58C115.24,190.41,123.13,173,141.63,165.65Z"/>
+                                <g id="pointille-ma-2" data-name="pointille-ma">
+                                    <g id="_Groupe_4" data-name="&lt;Groupe&gt;">
+                                        <polygon class="cls2-19"
+                                                 points="147.58 166.21 146.74 167.47 146.08 166.85 147.29 165.93 147.58 166.21"/>
+                                        <path class="cls2-19"
+                                              d="M145.27,169.59c-.49.71-1,1.4-1.49,2.09l-1.71-1.61c.66-.55,1.32-1.09,2-1.62Z"/>
+                                        <path class="cls2-19"
+                                              d="M142.25,173.74c-.51.68-1,1.35-1.53,2.06l-2.58-2.42c.68-.52,1.31-1.1,2-1.65Z"/>
+                                        <path class="cls2-19"
+                                              d="M139.21,177.87a11.51,11.51,0,0,1-2,1.66l-2.62-2.46a11.51,11.51,0,0,1,1.54-2.05Z"/>
+                                        <path class="cls2-19"
+                                              d="M134.93,180.84a8.66,8.66,0,0,1-1.61.55l-.29-.27a8.66,8.66,0,0,1,.45-1.64Z"/>
+                                    </g>
+                                    <g id="_Groupe_5" data-name="&lt;Groupe&gt;">
+                                        <path class="cls2-19"
+                                              d="M154.39,167.57c-.24.45-.47.91-.72,1.35l-.77-.64c.38-.33.79-.64,1.19-1Z"/>
+                                        <path class="cls2-19"
+                                              d="M152.25,171.41c-.49.81-1,1.64-1.48,2.43L148.58,172c.68-.66,1.41-1.27,2.12-1.9Z"/>
+                                        <path class="cls2-19"
+                                              d="M149.29,176.27a12,12,0,0,1-.72,1.23,6,6,0,0,1-.95,1L144.54,176a6,6,0,0,1,.85-1.12,12.06,12.06,0,0,1,1.08-.94Z"/>
+                                        <path class="cls2-19"
+                                              d="M145.16,180.16a7.32,7.32,0,0,1-1.67.56l-.31-.26a7.32,7.32,0,0,1,.24-1.75Z"/>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="ombre-echarpe-ma-2" data-name="ombre-echarpe-ma">
+                                <path id="_Tracé_2" data-name="&lt;Tracé&gt;" class="cls2-18"
+                                      d="M66.79,160c-4.1,3.13-4.49,9.31-.4,14.81,0,0,8-3.23,14.26-3.2C80.65,171.64,74.14,168.92,66.79,160Z"/>
+                            </g>
+                            <g id="bout4">
+                                <path id="echarpe-ma-3" data-name="echarpe-ma" class="cls2-8"
+                                      d="M78,170.35S46.79,172,79.78,196.95s90.59-4.16,90.59-4.16,6.1-5.2-4.57-11.05S109.3,181.58,78,170.35Z"/>
+                                <path id="ombre-echarpe-ma-3" data-name="ombre-echarpe-ma" class="cls-18"
+                                      d="M66.39,174.85s9,20.54,13.39,22.1C79.78,196.95,58.42,182.45,66.39,174.85Z"/>
+                                <g id="pointille-ma-3" data-name="pointille-ma">
+                                    <g id="_Groupe_6" data-name="&lt;Groupe&gt;">
+                                        <polygon class="cls2-19"
+                                                 points="168.92 183.94 167.45 184.24 167.37 183.75 168.85 183.55 168.92 183.94"/>
+                                        <polygon class="cls2-19"
+                                                 points="164.59 184.79 161.72 185.31 161.59 184.42 164.48 184.1 164.59 184.79"/>
+                                        <polygon class="cls2-19"
+                                                 points="158.84 185.78 155.95 186.22 155.81 184.99 158.7 184.72 158.84 185.78"/>
+                                        <polygon class="cls2-19"
+                                                 points="153.06 186.63 150.17 187.02 150.01 185.45 152.91 185.24 153.06 186.63"/>
+                                        <polygon class="cls2-19"
+                                                 points="147.27 187.38 144.37 187.71 144.21 185.8 147.11 185.64 147.27 187.38"/>
+                                        <polygon class="cls2-19"
+                                                 points="141.46 188.01 138.54 188.27 138.41 186.07 141.31 185.95 141.46 188.01"/>
+                                        <polygon class="cls2-19"
+                                                 points="135.63 188.5 132.71 188.69 132.61 186.23 135.51 186.16 135.63 188.5"/>
+                                        <polygon class="cls2-19"
+                                                 points="129.78 188.86 126.86 188.99 126.81 186.26 129.71 186.26 129.78 188.86"/>
+                                        <polygon class="cls2-19"
+                                                 points="123.92 189.09 120.99 189.15 121.02 186.15 123.91 186.22 123.92 189.09"/>
+                                        <polygon class="cls2-19"
+                                                 points="118.06 189.17 115.12 189.16 115.24 185.88 118.12 186.04 118.06 189.17"/>
+                                        <polygon class="cls2-19"
+                                                 points="112.18 189.1 109.23 189 109.48 185.43 112.35 185.68 112.18 189.1"/>
+                                        <polygon class="cls2-19"
+                                                 points="106.29 188.87 103.34 188.69 103.75 184.75 106.61 185.11 106.29 188.87"/>
+                                        <polygon class="cls2-19"
+                                                 points="100.4 188.42 97.46 188.05 98.06 183.94 100.9 184.35 100.4 188.42"/>
+                                        <path class="cls2-19"
+                                              d="M94.53,187.58c-1-.18-1.94-.39-2.91-.58l.79-4c.94.16,1.89.3,2.82.47Z"/>
+                                        <polygon class="cls-19"
+                                                 points="88.73 186.31 85.86 185.5 86.79 181.92 89.59 182.5 88.73 186.31"/>
+                                        <polygon class="cls2-19"
+                                                 points="83.02 184.59 80.23 183.55 81.25 180.55 84.01 181.28 83.02 184.59"/>
+                                        <polygon class="cls2-19"
+                                                 points="77.49 182.37 74.81 181.05 75.79 178.83 78.5 179.74 77.49 182.37"/>
+                                        <path class="cls2-19"
+                                              d="M72.22,179.56c-.84-.54-1.65-1.11-2.47-1.66l.72-1.22,2.64,1.14Z"/>
+                                        <polygon class="cls2-19"
+                                                 points="67.39 176.04 66.27 175.01 66.51 174.69 67.83 175.39 67.39 176.04"/>
+                                    </g>
+                                    <g id="_Groupe_7" data-name="&lt;Groupe&gt;">
+                                        <polygon class="cls2-19"
+                                                 points="171.92 187.79 170.48 188.19 170.36 187.7 171.83 187.4 171.92 187.79"/>
+                                        <polygon class="cls2-19"
+                                                 points="167.5 188.97 164.51 189.72 164.32 188.82 167.34 188.28 167.5 188.97"/>
+                                        <polygon class="cls2-19"
+                                                 points="161.51 190.42 158.5 191.1 158.26 189.84 161.29 189.35 161.51 190.42"/>
+                                        <polygon class="cls2-19"
+                                                 points="155.48 191.75 152.46 192.37 152.19 190.75 155.22 190.31 155.48 191.75"/>
+                                        <polygon class="cls2-19"
+                                                 points="149.43 192.96 146.4 193.53 146.1 191.55 149.14 191.17 149.43 192.96"/>
+                                        <polygon class="cls2-19"
+                                                 points="143.35 194.04 140.3 194.53 140.01 192.27 143.05 191.93 143.35 194.04"/>
+                                        <polygon class="cls2-19"
+                                                 points="137.25 194.99 134.18 195.42 133.9 192.87 136.96 192.59 137.25 194.99"/>
+                                        <polygon class="cls2-19"
+                                                 points="131.11 195.81 128.04 196.17 127.79 193.33 130.84 193.12 131.11 195.81"/>
+                                        <polygon class="cls-19"
+                                                 points="124.96 196.49 121.87 196.77 121.68 193.65 124.73 193.51 124.96 196.49"/>
+                                        <polygon class="cls-19"
+                                                 points="118.78 197.02 115.68 197.23 115.57 193.78 118.62 193.74 118.78 197.02"/>
+                                        <polygon class="cls2-19"
+                                                 points="112.58 197.39 109.47 197.52 109.47 193.7 112.52 193.78 112.58 197.39"/>
+                                        <polygon class="cls2-19"
+                                                 points="106.35 197.58 103.23 197.55 103.39 193.44 106.42 193.58 106.35 197.58"/>
+                                        <path class="cls2-19"
+                                              d="M100.11,197.42c-1-.08-2.08-.15-3.12-.25l.35-4.1c1,0,2,.13,3,.2Z"/>
+                                        <polygon class="cls2-19"
+                                                 points="93.88 196.81 90.77 196.31 91.3 192.56 94.32 192.84 93.88 196.81"/>
+                                        <polygon class="cls2-19"
+                                                 points="87.69 195.72 84.63 194.97 85.31 191.78 88.3 192.2 87.69 195.72"/>
+                                        <polygon class="cls2-19"
+                                                 points="81.61 194.08 78.64 193.03 79.38 190.64 82.33 191.26 81.61 194.08"/>
+                                        <path class="cls2-19"
+                                              d="M75.74,191.79c-.94-.46-1.87-1-2.8-1.44l.59-1.33c1,.29,2,.57,2.91.88Z"/>
+                                        <polygon class="cls2-19"
+                                                 points="70.27 188.68 69.04 187.77 69.25 187.43 70.64 187.99 70.27 188.68"/>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="bout3">
+                                <path id="echarpe-ma-4" data-name="echarpe-ma" class="cls2-8"
+                                      d="M171.87,190.45s34,7.9,2.41,45.87-67.65,55.22-67.65,55.22-34.6-87-26.86-94.6C79.78,196.95,109,222.06,171.87,190.45Z"/>
+                                <g id="pointille-ma-4" data-name="pointille-ma">
+                                    <g id="_Groupe_8" data-name="&lt;Groupe&gt;">
+                                        <path class="cls2-19"
+                                              d="M179.91,194a1.86,1.86,0,0,1,0,.43,3.4,3.4,0,0,1-.1.39,5.23,5.23,0,0,1-.29.73l-.45-.23a4.74,4.74,0,0,0,.31-.64,3,3,0,0,0,.11-.33,1.66,1.66,0,0,0,.05-.31Z"/>
+                                        <polygon class="cls2-19"
+                                                 points="177.66 198.12 175.39 200.23 174.83 199.51 177.16 197.62 177.66 198.12"/>
+                                        <polygon class="cls2-19"
+                                                 points="172.91 202.07 170.31 203.74 169.69 202.62 172.32 201.15 172.91 202.07"/>
+                                        <polygon class="cls2-19"
+                                                 points="167.64 205.26 164.91 206.68 164.22 205.19 166.98 203.96 167.64 205.26"/>
+                                        <polygon class="cls2-19"
+                                                 points="162.14 208.01 159.34 209.27 158.6 207.41 161.43 206.34 162.14 208.01"/>
+                                        <polygon class="cls2-19"
+                                                 points="156.51 210.44 153.65 211.57 152.88 209.42 155.75 208.44 156.51 210.44"/>
+                                        <polygon class="cls2-19"
+                                                 points="150.78 212.64 147.9 213.68 147.11 211.24 150 210.35 150.78 212.64"/>
+                                        <polygon class="cls2-19"
+                                                 points="145 214.68 142.09 215.64 141.28 212.91 144.2 212.09 145 214.68"/>
+                                        <polygon class="cls2-19"
+                                                 points="139.18 216.57 136.25 217.47 135.41 214.46 138.35 213.7 139.18 216.57"/>
+                                        <polygon class="cls-19"
+                                                 points="133.32 218.36 130.38 219.22 129.51 215.88 132.46 215.19 133.32 218.36"/>
+                                        <polygon class="cls2-19"
+                                                 points="127.44 220.06 124.49 220.9 123.58 217.2 126.55 216.56 127.44 220.06"/>
+                                        <polygon class="cls2-19"
+                                                 points="121.54 221.71 118.58 222.47 117.64 218.46 120.61 217.82 121.54 221.71"/>
+                                        <path class="cls2-19"
+                                              d="M115.6,223.18c-1,.21-2,.45-3,.65l-.89-4c1-.24,2-.46,3-.68Z"/>
+                                        <polygon class="cls2-19"
+                                                 points="109.61 224.42 106.6 224.96 105.81 221.25 108.76 220.51 109.61 224.42"/>
+                                        <polygon class="cls2-19"
+                                                 points="103.58 225.47 100.55 225.93 99.91 222.74 102.86 221.98 103.58 225.47"/>
+                                        <polygon class="cls2-19"
+                                                 points="97.52 226.36 94.49 226.75 94.01 224.29 96.96 223.5 97.52 226.36"/>
+                                        <path class="cls2-19"
+                                              d="M91.44,227.08c-1,.11-2,.19-3.05.29l-.27-1.43c1-.28,2-.58,2.94-.84Z"/>
+                                        <polygon class="cls2-19"
+                                                 points="85.24 227.61 83.72 227.68 83.65 227.29 85.09 226.83 85.24 227.61"/>
+                                    </g>
+                                    <g id="_Groupe_9" data-name="&lt;Groupe&gt;">
+                                        <path class="cls2-19"
+                                              d="M187,203.07a1.13,1.13,0,0,1,.6.68,1.71,1.71,0,0,1,0,.86l-.48-.12a1.25,1.25,0,0,0,0-.62.78.78,0,0,0-.12-.26.7.7,0,0,0-.2-.18Z"/>
+                                        <polygon class="cls2-19"
+                                                 points="185.98 207.31 183.78 209.46 183.21 208.77 185.47 206.83 185.98 207.31"/>
+                                        <polygon class="cls2-19"
+                                                 points="181.41 211.39 178.95 213.19 178.26 212.17 180.78 210.53 181.41 211.39"/>
+                                        <polygon class="cls2-19"
+                                                 points="176.43 214.91 173.88 216.57 173.08 215.22 175.69 213.72 176.43 214.91"/>
+                                        <polygon class="cls2-19"
+                                                 points="171.3 218.18 168.7 219.75 167.77 218.08 170.43 216.67 171.3 218.18"/>
+                                        <polygon class="cls2-19"
+                                                 points="166.07 221.28 163.43 222.78 162.4 220.83 165.09 219.47 166.07 221.28"/>
+                                        <polygon class="cls2-19"
+                                                 points="160.77 224.25 158.11 225.7 156.99 223.5 159.7 222.18 160.77 224.25"/>
+                                        <polygon class="cls2-19"
+                                                 points="155.43 227.13 152.74 228.54 151.53 226.09 154.26 224.8 155.43 227.13"/>
+                                        <polygon class="cls2-19"
+                                                 points="150.05 229.94 147.35 231.32 146.04 228.62 148.79 227.36 150.05 229.94"/>
+                                        <polygon class="cls2-19"
+                                                 points="144.64 232.69 141.93 234.06 140.53 231.09 143.29 229.87 144.64 232.69"/>
+                                        <polygon class="cls-19"
+                                                 points="139.22 235.42 136.5 236.77 134.99 233.51 137.77 232.31 139.22 235.42"/>
+                                        <polygon class="cls2-19"
+                                                 points="133.78 238.12 131.06 239.47 129.42 235.86 132.21 234.69 133.78 238.12"/>
+                                        <polygon class="cls2-19"
+                                                 points="128.33 240.78 125.58 242.06 123.87 238.26 126.64 237.05 128.33 240.78"/>
+                                        <path class="cls2-19"
+                                              d="M122.81,243.29c-.92.41-1.86.79-2.79,1.19l-1.64-3.71c.91-.42,1.82-.86,2.74-1.27Z"/>
+                                        <polygon class="cls2-19"
+                                                 points="117.21 245.63 114.39 246.75 112.91 243.36 115.64 242.06 117.21 245.63"/>
+                                        <polygon class="cls2-19"
+                                                 points="111.56 247.85 108.72 248.92 107.47 246.02 110.19 244.68 111.56 247.85"/>
+                                        <polygon class="cls2-19"
+                                                 points="105.87 249.96 103.01 250.98 102.06 248.75 104.76 247.38 105.87 249.96"/>
+                                        <polygon class="cls2-19"
+                                                 points="100.13 251.95 97.23 252.89 96.69 251.59 99.36 250.16 100.13 251.95"/>
+                                        <polygon class="cls2-19"
+                                                 points="94.22 253.81 92.77 254.23 92.62 253.86 93.93 253.1 94.22 253.81"/>
+                                    </g>
+                                    <g id="_Groupe_10" data-name="&lt;Groupe&gt;">
+                                        <polygon class="cls2-19"
+                                                 points="183.07 227.3 182.2 228.56 181.81 228.23 182.73 227.09 183.07 227.3"/>
+                                        <polygon class="cls2-19"
+                                                 points="180.25 230.88 178.14 233.07 177.5 232.37 179.72 230.37 180.25 230.88"/>
+                                        <polygon class="cls2-19"
+                                                 points="175.93 235.15 173.64 237.14 172.82 236.1 175.19 234.28 175.93 235.15"/>
+                                        <polygon class="cls2-19"
+                                                 points="171.3 239.07 168.92 240.95 167.92 239.56 170.39 237.86 171.3 239.07"/>
+                                        <polygon class="cls2-19"
+                                                 points="166.49 242.77 164.03 244.53 162.88 242.8 165.41 241.2 166.49 242.77"/>
+                                        <polygon class="cls2-19"
+                                                 points="161.53 246.25 159 247.92 157.75 245.9 160.33 244.37 161.53 246.25"/>
+                                        <polygon class="cls2-19"
+                                                 points="156.45 249.56 153.88 251.17 152.53 248.86 155.15 247.4 156.45 249.56"/>
+                                        <polygon class="cls2-19"
+                                                 points="151.29 252.74 148.69 254.29 147.25 251.69 149.9 250.29 151.29 252.74"/>
+                                        <polygon class="cls2-19"
+                                                 points="146.06 255.81 143.43 257.31 141.9 254.4 144.58 253.06 146.06 255.81"/>
+                                        <polygon class="cls2-19"
+                                                 points="140.79 258.79 138.13 260.25 136.49 257 139.2 255.71 140.79 258.79"/>
+                                        <polygon class="cls2-19"
+                                                 points="135.47 261.7 132.79 263.12 131.03 259.49 133.76 258.25 135.47 261.7"/>
+                                        <path class="cls2-19"
+                                              d="M130.09,264.48c-.9.45-1.82.87-2.73,1.3L125.59,262c.9-.43,1.8-.87,2.71-1.28Z"/>
+                                        <path class="cls2-19"
+                                              d="M124.59,267q-1.39.61-2.79,1.18l-1.61-3.54q1.34-.68,2.69-1.33Z"/>
+                                        <path class="cls2-19"
+                                              d="M119,269.34c-.93.38-1.88.73-2.83,1.09l-1.35-3.08c.89-.45,1.78-.92,2.69-1.35Z"/>
+                                        <polygon class="cls2-19"
+                                                 points="113.33 271.49 110.47 272.48 109.45 270.09 112.13 268.71 113.33 271.49"/>
+                                        <path class="cls2-19"
+                                              d="M107.59,273.43c-1,.31-1.93.61-2.9.89l-.58-1.4c.89-.49,1.77-1,2.67-1.43Z"/>
+                                        <polygon class="cls2-19"
+                                                 points="101.69 275.19 100.22 275.56 100.07 275.19 101.38 274.43 101.69 275.19"/>
+                                    </g>
+                                </g>
+                                <path id="ombre-echarpe-ma-4" data-name="ombre-echarpe-ma" class="cls2-20"
+                                      d="M81.51,216.06s84.3-22.37,90.37-25.6c0,0-68.51,22-92.1,6.49C79.78,196.95,76.37,200.31,81.51,216.06Z"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="cls2-4" d="M61.91,70.45,100,39.84S81.92,27.57,61.91,70.45Z"/>
+                <g id="coupe-ma">
+                    <path id="bout-cheveux-ma-2" data-name="bout-cheveux-ma" class="cls2-2"
+                          d="M75.25,171.47S89.86,180,66.72,188.6c.25.36-32.8-28.14-33.4-40.55L39,129.54c.07.16,0,0,4.76,1"/>
+                    <path id="cheveux-ma" class="cls2-21"
+                          d="M132,2.89C90.74-6.23,27.86,3.12,30,91.37c0,0-6.48,28.35,1.42,65.8,0,0,38.12-143.9,71.47-115.31,0,0,23-8.22,31.08-.87,4.7,1.77,15.26,10.33,18.6,30.26,6.7,17,20.85,79.24,20.85,79.24C178.77,151.62,193.89,1.94,132,2.89Z"/>
+                    <g id="tresse">
+                        <g id="brin2-ma">
+                            <path id="_Tracé_3" data-name="&lt;Tracé&gt;" class="cls2-22"
+                                  d="M58.25,180.05S44.94,192.43,65.8,209c0,0,.33-4.28,6.94-9.32,0,0-6.12-7.23-5.86-11.07Z"/>
+                            <path id="_Tracé_4" data-name="&lt;Tracé&gt;" class="cls2-22"
+                                  d="M80.48,206.73c1.63.56,14.4,6.54-10.24,23.43l-6.7-8.55S78.85,206.17,80.48,206.73Z"/>
+                        </g>
+                        <rect id="elastique" class="cls2-23" x="55.35" y="228.82" width="30.31" height="5.8" rx="2.9"
+                              ry="2.9"/>
+                        <g id="brin2-ma-2" data-name="brin2-ma">
+                            <path id="_Tracé_5" data-name="&lt;Tracé&gt;" class="cls2-21"
+                                  d="M82.6,190.24s13.17,6.36-11.25,24.35L64.82,208s4-9.13,7.67-9.35S82.6,190.24,82.6,190.24Z"/>
+                            <path id="_Tracé_6" data-name="&lt;Tracé&gt;" class="cls2-21"
+                                  d="M56.52,214.21s-9.43,9.78,7,15.57h6.7S62,217.07,56.52,214.21Z"/>
+                            <path id="_Tracé_7" data-name="&lt;Tracé&gt;" class="cls2-21"
+                                  d="M69.17,279c0,.22-17.75-23.1-8-44.36H79.6s6.22,16,1.11,32.71c0,0-6.66-6.58-2.22,5.92C78.49,273.25,70.95,256.62,69.17,279Z"/>
+                        </g>
+                        <g id="brin1-ma">
+                            <path id="_Tracé_8" data-name="&lt;Tracé&gt;" class="cls2-24"
+                                  d="M80,177.19s9.53,1,2.59,13c-3.61,6.29-10.67,9.62-10.67,9.62s-6.2-9.39-5.06-11.26C66.88,188.6,78.11,185.77,80,177.19Z"/>
+                            <path id="_Tracé_9" data-name="&lt;Tracé&gt;" class="cls2-24"
+                                  d="M57,199.67s-12.15,6.58,6.54,21.93l7.81-7S57.89,201.23,57,199.67Z"/>
+                            <path id="_Tracé_10" data-name="&lt;Tracé&gt;" class="cls2-24"
+                                  d="M70.24,229.79H83.18s2.44-4.48-3.44-7.79Z"/>
+                        </g>
+                    </g>
+                    <path id="rai-ma" class="cls2-25" d="M132,2.89s-28.22,21.7-29.09,39"/>
+                    <path id="reflets-cheveux-ma" class="cls2-26"
+                          d="M129.57,1.84S31.91-28.5,31.42,157.18c0,0-17-57.2,11.44-123.89C56,4.82,90.75-3,129.57,1.84Z"/>
+                </g>
+                <path class="cls2-27" d="M82.14,142H125s-5.95,19-21.41,19S82.14,142,82.14,142Z"/>
+                <path class="cls2-28" d="M102.47,161s-8.86.38-13.68-7.31c0,0,8.18-4.69,14.18-4.69"/>
+                <path class="cls2-29" d="M102.32,161S113,162,118,153.69c0,0-8.76-4.69-15.18-4.69"/>
+                <rect class="cls2-8" x="87.97" y="142" width="32" height="3"/>
+                <path class="cls2-3"
+                      d="M208.19,111.29c2.33,5.45,14.87,14.74,22.39-1.4-1.93,2.07-.07-13.51-12.2-14.61C203.13,93.89,207.69,110.3,208.19,111.29Z"/>
+                <path class="cls2-30" d="M218.7,95.19s-4.59-19.26,0-20.18c0,0-27.1-4.48-9,22.52Z"/>
+                <path class="cls2-8"
+                      d="M213.37,84.47l-.53,1.11-.13.26-.21-.21-.86-1,.19,1.35-.57,0-.13-2.85.64.78.8.94.68-1.24.46-.9.13.91.28,2-.57.08Z"/>
+                <path class="cls2-8"
+                      d="M211.09,84.78,210.56,86l-.14.25-.2-.2-.86-.91.18,1.25-.56.08-.28-2-.13-.91.68.75,1,1,.46-1.16.38-.94.7,2.82-.56.08Z"/>
+                <circle class="cls2-8" cx="254.9" cy="56.84" r="0.21"
+                        transform="translate(-5.44 36.22) rotate(-8.04)"/>
+                <circle class="cls2-8" cx="211.07" cy="82.78" r="0.19"
+                        transform="translate(-9.5 30.34) rotate(-8.04)"/>
+                <circle class="cls2-8" cx="213.62" cy="82.41" r="0.19"
+                        transform="translate(-9.43 30.69) rotate(-8.04)"/>
+                <rect class="cls2-8" x="213.62" y="85.93" width="0.6" height="0.6"
+                      transform="translate(-9.96 30.77) rotate(-8.04)"/>
+                <rect class="cls2-8" x="209.06" y="86.32" width="4.28" height="0.6"
+                      transform="matrix(0.99, -0.14, 0.14, 0.99, -10.04, 30.4)"/>
+                <path class="cls2-31" d="M223,96.66s-.39-19.8,4.29-19.72c0,0-25.53-10.14-13.55,20.1Z"/>
+                <path class="cls2-8"
+                      d="M220,85l-.75,1-.18.22-.16-.25-.63-1.12-.1,1.36-.56-.1.48-2.81.46.9.59,1.09.93-1.07.64-.78-.07.92-.15,2-.58,0Z"/>
+                <path class="cls2-8"
+                      d="M217.72,84.87l-.76,1-.19.22-.16-.24L216,84.81l-.09,1.25-.56,0,.15-2,.07-.92.5.88.81,1.18.69-1,.57-.84.08,2.91-.57,0Z"/>
+                <circle class="cls2-8" cx="215.61" cy="82.71" r="0.19"
+                        transform="translate(117.2 291.62) rotate(-85.77)"/>
+                <circle class="cls2-8" cx="218.13" cy="82.91" r="0.19"
+                        transform="translate(119.34 294.33) rotate(-85.77)"/>
+                <circle class="cls2-8" cx="220.71" cy="83.09" r="0.19"
+                        transform="translate(121.54 297.06) rotate(-85.77)"/>
+                <rect class="cls2-8" x="219.89" y="86.59" width="0.6" height="0.6"
+                      transform="translate(7.02 -16.02) rotate(4.23)"/>
+                <rect class="cls2-8" x="215.3" y="86.39" width="4.28" height="0.6"
+                      transform="translate(7 -15.82) rotate(4.23)"/>
+            </g>
+        </svg>
+        <div>
+            <h2>Soirée pizza</h2>
+
+            <p>Pour rendre une soirée inoubliable et réussir un défi quoi de mieux qu’une pizza entre amis.
+                Voilà pourquoi nous vous offrons une réduction de 20%, le vendredi et ce, si vous réservez rapidement
+                avant le 01 Décembre.
+            </p>
+
+            <div class="button_inscription">
+                <a href="https://www.weezevent.com/soiree-pizza">Je commande</a>
             </div>
 
-            <img src="css/images-interface/prix.png" alt="defi">
+            <p class="mdp"> Le mot de passe pour vous inscrire est une nouvelle fois "les50heures"</p>
         </div>
     </div>
 
-    <h4>Département MMI de Montbéliard session 2016-2017</h4>
+    <div class="programme">
+        <div class="planning">
+            <h2>Au programme des 50 heures</h2>
 
-    <p class="hashtag">Réagissez avec <a href="https://twitter.com/intent/tweet?text=#50HEURES" data-size="large">
-            #les50heures</a>
-    </p>
+            <p class="menu">Le 13 janvier, c'est le moment de partage au département MMi de Montbéliard.
+                Actuels étudiants de MMi ou de LPW, anciens étudiants du département et les membres de
+                l'équipe MMi se donnent un rendez-vous en trois temps.
+            </p>
 
-</div>
+            <svg id="guillaume" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 313.64 282.28">
+                <g>
+                    <path class="cls3-1"
+                          d="M127.33,223.77c7.62-13.85,106.33,132.52,182.33-30.48,0,0-22,0-22-17C290,164,230.08,290.5,171.23,210.78"/>
+                    <g id="Coup">
+                        <path class="cls3-2"
+                              d="M196.39,190.1l-26.5-48.24c-6.11,7.23-21.23,16.75-30.26,12.08-6.77,9.06-10.58,26.55-6.57,39.26,8.58,10.18,25.68,16.88,36.94,16C170.93,199.12,187,191.37,196.39,190.1Z"/>
+                    </g>
+                    <path id="Ombre" class="cls3-3"
+                          d="M160.28,147.6s-8.73,36.65,11.36,55.72c0,0,11.27-9.54,15-10C186.66,193.28,157.84,178.26,160.28,147.6Z"/>
+                    <path class="cls3-2"
+                          d="M282.32,113.64c-14.74,45.73-61.83,90-102,77s-50.39-76.75-35.65-122.48,48.81-56.09,89-43.13S297.06,67.91,282.32,113.64Z"/>
+                    <path class="cls3-4"
+                          d="M233.65,25c40.21,13,62.69,42.63,48.67,88.59-13.92,45.64-47.44,88.31-102,77"/>
+                    <path class="cls3-2" d="M156.75,64.8c-13.78-4.44-25.38-1.12-30.26,14s-1.18,36.34,12.6,40.78"/>
+                    <path class="cls3-3"
+                          d="M141.52,77.83a16.32,16.32,0,0,0-5,6.86A21.25,21.25,0,0,0,135.2,93a32.77,32.77,0,0,0,.29,4.25c.21,1.42.49,2.83.76,4.25s.67,2.83,1.07,4.23.85,2.8,1.2,4.26c-.76-1.27-1.43-2.59-2.12-3.92s-1.12-2.76-1.65-4.16c-.26-.7-.41-1.44-.6-2.17s-.39-1.45-.52-2.2a30.86,30.86,0,0,1-.42-4.53,24,24,0,0,1,.39-4.57l.6-2.23c.29-.72.58-1.43.9-2.13A13,13,0,0,1,141.52,77.83Z"/>
+                    <path class="cls3-4" d="M257.59,157.79c13.78,4.44,29.16-10.62,34-25.75s-2.6-24.6-16.38-29"/>
+                    <path class="cls3-3"
+                          d="M280,122.46a13,13,0,0,1,1.57,8.8c-.14.75-.32,1.51-.51,2.26l-.81,2.16a24,24,0,0,1-2.35,3.94,30.86,30.86,0,0,1-3,3.43c-.54.53-1.14,1-1.71,1.48s-1.13,1-1.76,1.41c-1.25.83-2.48,1.68-3.77,2.41s-2.65,1.35-4,1.94c1.13-1,2.3-1.87,3.46-2.76s2.21-1.91,3.34-2.81,2.1-2,3.1-3a32.78,32.78,0,0,0,2.72-3.28,21.25,21.25,0,0,0,3.76-7.49A16.32,16.32,0,0,0,280,122.46Z"/>
+                    <path class="cls3-3"
+                          d="M190.34,133a29.64,29.64,0,0,0,3.13,4.33,10.16,10.16,0,0,0,3.95,2.84,8.19,8.19,0,0,0,4.75.13,27.83,27.83,0,0,0,5-1.89,11.73,11.73,0,0,1-4.49,3.37,8.08,8.08,0,0,1-5.92.27,9.24,9.24,0,0,1-4.5-3.78A12.08,12.08,0,0,1,190.34,133Z"/>
+                    <path class="cls3-5"
+                          d="M173.81,144.45l40.76,13.14s-11.49,16.26-26.21,11.52S173.81,144.45,173.81,144.45Z"/>
+                    <rect class="cls3-6" x="177.13" y="151.07" width="34" height="3"
+                          transform="translate(56.16 -52.19) rotate(17.86)"/>
+                    <path class="cls3-7"
+                          d="M176.55,157.61s9.23-2,14.94-.11l-4.16,11.27S178.78,166.41,176.55,157.61Z"/>
+                    <path class="cls3-8" d="M187.19,168.72s9.83,4.22,17.13-2.16c0,0-6.9-7.15-13-9.12"/>
+                    <path class="cls3-6"
+                          d="M248.35,103.51c-12.15-3.92-29.1-.34-32.66,10.73s8.53,23.42,20.68,27.34,19.76-2.09,23.33-13.16S260.5,107.43,248.35,103.51Z"/>
+                    <ellipse class="cls3-9" cx="229.89" cy="120.47" rx="5.86" ry="3.91"
+                             transform="translate(44.71 302.32) rotate(-72.14)"/>
+                    <ellipse class="cls3-6" cx="232.52" cy="122.11" rx="2.1" ry="1.8"
+                             transform="translate(44.97 305.96) rotate(-72.14)"/>
+                    <path class="cls3-6"
+                          d="M180.18,81.55c12.15,3.92,23.82,16.71,20.25,27.78s-20.6,14-32.76,10.12-14.82-13.23-11.25-24.3S168,77.63,180.18,81.55Z"/>
+                    <ellipse class="cls3-9" cx="183.24" cy="105.43" rx="5.86" ry="3.91"
+                             transform="translate(26.68 247.5) rotate(-72.14)"/>
+                    <ellipse class="cls3-6" cx="185.96" cy="106.79" rx="2.1" ry="1.8"
+                             transform="translate(27.28 251.03) rotate(-72.14)"/>
+                    <path class="cls3-10"
+                          d="M224.6,53.12c58.06,18.71,50.89,60.53,49.69,67.5s-8.44,9.89-8.44,9.89c.34,2.21-5.93,23.3-5.93,23.3,20.49-22.82,40.64-71,16.4-100.21-12-14.47-15.2-17.6-42.19-28.4Z"/>
+                    <path class="cls3-11"
+                          d="M225.55,53.43C167,34.56,148.37,72.68,145.26,79s1.12,13,1.12,13c-1.57,1.59-8.8,22.38-8.8,22.38C134.17,83.86,145.9,33,182.9,23.49c18.33-4.7,22.78-5.36,51.22,1.7Z"/>
+                    <path class="cls3-10"
+                          d="M269.75,77.66s.8,17.07-6.75,20.94c0,0,3-19-2.77-24,0,0,8.26,3.71-4.29,13.33,0,0,4-15.54,2.36-17.1S269.75,77.66,269.75,77.66Z"/>
+                    <path class="cls3-11"
+                          d="M235.45,27c12.22,1.87,40.94,17.31,31.68,38.89s-49.21,12.83-49.21,12.83-66.54-11.91-63.76-49.89c0,0-1.88-30,34.5-28.81C188.65,0,183.35,39.3,235.45,27Z"/>
+                    <polyline class="cls3-12" points="1.66 166.28 1.66 211.28 27.13 235.68 22.77 166.16"/>
+                    <polyline class="cls3-12" points="25.46 210.84 30.31 278.59 1.66 282.28 1.66 211.28"/>
+                    <path class="cls3-13" d="M148.66,237.28c-5.55-1.69-120,41-120,41l-3-51,109-40,37,23"/>
+                    <path class="cls3-13" d="M101.66,151.28c-3.2,4.84-91,14-91,14l15,62,112.78-37.51,5.22-34.49"/>
+                    <path class="cls3-14" d="M265.92,105.84S249.62,88,229.79,97.35"/>
+                    <path class="cls3-14" d="M167.89,74.24s23.67-5,34.3,14.21"/>
+                    <path class="cls3-1"
+                          d="M143.66,155.28c-9-2,9-96-142-91,0,0,21,20,2,30-26,10.93,95-33,98.11,57.37"/>
+                    <path class="cls3-2"
+                          d="M287.66,176.28c-2.07,6.77,2.39,25.29,22,17-3.42.27,10.48-12.13,0-23C296.5,156.62,288,175,287.66,176.28Z"/>
+                    <path class="cls3-2" d="M1.66,97.28v-34S28.66,80.28,1.66,97.28Z"/>
+                </g>
+            </svg>
 
-<div class="partenaires">
-    <a href="http://mmimontbeliard.com/">
-        <img src="css/images-interface/partenaire/mmi.png" alt="logo_mmi">
-    </a>
-    <a href="http://www.iut-bm.univ-fcomte.fr/">
-        <img class="iut_small_size" src="css/images-interface/partenaire/iut.png" alt="logo_iut">
-    </a>
-    <a href="http://www.iut-bm.univ-fcomte.fr/">
-        <img class="display_none_lg" src="css/images-interface/partenaire/iut-mobile.png" alt="logo_iut">
-    </a>
-    <a href="http://www.univ-fcomte.fr/">
-        <img class="ufc" src="css/images-interface/partenaire/ufc.png" alt="logo_ufc">
-    </a>
-</div>
+            <div class="program">
+                <div>
+                    <h3>Vendredi 13 janvier - 21h - Département MMi</h3>
+                    <p>Le moment sera venu de découvrir l'incroyable défi version 2017. Puis, 22 heures
+                        de défis à relever tous plus extraordinaire les uns que les autres nous mènerons
+                        à la soirée des anciens !</p>
+                </div>
+                <img src="css/images-interface/defi.png" alt="defi">
+            </div>
+
+            <div class="program">
+                <div>
+                    <h3>Samedi 14 janvier - 21h - Fort Mont Bart</h3>
+                    <p>Ce sera l'ouverture de la traditionnelle soirée des anciens. Nous vous invitons
+                        à partager un verre de l’amitié tous ensemble pour une soirée mémorable.</p>
+
+                </div>
+                <img src="css/images-interface/party.png" alt="soiree">
+            </div>
+
+            <svg id="davidm" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 394.44 476">
+                <g>
+                    <path class="cls4-1"
+                          d="M35.74,255.71S-101.08,411.84,160.67,439.17,362.13,181.66,277.73,108.12,81.26,128.74,35.74,255.71Z"/>
+                    <path class="cls4-2"
+                          d="M183.33,191.15c4.33-12.43,107.1,111.67,152.27-23.1,0,0-21.11,3.26-23.72-12.49.11-11.24-26.79,99.86-88.92,22.92"/>
+                    <path class="cls4-2"
+                          d="M311.58,153.43c-.86,6,7.61,21.89,24.56,15.37-3.14.08,7.62-10.91-5-19.72C321.59,142.44,313.44,154.56,311.58,153.43Z"/>
+                    <path class="cls4-3" d="M226,449.45"/>
+                    <path class="cls4-4"
+                          d="M144.89,316S66,367.6,81.69,389.84s22.13,25.31,22.13,25.31l-32.25,17s-82.47-73,19.29-129.76L122.37,282Z"/>
+                    <g id="Coup">
+                        <path class="cls4-2"
+                              d="M213.38,141.26l-50.78-8c1.85,8.64.23,25.25-8.38,29.25,2.82,10.18,13.55,23,25.23,27.3,12.42-.52,27.15-9.31,33-18.12C205.48,165.22,209,148.91,213.38,141.26Z"/>
+                    </g>
+                    <path id="Ombre" class="cls4-5"
+                          d="M161.34,143.63S183.41,171,209,167.1c0,0-1.54-11.36.23-14.42C209.22,152.68,182.59,163,161.34,143.63Z"/>
+                    <path class="cls4-2"
+                          d="M258.58,65.9c-.71,44.87-30.73,97.22-70.18,96.6s-65.92-54.84-65.21-99.71S151.51-.61,191,0,259.29,21,258.58,65.9Z"/>
+                    <path class="cls4-6" d="M188.4,162.5c39.45.62,69.47-51.73,70.18-96.6S230.42.64,191,0"/>
+                    <path class="cls4-2" d="M133.1,56.48c-13.52-.21-23,5.91-23.21,20.76s8.84,32.79,22.36,33"/>
+                    <path class="cls4-5"
+                          d="M123,72.26a15.39,15.39,0,0,0-2.54,7.5,20,20,0,0,0,1.09,7.72A30.69,30.69,0,0,0,123,91.2c.57,1.21,1.2,2.39,1.82,3.59s1.36,2.35,2.09,3.5,1.51,2.28,2.21,3.5c-1-.92-2-1.91-3-2.9s-1.77-2.15-2.63-3.26a20.94,20.94,0,0,1-1.14-1.77c-.35-.61-.75-1.19-1.07-1.82a28.77,28.77,0,0,1-1.61-3.94,22.41,22.41,0,0,1-.89-4.2l-.07-2.16c.06-.72.13-1.44.23-2.15A12,12,0,0,1,123,72.26Z"/>
+                    <path class="cls4-6" d="M248.51,112.08c13.52.21,23.16-17.43,23.4-32.28s-9-21.27-22.54-21.48"/>
+                    <path class="cls4-5"
+                          d="M258.91,74.41a12,12,0,0,1,3.85,7.43c.08.71.13,1.44.17,2.16l-.13,2.16a22.42,22.42,0,0,1-1,4.17A28.78,28.78,0,0,1,260,94.22c-.34.62-.75,1.19-1.13,1.79a20.94,20.94,0,0,1-1.19,1.74c-.89,1.08-1.76,2.17-2.73,3.17s-2,1.92-3.08,2.81c.74-1.19,1.53-2.31,2.31-3.43s1.44-2.31,2.2-3.43,1.33-2.34,1.93-3.53a30.68,30.68,0,0,0,1.53-3.67A20,20,0,0,0,261.22,82,15.39,15.39,0,0,0,258.91,74.41Z"/>
+                    <path class="cls4-5"
+                          d="M181.68,108.27a29.15,29.15,0,0,0,4,3,9.54,9.54,0,0,0,4.27,1.44,7.67,7.67,0,0,0,4.25-1.16,27.25,27.25,0,0,0,4-3,10.76,10.76,0,0,1-3.06,4.28,7.55,7.55,0,0,1-5.25,1.88,8.61,8.61,0,0,1-5.08-2.18A11.08,11.08,0,0,1,181.68,108.27Z"/>
+                    <path class="cls4-7" d="M170,123l40,.63s-5.84,17.65-20.28,17.43S170,123,170,123Z"/>
+                    <rect class="cls4-8" x="174.52" y="123.3" width="31.75" height="2.8"
+                          transform="translate(2 -3) rotate(0.91)"/>
+                    <path class="cls4-9" d="M176.07,134s7.71-4.26,13.31-4.17l-.64,11.2S180.45,141.25,176.07,134Z"/>
+                    <path class="cls4-10" d="M188.6,141s9.93,1.09,14.72-6.59c0,0-8.11-4.51-14.11-4.6"/>
+                    <path class="cls4-8"
+                          d="M225.47,66.11c-11.92-.19-26.09,7.62-26.26,18.48s14,18.6,25.93,18.79,17.08-7.25,17.25-18.11S237.4,66.3,225.47,66.11Z"/>
+                    <ellipse class="cls4-3" cx="213.6" cy="86.29" rx="5.48" ry="3.65"
+                             transform="translate(123.94 298.49) rotate(-89.09)"/>
+                    <ellipse class="cls4-8" cx="216.39" cy="87.03" rx="1.97" ry="1.68"
+                             transform="matrix(0.02, -1, 1, 0.02, 125.95, 302.02)"/>
+                    <path class="cls4-8"
+                          d="M158.59,65.05c11.92.19,25.83,8.44,25.66,19.3s-14.58,18.15-26.51,18-16.84-7.79-16.67-18.65S146.67,64.87,158.59,65.05Z"/>
+                    <ellipse class="cls4-3" cx="167.83" cy="85.56" rx="5.48" ry="3.65"
+                             transform="matrix(0.02, -1, 1, 0.02, 79.63, 252.02)"/>
+                    <ellipse class="cls4-8" cx="170.63" cy="86.03" rx="1.97" ry="1.68"
+                             transform="translate(81.92 255.28) rotate(-89.09)"/>
+                    <path class="cls4-2"
+                          d="M180.58,188.56l-26.89-26.34s-21.08-5.16-35.78,2.93-35.81,24.41-44.13,47.9c-3.36,9.48,18.45,75.8,18.45,75.8L116.49,284s-17.3-58.25-15.42-66.64,25.72-34.1,28.33-29.36,1,98.76,1,98.76l35.68,5.63Z"/>
+                    <path class="cls4-2"
+                          d="M92.22,288.85s19.33,34.84,24.23-4.58C116.45,284.27,93.76,277.44,92.22,288.85Z"/>
+                    <path class="cls4-11"
+                          d="M228,203.57c-3.94,3.71-17.92,95.77-17.92,95.77L161,291.59l18.2-103.25,33.69-16.78"/>
+                    <path class="cls4-11"
+                          d="M129.41,188C132,192.75,117,284.64,117,284.64l49.14,7.76,14.48-103.84-26.89-26.34"/>
+                    <path class="cls4-12"
+                          d="M154.3,161.53l27,26.53L166.7,292.74l-49.37-7.79s15.18-92.63,12.57-97.42c0,0-4,10.14-21.54,28.37L88.17,187.06S124.15,147.61,154.3,161.53Z"/>
+                    <path class="cls4-12"
+                          d="M213,170.79l-33,17.07L161.72,292l47.9,7.56s8.77-62,12.63-65.81c0,0,1.87-13.08,19.61,0l14.94-28a121.92,121.92,0,0,1-12.14-14.94C235.36,177.64,231.22,168.45,213,170.79Z"/>
+                    <path class="cls4-13" d="M239,63.36s-19.43-11.52-34.6,2.25"/>
+                    <path class="cls4-13" d="M142.82,61.84s19.79-10.9,34.51,3.35"/>
+                    <path class="cls4-14"
+                          d="M190,117.23s-14.19-4-15.09-6.78c0,0-1,4.65,1.81,5.63,0,0-7.58-1.05-8.5-2.94,0,0-1,4.65.89,3.75,0,0-23.82,4.29-25.69,2.4,0,0,2.79,3.78,5.65,2.89,0,0-8.58,1.73-11.38-1.11,0,0,1.84,3.77,5.64,3.83,0,0-8.53-1.07-8.5-2.94s-1,3.77,5.59,6.65c0,0,20.35,34.86,48.86,34.38l.79-20.07s-19.46-.77-22-20.43l21.84.81Z"/>
+                    <path class="cls4-15"
+                          d="M190.05,117.23s14.17-3.51,15.16-6.3c0,0,.87,4.68-2,5.57,0,0,7.54-.81,8.51-2.67,0,0,.87,4.68-1,3.72,0,0,23.45,5,25.36,3.2,0,0-2.88,3.69-5.69,2.71,0,0,8.44,2,11.31-.76,0,0-1.94,3.71-5.71,3.65,0,0,8.48-.8,8.51-2.67s.88,3.8-5.75,6.47c0,0-21.25,34.2-49.46,32.82l-.15-20.08s19.3-.16,22.43-19.73L190,123.3Z"/>
+                    <path class="cls4-14"
+                          d="M143.36,129.05s10.11,27.07-.3,35.52c0,0,8.44-2.33,9.49-9.69S150.4,173.3,147.61,172c0,0,8.44-2.33,9.44-6,0,0,2.72,5-.16,9.84,0,0,4.67.07,4.82-9.76,0,0,.74,12.31,3.54,12.36,0,0,.19-12.3,2-9.81,0,0,.46,16.55-2.24,16.85,0,0,7.67-5.69,5.94-14.33,0,0,6.38,9.94,2.57,14.8,0,0,3.23-2.05,3.82-9.17q.07-.87.09-1.84c.14-8.61,5.45,9.93,2.59,13.57,0,0,6.56-1.13,8.27-20.78S143.36,129.05,143.36,129.05Z"/>
+                    <path class="cls4-15"
+                          d="M238.5,126.87s-12,26.73-.85,35.51c0,0-9.18-2.61-10.08-10s1.76,18.48,4.85,17.3c0,0-9.18-2.61-10.14-6.31,0,0-3.15,4.87-.16,9.84,0,0-5.12-.08-5-9.92,0,0-1.22,12.28-4.29,12.23,0,0,.19-12.3-1.89-9.87,0,0-1.05,16.53,1.9,16.91,0,0-8.22-5.94-6-14.52,0,0-7.32,9.72-3.31,14.71,0,0-3.47-2.16-3.88-9.29,0-.58,0-1.19,0-1.84.14-8.61-6.3,9.74-3.29,13.48,0,0-9.51-6.3-8.37-21S238.5,126.87,238.5,126.87Z"/>
+                    <path class="cls4-3"
+                          d="M103.82,415.15l-.62,9.22-30,12.55-13.8,8.34C41.31,446.36,16.75,420.57,103.82,415.15Z"/>
+                    <path class="cls4-4"
+                          d="M175.2,319.78s46.13,82.26,21.91,94.71-31.32,12.22-31.32,12.22l20.73,30s106.89-26.66,42.86-124l-18.52-32.64Z"/>
+                    <path class="cls4-3"
+                          d="M164.86,425.77l-3.71,8.47,20.77,25L190.29,473C205.86,482.34,239.57,470.81,164.86,425.77Z"/>
+                    <polyline class="cls4-4"
+                              points="116.72 285.07 210.13 299.35 174.62 320.56 139.06 319.94 116.72 287.88"/>
+                    <path class="cls4-16"
+                          d="M386.31,127.24H347a8.12,8.12,0,0,0-8.12,8.27L339.94,193a8.12,8.12,0,0,0,8.12,8h36.12a8.12,8.12,0,0,0,8.12-7.82l2.13-57.54A8.12,8.12,0,0,0,386.31,127.24Z"/>
+                    <path class="cls4-16"
+                          d="M339,139.85s-16.77,1.39-14.9,21,15.63,18.45,15.63,18.45v-7.94s-10-.23-9.09-11.44,8.6-14,8.5-12.61S339,139.85,339,139.85Z"/>
+                    <path class="cls4-2" d="M332.81,152.61c-16.88-17.3-29.88,7.94,1.4,16.85Z"/>
+                    <path class="cls4-5"
+                          d="M155.8,28.3a8.73,8.73,0,0,1-1.33-.42c0-.05-.13,0-.16-.21s.17-.11.23-.14l.36,0h.7c.93,0,1.84.12,2.76.21l5.5.56L174.8,29.6c3.64.45,7.29.91,10.92,1.28,1.82.19,3.64.37,5.45.48.9.06,1.81.1,2.7.1a12.89,12.89,0,0,0,2.52-.16l.44,1.93-.17,0h0a.64.64,0,0,0,.12-.09.73.73,0,0,0,.15-.17.88.88,0,0,0,.14-.41.89.89,0,0,0-.22-.68l-.1-.09,0,0,0,0,.17.05c.3.08.67.15,1,.21.74.12,1.5.21,2.26.3l4.59.47,9.24.84q4.62.4,9.25.89l4.62.53a43.19,43.19,0,0,1,4.6.7c-3.09-.22-6.19-.23-9.28-.31s-6.19-.17-9.29-.31-6.19-.29-9.29-.5c-1.55-.1-3.1-.22-4.65-.38-.78-.08-1.56-.17-2.35-.29a12.45,12.45,0,0,1-1.24-.24l-.38-.12a1.77,1.77,0,0,1-.29-.15l-.11-.07-.15-.14a1.07,1.07,0,0,1-.28-.81,1.11,1.11,0,0,1,.16-.48,1.28,1.28,0,0,1,.19-.23,1.37,1.37,0,0,1,.24-.17,1.77,1.77,0,0,1,.29-.13,3.72,3.72,0,0,1,.39-.11l.44,1.93a14,14,0,0,1-3,.23c-.95,0-1.88-.06-2.81-.13-1.86-.13-3.7-.33-5.53-.54-3.67-.45-7.31-1-10.94-1.59S167.31,30,163.7,29.28l-5.42-1c-.9-.16-1.81-.32-2.71-.44l-.68-.08h-.33s-.12,0-.08,0,0,0,.07,0A8.79,8.79,0,0,0,155.8,28.3Z"/>
+                    <path class="cls4-5"
+                          d="M154.92,37.26c3.17.79,6.21,2.07,9.34,2.83a36.59,36.59,0,0,0,9.5,1.21,95.07,95.07,0,0,0,19.14-2.49l2.38-.5a14.15,14.15,0,0,1,2.6-.32,38.57,38.57,0,0,1,5,.19q4.93.52,9.73,1.51a156.6,156.6,0,0,1,18.94,5c-6.4-1.3-12.8-2.48-19.21-3.48-3.21-.46-6.42-.93-9.63-1.16A40.22,40.22,0,0,0,198,40a12.12,12.12,0,0,0-2.24.29l-2.4.52a80.12,80.12,0,0,1-19.6,2.08l-2.48-.2c-.82-.1-1.65-.23-2.46-.36A35.84,35.84,0,0,1,164,41C160.86,39.92,158,38.47,154.92,37.26Z"/>
+                </g>
+            </svg>
+
+            <div class="program">
+                <div>
+                    <h3>Dimanche 15 janvier - 14h - Département MMi</h3>
+                    <p>Pour terminer cet incroyable week-end nous finirons par la projection de vos
+                        productions puis nous assisterons à la remise des prix.</p>
+                </div>
+
+                <img src="css/images-interface/prix.png" alt="defi">
+            </div>
+        </div>
+
+        <h4>Département MMI de Montbéliard session 2016-2017</h4>
+
+        <p class="hashtag">Réagissez avec <a href="https://twitter.com/intent/tweet?text=#50HEURES" data-size="large">
+                #les50heures</a>
+        </p>
+
+    </div>
+
+
+    <div class="partage">
+        <svg id="xaviers" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 207.77 416">
+            <g>
+                <g id="Coup">
+                    <path class="cls5-1"
+                          d="M117.05,153H62c3.4,8.83,4.46,26.67-4,32.34C62.72,195.63,76.2,207.39,89.28,210c13.05-2.62,27.16-14.38,31.83-24.66C112.7,179.66,113.66,161.82,117.05,153Z"/>
+                </g>
+                <path id="Ombre" class="cls5-2"
+                      d="M62.41,164.19s27.92,25.3,54.31,16.87c0,0-3.53-11.76-2.16-15.29C114.56,165.77,88.11,181.09,62.41,164.19Z"/>
+                <path class="cls5-1"
+                      d="M162.28,69.39c0,48-31.25,104.61-73.5,104.61s-71.5-57.59-71.5-105.64S46.53,0,88.78,0,162.28,21.34,162.28,69.39Z"/>
+                <path class="cls5-3" d="M88.78,0c42.25,0,73.5,21.34,73.5,69.39S131,174,88.78,174"/>
+                <path class="cls5-1" d="M27.78,61.43C13.3,61.43,3.28,68.15,3.28,84s10,35,24.5,35"/>
+                <path class="cls5-2"
+                      d="M17.28,78.5a16.32,16.32,0,0,0-2.65,8.06,21.25,21.25,0,0,0,1.28,8.28,32.77,32.77,0,0,0,1.58,4c.63,1.28,1.34,2.54,2,3.81s1.5,2.48,2.31,3.7,1.67,2.41,2.45,3.68c-1.11-1-2.16-2-3.22-3.08s-1.92-2.28-2.85-3.45c-.46-.59-.83-1.25-1.24-1.88s-.82-1.26-1.17-1.93A30.86,30.86,0,0,1,14,95.47,24,24,0,0,1,13,91l-.11-2.31c.05-.77.11-1.54.21-2.3A13,13,0,0,1,17.28,78.5Z"/>
+                <path class="cls5-3" d="M152.28,119c14.48,0,24.5-19.05,24.5-35s-10-22.62-24.5-22.62"/>
+                <path class="cls5-2"
+                      d="M162.78,78.5a13,13,0,0,1,4.2,7.89c.1.76.15,1.53.21,2.3L167.07,91a24,24,0,0,1-1,4.47,30.87,30.87,0,0,1-1.79,4.18c-.35.67-.78,1.29-1.17,1.93s-.78,1.29-1.24,1.88c-.93,1.17-1.84,2.36-2.85,3.45s-2.11,2.1-3.22,3.08c.78-1.28,1.62-2.48,2.45-3.68s1.52-2.49,2.31-3.7,1.39-2.53,2-3.81a32.78,32.78,0,0,0,1.58-4,21.25,21.25,0,0,0,1.28-8.28A16.32,16.32,0,0,0,162.78,78.5Z"/>
+                <path class="cls5-2"
+                      d="M80.67,116.05A29.64,29.64,0,0,0,85,119.22a10.16,10.16,0,0,0,4.63,1.5,8.19,8.19,0,0,0,4.56-1.33,27.83,27.83,0,0,0,4.16-3.33,11.73,11.73,0,0,1-3.24,4.59,8.08,8.08,0,0,1-5.55,2.07,9.24,9.24,0,0,1-5.45-2.22A12.08,12.08,0,0,1,80.67,116.05Z"/>
+                <path class="cls5-4" d="M68.45,132h42.83s-5.95,19-21.41,19S68.45,132,68.45,132Z"/>
+                <rect class="cls5-5" x="73.28" y="132" width="34" height="3"/>
+                <path class="cls5-6" d="M75.09,143.69S83.28,139,89.28,139l-.5,12S79.91,151.38,75.09,143.69Z"/>
+                <path class="cls5-7" d="M88.63,151s10.65,1,15.65-7.31c0,0-8.76-4.69-15.18-4.69"/>
+                <path class="cls5-5"
+                      d="M126.83,70.18c-12.77,0-27.8,8.6-27.8,20.23s15.3,19.68,28.07,19.68,18.17-8.05,18.17-19.68S139.6,70.18,126.83,70.18Z"/>
+                <ellipse class="cls5-8" cx="114.46" cy="91.98" rx="3.91" ry="5.86"/>
+                <ellipse class="cls5-5" cx="117.47" cy="92.73" rx="1.8" ry="2.1"/>
+                <path class="cls5-5"
+                      d="M55.22,70.18C68,70.18,83,78.78,83,90.41s-15.3,19.68-28.07,19.68S36.78,102,36.78,90.41,42.45,70.18,55.22,70.18Z"/>
+                <ellipse class="cls5-8" cx="65.45" cy="91.98" rx="3.91" ry="5.86"/>
+                <ellipse class="cls5-5" cx="68.46" cy="92.43" rx="1.8" ry="2.1"/>
+                <path class="cls5-8"
+                      d="M143,216.45c-3.55,4.59-17.76,103.67-17.76,103.67l-38.47.61L89.28,209l32.32-23.87s23.15-1.94,37.36,9.07"/>
+                <path class="cls5-9"
+                      d="M43.55,324s-27.12,14.71-33,31c-11,30.39,55.54,44.86,58.32,44.06l10.69-14.27c1-.29-33.62-3.51-37.9-19.86s26.3-18.76,35-17.38c3.89.62,29.16,8.07,29.16,8.07L103.81,324Z"/>
+                <path class="cls5-9"
+                      d="M141.09,325s7.35,31.5,2.57,44.43-14.35,27.63-14.35,27.63H112.09s-13.83-7.79-14.35-24.69c-.47-15.45,1.52-20.21,1-21.75-.83-2.26-15.62-1.75-16.42-4.62l-.1-20.82Z"/>
+                <path class="cls5-8"
+                      d="M65.41,381.5l15.79,1.65L59.58,412h-36s-7.21-15.31,18-11.19C50.06,402.2,55.74,385.89,65.41,381.5Z"/>
+                <path class="cls5-10" d="M144.28,67s-21-12-37,3"/>
+                <path class="cls5-10" d="M41.28,67s21-12,37,3"/>
+                <path class="cls5-8"
+                      d="M143.63,217.42c-3.5,4.74-2.54,107.58-2.54,107.58l-52.81.21,1.58-115.78,32.46-24.23"/>
+                <path class="cls5-8" d="M37.28,216c3.54,4.72,2,109,2,109H92.41L90,209.23l-32.64-24"/>
+                <polygon class="cls5-11" points="78.22 204.23 89.78 220.41 99.11 204.62 89.4 208.32 78.22 204.23"/>
+                <ellipse class="cls5-12" cx="89.34" cy="210.55" rx="1.8" ry="1.75"/>
+                <ellipse class="cls5-5" cx="89.79" cy="210.03" rx="0.27" ry="0.26"/>
+                <ellipse class="cls5-5" cx="88.87" cy="210.03" rx="0.27" ry="0.26"
+                         transform="translate(-12.86 5.92) rotate(-3.56)"/>
+                <ellipse class="cls5-5" cx="89.79" cy="210.89" rx="0.27" ry="0.26"/>
+                <ellipse class="cls5-5" cx="88.87" cy="210.89" rx="0.27" ry="0.26"
+                         transform="translate(-12.91 5.92) rotate(-3.56)"/>
+                <ellipse class="cls5-12" cx="89.54" cy="215.57" rx="1.8" ry="1.75"/>
+                <ellipse class="cls5-5" cx="89.99" cy="215.05" rx="0.27" ry="0.26"/>
+                <ellipse class="cls5-5" cx="89.06" cy="215.05" rx="0.27" ry="0.26"
+                         transform="translate(-13.17 5.94) rotate(-3.56)"/>
+                <ellipse class="cls5-5" cx="89.99" cy="215.91" rx="0.27" ry="0.26"/>
+                <ellipse class="cls5-5" cx="89.06" cy="215.91" rx="0.27" ry="0.26"
+                         transform="translate(-13.22 5.94) rotate(-3.56)"/>
+                <path class="cls5-2"
+                      d="M56.28,42c3.42.46,6.85.86,10.28,1.09s6.86.43,10.28.45a89.47,89.47,0,0,0,10.22-.47,49.22,49.22,0,0,0,9.91-2l.63,1.88-.17.06,0,0a.64.64,0,0,0,.11-.1.74.74,0,0,0,.13-.19.88.88,0,0,0,.1-.42.89.89,0,0,0-.29-.66l-.11-.08,0,0,0,0,.17,0c.3.05.68.08,1,.11.74,0,1.51.07,2.27.08l4.62,0,9.28-.06q4.64,0,9.29,0l4.65.08a43.19,43.19,0,0,1,4.65.25c-3.09.08-6.18.37-9.27.59s-6.18.43-9.27.59-6.19.31-9.29.4c-1.55,0-3.11.08-4.67.07-.78,0-1.57,0-2.37-.06a12.46,12.46,0,0,1-1.26-.12l-.4-.09a1.76,1.76,0,0,1-.3-.12l-.11-.06-.17-.13a1.07,1.07,0,0,1-.36-.78,1.11,1.11,0,0,1,.11-.49,1.28,1.28,0,0,1,.17-.25,1.37,1.37,0,0,1,.22-.19,1.77,1.77,0,0,1,.27-.16,3.71,3.71,0,0,1,.38-.15l.63,1.88A46.55,46.55,0,0,1,87.24,45a76.89,76.89,0,0,1-10.45.17,101.66,101.66,0,0,1-10.35-1.05A98.4,98.4,0,0,1,56.28,42Z"/>
+                <path class="cls5-2"
+                      d="M56.28,51c3.25.47,6.34,1.68,9.48,2.43a34.81,34.81,0,0,0,9.51,1.14c6.4-.16,12.73-1.72,18.9-3.62l2.32-.73A20,20,0,0,1,99,49.57a42.87,42.87,0,0,1,5-.65,98.43,98.43,0,0,1,9.86-.21A100.6,100.6,0,0,1,133.28,51c-3.25-.31-6.5-.56-9.76-.63s-6.5-.14-9.74-.08-6.48.19-9.69.53a43.63,43.63,0,0,0-4.73.67,17.71,17.71,0,0,0-2.25.61c-.78.25-1.56.53-2.35.76-6.28,1.89-12.81,3.42-19.49,3.26a32.56,32.56,0,0,1-9.78-1.75C62.36,53.27,59.42,51.91,56.28,51Z"/>
+                <path d="M88.78,29.5c61,0,67,42,68,49s-5,12-5,12c1,2,1.5,24,1.5,24,12.5-28,16.91-80-15.13-100.41C122.28,4,118.28,2,89.28,0Z"/>
+                <path class="cls5-12"
+                      d="M89.78,29.5c-61.51,0-67.56,42-68.57,49s5,12,5,12c-1,2-1.51,24-1.51,24-12.6-28-17-80,15.26-100.41C56,4,60,2,89.27,0Z"/>
+                <path d="M139.28,39s6,16,0,22c0,0-3-19-10-22,0,0,9,1,0,14,0,0-1-16-3-17S139.28,39,139.28,39Z"/>
+                <path class="cls5-12"
+                      d="M43.76,35s-6,16,0,22c0,0,3-19,10-22,0,0-9,1,0,14,0,0,1-16,3-17S43.76,35,43.76,35Z"/>
+                <path class="cls5-13"
+                      d="M118.37,33.67S94.82,20,94.82,10c0,0-8.53,7-5.33,12,0,0-18.42-14-15.22-17,0,0-6.33,14-1,20,0,0-18.2-7-15-11l3,17.84S76.71,61,118.37,33.67Z"/>
+                <path class="cls5-12"
+                      d="M89.77,125.5s-15.26-4-16.27-7c0,0-1,5,2,6,0,0-8.14-1-9.15-3,0,0-1,5,1,4,0,0-25.43,5-27.46,3,0,0,3.05,4,6.1,3,0,0-9.15,2-12.2-1,0,0,2,4,6.1,4,0,0-9.15-1-9.15-3s-1,4.05,6.1,7c0,0,22.38,37,52.89,36l.51-21.5s-20.85-.5-23.9-21.5l23.39.5Z"/>
+                <path d="M89.78,125.5s15.12-4,16.12-7c0,0,1,5-2,6,0,0,8.06-1,9.07-3,0,0,1,5-1,4,0,0,25.19,5,27.21,3,0,0-3,4-6,3,0,0,9.07,2,12.09-1,0,0-2,4-6,4,0,0,9.07-1,9.07-3s1,4.05-6,7c0,0-22.17,37-52.4,36l-.5-21.5s20.66-.5,23.68-21.5l-23.18.5Z"/>
+                <path class="cls5-8" d="M102.21,416h37.23s6.13-9.42-16.81-9.42C102.21,406.58,98.61,408.94,102.21,416Z"/>
+                <path class="cls5-8"
+                      d="M133.63,411.29c-2.4-6.48-3.6-12.36-4.8-14.72,0,0-10.81-2.35-16.81.59,0,0-8.41,12.36,0,13S136,417.56,133.63,411.29Z"/>
+                <path class="cls5-8"
+                      d="M50.19,240C63.42,234.22-80.72,128,67.44,49c0,0,1.58,23.69,18.49,26.67C98,75.27-20.49,111.93,63,189.29"/>
+                <path class="cls5-1"
+                      d="M85.92,75.66c-6.58,1-25.33-7-18.49-26.67,0,3.63,11.31-9.16,22.88,4C104.84,69.58,87.17,75.55,85.92,75.66Z"/>
+                <polygon class="cls5-14" points="89.27 208.27 56.11 173.64 48.81 193.77 89.27 208.27"/>
+                <path class="cls5-8"
+                      d="M101.76,231.11C93.61,219.61,280,209.69,176.28,84c0,0-10.28,20.43-25.63,12.92-9.73-7.08,70.4,85.43-35.29,91.76"/>
+                <path class="cls5-1"
+                      d="M148.61,95.85c4.69,4.47,23.82,7,28.67-11.85-1.88,2.79-4.21-11.5-20.31-7.88C136.74,80.67,147.67,95.08,148.61,95.85Z"/>
+                <polygon class="cls5-14" points="89.31 208.37 121.31 173.05 127.55 194.21 89.31 208.37"/>
+                <rect class="cls5-15" x="82.67" y="77.89" width="73.61" height="40.78"/>
+                <rect class="cls5-16" x="82.67" y="73.65" width="73.61" height="4.24"/>
+                <rect class="cls5-17" x="82.67" y="69.41" width="73.61" height="6.35"/>
+                <rect class="cls5-17" x="100.14" y="65.18" width="56.13" height="4.24"/>
+                <rect class="cls5-17" x="112.32" y="62" width="15.36" height="3.18"/>
+                <rect class="cls5-18" x="84.79" y="63.59" width="15.36" height="5.83"/>
+                <rect class="cls5-19" x="114.97" y="64.12" width="10.59" height="10.59"/>
+                <rect class="cls5-19" x="128.21" y="69.41" width="11.12" height="1.06"/>
+                <rect class="cls5-19" x="128.21" y="71.53" width="11.12" height="1.06"/>
+                <rect class="cls5-19" x="128.21" y="73.65" width="11.12" height="1.06"/>
+                <rect class="cls5-20" x="101.2" y="69.41" width="11.12" height="1.06"/>
+                <rect class="cls5-20" x="101.2" y="71.53" width="11.12" height="1.06"/>
+                <rect class="cls5-20" x="101.2" y="73.65" width="11.12" height="1.06"/>
+                <rect class="cls5-21" x="98.02" y="77.89" width="43.95" height="40.78"/>
+                <circle class="cls5-22" cx="104.64" cy="82.92" r="1.85"/>
+                <ellipse class="cls5-23" cx="120" cy="98.13" rx="15.09" ry="14.42"/>
+                <ellipse class="cls5-24" cx="119.78" cy="98.16" rx="12.16" ry="11.74"/>
+                <ellipse class="cls5-25" cx="120" cy="98.08" rx="7.88" ry="7.61"/>
+                <polygon class="cls5-23" points="113.91 81.59 110.73 83.18 111.79 86.36 116.03 84.24 113.91 81.59"/>
+            </g>
+        </svg>
+
+        <div>
+            <div id="apercu-galerie">
+                <img data-toggle="modal" data-target="#myModal" class="photo" src="css/images-interface/galerie/photo.png"
+                 alt="photo">
+                <img data-toggle="modal" data-target="#myModal" class="photo" src="css/images-interface/galerie/photo.png"
+                 alt="photo">
+                <img data-toggle="modal" data-target="#myModal" class="photo" src="css/images-interface/galerie/photo.png"
+                 alt="photo">
+                <img data-toggle="modal" data-target="#myModal" class="photo" src="css/images-interface/galerie/photo.png"
+                 alt="photo">
+                <p>Vener partager vos photos avec vos amis.</p>
+            </div>
+
+            <div class="partage-fb">
+                <div class="fb-like" data-href="http://les50heures.com/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="false"></div>
+                <div class="fb-share-button" data-href="https://www.facebook.com/events/198969347204475/" data-layout="button_count" data-mobile-iframe="true">
+                    <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fevents%2F198969347204475%2F&amp;src=sdkpreparse">Partager</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="partenaire_index" class="partenaires">
+        <a href="http://mmimontbeliard.com/">
+            <img src="css/images-interface/partenaire/mmi.png" alt="logo_mmi">
+        </a>
+        <a href="http://www.iut-bm.univ-fcomte.fr/">
+            <img class="iut_small_size" src="css/images-interface/partenaire/iut.png" alt="logo_iut">
+        </a>
+        <a href="http://www.iut-bm.univ-fcomte.fr/">
+            <img class="display_none_lg" src="css/images-interface/partenaire/iut-mobile.png" alt="logo_iut">
+        </a>
+        <a href="http://www.univ-fcomte.fr/">
+            <img class="ufc" src="css/images-interface/partenaire/ufc.png" alt="logo_ufc">
+        </a>
+    </div>
 
 {% endblock %}
 
@@ -428,12 +1338,12 @@
             "use strict";
 
             var contenu = document.querySelector("#slider .contenu")
-            var contenu_left = 0;
+            var contenu_left = -340;
 
             function navigation_slider_precedent() {
-                if(contenu_left<0){
+                if (contenu_left < -340) {
                     console.log("click sur précédent");
-                    contenu_left += 300;
+                    contenu_left += 140;
                     contenu.style.left = contenu_left + "px";
                 }
             }
@@ -442,9 +1352,9 @@
                     .addEventListener("click", navigation_slider_precedent);
 
             function navigation_slider_suivant() {
-                if(contenu_left>-1200){
+                if (contenu_left > -2860) {
                     console.log("click sur suivant");
-                    contenu_left -= 300;
+                    contenu_left -= 140;
                     contenu.style.left = contenu_left + "px";
                 }
             }
@@ -454,4 +1364,14 @@
 
         }());
     </script>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.8";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+
 {% endblock %}

@@ -2,6 +2,7 @@ body {
     margin: 0;
     background: #15232A;
     z-index: 3;
+    width: 100%;
 }
 
 .image-fond {
@@ -72,6 +73,14 @@ header h3 {
     width: 25px;
     position: fixed;
 }
+
+.icone_accueil.active img {
+    top: 50px;
+    position: fixed;
+}
+
+.icone_accueil.active .menu { right: 8%; }
+.icone_accueil.active .tchat { right: 19%; }
 
 .icone_accueil .tchat {
     width: 35px;
@@ -204,27 +213,43 @@ li ul li a {
 
 .hexagone h1 {
     margin-top: 200px;
-    width: 80%;
-    margin-left: 10%;
+    width: 50%;
+    margin-left: 25%;
 }
 
 .hexagone img {
     position: absolute;
-    width: 80%;
-    top: -150px;
-    left: 10%;
+    width: 300px;
+    height: 350px;
+    top: -154px;
+    left: 19%;
 }
 
 /*Fleche*/
-.hexagone .fleche_index {
+.hexagone .fleche_index, .bandeau .flechenoir {
     position: absolute;
-    width: 10%;
-    top: 270px;
-    left: 45%;
+    width: 70px;
+    height: 30px;
+    top: 300px;
+    left: 46%;
+}
+.flechenoir{ display: none; }
+
+.fleche_index:hover, button:hover,
+.flechenoir:hover, .file:hover{
+    animation: shake 1s ease;
+}
+.avion:hover , .navigation-slider-precedent:hover,
+.navigation-slider-suivant:hover {
+    animation: none;
+    background: none;
+    cursor: pointer;
 }
 
-.fleche_index:hover {
-    animation: shake 1s ease;
+button:hover, button:hover a,
+.file:hover{
+    background-color: #0b4751;
+    color: white;
 }
 
 @keyframes shake {
@@ -258,8 +283,8 @@ li ul li a {
 }
 
 #slider {
-    margin-left: 10%;
-    width: 80%;
+    margin-left: 13%;
+    width: 294px;
     overflow: hidden;
 
 }
@@ -282,18 +307,21 @@ li ul li a {
 #navigation-slider button img {
     margin-top: 49px;
     position: absolute;
-    left: 11px;
+    left: 16px;
     width: 40px;
 }
 #navigation-slider > li:nth-child(2) > button > img {
-    left: 323px;
+    left: 369px;
 }
 
 /*Avancement defi*/
 .avancement {  padding-bottom: 20px;  }
 .avancement h1 {
-    margin-top: 310px;
+    margin-top: 320px;
     padding-top: 20px;
+    position: relative;
+    z-index: 2;
+    text-align: center;
 }
 
 #defi_avancer {
@@ -324,7 +352,7 @@ li ul li a {
 /*Detaille defi*/
 .desc_index {
     background-color: white;
-    width: 80%;
+
     padding: 30px 10%;
 }
 
@@ -336,10 +364,7 @@ iframe {
 }
 
 /*S'inscrire*/
-.commencer {
-    margin: 30px 10%;
-}
-
+.commencer { margin: 40px 10%;  }
 .commencer h1 {
     width: 80%;
     margin-left: 10%;
@@ -378,15 +403,11 @@ iframe {
 .button_inscription:hover {
     animation: shake 1s ease;
     background-color: #e38d13;
+    color: black;
 }
 
-.ligne-separation {
-    display: none
-}
-
-.commencer .info {
-    color: #e38d13;
-}
+.ligne-separation { display: none  }
+.commencer .info { color: #e38d13; }
 
 /*Classement*/
 .tete_classement {
@@ -454,6 +475,38 @@ iframe {
     margin-top: 20px;
 }
 
+#partenaire_index {  margin-top: 0;  }
+
+
+.partage {
+    justify-content: center;
+    background-color: white;
+    padding-left: 5%;
+    width: 95%;
+    height: 430px;
+    margin-top: 30px;
+}
+
+#apercu-galerie {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+}
+#apercu-galerie {  padding-top: 10px;  }
+#apercu-galerie img {
+    width: 150px;
+    height: 150px;
+
+}
+
+.partage-fb {
+    margin-top: -10px;
+    margin-left: 20%;
+}
+.fb-like { margin-right: 10px; }
+
+
 /* -------------------- PAGE CONNEXION ---------------------  */
 .formulaire {
     text-align: center;
@@ -470,7 +523,7 @@ iframe {
 }
 
 .dernier {
-    margin-bottom: 0;
+    margin-bottom: 20px;
 }
 
 .formulaire > form input, button {
@@ -633,8 +686,8 @@ footer {
 
 .bandeau .modif {
     position: relative;
-    top: 17px;
-    left: 66%;
+    top: 28px;
+    left: 62%;
     margin-top: 0;
 }
 
@@ -643,7 +696,7 @@ footer {
     background-color: #e69f1f;
     border: 0;
     top: 0;
-    left: 100px;
+    left: 90px;
     position: relative;
 }
 
@@ -652,45 +705,43 @@ footer {
 }
 
 /* les titres */
-.titre_equipe {
-    text-align: center;
-}
-
+.titre-pc { display: none;  }
+.titre_equipe {  text-align: center;  }
 .titre_equipe_2 {
     position: relative;
+    z-index: 2;
 }
-
 .titre_equipe input {
     width: 70%;
     padding: 10px;
 }
-
 .titre_equipe h2 {
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 60px;
 }
-
 .titre_equipe span {
     position: relative;
     top: 69px;
     left: 25px;
+    z-index: 1;
 }
 
 /* la piece */
+piece h1 {
+     margin-top: 20px;
+     margin-bottom: 20px; }
 .piece p {
     margin: 5px 0 0 10px;
     color: white;
 }
-
 .piece img {
     width: 25px;
     height: 25px;
 }
-
 .piece {
-    position: absolute;
-    right: 45px;
-    top: 665px;
+    position: relative;
+    left: 67%;
+    top: -45px;
+    width: 20%;
     display: flex;
 }
 
@@ -699,7 +750,6 @@ footer {
     width: 150px;
     height: 190px;
 }
-
 .membre {
     position: relative;
     margin-top: 20px;
@@ -712,15 +762,9 @@ footer {
     top: -90px;
     z-index: 1;
 }
+.colone1 {  margin-left: 20px;  }
 
-.colone1 {
-    margin-left: 20px;
-}
-
-.membre-carre img {
-    width: 110px;
-}
-
+.membre-carre img {  width: 110px;  }
 .membre-carre p {
     text-align: center;
     position: relative;
@@ -731,8 +775,9 @@ footer {
     background-color: #e69f1f;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .bleu {
@@ -748,10 +793,6 @@ footer {
     margin-right: 10%;
 }
 
-.page-modif .piece {
-    top: 640px;
-}
-
 .fond_none {
     background: none;
 }
@@ -765,12 +806,17 @@ footer {
     padding-bottom: 0;
     margin-bottom: 0;
     height: 210px;
+    margin-top: -23px;
 }
 
 /*-------- Titre ---------*/
-.bandeau img {
-    width: 100%;
-}
+.bandeau img {  width: 100%;  }
+.bandeau > .ligne_jaune_depot{
+    height: 15px;
+    margin-top: 125px; }
+.bandeau > .ligne_jaune_list-equipe{
+    height: 15px;
+    margin-top: 90px; }
 
 .bandeau-galerie {
     position: relative;
@@ -781,8 +827,8 @@ footer {
 .supperpose_titre {
     position: relative;
     z-index: 1;
-    top: -10px;
-    left: 30%;
+    top: 105px;
+    left: 40%;
 }
 
 .titre {
@@ -794,7 +840,11 @@ footer {
 /*-------- Bouton ---------*/
 .progress {
     width: 100%;
-    margin-top: -100px;
+    margin-top: -70px;
+}
+.progress2 {
+    width: 100%;
+    margin-top: 155px;
 }
 
 .progress > .ligne {
@@ -810,18 +860,20 @@ footer {
 }
 
 .progress-button {
+    width: 190px;
+    position: relative;
+    margin-bottom: 30px;
     background-color: #e69f1f;
     border: 0;
-    width: 80%;
-    margin-left: 10%;
-    margin-bottom: 30px;
-    margin-top: 20px;
 }
 
+.button-modif2 {
+    display: flex;
+    justify-content: center;
+}
 .modif2 {
     width: 190px;
     position: relative;
-    left: 150px;
     margin-bottom: 30px;
     background-color: #e69f1f;
     border: 0;
@@ -831,14 +883,19 @@ footer {
 .galerie {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.galerie img {
+    margin: 10px;
+    cursor: pointer;
 }
 
 .photo {
     width: 140px;
     height: 140px;
     position: relative;
-    top: -24px;
+    top: 20px;
 }
 
 /* -------------------- PAGE ENCHERE ---------------------  */
@@ -850,11 +907,18 @@ footer {
     padding-bottom: 0;
     margin-bottom: 0;
     height: 210px;
+    position: absolute;
+    top: 0;
 }
 
 .bandeau-bois {
     position: absolute;
     top: 75px;
+}
+.ligne_bleu_enchere {
+    position: relative;
+    top: 80px;
+    height: 15px;
 }
 
 /* titre */
@@ -866,26 +930,24 @@ footer {
     line-height: 2.5em;
 }
 
-.titre {
-    top: 10px;
-}
-
-.encheres .titre {
-    top: 28px;
-}
-
+.titre {  top: 125px;  }
+.encheres .titre {  top: 85px;  }
 .encheres span {
-    left: 80px;
-    top: 5px;
+    top: 16px;
+    left: 30%;
+}
+.bandeau-ligne-bleu {
+    top: 145px;
+    position: relative;
 }
 
 /*contenu*/
 .intro {
-    margin-top: 40px;
+    margin-top: 150px;
 }
 
 .photo-ancien {
-    width: 60%;
+    width: 200px;
     margin: 70px 20% 50px;
     height: 220px;
 }
@@ -896,7 +958,8 @@ footer {
 
 .photo-ancien .cadre_enchere {
     position: relative;
-    top: -263px;
+    display: block;
+    top: -227px;
     width: 130%;
     left: -16%;
 }
@@ -911,21 +974,8 @@ footer {
     position: relative;
     left: 170px;
     bottom: 20px;
-    width: 200px;
-}
-
-@media only screen and (max-width: 321px) {
-    .photo-ancien .cadre_enchere {
-        top: -229px;
-    }
-
-    .photo-ancien {
-        height: 180px;
-    }
-
-    .description h3 {
-        left: 125px;
-    }
+    width: 160px;
+    text-align: right;
 }
 
 /* -------------------- PAGE DEPOT ---------------------  */
@@ -934,32 +984,29 @@ footer {
     padding: 10px;
 }
 
-.depot_desc {
-    width: 91%;
-}
-
+.depot_desc {  width: 91%;  }
 #black {
     padding-bottom: 0;
     padding-top: 0;
+    margin-top: 140px;
 }
 
 .ligne_jaune_depot {
-    margin-top: 50px;
+    margin-top: 130px;
+    height: 15px;
 }
-
-.fa-upload {
-    padding-right: 0.75em;
-}
-
+.fa-upload { padding-right: 0.75em;  }
 .titre_depot {
     position: relative;
     top: 20px;
+    z-index: 2;
 }
 
 .supperpose_titre_depot {
     position: absolute;
-    left: 45%;
-    top: 55px;
+    left: 33%;
+    top: 30px;
+    z-index: 1;
     color: #e69f1f;
 }
 
@@ -971,10 +1018,7 @@ footer {
 
 /* -------------------- LISTE EQUIPES ---------------------  */
 /* titre */
-.encheres #equipe-span {
-    left: 30px;
-}
-
+.encheres #equipe-span {  left: 30px;  }
 .affiche_equipe img {
     width: 80%;
     margin-left: 10%;
@@ -982,6 +1026,7 @@ footer {
     margin-top: 30px;
 }
 
+.affiche_equipe:nth-child(3) { margin-top: 140px; }
 .affiche_equipe h1 {
     text-align: left;
     margin-left: 20%;
@@ -991,6 +1036,7 @@ footer {
 /* -------------------- DEFIS ---------------------  */
 
 /* titre */
+.defi-90degre { display: none; }
 .titre_equipe .defi-span {
     top: -44px;
     z-index: 1;
@@ -1003,10 +1049,7 @@ footer {
 }
 
 /* affichage */
-.les_defis > div {
-    margin-bottom: 30px;
-}
-
+.les_defis > div {  margin-bottom: 30px;  }
 .les_defis {
     width: 80%;
     margin-left: 10%;
@@ -1038,10 +1081,7 @@ footer {
     font-weight: lighter;
 }
 
-.inverse h3 {
-    text-align: right;
-}
-
+.inverse h3 { text-align: right; }
 .inverse {
     order: 1;
     text-align: right;
@@ -1051,20 +1091,15 @@ footer {
 
 .les_defis div {
     height: 110px;
+    margin-top: -10px;
 }
-
 svg {
     position: relative;
     top: -71px;
 }
 
-.svg2 {
-    top: -180px;
-}
-
-.les_defis .msg_fin {
-    height: 65px;
-}
+.svg2{  top: -170px; }
+.les_defis .msg_fin {  height: 65px; }
 
 @media only screen and (max-width: 320px) {
     .les_defis div {
@@ -1075,14 +1110,8 @@ svg {
         position: relative;
         top: -78px;
     }
-
-    .svg2 {
-        top: -165px;
-    }
-
-    .les_defis .msg_fin {
-        height: 55px;
-    }
+    .svg2 {  top: -165px;  }
+    .les_defis .msg_fin {  height: 55px;  }
 }
 
 .ligne-defis {
@@ -1100,15 +1129,13 @@ svg {
     top: -100px;
 }
 
-.bandeau-projet .titre {
-    top: -5px
-}
-
+.bandeau-projet .titre { top: 110px; }
 .bandeau-projet .supperpose_titre {
-    top: -25px;
+    top: 90px;
+    left: 35%;
 }
 
-/* en t�te */
+/* en tete */
 .en_tete h2 {
     color: #e69f1f;
     position: relative;
@@ -1129,14 +1156,8 @@ svg {
 }
 
 /* contenu */
-.projet {
-    color: white;
-}
-
-.desc_projet {
-    margin-left: 20px;
-}
-
+.projet {  color: white;  }
+.desc_projet { margin-left: 20px;  }
 .projet h4 {
     color: white;
     margin-left: 20px;
@@ -1145,16 +1166,34 @@ svg {
 /* -------------------- PAGE CLASSEMENT ---------------------  */
 .classement {
     margin-bottom: 50px;
-    margin-top: 20px;
+    margin-top: 120px;
+    z-index: 1;
 }
 
-.equipe_classement img {
-    width: 60px;
+.bandeau .depot {
+    position: relative;
+    z-index: 1;
+    top: 80px;
 }
+
+.deuxieme-hexagone { display: none; }
+#equipe-haut, #equipe-haut2, #equipe-haut3 {
+    position: relative;
+    width: 35%;
+    left:  32.75%;
+    margin-top: 50px;
+    border: 10px solid #e38d13;
+    height: 200px;
+    display: none;
+}
+#equipe-haut.photo-equipe {
+    margin-top: 170px;
+}
+.equipe_classement img { width: 60px; }
 
 .equipe_classement {
     height: 60px;
-    margin-top: 5%;
+    margin-top: 0;
     margin-bottom: 5%;
     display: flex;
     flex-wrap: wrap;
@@ -1173,16 +1212,15 @@ svg {
 }
 
 .equipe_classement > h2 {
+    width: 50%;
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 10px;
     border: 2px solid #86c1ff;
     padding: 15px;
     height: 20px;
 }
 
-.equipe_classement > .haut_classement {
-    border: 2px solid #e69f1f;
-}
+.equipe_classement > .haut_classement { border: 2px solid #e69f1f; }
 
 /* -------------------- AFFICHAGE DEFIS ---------------------  */
 .modal .machine {
@@ -1191,9 +1229,7 @@ svg {
     width: 100%;
 }
 
-.machine_ecrire {
-    height: 521px;
-}
+.machine_ecrire { height: 521px; }
 
 .modal .croix {
     width: 30px;
@@ -1213,9 +1249,7 @@ svg {
 }
 
 @media only screen and (max-width: 321px) {
-    .feuille {
-        width: 41%;
-    }
+    .feuille { width: 41%; }
 }
 
 .feuille h2 {
@@ -1225,9 +1259,7 @@ svg {
     margin-right: 10%;
 }
 
-.feuille p {
-    padding-bottom: 20px;
-}
+.feuille p { padding-bottom: 20px; }
 
 /* -------------------- AFFICHAGE PHOTO ---------------------  */
 .modal .affichage_photo {
@@ -1260,20 +1292,14 @@ svg {
     margin-right: 10%;
 }
 
-.com h4 {
-    width: 25%;
-}
-
+.com h4 { width: 25%;  }
 .com p {
     width: 65%;
     margin-left: 5%;
     margin-top: 23px;
 }
 
-.commentaire form {
-    height: 90px;
-}
-
+.commentaire form {  height: 90px;  }
 .entrer_com {
     width: 65%;
     margin-left: 5%;
@@ -1289,7 +1315,7 @@ svg {
 .avion img {
     position: absolute;
     bottom: 61px;
-    left: 73%;
+    left: 77%;
 }
 
 /* -------------------- Modal ---------------------  */
@@ -1299,6 +1325,164 @@ svg {
     padding-bottom: 30px;
 }
 
+
+
+
+/* --------------------- SVG ----------------------  */
+
+/* couleur david */
+.cls-1{fill:#5f9caa;}
+.cls-2{fill:#ccc;}
+.cls-3{fill:#f7c89c;}
+.cls-4{fill:#e0aa69;}
+.cls-5{fill:#edbf9d;}
+.cls-6{fill:#42210b;}
+.cls-7{fill:#fff;}
+.cls-8{fill:#ed96b9;}
+.cls-9{fill:#e070a3;}
+.cls-10{fill:#1a1a1a;}
+.cls-11{fill:#333;}
+.cls-12,.cls-24,.cls-25{fill:none;stroke-miterlimit:10;}
+.cls-12{stroke:#000;stroke-width:0.5px;}
+.cls-13{fill:#f2f2f2;}
+.cls-14{fill:#e6e6e6;}
+.cls-15{fill:#663410;}
+.cls-16{fill:#704010;}
+.cls-17{fill:#201f25;}
+.cls-18{fill:#8c5111;}
+.cls-19{fill:#8c6239;}
+.cls-20{fill:#4d4d4d;}
+.cls-21{fill:#b3b3b3;}
+.cls-22{fill:gray;}
+.cls-23{fill:#999;}
+.cls-24{stroke:#b3b3b3;}
+.cls-24,.cls-25{stroke-width:0.25px;}
+.cls-25{stroke:#333;}
+
+/* couleur marie */
+.cls2-1 {  fill: #b3b3b3;  }
+.cls2-2 {  fill: #8b6c42;  }
+.cls2-3 {  fill: #f7c89c;  }
+.cls2-4 {  fill: #edbf9d;  }
+.cls2-5 {  fill: #ead854;  }
+.cls2-6 {  fill: #a67c52;  opacity: 0.49;  }
+.cls2-7 {  fill: #e0aa69;  }
+.cls2-8 {  fill: #fff;  }
+.cls2-9 {  fill: #1a1a1a;  }
+.cls2-10 {  opacity: 0.25;  }
+.cls2-11 {  fill: #333;  }
+.cls2-12 {  fill: #4453bc;  }
+.cls2-13, .cls2-25 {  fill: none;  stroke-miterlimit: 10;  }
+.cls2-13 {  stroke: #000;  stroke-width: 0.5px;  }
+.cls2-14 {  fill: #f99393;  }
+.cls2-15 {  fill: #f26666;  }
+.cls2-16 {  fill: #cc9f81;  }
+.cls2-17 {  fill: #cc955e;  }
+.cls2-18 {  fill: #7f7f7f;  }
+.cls2-19 {  fill: #231670;  }
+.cls2-20 {  fill: #e6e6e6;  }
+.cls2-21 {  fill: #a57e50;  }
+.cls2-22 {  fill: #c9a469;  }
+.cls2-23 {  fill: #020100;  }
+.cls2-24 {  fill: #e2bc74;  }
+.cls2-25 {  stroke: #d6aa8b;  stroke-width: 0.25px;  }
+.cls2-26 {  fill: #bf915e;  }
+.cls2-27 {  fill: #42210b;  }
+.cls2-28 {  fill: #ed96b9;  }
+.cls2-29 {  fill: #e070a3;  }
+.cls2-30 {  fill: #ddc343;  }
+.cls2-31 {  fill: #f0d643;  }
+
+
+/* guillaume */
+.cls3-1 {  fill: #c1272d;  }
+.cls3-2 {  fill: #f7c89c;  }
+.cls3-3 {  fill: #e0aa69;  }
+.cls3-4 {  fill: #edbf9d;  }
+.cls3-5 {  fill: #42210b;  }
+.cls3-6 {  fill: #fff;  }
+.cls3-7 {  fill: #ed96b9;  }
+.cls3-8 {  fill: #e070a3;  }
+.cls3-9 {  fill: #1a1a1a;  }
+.cls3-10 {  fill: #704010;  }
+.cls3-11 {  fill: #8c5111;  }
+.cls3-12 {  fill: #6db2c7;  }
+.cls3-13 {  fill: #f2f2f2;  }
+.cls3-14 {  fill: none;  stroke: #000;  stroke-miterlimit: 10;  stroke-width: 0.5px;  }
+
+/* davidm */
+.cls4-1 {  fill: #8f0054;  }
+.cls4-2 {  fill: #f7c89c;  }
+.cls4-3 {  fill: #1a1a1a;  }
+.cls4-4 {  fill: #2e3c6c;  }
+.cls4-5 {  fill: #e0aa69;  }
+.cls4-6 {  fill: #edbf9d;  }
+.cls4-7 {  fill: #42210b;  }
+.cls4-8 {  fill: #fff;  }
+.cls4-9 {  fill: #ed96b9;  }
+.cls4-10 {  fill: #e070a3;  }
+.cls4-12 {  fill: #ff9dac;  }
+.cls4-13 {  fill: none;  stroke: #000;  stroke-miterlimit: 10;  stroke-width: 0.5px;  }
+.cls4-14 {  fill: #9e4c08;  }
+.cls4-15 {  fill: #843d08;  }
+.cls4-16 {  fill: #ed5f9d;  }
+
+
+/* xaviers */
+.cls5-1 {  fill: #f7c89c;  }
+.cls5-2 {  fill: #e0aa69;  }
+.cls5-3 {  fill: #edbf9d;  }
+.cls5-4 {  fill: #42210b;  }
+.cls5-5 {  fill: #fff;  }
+.cls5-6 {  fill: #ed96b9;  }
+.cls5-7 {  fill: #e070a3;  }
+.cls5-8 {  fill: #1a1a1a;  }
+.cls5-9 {  fill: #6d8bd6;  }
+.cls5-10 {  fill: none;  stroke: #000;  stroke-miterlimit: 10;  stroke-width: 0.5px;  }
+.cls5-11 {  fill: #e6e6e6;  }
+.cls5-12 {  fill: #333;  }
+.cls5-13 {  fill: #4d4d4d;  }
+.cls5-14 {  fill: #f2f2f2;  }
+.cls5-15 {  fill: #5a5147;  }
+.cls5-16 {  fill: #bee7e9;  }
+.cls5-17 {  fill: #86b2aa;  }
+.cls5-18 {  fill: #503e27;  }
+.cls5-19 {  fill: #b5dfe0;  }
+.cls5-20 {  fill: #b5dfe1;  }
+.cls5-21 {  fill: #433329;  }
+.cls5-22 {  fill: #c6bdc1;  }
+.cls5-23 {  fill: #d2cccc;  }
+.cls5-24 {  fill: #423623;  }
+.cls5-25 {  fill: #b8e0e3;  }
+
+
+/* pascalc */
+.cls6-1 {  fill: #ccc;  }
+.cls6-2 {  fill: #f7c89c;  }
+.cls6-3 {  fill: #e0aa69;  }
+.cls6-4 {  fill: #edbf9d;  }
+.cls6-5 {  fill: #42210b;  }
+.cls6-18, .cls6-6 {  fill: #fff;  }
+.cls6-7 {  fill: #ed96b9;  }
+.cls6-8 {  fill: #e070a3;  }
+.cls6-9 {  fill: #1a1a1a;  }
+.cls6-10 {  fill: none;  stroke: #000;  stroke-miterlimit: 10;  stroke-width: 0.5px;  }
+.cls6-11 {  fill: #333;  }
+.cls6-12 {  fill: #e6e6e6;  }
+.cls6-13 {  fill: #663410;  }
+.cls6-14 {  fill: #704010;  }
+.cls6-15 {  fill: #8e4c1b;  }
+.cls6-16 {  fill: #f2f2f2;  }
+.cls6-17 {  fill: #1c535a;  }
+.cls6-18 {  isolation: isolate;  font-size: 60px;  font-family: SpecialElite-Regular, Special Elite;  }
+.cls6-19 {  fill: #e69f1f;  }
+
+#david { display: none; }
+#marie { display: none; }
+#guillaume { display: none; }
+#davidm { display: none; }
+#xaviers { display: none; }
+#pascalc { display: none; }
 
 
 

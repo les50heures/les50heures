@@ -3,6 +3,8 @@
 {% block contenu %}
 
     <div class="bandeau">
+        <h1 class="titre-pc">Nom de l'équipe</h1>
+        <a href="#titre"><img class="flechenoir" src="css/images-interface/flechenoir.png" alt="fleche"></a>
         <button type="submit" name="modifier" class="modif" data-style="shrink" data-horizontal>Modifier</button>
         <img class="bandeau" src="images-contenu/equipe.png" alt="equipe">
         <img class="ligne" src="css/images-interface/ligne_bleu.png" alt="ligne">
@@ -11,11 +13,13 @@
     <div class="titre_equipe">
         <span>Nom de l'équipe</span>
 
-        <h1>Nom de l'équipe</h1>
+        <h1 class="titre_equipe_2">Nom de l'équipe</h1>
 
-        <button type="submit" name="modifier" class="modif" data-style="shrink" data-horizontal><a href="modif-equipe.html">Modifier</a></button>
+        <button type="submit" name="modifier" class="modif" data-style="shrink" data-horizontal>
+            <a href="index.php?page=modif-equipe">Modifier</a>
+        </button>
 
-        <h2>Description</h2>
+        <h2 id="titre_desc">Description</h2>
 
         <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
             et dolore magna aliqua. Ut enim ad minim veniam.</p>
@@ -93,4 +97,5 @@
 
 {% endblock %}
 
-{% block script %} /* --- Rien --- */ {% endblock %}
+{% block script %}
+{% endblock %}

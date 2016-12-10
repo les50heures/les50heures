@@ -2,12 +2,12 @@
 {% block title %}Les 50 Heures | Enchère{% endblock %}
 {% block contenu %}
 
-    <div class="bandeau bandeau-bois">
-        <div class="encheres">
+    <div id="header-bois" class="bandeau bandeau-bois">
+        <div class="encheres vente">
             <h1 class="titre">Ventes aux enchères</h1>
             <span class="supperpose_titre">Ventes aux enchères</span>
         </div>
-        <img src="css/images-interface/ligne_bleu.png" alt="ligne">
+        <img class="ligne_bleu_enchere" src="css/images-interface/ligne_bleu.png" alt="ligne">
 
     </div>
 
@@ -31,7 +31,7 @@
             </div>
         </div>
 
-        <div class="profil">
+        <div class="profil profil-paire">
             <div class="photo-ancien">
                 <img src="images-contenu/membre.png" alt="photo">
                 <img class="cadre_enchere" src="css/images-interface/losange.png" alt="cadre">
@@ -46,7 +46,7 @@
             </div>
         </div>
 
-        <div class="profil">
+        <div class="profil profil-fin">
             <div class="photo-ancien">
                 <img src="images-contenu/membre.png" alt="photo">
                 <img class="cadre_enchere" src="css/images-interface/losange.png" alt="cadre">
@@ -64,4 +64,5 @@
 
 {% endblock %}
 
-{% block script %} /* --- Rien --- */ {% endblock %}
+{% block script %}
+{% endblock %}

@@ -3,6 +3,8 @@ require_once('dao/DaoPersonne.php');
 require_once('dao/DaoCommente.php');
 require_once('dao/DaoEquipe.php');
 
+require_once('dao/Dao.php');
+
 
 $daoPersonne = new DaoPersonne();
 $daoCommente = new DaoCommente();
@@ -14,15 +16,20 @@ if (isset($_POST["valider"])) {
     $daoPersonne->checkExisting();
 
     if ($daoPersonne->checkExisting() == 2) {
-        $daoPers = new DaoPersonne();
-        $daoPersonne->bean->setNom($_POST["nom"]);
-        $daoPersonne->bean->setPrenom($_POST["prenom"]);
-        $daoPersonne->bean->setPseudo($_POST["pseudo"]);
-        $daoPersonne->bean->setMDP($_POST["mdp"]);
-        $daoPersonne->bean->setStatut($_POST["statut"]);
-        $daoPersonne->bean->setTag($_POST["tag"]);
+        $daoPersonne = new DaoPersonne();
+        $daoPersonne->bean->setNom($_POST["NOM_PERSONNE"]);
+        $daoPersonne->bean->setPrenom($_POST["PRENOM_PERSONNE"]);
+        $daoPersonne->bean->setPseudo($_POST["PSEUDO_PERSONNE"]);
+        $daoPersonne->bean->setMDP($_POST["MDP"]);
+        $daoPersonne->bean->setStatut($_POST["STATUT_PERSONNE"]);
+        $daoPersonne->bean->setTag($_POST["TAG_PERSONNE"]);
 
-        $daoEquipe->find($_POST["nom"]);
+        $daoPersonne->create();
+
+        var_dump($daoPersonne);
+        die();
+
+        $daoEquipe->find($_POST["NOM_EQUIPE"]);
         $daoPersonne->bean->setLesEquipes($daoEquipe->bean);
 
         $photo = $_FILES['photo']['name'];

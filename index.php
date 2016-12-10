@@ -24,7 +24,7 @@ $template = $routes[$uriDemandee]["template"];
 $param = array();
 
 if ($page != null) {
-    include($page);
+    'include($page)';
 }
 
 

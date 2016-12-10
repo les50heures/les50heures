@@ -86,7 +86,19 @@ class DaoDefis extends Dao
 
     public function update()
     {
+        $sql = "UPDATE defis SET ID_EQUIPE = ?, NOTE = ?, TITRE_DEFI = ?,
+                DESCRIPTION_DEFI = ?, DELAIS_DEFI = ?, TYPE_DEFI = ?, WHERE ID_DEFI = ?";
+        $requete = $this->pdo->prepare($sql);
 
+        $requete->bindValue(1, $this->bean->getLesEquipes()->getId());
+        $requete->bindValue(2, $this->bean->getLesNotes()->getId());
+        $requete->bindValue(3, $this->bean->getTitre());
+        $requete->bindValue(4, $this->bean->getDescription());
+        $requete->bindValue(5, $this->bean->getDelais());
+        $requete->bindValue(6, $this->bean->getType());
+        $requete->bindValue(7, $this->bean->getId());
+
+        $requete->execute();
     }
 
 
