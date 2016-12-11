@@ -509,7 +509,7 @@ iframe {
     display: flex;
     justify-content: center;
 }
-.fb-like { margin-right: 10px; }
+.fb-share-button { margin-right: 10px; }
 
 
 /* -------------------- PAGE CONNEXION ---------------------  */
