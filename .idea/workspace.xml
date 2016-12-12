@@ -20,14 +20,24 @@
     <favorites_list name="les50heures" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.22727273">
+    <splitter split-orientation="horizontal" split-proportion="0.78409094">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="general.html.twig" pinned="false" current-in-tab="false">
+          <file leaf-file-name="general.html.twig" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/templates/general.html.twig">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="308">
-                  <caret line="14" column="0" selection-start-line="11" selection-start-column="3" selection-end-line="14" selection-end-column="0" />
+                <state relative-caret-position="220">
+                  <caret line="112" column="95" selection-start-line="112" selection-start-column="95" selection-end-line="112" selection-end-column="95" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="defis.html.twig" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/defis.html.twig">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="664">
+                  <caret line="353" column="0" selection-start-line="353" selection-start-column="0" selection-end-line="353" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -53,7 +63,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="galerie.html.twig" pinned="false" current-in-tab="true">
+          <file leaf-file-name="galerie.html.twig" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/templates/galerie.html.twig">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="154">
@@ -482,7 +492,6 @@
         <option value="$PROJECT_DIR$/templates/enchere.html.twig" />
         <option value="$PROJECT_DIR$/templates/equipe.html.twig" />
         <option value="$PROJECT_DIR$/templates/modif-equipe.html.twig" />
-        <option value="$PROJECT_DIR$/templates/defis.html.twig" />
         <option value="$PROJECT_DIR$/templates/classement.html.twig" />
         <option value="$PROJECT_DIR$/templates/inscription.html.twig" />
         <option value="$PROJECT_DIR$/templates/connexion.html.twig" />
@@ -492,6 +501,8 @@
         <option value="$PROJECT_DIR$/templates/galerie.html.twig" />
         <option value="$PROJECT_DIR$/css/responsive.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/templates/defis.html.twig" />
+        <option value="$PROJECT_DIR$/templates/general.html.twig" />
       </list>
     </option>
   </component>
@@ -561,38 +572,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="les50heures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="les50heures" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="les50heures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="les50heures" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images-interface" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -691,16 +670,16 @@
       <workItem from="1481407513504" duration="36000" />
       <workItem from="1481459597149" duration="2255000" />
       <workItem from="1481560315648" duration="12000" />
-      <workItem from="1481562563224" duration="1003000" />
+      <workItem from="1481562563224" duration="3561000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115561000" />
+    <option name="totallyTimeSpent" value="118119000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1924" height="1038" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="0" width="1924" height="1038" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16894019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -3643,13 +3622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/defis.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="338" column="0" selection-start-line="338" selection-start-column="0" selection-end-line="338" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/classement.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="924">
@@ -3683,14 +3655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5324">
           <caret line="242" column="4" selection-start-line="242" selection-start-column="4" selection-end-line="242" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/general.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="0" selection-start-line="11" selection-start-column="3" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -4103,6 +4067,22 @@
           <folding>
             <element signature="e#14642#14684#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/defis.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="353" column="0" selection-start-line="353" selection-start-column="0" selection-end-line="353" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/general.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="112" column="95" selection-start-line="112" selection-start-column="95" selection-end-line="112" selection-end-column="95" />
+          <folding />
         </state>
       </provider>
     </entry>

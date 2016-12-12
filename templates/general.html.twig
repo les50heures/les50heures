@@ -106,6 +106,56 @@ contenu de la page
 les scripts
 {% endblock %}
 
+<!-- chargement de jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.cookie.js"></script>
+<script type="text/javascript" src="js/fancybox/jquery.fancybox.js"></script>
+<link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css" media="screen" />
+<script type="text/javascript">
+
+    $(document).ready(function() {
+        if($.cookie('the_cookie') != 1) { // Si the_cookie n'a pas pour valeur 1 alors on l'initialise et on joue l'appel de la popup
+            $.cookie('the_cookie', '1', { expires: 1 }); // valeur en jour(s) avant expiration du cookie
+
+            $.fancybox(
+                    $("#defi").html(),
+                    {
+                        type : 'iframe',
+                        href : 'mapage.html', // url vers notre page html qui sera chargée dans la popup en mode iframe
+                        maxWidth : 800,
+                        maxHeight : 600,
+                        fitToView : false,
+                        width : '70%',
+                        height : '70%',
+                        autoSize : false
+
+                    }
+            );setTimeout("parent.$.fancybox.close()", 5000); // temps en milliseconde avant fermeture de la popup
+        }
+    });
+</script>
+
+<div id="myModal defi" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="machine_ecrire">
+                <a class="close" data-dismiss="modal">
+                    <img class="croix" src="css/images-interface/croix.png" alt="croix">
+                </a>
+                <div class="feuille">
+                    <h2>Titre du défis</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+                <img class="machine" src="images-contenu/machine_a_ecrire.png" alt="machine_a_ecrire">
+
+            </div>
+        </div>
+
+    </div>
+</div>
 
 </body>
 </html>
