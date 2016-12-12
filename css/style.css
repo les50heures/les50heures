@@ -499,8 +499,8 @@ iframe {
 
 }
 #apercu-galerie img {
-    width: 150px;
-    height: 150px;
+    width: 110px;
+    height: 90px;
 
 }
 
@@ -898,8 +898,13 @@ piece h1 {
 }
 
 .photo {
-    width: 140px;
-    height: 140px;
+    width: 135px;
+    height: 115px;
+    background-color: white;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     position: relative;
     top: 20px;
 }

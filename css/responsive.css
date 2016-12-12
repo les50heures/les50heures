@@ -217,7 +217,12 @@ Responsive  - format intermediaire (tablette/mobile)
     .span-galerie { left: 47%; }
     .photo {
         width: 175px;
-        height: 175px;
+        height: 145px;
+        background-color: white;
+        padding-bottom: 50px;
+        padding-top: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     /* projet */
@@ -467,8 +472,13 @@ Responsive  - format tablette
     .bandeau-ligne-bleu { height: 15px; }
     .span-galerie { left: 48%; }
     .photo {
-        width: 200px;
-        height: 200px;
+        width: 175px;
+        height: 145px;
+        background-color: white;
+        padding-bottom: 50px;
+        padding-top: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     /*projet*/
@@ -790,8 +800,13 @@ Responsive  - format intermediaire (tablette/ecran)
     .span-galerie { left: 48%; }
     .modif2 { margin-left: 0; }
     .photo {
-        width: 225px;
-        height: 225px;
+        width: 220px;
+        height: 185px;
+        background-color: white;
+        padding-bottom: 50px;
+        padding-top: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     /* modal */
@@ -1230,8 +1245,13 @@ Responsive  - format ecran
     .span-galerie { left: 49%; }
     .modif2 { margin-left: 0; }
     .photo {
-        width: 250px;
-        height: 250px;
+        width: 220px;
+        height: 185px;
+        background-color: white;
+        padding-bottom: 50px;
+        padding-top: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     /* modal */
@@ -1674,8 +1694,13 @@ Responsive  - format +ecran
     .span-galerie { left: 50%; }
     .modif2 { margin-left: 0; }
     .photo {
-        width: 250px;
-        height: 250px;
+        width: 220px;
+        height: 185px;
+        background-color: white;
+        padding-bottom: 50px;
+        padding-top: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     /* modal */
