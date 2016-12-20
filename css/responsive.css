@@ -64,6 +64,10 @@ Responsive  - format iphone5
     .partage-fb {
         margin-left: 0;
     }
+    #apercu-galerie img {
+        width: 90px;
+        height: 75px;
+    }
 }
 
 @media only screen and (min-width : 345px) and (max-width : 420px) {
@@ -99,7 +103,7 @@ Responsive  - format iphone5
         left: -16%;
     }
 
-    .programme {  width: 105%;  }
+    .programme {  width: 100%;  }
 
 }
 
@@ -352,7 +356,6 @@ Responsive  - format intermediaire (tablette/mobile)
 /* --------------------------
 Responsive  - format tablette
 ----------------------------- */
-
 @media only screen and (min-width : 718px) and (max-width : 1024px) {
     #logo h3 { left: 100px; }
     header #menu-deroulant {  width: 45%;  }
@@ -605,7 +608,6 @@ Responsive  - format tablette
 /* --------------------------
 Responsive  - format intermediaire (tablette/ecran)
 ----------------------------- */
-
 @media only screen and (min-width : 1024px) and (max-width : 1300px) {
     #logo h3 { left: 110px; }
     header #menu-deroulant {  width: 35%;  }
@@ -1022,7 +1024,6 @@ Responsive  - format intermediaire (tablette/ecran)
 /* --------------------------
 Responsive  - format ecran
 ----------------------------- */
-
 @media only screen and (min-width : 1300px) and (max-width : 1500px) {
     #logo h3 { left: 110px; }
     header #menu-deroulant {  width: 30%;  }
@@ -1475,7 +1476,6 @@ Responsive  - format ecran
 /* --------------------------
 Responsive  - format +ecran
 ----------------------------- */
-
 @media only screen and (min-width : 1500px) and (max-width : 2000px) {
     #logo h3 {  left: 110px;  }
     header #menu-deroulant {  width: 30%;  }
@@ -2034,18 +2034,31 @@ Responsive  - format +ecran
     #navigation-slider li button img { left: 35px;  }
     #navigation-slider > li:nth-child(2) > button > img {  left: 1270px;  }
 }
-@media only screen and (min-width : 1500px) and (max-width : 2000px) {
+@media only screen and (min-width : 1500px) and (max-width : 1700px) {
     .hexagone img {
         width: 450px;
         height: 500px;
         top: -240px;
-        left: 35%;
+        left: 35.5%;
     }
     #navigation-slider li button img { left: 35px;  }
-    .hexagone .fleche_index {  left: 48%;  }
+    .hexagone .fleche_index {  left: 48.5%;  }
 
     #slider { margin-left: 8%; }
     #navigation-slider > li:nth-child(2) > button > img {  left: 1435px;  }
+}
+@media only screen and (min-width : 1700px) and (max-width : 2000px) {
+    .hexagone img {
+        width: 450px;
+        height: 500px;
+        top: -240px;
+        left: 36.5%;
+    }
+    #navigation-slider li button img { left: 35px;  }
+    .hexagone .fleche_index {  left: 49%;  }
+
+    #slider { margin-left: 8%; }
+    #navigation-slider > li:nth-child(2) > button > img {  left: 1490px;  }
 }
 
 
