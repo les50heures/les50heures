@@ -401,7 +401,8 @@ iframe {
 }
 
 .commencer a:hover,
-.button_inscription:hover {
+.button_inscription:hover,
+.button_inscription a:hover {
     animation: shake 1s ease;
     background-color: #e38d13;
     color: black;
