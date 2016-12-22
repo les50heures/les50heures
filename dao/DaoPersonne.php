@@ -10,7 +10,7 @@ class DaoPersonne extends Dao
 {
     public function DaoPersonne()
     {
-        parent::__construt();
+        parent::__construct();
         $this->bean = new Personne();
     }
 

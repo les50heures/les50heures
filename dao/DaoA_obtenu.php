@@ -10,7 +10,7 @@ class DaoA_Obtenu extends Dao
 {
     public function DaoA_Obtenu()
     {
-        parent::__construt();
+        parent::__construct();
         $this->bean = new Note();
     }
 

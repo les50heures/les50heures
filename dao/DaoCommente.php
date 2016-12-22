@@ -10,7 +10,7 @@ class DaoCommente extends Dao
 {
     public function DaoCommente()
     {
-        parent::__construt();
+        parent::__construct();
         $this->bean = new Commente();
     }
 

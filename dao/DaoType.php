@@ -9,7 +9,7 @@ class DaoType extends Dao
 {
     public function DaoType()
     {
-        parent::__construt();
+        parent::__construct();
         $this->bean = new Type();
     }
 
