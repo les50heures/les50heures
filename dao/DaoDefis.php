@@ -10,7 +10,7 @@ class DaoDefis extends Dao
 {
     public function DaoDefis()
     {
-        parent::__construt();
+        parent::__construct();
         $this->bean = new Defis();
     }
 

@@ -11,7 +11,7 @@ class DaoFichier extends Dao
 {
     public function DaoFichier()
     {
-        parent::__construt();
+        parent::__construct();
         $this->bean = new Fichier();
     }
 

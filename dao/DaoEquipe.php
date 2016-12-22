@@ -13,7 +13,7 @@ class DaoEquipe extends Dao
 {
     public function DaoEquipe()
     {
-        parent::__construt();
+        parent::__construct();
         $this->bean = new Equipe();
     }
 

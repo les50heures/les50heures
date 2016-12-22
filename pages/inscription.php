@@ -1,13 +1,11 @@
 <?php
+
 require_once('dao/DaoPersonne.php');
 require_once('dao/DaoCommente.php');
 require_once('dao/DaoEquipe.php');
 
-require_once('dao/Dao.php');
-
 
 $daoPersonne = new DaoPersonne();
-$daoCommente = new DaoCommente();
 $daoEquipe = new DaoEquipe();
 
 
@@ -17,19 +15,20 @@ if (isset($_POST["valider"])) {
 
     if ($daoPersonne->checkExisting() == 2) {
         $daoPersonne = new DaoPersonne();
-        $daoPersonne->bean->setNom($_POST["NOM_PERSONNE"]);
-        $daoPersonne->bean->setPrenom($_POST["PRENOM_PERSONNE"]);
-        $daoPersonne->bean->setPseudo($_POST["PSEUDO_PERSONNE"]);
-        $daoPersonne->bean->setMDP($_POST["MDP"]);
-        $daoPersonne->bean->setStatut($_POST["STATUT_PERSONNE"]);
-        $daoPersonne->bean->setTag($_POST["TAG_PERSONNE"]);
+        $daoPersonne->bean->setNom($_POST["nom"]);
+        $daoPersonne->bean->setPrenom($_POST["prenom"]);
+        $daoPersonne->bean->setPseudo($_POST["pseudo"]);
+        $daoPersonne->bean->setMDP($_POST["mdp"]);
+        $daoPersonne->bean->setStatut($_POST["statut"]);
+        $daoPersonne->bean->setTag($_POST["tag"]);
 
-        $daoPersonne->create();
 
-        var_dump($daoPersonne);
-        die();
+        echo ('Bonjour');
+        echo $_POST["nom_equipe"];
+        echo ('En revoir');
 
-        $daoEquipe->find($_POST["NOM_EQUIPE"]);
+
+        $daoEquipe->find($_POST["nom_equipe"]);
         $daoPersonne->bean->setLesEquipes($daoEquipe->bean);
 
         $photo = $_FILES['photo']['name'];
@@ -38,18 +37,20 @@ if (isset($_POST["valider"])) {
             $daoPersonne->bean->setPhoto($photo);
             $daoPersonne->create();
         }
-        header('Location:index.php?page=defis');
+
+        header('Location: http://google.com');
+        //header('Location:index.php?page=defis');
     } else {
-        header('Location:index.php');
+        header('Location: http://yahoo.com');
+        //header('Location:index.php');
     }
 }
 
 $listeEquipe = $daoEquipe->getListe();
-$listeCommente = $daoCommente->getListe();
 
 
 $pageTwig = 'inscription.twig.html';
 $param = array(
-    "listeCommente<"=>$listeCommente,
     "listeEquipe" => $listeEquipe
 );
+?>

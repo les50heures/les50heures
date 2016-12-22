@@ -8,16 +8,16 @@
                 <h2>Inscription</h2>
 
                 <form method="post" action="index.php?page=inscription">
-                    <input type="text" name="PSEUDO_PERSONNE" placeholder="Pseudo*" required><br>
-                    <input type="password" name="MDP" placeholder="Mot de passe*" required><br>
+                    <input type="text" name="pseudo" placeholder="Pseudo*" required><br>
+                    <input type="password" name="mdp" placeholder="Mot de passe*" required><br>
                     <label class="file">
                         Téléchargement
                         <input type="file" id="upload" class="upload" data-value="uploaded2">
                     </label>
                     <label for="upload">
-                        <input id="uploaded2" name="PHOTO_PERSONNE" placeholder="Photo" disabled>
+                        <input id="uploaded2" name="photo" placeholder="Photo" disabled>
                     </label>
-                    <select name="NOM_EQUIPE" title="nom_equipe" required>
+                    <select name="nom_equipe" title="nom_equipe" required>
                         <optgroup label="Nom d'équipe*">
                             <option value="">Nom d'équipe*</option>
                         </optgroup>
