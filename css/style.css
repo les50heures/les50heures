@@ -5,6 +5,10 @@ body {
     width: 100%;
 }
 
+canvas {
+    width: 100%;
+}
+
 .image-fond {
     background: #15232A url("../images-contenu/acceuil.jpg") no-repeat;
     background-size: 100%;
