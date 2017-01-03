@@ -1257,8 +1257,12 @@ Responsive  - format ecran
 
     /* modal */
     .modal .affichage_photo {
-        width: 36%;
+        width: 30%;
         margin-left: 6%;
+        background-color: white;
+        margin-top: 70px;
+        padding: 30px 25px 91px;
+        margin-bottom: 40px;
     }
     .modal .modal-com {
         margin-left: 40%;
@@ -1705,8 +1709,12 @@ Responsive  - format +ecran
 
     /* modal */
     .modal .affichage_photo {
-        width: 36%;
+        width: 30%;
         margin-left: 6%;
+        background-color: white;
+        margin-top: 70px;
+        padding: 30px 25px 91px;
+        margin-bottom: 40px;
     }
     .modal .modal-com {
         margin-left: 40%;
