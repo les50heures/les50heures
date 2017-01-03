@@ -1282,7 +1282,9 @@ svg {
 
 /* -------------------- AFFICHAGE PHOTO ---------------------  */
 .modal .affichage_photo {
-    width: 80%;
+    padding: 30px 25px 60px;
+    width: 65%;
+    background-color: white;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 70px;
@@ -1504,5 +1506,17 @@ svg {
 #pascalc { display: none; }
 
 
+/* ----- Admin ------*/
+.admin {
+    border: solid 2px white;
+}
 
+.admin input {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
+.admin h1 {
+    color: #0b4751;
+}

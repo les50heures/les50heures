@@ -4,7 +4,7 @@
 
     <h3>* Champ obligatoire</h3>
 
-    <div>
+    <div class="admin">
         <h1>Ajout des défis</h1>
         <form method="post"  action="" enctype="multipart/form-data">
             <input type="text" name="titre" placeholder="Titre*" required><br>
@@ -14,7 +14,7 @@
         </form>
     </div>
 
-    <div>
+    <div class="admin">
         <h1>Ajout d'équipe</h1>
         <form method="post"  action="" enctype="multipart/form-data">
             <input type="text" name="nom" placeholder="Nom d'équipe*" required><br>
@@ -31,7 +31,7 @@
         </form>
     </div>
 
-    <div>
+    <div class="admin">
         <h1>Membres de la vente au enchère</h1>
         <form method="post"  action="" enctype="multipart/form-data">
             <input type="text" name="prenom" placeholder="Prénom*" required><br>
@@ -42,12 +42,46 @@
         </form>
     </div>
 
+    <div class="admin">
+        <h1>Ajout de point au équipe</h1>
+        <h2>Equipe 1 : </h2>
+        <form method="post"  action="" enctype="multipart/form-data">
+            <input type="number" name="point" placeholder="Point*" required><br>
+            <button type="submit" name="valider" data-style="shrink" class="progress-button" data-horizontal>Valider</button>
+        </form>
 
+        <h2>Equipe 2 : </h2>
+        <form method="post"  action="" enctype="multipart/form-data">
+            <input type="number" name="point" placeholder="Point*" required><br>
+            <button type="submit" name="valider" data-style="shrink" class="progress-button" data-horizontal>Valider</button>
+        </form>
 
+        <h2>Equipe 3 : </h2>
+        <form method="post"  action="" enctype="multipart/form-data">
+            <input type="number" name="point" placeholder="Point*" required><br>
+            <button type="submit" name="valider" data-style="shrink" class="progress-button" data-horizontal>Valider</button>
+        </form>
 
+        <h2>Equipe 4 : </h2>
+        <form method="post"  action="" enctype="multipart/form-data">
+            <input type="number" name="point" placeholder="Point*" required><br>
+            <button type="submit" name="valider" data-style="shrink" class="progress-button" data-horizontal>Valider</button>
+        </form>
+    </div>
 
+    <div class="admin">
+        <h1>Commentaire</h1>
+        <form method="post"  action="" enctype="multipart/form-data">
 
+        </form>
+    </div>
 
+    <div class="admin">
+        <h1>Classement</h1>
+        <form method="post"  action="" enctype="multipart/form-data">
+
+        </form>
+    </div>
 
 {% endblock %}
 
