@@ -1705,7 +1705,7 @@ Responsive  - format +ecran
     }
 
     /* modal */
-    .modal img.affichage_photo {
+    .modal .affichage_photo {
         width: 30%;
         margin-left: 6%;
         background-color: white;

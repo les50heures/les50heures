@@ -42,8 +42,19 @@
         </form>
     </div>
 
+    <div>
+        <h1>Membre du défi</h1>
+        <form method="post"  action=""
+              enctype="multipart/form-data">
+            <p>Pseudo</p>
+            <p>Prénom</p>
+            <p>Nom</p>
+            <button type="submit" name="valider" data-style="shrink" class="progress-button" data-horizontal>Valider</button>
+        </form>
+    </div>
+    
     <div class="admin">
-        <h1>Ajout de point au équipe</h1>
+        <h1>Classement</h1>
         <h2>Equipe 1 : </h2>
         <form method="post"  action="" enctype="multipart/form-data">
             <input type="number" name="point" placeholder="Point*" required><br>
@@ -72,16 +83,27 @@
     <div class="admin">
         <h1>Commentaire</h1>
         <form method="post"  action="" enctype="multipart/form-data">
-
+            <p>Commentaire 1</p>
+            <button type="submit" name="valider" data-style="shrink" class="progress-button" data-horizontal>Valider</button>
         </form>
-    </div>
 
-    <div class="admin">
-        <h1>Classement</h1>
         <form method="post"  action="" enctype="multipart/form-data">
+            <p>Commentaire 2</p>
+            <button type="submit" name="valider" data-style="shrink" class="progress-button" data-horizontal>Valider</button>
+        </form>
 
+        <form method="post"  action="" enctype="multipart/form-data">
+            <p>Commentaire 3</p>
+            <button type="submit" name="valider" data-style="shrink" class="progress-button" data-horizontal>Valider</button>
+        </form>
+
+        <form method="post"  action="" enctype="multipart/form-data">
+            <p>Commentaire 4</p>
+            <button type="submit" name="valider" data-style="shrink" class="progress-button" data-horizontal>Valider</button>
         </form>
     </div>
+
+
 
 {% endblock %}
 
