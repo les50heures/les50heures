@@ -23,11 +23,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.489375">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="general.html.twig" pinned="false" current-in-tab="false">
+          <file leaf-file-name="general.html.twig" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/templates/general.html.twig">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="760">
-                  <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+                <state relative-caret-position="198">
+                  <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
@@ -65,11 +65,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="admin.html.twig" pinned="false" current-in-tab="true">
+          <file leaf-file-name="admin.html.twig" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/templates/admin.html.twig">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="582">
-                  <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+                <state relative-caret-position="340">
+                  <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -132,7 +132,7 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="696">
+                <state relative-caret-position="714">
                   <caret line="1522" column="0" selection-start-line="1522" selection-start-column="0" selection-end-line="1522" selection-end-column="0" />
                   <folding>
                     <element signature="e#14632#14674#0" expanded="false" />
@@ -154,8 +154,8 @@
           <file leaf-file-name="responsive.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/responsive.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="1705" column="0" selection-start-line="1705" selection-start-column="0" selection-end-line="1705" selection-end-column="0" />
+                <state relative-caret-position="262">
+                  <caret line="1702" column="32" selection-start-line="1702" selection-start-column="32" selection-end-line="1702" selection-end-column="32" />
                   <folding>
                     <element signature="e#94#1507#0" expanded="false" />
                     <element signature="e#180#283#0" expanded="false" />
@@ -269,7 +269,6 @@
                     <element signature="e#21330#21393#0" expanded="false" />
                     <element signature="e#21407#21547#0" expanded="false" />
                     <element signature="e#21587#21640#0" expanded="false" />
-                    <element signature="e#21912#31476#0" expanded="false" />
                     <element signature="e#22192#22295#0" expanded="false" />
                     <element signature="e#22372#22454#0" expanded="false" />
                     <element signature="e#22576#22622#0" expanded="false" />
@@ -301,7 +300,6 @@
                     <element signature="e#26912#27111#0" expanded="false" />
                     <element signature="e#27356#27436#0" expanded="false" />
                     <element signature="e#27465#27546#0" expanded="false" />
-                    <element signature="e#27562#27638#0" expanded="false" />
                     <element signature="e#27656#27721#0" expanded="false" />
                     <element signature="e#28020#28073#0" expanded="false" />
                     <element signature="e#28130#28193#0" expanded="false" />
@@ -356,7 +354,6 @@
                     <element signature="e#36036#36106#0" expanded="false" />
                     <element signature="e#36150#36230#0" expanded="false" />
                     <element signature="e#36880#36961#0" expanded="false" />
-                    <element signature="e#36977#37053#0" expanded="false" />
                     <element signature="e#37200#37281#0" expanded="false" />
                     <element signature="e#37422#37477#0" expanded="false" />
                     <element signature="e#37534#37597#0" expanded="false" />
@@ -543,7 +540,9 @@
     </splitter>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -562,8 +561,8 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/templates/index.html.twig" />
         <option value="$PROJECT_DIR$/templates/general.html.twig" />
-        <option value="$PROJECT_DIR$/css/responsive.css" />
         <option value="$PROJECT_DIR$/templates/admin.html.twig" />
+        <option value="$PROJECT_DIR$/css/responsive.css" />
       </list>
     </option>
   </component>
@@ -757,12 +756,12 @@
       <workItem from="1483464173700" duration="1081000" />
       <workItem from="1483466935177" duration="6532000" />
       <workItem from="1483474455469" duration="3129000" />
-      <workItem from="1483547954476" duration="3145000" />
+      <workItem from="1483547954476" duration="5374000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137920000" />
+    <option name="totallyTimeSpent" value="140149000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
@@ -920,7 +919,6 @@
             <element signature="e#21330#21393#0" expanded="false" />
             <element signature="e#21407#21547#0" expanded="false" />
             <element signature="e#21587#21640#0" expanded="false" />
-            <element signature="e#21912#31476#0" expanded="false" />
             <element signature="e#22192#22295#0" expanded="false" />
             <element signature="e#22372#22454#0" expanded="false" />
             <element signature="e#22576#22622#0" expanded="false" />
@@ -952,7 +950,6 @@
             <element signature="e#26912#27111#0" expanded="false" />
             <element signature="e#27356#27436#0" expanded="false" />
             <element signature="e#27465#27546#0" expanded="false" />
-            <element signature="e#27562#27638#0" expanded="false" />
             <element signature="e#27656#27721#0" expanded="false" />
             <element signature="e#28020#28073#0" expanded="false" />
             <element signature="e#28130#28193#0" expanded="false" />
@@ -1007,7 +1004,6 @@
             <element signature="e#36036#36106#0" expanded="false" />
             <element signature="e#36150#36230#0" expanded="false" />
             <element signature="e#36880#36961#0" expanded="false" />
-            <element signature="e#36977#37053#0" expanded="false" />
             <element signature="e#37200#37281#0" expanded="false" />
             <element signature="e#37422#37477#0" expanded="false" />
             <element signature="e#37534#37597#0" expanded="false" />
@@ -1348,7 +1344,6 @@
             <element signature="e#21330#21393#0" expanded="false" />
             <element signature="e#21407#21547#0" expanded="false" />
             <element signature="e#21587#21640#0" expanded="false" />
-            <element signature="e#21912#31476#0" expanded="false" />
             <element signature="e#22192#22295#0" expanded="false" />
             <element signature="e#22372#22454#0" expanded="false" />
             <element signature="e#22576#22622#0" expanded="false" />
@@ -1380,7 +1375,6 @@
             <element signature="e#26912#27111#0" expanded="false" />
             <element signature="e#27356#27436#0" expanded="false" />
             <element signature="e#27465#27546#0" expanded="false" />
-            <element signature="e#27562#27638#0" expanded="false" />
             <element signature="e#27656#27721#0" expanded="false" />
             <element signature="e#28020#28073#0" expanded="false" />
             <element signature="e#28130#28193#0" expanded="false" />
@@ -1435,7 +1429,6 @@
             <element signature="e#36036#36106#0" expanded="false" />
             <element signature="e#36150#36230#0" expanded="false" />
             <element signature="e#36880#36961#0" expanded="false" />
-            <element signature="e#36977#37053#0" expanded="false" />
             <element signature="e#37200#37281#0" expanded="false" />
             <element signature="e#37422#37477#0" expanded="false" />
             <element signature="e#37534#37597#0" expanded="false" />
@@ -1775,7 +1768,6 @@
             <element signature="e#21330#21393#0" expanded="false" />
             <element signature="e#21407#21547#0" expanded="false" />
             <element signature="e#21587#21640#0" expanded="false" />
-            <element signature="e#21912#31476#0" expanded="false" />
             <element signature="e#22192#22295#0" expanded="false" />
             <element signature="e#22372#22454#0" expanded="false" />
             <element signature="e#22576#22622#0" expanded="false" />
@@ -1807,7 +1799,6 @@
             <element signature="e#26912#27111#0" expanded="false" />
             <element signature="e#27356#27436#0" expanded="false" />
             <element signature="e#27465#27546#0" expanded="false" />
-            <element signature="e#27562#27638#0" expanded="false" />
             <element signature="e#27656#27721#0" expanded="false" />
             <element signature="e#28020#28073#0" expanded="false" />
             <element signature="e#28130#28193#0" expanded="false" />
@@ -1862,7 +1853,6 @@
             <element signature="e#36036#36106#0" expanded="false" />
             <element signature="e#36150#36230#0" expanded="false" />
             <element signature="e#36880#36961#0" expanded="false" />
-            <element signature="e#36977#37053#0" expanded="false" />
             <element signature="e#37200#37281#0" expanded="false" />
             <element signature="e#37422#37477#0" expanded="false" />
             <element signature="e#37534#37597#0" expanded="false" />
@@ -2187,7 +2177,6 @@
             <element signature="e#21330#21393#0" expanded="false" />
             <element signature="e#21407#21547#0" expanded="false" />
             <element signature="e#21587#21640#0" expanded="false" />
-            <element signature="e#21912#31476#0" expanded="false" />
             <element signature="e#22192#22295#0" expanded="false" />
             <element signature="e#22372#22454#0" expanded="false" />
             <element signature="e#22576#22622#0" expanded="false" />
@@ -2219,7 +2208,6 @@
             <element signature="e#26912#27111#0" expanded="false" />
             <element signature="e#27356#27436#0" expanded="false" />
             <element signature="e#27465#27546#0" expanded="false" />
-            <element signature="e#27562#27638#0" expanded="false" />
             <element signature="e#27656#27721#0" expanded="false" />
             <element signature="e#28020#28073#0" expanded="false" />
             <element signature="e#28130#28193#0" expanded="false" />
@@ -2274,7 +2262,6 @@
             <element signature="e#36036#36106#0" expanded="false" />
             <element signature="e#36150#36230#0" expanded="false" />
             <element signature="e#36880#36961#0" expanded="false" />
-            <element signature="e#36977#37053#0" expanded="false" />
             <element signature="e#37200#37281#0" expanded="false" />
             <element signature="e#37422#37477#0" expanded="false" />
             <element signature="e#37534#37597#0" expanded="false" />
@@ -2599,7 +2586,6 @@
             <element signature="e#21330#21393#0" expanded="false" />
             <element signature="e#21407#21547#0" expanded="false" />
             <element signature="e#21587#21640#0" expanded="false" />
-            <element signature="e#21912#31476#0" expanded="false" />
             <element signature="e#22192#22295#0" expanded="false" />
             <element signature="e#22372#22454#0" expanded="false" />
             <element signature="e#22576#22622#0" expanded="false" />
@@ -2631,7 +2617,6 @@
             <element signature="e#26912#27111#0" expanded="false" />
             <element signature="e#27356#27436#0" expanded="false" />
             <element signature="e#27465#27546#0" expanded="false" />
-            <element signature="e#27562#27638#0" expanded="false" />
             <element signature="e#27656#27721#0" expanded="false" />
             <element signature="e#28020#28073#0" expanded="false" />
             <element signature="e#28130#28193#0" expanded="false" />
@@ -2686,7 +2671,6 @@
             <element signature="e#36036#36106#0" expanded="false" />
             <element signature="e#36150#36230#0" expanded="false" />
             <element signature="e#36880#36961#0" expanded="false" />
-            <element signature="e#36977#37053#0" expanded="false" />
             <element signature="e#37200#37281#0" expanded="false" />
             <element signature="e#37422#37477#0" expanded="false" />
             <element signature="e#37534#37597#0" expanded="false" />
@@ -3018,7 +3002,6 @@
             <element signature="e#21330#21393#0" expanded="false" />
             <element signature="e#21407#21547#0" expanded="false" />
             <element signature="e#21587#21640#0" expanded="false" />
-            <element signature="e#21912#31476#0" expanded="false" />
             <element signature="e#22192#22295#0" expanded="false" />
             <element signature="e#22372#22454#0" expanded="false" />
             <element signature="e#22576#22622#0" expanded="false" />
@@ -3050,7 +3033,6 @@
             <element signature="e#26912#27111#0" expanded="false" />
             <element signature="e#27356#27436#0" expanded="false" />
             <element signature="e#27465#27546#0" expanded="false" />
-            <element signature="e#27562#27638#0" expanded="false" />
             <element signature="e#27656#27721#0" expanded="false" />
             <element signature="e#28020#28073#0" expanded="false" />
             <element signature="e#28130#28193#0" expanded="false" />
@@ -3105,7 +3087,6 @@
             <element signature="e#36036#36106#0" expanded="false" />
             <element signature="e#36150#36230#0" expanded="false" />
             <element signature="e#36880#36961#0" expanded="false" />
-            <element signature="e#36977#37053#0" expanded="false" />
             <element signature="e#37200#37281#0" expanded="false" />
             <element signature="e#37422#37477#0" expanded="false" />
             <element signature="e#37534#37597#0" expanded="false" />
@@ -3437,7 +3418,6 @@
             <element signature="e#21330#21393#0" expanded="false" />
             <element signature="e#21407#21547#0" expanded="false" />
             <element signature="e#21587#21640#0" expanded="false" />
-            <element signature="e#21912#31476#0" expanded="false" />
             <element signature="e#22192#22295#0" expanded="false" />
             <element signature="e#22372#22454#0" expanded="false" />
             <element signature="e#22576#22622#0" expanded="false" />
@@ -3469,7 +3449,6 @@
             <element signature="e#26912#27111#0" expanded="false" />
             <element signature="e#27356#27436#0" expanded="false" />
             <element signature="e#27465#27546#0" expanded="false" />
-            <element signature="e#27562#27638#0" expanded="false" />
             <element signature="e#27656#27721#0" expanded="false" />
             <element signature="e#28020#28073#0" expanded="false" />
             <element signature="e#28130#28193#0" expanded="false" />
@@ -3524,7 +3503,6 @@
             <element signature="e#36036#36106#0" expanded="false" />
             <element signature="e#36150#36230#0" expanded="false" />
             <element signature="e#36880#36961#0" expanded="false" />
-            <element signature="e#36977#37053#0" expanded="false" />
             <element signature="e#37200#37281#0" expanded="false" />
             <element signature="e#37422#37477#0" expanded="false" />
             <element signature="e#37534#37597#0" expanded="false" />
@@ -3803,16 +3781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="1522" column="0" selection-start-line="1522" selection-start-column="0" selection-end-line="1522" selection-end-column="0" />
-          <folding>
-            <element signature="e#14632#14674#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -3829,10 +3797,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inscription.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="1522" column="0" selection-start-line="1522" selection-start-column="0" selection-end-line="1522" selection-end-column="0" />
+          <folding>
+            <element signature="e#14632#14674#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/general.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="1705" column="0" selection-start-line="1705" selection-start-column="0" selection-end-line="1705" selection-end-column="0" />
+        <state relative-caret-position="262">
+          <caret line="1702" column="32" selection-start-line="1702" selection-start-column="32" selection-end-line="1702" selection-end-column="32" />
           <folding>
             <element signature="e#94#1507#0" expanded="false" />
             <element signature="e#180#283#0" expanded="false" />
@@ -3946,7 +3950,6 @@
             <element signature="e#21330#21393#0" expanded="false" />
             <element signature="e#21407#21547#0" expanded="false" />
             <element signature="e#21587#21640#0" expanded="false" />
-            <element signature="e#21912#31476#0" expanded="false" />
             <element signature="e#22192#22295#0" expanded="false" />
             <element signature="e#22372#22454#0" expanded="false" />
             <element signature="e#22576#22622#0" expanded="false" />
@@ -3978,7 +3981,6 @@
             <element signature="e#26912#27111#0" expanded="false" />
             <element signature="e#27356#27436#0" expanded="false" />
             <element signature="e#27465#27546#0" expanded="false" />
-            <element signature="e#27562#27638#0" expanded="false" />
             <element signature="e#27656#27721#0" expanded="false" />
             <element signature="e#28020#28073#0" expanded="false" />
             <element signature="e#28130#28193#0" expanded="false" />
@@ -4033,7 +4035,6 @@
             <element signature="e#36036#36106#0" expanded="false" />
             <element signature="e#36150#36230#0" expanded="false" />
             <element signature="e#36880#36961#0" expanded="false" />
-            <element signature="e#36977#37053#0" expanded="false" />
             <element signature="e#37200#37281#0" expanded="false" />
             <element signature="e#37422#37477#0" expanded="false" />
             <element signature="e#37534#37597#0" expanded="false" />
@@ -4211,32 +4212,6 @@
             <element signature="e#57266#57412#0" expanded="false" />
             <element signature="e#57413#57556#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/general.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/inscription.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
