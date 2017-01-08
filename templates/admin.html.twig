@@ -2,7 +2,7 @@
 {% block title %}Les 50 Heures | Admin{% endblock %}
 {% block contenu %}
 
-    <h3>* Champ obligatoire</h3>
+    <h3 id="champ">* Champ obligatoire</h3>
 
     <div class="admin">
         <h1>Ajout des défis</h1>
@@ -10,7 +10,7 @@
             <input type="text" name="titre" placeholder="Titre*" required><br>
             <input type="password" name="defi" placeholder="Intituler du défi*" required><br>
             <input type="file" name="icon" placeholder="Icon" required><br>
-            <button type="submit" name="valider" data-style="shrink" class="progress-button" data-horizontal>Valider</button>
+            <button type="submit" name="valider" data-style="shrink" class="admin-button progress-button" data-horizontal>Valider</button>
         </form>
     </div>
 
@@ -19,15 +19,7 @@
         <form method="post"  action="" enctype="multipart/form-data">
             <input type="text" name="nom" placeholder="Nom d'équipe*" required><br>
             <input type="text" name="description" placeholder="Description" required><br>
-            <input type="text" name="membre1" placeholder="Membre1*" required><br>
-            <input type="text" name="membre2" placeholder="Membre2*" required><br>
-            <input type="text" name="membre3" placeholder="Membre3*" required><br>
-            <input type="text" name="membre4" placeholder="Membre4*" required><br>
-            <input type="text" name="membre5" placeholder="Membre5" required><br>
-            <input type="text" name="membre6" placeholder="Membre6" required><br>
-            <input type="text" name="membre1" placeholder="Membre7" required><br>
-            <input type="text" name="membre1" placeholder="Membre8" required><br>
-            <button type="submit" name="valider" data-style="shrink" class="progress-button" data-horizontal>Valider</button>
+            <button type="submit" name="valider" data-style="shrink" class="admin-button progress-button" data-horizontal>Valider</button>
         </form>
     </div>
 
@@ -38,18 +30,18 @@
             <input type="text" name="nom" placeholder="Nom*" required><br>
             <input type="text" name="desc" placeholder="Description*" required><br>
             <input type="file" name="photo" placeholder="Photo du profil*" required><br>
-            <button type="submit" name="valider" data-style="shrink" class="progress-button" data-horizontal>Valider</button>
+            <button type="submit" name="valider" data-style="shrink" class="admin-button progress-button" data-horizontal>Valider</button>
         </form>
     </div>
 
-    <div>
+    <div class="admin">
         <h1>Membre du défi</h1>
         <form method="post"  action=""
               enctype="multipart/form-data">
             <p>Pseudo</p>
             <p>Prénom</p>
             <p>Nom</p>
-            <button type="submit" name="valider" data-style="shrink" class="progress-button" data-horizontal>Valider</button>
+            <button type="submit" name="valider" data-style="shrink" class="admin-button progress-button" data-horizontal>Valider</button>
         </form>
     </div>
 
@@ -58,25 +50,25 @@
         <h2>Equipe 1 : </h2>
         <form method="post"  action="" enctype="multipart/form-data">
             <input type="number" name="point" placeholder="Point*" required><br>
-            <button type="submit" name="valider" data-style="shrink" class="progress-button" data-horizontal>Valider</button>
+            <button type="submit" name="valider" data-style="shrink" class="admin-button progress-button" data-horizontal>Valider</button>
         </form>
 
         <h2>Equipe 2 : </h2>
         <form method="post"  action="" enctype="multipart/form-data">
             <input type="number" name="point" placeholder="Point*" required><br>
-            <button type="submit" name="valider" data-style="shrink" class="progress-button" data-horizontal>Valider</button>
+            <button type="submit" name="valider" data-style="shrink" class="admin-button progress-button" data-horizontal>Valider</button>
         </form>
 
         <h2>Equipe 3 : </h2>
         <form method="post"  action="" enctype="multipart/form-data">
             <input type="number" name="point" placeholder="Point*" required><br>
-            <button type="submit" name="valider" data-style="shrink" class="progress-button" data-horizontal>Valider</button>
+            <button type="submit" name="valider" data-style="shrink" class="admin-button progress-button" data-horizontal>Valider</button>
         </form>
 
         <h2>Equipe 4 : </h2>
         <form method="post"  action="" enctype="multipart/form-data">
             <input type="number" name="point" placeholder="Point*" required><br>
-            <button type="submit" name="valider" data-style="shrink" class="progress-button" data-horizontal>Valider</button>
+            <button type="submit" name="valider" data-style="shrink" class="admin-button progress-button" data-horizontal>Valider</button>
         </form>
     </div>
 
@@ -84,22 +76,22 @@
         <h1>Commentaire</h1>
         <form method="post"  action="" enctype="multipart/form-data">
             <p>Commentaire 1</p>
-            <button type="submit" name="valider" data-style="shrink" class="progress-button" data-horizontal>Valider</button>
+            <button type="submit" name="valider" data-style="shrink" class="admin-button progress-button" data-horizontal>Valider</button>
         </form>
 
         <form method="post"  action="" enctype="multipart/form-data">
             <p>Commentaire 2</p>
-            <button type="submit" name="valider" data-style="shrink" class="progress-button" data-horizontal>Valider</button>
+            <button type="submit" name="valider" data-style="shrink" class="admin-button progress-button" data-horizontal>Valider</button>
         </form>
 
         <form method="post"  action="" enctype="multipart/form-data">
             <p>Commentaire 3</p>
-            <button type="submit" name="valider" data-style="shrink" class="progress-button" data-horizontal>Valider</button>
+            <button type="submit" name="valider" data-style="shrink" class="admin-button progress-button" data-horizontal>Valider</button>
         </form>
 
         <form method="post"  action="" enctype="multipart/form-data">
             <p>Commentaire 4</p>
-            <button type="submit" name="valider" data-style="shrink" class="progress-button" data-horizontal>Valider</button>
+            <button type="submit" name="valider" data-style="shrink" class="admin-button progress-button" data-horizontal>Valider</button>
         </form>
     </div>
 

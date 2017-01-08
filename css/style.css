@@ -488,7 +488,7 @@ iframe {
     justify-content: center;
     background-color: white;
     padding-left: 5%;
-    width: 100%;
+    width: 95%;
     height: 430px;
     margin-top: 30px;
 }
@@ -1509,6 +1509,9 @@ svg {
 /* ----- Admin ------*/
 .admin {
     border: solid 2px white;
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 20px;
 }
 
 .admin input {
@@ -1518,5 +1521,26 @@ svg {
 }
 
 .admin h1 {
-    color: #0b4751;
+    color: #e38d13;
+}
+.admin h2 {
+    color: white;
+}
+form p {
+    text-align: center;
+    color: white;
+}
+
+.admin-button {
+    width: 20%;
+    margin-left: 40%;
+
+}
+
+
+#champ {
+    color: white;
+    text-align: center;
+    font-family: Special, sans-serif;
+    font-weight: initial;
 }
